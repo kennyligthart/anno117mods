@@ -1,0 +1,15 @@
+{
+"Anno": 8,
+  "ModID": "kennys-3x-wood-production",
+  "Version": "1.0.0",
+  "Difficulty": "cheat",
+  "Category": {
+    "English": "cheat"
+  },
+  "ModName": {
+    "English": "3x wood production"
+  },
+  "Description": {
+    "English": "Triples the production of wood."
+  }
+}

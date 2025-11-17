@@ -10,4 +10,6 @@ EnableNewMods
 hot-reload-ubi
 # infinite-material-ubi
 # infinite-money-ubi
-production-wood-triple
+kennys-3x-wood-production
+kennys-fast-craftingtimes-for-ships
+kennys-fast-ships

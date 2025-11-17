@@ -1,0 +1,28 @@
+{
+  // Modloader Documentation: 
+  // https://jakobharder.github.io/anno-mod-loader/
+
+  "Anno": 8,
+  "ModID": "infinite-money-ubi",
+  "Version": "1.0.2",
+  "Difficulty": "cheat",
+  "GameSetup": {
+    "SafeToRemove": true
+  },
+  "Category": {
+    "English": "Cheat"
+  },
+  "ModName": {
+    "English": "Infinite Money"
+  },
+  "Description": {
+    "English": "Keep your money balance at 1 billion"
+  },
+  "Scripts": {
+    "Modules": [
+      "ubi/infinite-money-ubi.lua"
+    ],
+    "Init": "InfiniteMoneyUbi = require(\"infinite-money-ubi\")",
+    "Tick": "InfiniteMoneyUbi:Tick()"
+  }
+}
