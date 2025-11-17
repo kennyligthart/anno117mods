@@ -301,3 +301,22 @@
 [2025-11-17 22:21:23.377] [info] Load "[Tools] Hot Reload" hot-reload-ubi@1.0.1 (from "mods/.ubi/hot-reload-ubi")
 [2025-11-17 22:21:23.385] [info] Load "[cheat] 5x faster ships" kennys-fast-ships@1.0.0 (from "C:/Users/kenny/Documents/Anno 117 - Pax Romana/mods/kennys-fast-ships")
 [2025-11-17 22:21:23.449] [info] Patching completed in 0s
+[2025-11-17 22:29:50.993] [info] Search mods...
+[2025-11-17 22:29:50.993] [info] Path: "<game dir>/mods/.ubi"
+[2025-11-17 22:29:50.993] [info] Path: "<game dir>/mods" (enabled by default)
+[2025-11-17 22:29:50.993] [info] Path: "C:/Users/kenny/Documents/Anno 117 - Pax Romana/mods" (enabled by default)
+[2025-11-17 22:29:51.002] [info] Enabled mods: 3 (plus 0 nested)
+[2025-11-17 22:29:51.044] [info] Load "[Tools] Hot Reload" hot-reload-ubi@1.0.1 (from "mods/.ubi/hot-reload-ubi")
+[2025-11-17 22:29:51.053] [info] Load "[cheat] 10x faster ship crafting times" kennys-fast-craftingtimes-for-ships@1.0.0 (from "C:/Users/kenny/Documents/Anno 117 - Pax Romana/mods/kennys-fast-craftingtimes-for-ships")
+[2025-11-17 22:29:51.056] [info] Load "[cheat] 5x faster ships" kennys-fast-ships@1.0.0 (from "C:/Users/kenny/Documents/Anno 117 - Pax Romana/mods/kennys-fast-ships")
+[2025-11-17 22:29:51.125] [info] Patching completed in 0s
+[2025-11-17 22:31:49.805] [info] Search mods...
+[2025-11-17 22:31:49.806] [info] Path: "<game dir>/mods/.ubi"
+[2025-11-17 22:31:49.806] [info] Path: "<game dir>/mods" (enabled by default)
+[2025-11-17 22:31:49.806] [info] Path: "C:/Users/kenny/Documents/Anno 117 - Pax Romana/mods" (enabled by default)
+[2025-11-17 22:31:49.815] [info] Enabled mods: 4 (plus 0 nested)
+[2025-11-17 22:31:49.853] [info] Load "[Tools] Hot Reload" hot-reload-ubi@1.0.1 (from "mods/.ubi/hot-reload-ubi")
+[2025-11-17 22:31:49.862] [info] Load "[cheat] 10x faster ship crafting times" kennys-fast-craftingtimes-for-ships@1.0.0 (from "C:/Users/kenny/Documents/Anno 117 - Pax Romana/mods/kennys-fast-craftingtimes-for-ships")
+[2025-11-17 22:31:49.864] [info] Load "[cheat] 3x wood production" kennys-3x-wood-production@1.0.0 (from "C:/Users/kenny/Documents/Anno 117 - Pax Romana/mods/kennys-3x-wood-production")
+[2025-11-17 22:31:49.867] [info] Load "[cheat] 5x faster ships" kennys-fast-ships@1.0.0 (from "C:/Users/kenny/Documents/Anno 117 - Pax Romana/mods/kennys-fast-ships")
+[2025-11-17 22:31:49.938] [info] Patching completed in 0s

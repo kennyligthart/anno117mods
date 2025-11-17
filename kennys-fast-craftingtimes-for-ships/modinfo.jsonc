@@ -1,0 +1,17 @@
+{
+  "Anno": 8,
+  "Version": "1.0.0",
+  "ModID": "kennys-fast-craftingtimes-for-ships",
+  "Difficulty": "cheat",
+
+  "Category": {
+    "English": "cheat"
+  },
+  "ModName": {
+    "English": "10x faster ship crafting times"
+  },
+  "Description": {
+    "English": "Ships are crafted ten times faster."
+  }
+}
+
