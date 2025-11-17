@@ -1,0 +1,15 @@
+{
+"Anno": 8,
+  "ModID": "production-wood-triple",
+  "Version": "1.0.1",
+  "Difficulty": "unchanged",
+  "Category": {
+    "English": "Cheat"
+  },
+  "ModName": {
+    "English": "wood production tripled"
+  },
+  "Description": {
+    "English": "Triples the production of wood."
+  }
+}

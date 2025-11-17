@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="merge" GUID="2878" Path="/Values/FactoryBase">
+    <CycleTime>10</CycleTime>
+  </ModOp>
+  <ModOp Type="merge" GUID="5976" Path="/Values/FactoryBase">
+    <CycleTime>10</CycleTime>
+  </ModOp>
+</ModOps>

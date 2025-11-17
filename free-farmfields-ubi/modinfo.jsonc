@@ -1,0 +1,18 @@
+{
+  // Modloader Documentation: 
+  // https://jakobharder.github.io/anno-mod-loader/
+
+  "Anno": 8,
+  "ModID": "free-farmfields-ubi",
+  "Version": "1.0.1",
+  "Difficulty": "unchanged",
+  "Category": {
+    "English": "QoL"
+  },
+  "ModName": {
+    "English": "Free Farmfield Placement"
+  },
+  "Description": {
+    "English": "Remove the requirement to have farmfields connected to the farm."
+  }
+}

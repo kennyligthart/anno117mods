@@ -1,0 +1,13 @@
+## Disable a mod:
+## - Add a `#` before it.
+##
+## Disable mods not listed:
+## - Add `#` before `EnableNewMods` to automatically disable new mods.
+## - That's useful if you want to backup your activation list as a mod profile.
+EnableNewMods
+
+# free-farmfields-ubi
+hot-reload-ubi
+# infinite-material-ubi
+# infinite-money-ubi
+production-wood-triple

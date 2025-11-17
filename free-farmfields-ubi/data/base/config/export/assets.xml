@@ -1,0 +1,12 @@
+<ModOps>
+  <!--
+    Modloader Documentation:
+    https://jakobharder.github.io/anno-mod-loader/
+  -->
+
+  <ModOp Property="ModuleOwner" Merge="self::node()[FarmType='PlantFarm']">
+    <ModuleOwner>
+      <ModuleBuildRadius>20</ModuleBuildRadius>
+    </ModuleOwner>
+  </ModOp>
+</ModOps>
