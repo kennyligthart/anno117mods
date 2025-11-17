@@ -8,6 +8,7 @@ EnableNewMods
 
 # free-farmfields-ubi
 hot-reload-ubi
-# infinite-material-ubi
-# infinite-money-ubi
-production-wood-triple
+infinite-material-ubi
+infinite-money-ubi
+kennys-fast-ships
+# production-wood-triple

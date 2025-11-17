@@ -1,0 +1,28 @@
+{
+  // Modloader Documentation: 
+  // https://jakobharder.github.io/anno-mod-loader/
+
+  "Anno": 8,
+  "ModID": "infinite-material-ubi",
+  "Version": "1.0",
+  "Difficulty": "cheat",
+  "GameSetup": {
+    "SafeToRemove": true
+  },
+  "Category": {
+    "English": "Cheat"
+  },
+  "ModName": {
+    "English": "Infinite Construction Material"
+  },
+  "Description": {
+    "English": "Keep your construction materials at warehouse capacity"
+  },
+  "Scripts": {
+    "Modules": [
+      "ubi/infinite-material-ubi.lua"
+    ],
+    "Init": "InfiniteMaterialUbi = require(\"infinite-material-ubi\")",
+    "Tick": "InfiniteMaterialUbi:Tick()"
+  }
+}
