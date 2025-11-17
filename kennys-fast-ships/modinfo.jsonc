@@ -1,0 +1,17 @@
+{
+  "Anno": 8,
+  "Version": "1.0.0",
+  "ModID": "kennys-fast-ships",
+  "Difficulty": "cheat",
+
+  "Category": {
+    "English": "cheat"
+  },
+  "ModName": {
+    "English": "5x faster ships"
+  },
+  "Description": {
+    "English": "Flagships and craftable ships are five times faster."
+  }
+}
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+    <ModOp Type="merge"
+        Path="/AssetList/Groups/Group/Assets/Asset[Template='NavalUnit']/Values/Craftable/CraftingTime">
+        <ModValue Insert="round(number(self::node()) div 10)" />
+    </ModOp>
+
+    <ModOp Type="merge"
+        Path="/AssetList/Groups/Group/Assets/Asset[Template='ShipModule']/Values/Craftable/CraftingTime">
+        <ModValue Insert="0" />
+    </ModOp>
+</ModOps>

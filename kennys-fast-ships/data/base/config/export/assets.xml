@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+
+    <!-- Default speeds -->
+    <!-- 
+    <BaseSpeed>5.2</BaseSpeed>
+    <Acceleration>1</Acceleration>
+    <Deceleration>2</Deceleration>
+    <RotationSpeed>60</RotationSpeed>
+    <SpotTurnRotationSpeed>60</SpotTurnRotationSpeed> -->
+
+    <!-- Manually increased all speeds by 5x because some ships get some properties from the default template -->
+
+    <!-- Latium (5473) + Albion (39573, guid 5473 as base) flagship -->
+    <ModOp GUID="5473" Merge="Movement">
+        <BaseSpeed>26</BaseSpeed>
+        <Acceleration>5</Acceleration>
+        <Deceleration>10</Deceleration>
+        <RotationSpeed>300</RotationSpeed>
+        <SpotTurnRotationSpeed>300</SpotTurnRotationSpeed>
+    </ModOp>
+
+    <!-- Penteconter -->
+    <ModOp GUID="37222" Merge="Movement">
+        <BaseSpeed>23.9</BaseSpeed>
+        <Acceleration>5</Acceleration>
+        <Deceleration>10</Deceleration>
+        <RotationSpeed>250</RotationSpeed>
+        <SpotTurnRotationSpeed>225</SpotTurnRotationSpeed>
+    </ModOp>
+
+    <!-- Trireme -->
+    <ModOp GUID="37223" Merge="Movement">
+        <BaseSpeed>21.5</BaseSpeed>
+        <Acceleration>4</Acceleration>
+        <Deceleration>8</Deceleration>
+        <RotationSpeed>300</RotationSpeed>
+        <SpotTurnRotationSpeed>150</SpotTurnRotationSpeed>
+    </ModOp>
+
+    <!-- Quinquireme -->
+    <ModOp GUID="37224" Merge="Movement">
+        <BaseSpeed>19.1</BaseSpeed>
+        <Acceleration>3</Acceleration>
+        <Deceleration>6</Deceleration>
+        <RotationSpeed>225</RotationSpeed>
+        <SpotTurnRotationSpeed>100</SpotTurnRotationSpeed>
+    </ModOp>
+    
+    <ModOp Type="merge"
+        Path="/AssetList/Groups/Group/Assets/Asset[Template='NavalUnit']/Values/Craftable/CraftingTime">
+        <ModValue Insert="round(number(self::node()) div 10)" />
+    </ModOp>
+
+    <ModOp Type="merge"
+        Path="/AssetList/Groups/Group/Assets/Asset[Template='ShipModule']/Values/Craftable/CraftingTime">
+        <ModValue Insert="0" />
+    </ModOp>
+
+</ModOps>
