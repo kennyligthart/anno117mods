@@ -1,2 +1,5 @@
 mod-loader.log
 active-profile.txt
+
+.vscode/
+assets.xml
