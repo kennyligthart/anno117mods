@@ -1,0 +1,18 @@
+{
+  "Anno": 8,
+  "ModID": "public-service-buildings-island-radius",
+  "Version": "1.0.0",
+  "Difficulty": "easier",
+  "GameSetup": {
+	"SafeToRemove": true
+  },
+  "Category": {
+    "English": "Gameplay"
+  },
+  "ModName": {
+    "English": "The cover radius public service buildings is island wide"
+  },
+  "Description": {
+    "English": "The cover radius public service buildings is island wide"
+  }
+}

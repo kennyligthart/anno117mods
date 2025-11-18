@@ -1,8 +1,51 @@
 <ModOps>
-  <ModOp Type="merge" GUID="2878" Path="/Values/FactoryBase">
-    <CycleTime>10</CycleTime>
+
+  <!-- If there's no CycleTime, add first (30 = default?) -->
+  <ModOp GUID="2878" Condition="!@2878/FactoryBase/CycleTime" Add="/FactoryBase">
+    <CycleTime>30</CycleTime>
   </ModOp>
+  <!-- Then do calculation -->
+  <ModOp GUID="2878" Merge="FactoryBase/CycleTime">
+    <CycleTime>
+      <ModValue Insert="round(self::node() div 3 * 2)" />
+    </CycleTime>
+  </ModOp>
+
+  <!-- If there's no Amount, add first-->
+  <ModOp GUID="2878" Condition="!@2878/FactoryBase/FactoryOutputs/Item/Amount"
+    Add="/FactoryBase/FactoryOutputs/Item">
+    <Amount>1</Amount>
+  </ModOp>
+  <!-- Then do calculation -->
+  <ModOp GUID="2878" Merge="FactoryBase/FactoryOutputs/Item/Amount">
+    <Amount>
+      <ModValue Insert="round(self::node() * 2)" />
+    </Amount>
+  </ModOp>
+
+  <!-- If there's no StorageAmount, add first-->
+  <ModOp GUID="2878" Condition="!@2878/FactoryBase/FactoryOutputs/Item/StorageAmount"
+    Add="/FactoryBase/FactoryOutputs/Item">
+    <StorageAmount>6</StorageAmount>
+  </ModOp>
+  <!-- Then do calculation -->
+  <ModOp GUID="2878" Merge="FactoryBase/FactoryOutputs/Item/StorageAmount">
+    <StorageAmount>
+      <ModValue Insert="round(self::node() * 3)" />
+    </StorageAmount>
+  </ModOp>
+
+
+  <!-- TODO: repeat for albion wood -->
+
+
   <ModOp Type="merge" GUID="5976" Path="/Values/FactoryBase">
-    <CycleTime>10</CycleTime>
+    <CycleTime>20</CycleTime>
+    <FactoryOutputs>
+      <Item>
+        <Amount>2</Amount>
+        <StorageAmount>18</StorageAmount>
+      </Item>
+    </FactoryOutputs>
   </ModOp>
 </ModOps>

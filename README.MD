@@ -1,3 +1,5 @@
+Add an active-profile.txt file:
+```
 ## Disable a mod:
 ## - Add a `#` before it.
 ##
@@ -11,6 +13,8 @@ hot-reload-ubi
 # infinite-material-ubi
 # infinite-money-ubi
 # kennys-3x-wood-production
-kennys-fast-craftingtimes-for-ships
-kennys-fast-ships
-public-service-buildings-island-radius
+# kennys-fast-craftingtimes-for-ships
+# kennys-fast-ships
+```
+
+Also add mod-loader.log if it doesn't exist yet.
