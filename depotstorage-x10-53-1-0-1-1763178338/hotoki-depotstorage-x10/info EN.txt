@@ -1,0 +1,32 @@
+Depot Storage x10 – Anno 117 Mod
+--------------------------------
+
+Author: Hotoki
+Version: 1.0.0
+Game: Anno 117 – Pax Romana
+
+Description:
+This mod increases the storage capacity of the Roman Celtic Harbor Depot
+(GUID 29663) from the default 50 to 500 units.
+
+Changes:
+- <StorageMax>50</StorageMax> → <StorageMax>500</StorageMax>
+- Affects all buildings using GUID 29663 (Harbor Depot Roman Celtic).
+
+Installation:
+1. Copy the folder "depot-storage-500" into your mod directory:
+   ...\Anno 117 - Pax Romana\mods\
+2. Restart the game.
+
+Compatibility:
+- Fully compatible with all mods that do not modify the same depot.
+- Only overrides a single value using a ModOp.
+
+Notes:
+The mod uses the standard ModOp structure:
+- Type="replace"
+- GUID = 29663
+- Path = /Values/Warehouse/WarehouseStorage/StorageMax
+
+--------------------------------
+Enjoy playing Anno 117!

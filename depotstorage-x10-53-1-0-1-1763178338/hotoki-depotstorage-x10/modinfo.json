@@ -1,0 +1,10 @@
+{
+  "Anno": 8,
+  "Version": "1.0.0",
+  "ModID": "hotoki-depotstorage-x10",
+  "Name": {
+    "en-US": "Depot Storage x10",
+    "de-DE": "Depot Lager x10"
+  },
+  "Category": "Gameplay"
+}

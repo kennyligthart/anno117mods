@@ -1,0 +1,21 @@
+{
+  // Modloader Documentation: 
+  // https://jakobharder.github.io/anno-mod-loader/
+
+  "Anno": 8,
+  "ModID": "kennys-harbor-storage",
+  "Version": "1.0",
+  "Difficulty": "normal",
+  "GameSetup": {
+    "SafeToRemove": true
+  },
+  "Category": {
+    "English": "economy"
+  },
+  "ModName": {
+    "English": "Kenny's Harbor Storage"
+  },
+  "Description": {
+    "English": "Increases trading kontor storage to 250T base, 500T level 2, 1000T level 3."
+  }
+}
