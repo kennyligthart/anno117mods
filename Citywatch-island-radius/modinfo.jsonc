@@ -1,0 +1,18 @@
+{
+  "Anno": 8,
+  "ModID": "citywatch-island-radius",
+  "Version": "1.0.0",
+  "Difficulty": "easier",
+  "GameSetup": {
+	"SafeToRemove": true
+  },
+  "Category": {
+    "English": "Gameplay"
+  },
+  "ModName": {
+    "English": "The cover radius for city watch buildings is island wide"
+  },
+  "Description": {
+    "English": "The cover radius for city watch buildings is island wide"
+  }
+}

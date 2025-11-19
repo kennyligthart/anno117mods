@@ -6,6 +6,7 @@
 ## - That's useful if you want to backup your activation list as a mod profile.
 EnableNewMods
 
+citywatch-island-radius
 # free-farmfields-ubi
 hot-reload-ubi
 # hotoki-depotstorage-x10
@@ -13,6 +14,7 @@ hot-reload-ubi
 # infinite-money-ubi
 # kennys-3x-wood-production
 # kennys-fast-craftingtimes-for-ships
-# kennys-fast-ships
+kennys-fast-ships
 # kennys-harbor-storage
-# public-service-buildings-island-radius
+public-service-buildings-island-radius
+villa-radius

@@ -1,0 +1,21 @@
+{
+  "Anno": 8,
+  "ModID": "villa-radius",
+  "Version": "1.1.0",
+  "Difficulty": "easier",
+  "GameSetup": {
+	"SafeToRemove": true
+  },
+  "Category": {
+    "English": "Gameplay",
+	"Russian": "Функционал"
+  },
+  "ModName": {
+    "English": "The coverage radius for the Villa is 2 times",
+	"Russian": "Радиус покрытия для Виллы в 2 раза"
+  },
+  "Description": {
+    "English": "The coverage radius for the Villa is 2 times",
+	"Russian": "Радиус покрытия для Виллы в 2 раза"
+  }
+}

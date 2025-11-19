@@ -1,0 +1,13 @@
+{
+  "Anno": 8,
+  "Version": "1.0.0",
+  "ModID": "hotoki-depotstorage-x10",
+  "Difficulty": "easier",
+  "Category": {
+    "English": "QoL"
+  },
+  "ModName": {
+    "English": "Depot Storage x10",
+    "German": "Depot Lager x10"
+  },
+}

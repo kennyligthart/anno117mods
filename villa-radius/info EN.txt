@@ -1,0 +1,20 @@
+This MOD changes the radius of the Governor's Villa.
+
+Mod version 1.1 from November 12, 2025
+
+==================================================================
+
+MOD value = 72 (Default 36)
+Road radius = 80 (Default 40)
+
+======================================================================
+
+You can change this value yourself.
+To do this, open the assets.xml file in Windows Notepad and change the amount to your liking.
+File path: mods\villa-radius\data\base\config\export
+
+====================================================
+
+Note!
+Bonuses from the same specialists in different Guest Houses and Villas do not stack!
+Only the bonus from one such specialist will work!
