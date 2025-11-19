@@ -2,6 +2,6 @@ mod-loader.log
 active-profile.txt
 
 .vscode/
-assets.xml
+./assets.xml
 
 anno117-base-data/

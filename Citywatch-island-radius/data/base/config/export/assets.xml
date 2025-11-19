@@ -1,0 +1,13 @@
+<ModOps>
+
+<!-- Public service buildings -->
+<ModOp Type="merge" Path="//Asset[./Template[contains(., 'CityInstitutionBuilding')]]/Values/EffectSource">
+<RadiusDistance>9999</RadiusDistance> 
+<StreetDistance>9999</StreetDistance> 
+</ModOp>
+
+<ModOp Type="merge" Path="//Asset[./Template[contains(., 'CityInstitutionBuilding')]]/Values/IncidentResolver">
+<ResolverRange>9999</ResolverRange>
+</ModOp>
+
+</ModOps>

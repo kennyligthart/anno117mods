@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp
+      Type="replace"
+      GUID="29663"
+      Path="/Values/Warehouse/WarehouseStorage/StorageMax">
+    <StorageMax>500</StorageMax>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,9 @@
+<ModOps>
+
+<!-- Вилла губернатора -->
+<ModOp Type="merge" Path="//Asset[./Template[contains(., 'VillaUrban')]]/Values/EffectSource">
+<RadiusDistance>72</RadiusDistance> <!-- Радиус покрытия, по умолчанию 36 -->
+<StreetDistance>80</StreetDistance> <!-- Радиус покрытия улиц, по умолчанию 40 -->
+</ModOp>
+
+</ModOps>

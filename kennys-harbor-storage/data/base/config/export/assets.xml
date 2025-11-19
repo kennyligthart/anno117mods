@@ -1,0 +1,27 @@
+<ModOps>
+  <!-- Kenny's Harbour Storage Mod for Anno 117: Pax Romana -->
+  <!-- By Jupiter, this will make your harbors thrive with ample storage! -->
+  <!-- Modifies all harbor warehouses in Latium and Albion to start with 200T storage, adding 200T per upgrade level. -->
+
+  <!-- Latium (Roman) Harbor Warehouses -->
+  <!-- Level 1: GUID 3402 - Set to 200T -->
+  <ModOp Type="replace" GUID="3402" Path="/Values/Warehouse/WarehouseStorage/StorageMax">
+    <StorageMax>250</StorageMax>
+  </ModOp>
+
+  <!-- Level 2: GUID 3403 - Set to 400T -->
+  <ModOp Type="replace" GUID="3403" Path="/Values/Warehouse/WarehouseStorage/StorageMax">
+    <StorageMax>500</StorageMax>
+  </ModOp>
+
+  <!-- Level 3: GUID 3406 - Set to 600T -->
+  <ModOp Type="replace" GUID="3406" Path="/Values/Warehouse/WarehouseStorage/StorageMax">
+    <StorageMax>1000</StorageMax>
+  </ModOp>
+
+  <!-- Albion (Celtic) Harbor Warehouses -->
+  <!-- Level 1: GUID 7037 has BaseAssetGUID 3402 - so it's applied with the above -->
+  <!-- Level 2: GUID 7038 has BaseAssetGUID 3403 - so it's applied with the above -->
+  <!-- Level 3: GUID 7039 has BaseAssetGUID 3406 - so it's applied with the above -->
+
+</ModOps>
