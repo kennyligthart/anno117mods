@@ -1,0 +1,42 @@
+This MOD displays all specialists at all merchants except pirates.
+
+As well as 14 unique specialists and items,
+as well as 14 cheat specialists and items from the game developers.
+
+1. Merchants, except pirates, have access to all specialists and items, of which there are over 382.
+
+2. These merchants have been given 28 unique specialists and items.
+
+3. Descriptions of unique specialists and items are only available in the English localization,
+and my Russian and Ukrainian localization versions.
+
+You can purchase and use any unique items and specialists without limitation.
+
+==============================================================
+
+Unique 14 + 14
+
+Legendary 57
+
+Epic = 115
+
+Rare = 127
+
+Common 68
+
+Uncommon 1
+
+======================================================================
+
+This is an alternative to the "trader-specialists-all" mod.
+Use only one of these mods, or the "trader-specialists-cheats" mod
+should come after this mod. "trader-specialists-all"
+
+====== Installation Instructions ======
+
+1. Drag the mod into the game folder: Anno 117 - Pax Romana\mods
+2. If the mods folder doesn't exist, create it in the game's root directory.
+
+================================================================
+
+Mod version 3.0 from November 17, 2025

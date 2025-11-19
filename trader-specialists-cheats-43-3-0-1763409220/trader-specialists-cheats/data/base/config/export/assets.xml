@@ -1,0 +1,588 @@
+<ModOps>
+
+<ModOp Type="replace" Path="//Asset[./Template[contains(., 'Item')]]/Values/Locked"> 
+<Locked>
+<DefaultLockedState>0</DefaultLockedState>
+<VisibleWhenLocked>1</VisibleWhenLocked>
+</Locked>
+</ModOp>
+
+ <ModOp Type="add" GUID="43018,43021,43019,43020" Path="/Values/RewardPool/ItemsPool">
+ <!-- Уникальные 28 -->
+ <Item><ItemLink>41350</ItemLink></Item>
+<Item><ItemLink>41352</ItemLink></Item>
+<Item><ItemLink>41351</ItemLink></Item>
+<Item><ItemLink>41355</ItemLink></Item>
+<Item><ItemLink>41353</ItemLink></Item>
+<Item><ItemLink>41354</ItemLink></Item>
+<Item><ItemLink>41360</ItemLink></Item>
+<Item><ItemLink>42625</ItemLink></Item>
+<Item><ItemLink>42049</ItemLink></Item>
+<Item><ItemLink>42050</ItemLink></Item>
+<Item><ItemLink>91415</ItemLink></Item>
+<Item><ItemLink>91417</ItemLink></Item>
+<Item><ItemLink>91419</ItemLink></Item>
+<Item><ItemLink>91421</ItemLink></Item>
+<Item><ItemLink>94855</ItemLink></Item>
+<Item><ItemLink>94856</ItemLink></Item>
+<Item><ItemLink>94854</ItemLink></Item>
+<Item><ItemLink>94857</ItemLink></Item>
+<Item><ItemLink>95749</ItemLink></Item>
+<Item><ItemLink>95750</ItemLink></Item>
+<Item><ItemLink>95751</ItemLink></Item>
+<Item><ItemLink>95752</ItemLink></Item>
+<Item><ItemLink>95753</ItemLink></Item>
+<Item><ItemLink>95764</ItemLink></Item>
+<Item><ItemLink>95754</ItemLink></Item>
+<Item><ItemLink>140604</ItemLink></Item>
+<Item><ItemLink>140605</ItemLink></Item>
+<Item><ItemLink>144536</ItemLink></Item>
+
+<!-- Необычный (Uncommon) 1 -->
+<Item>
+<ItemLink>68050</ItemLink>
+</Item>
+</ModOp>
+
+<ModOp Type="merge" GUID="41350,41351,41352,41353,41354,41355,41360,42625,42049,42050,91415,91417,91419,91421,94855,94856,94854,94857,95749,95750,95751,95752,95753,95764,95754,140604,140605,144536" Path="/Values/Item">
+<Rarity>Legendary</Rarity>
+<TradePrice>500000</TradePrice>
+</ModOp>
+
+ <ModOp Type="merge" GUID="43018,43021,43019,43020" Path="/Values/RewardPool">
+<IgnoreUnlocks>1</IgnoreUnlocks>
+</ModOp>
+
+<ModOp Type="replace" GUID="32777,27124,32778,27079" Path="/Values/Trader/ItemSlotUnlocks">
+<ItemSlotUnlocks>
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+<Item />
+</ItemSlotUnlocks>
+</ModOp>
+
+</ModOps>

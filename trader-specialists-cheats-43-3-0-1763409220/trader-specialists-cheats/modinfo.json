@@ -1,0 +1,21 @@
+{
+  "Anno": 8,
+  "ModID": "trader-specialists-cheats",
+  "Version": "3.0.0",
+  "Difficulty": "easier",
+  "GameSetup": {
+	"SafeToRemove": true
+  },
+  "Category": {
+    "English": "Items",
+	"Russian": "Предметы"
+  },
+  "ModName": {
+    "English": "All specialists and items from merchants + CHEATS",
+	"Russian": "Все специалисты и предметы у торговцев + ЧИТы"
+  },
+  "Description": {
+    "English": "All available specialists and items from merchants + CHEATS",
+	"Russian": "Все доступные специалисты и предметы у торговцев + ЧИТы"
+  }
+}

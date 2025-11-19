@@ -13,8 +13,8 @@ hot-reload-ubi
 # infinite-material-ubi
 # infinite-money-ubi
 # kennys-3x-wood-production
-# kennys-fast-craftingtimes-for-ships
+kennys-fast-craftingtimes-for-ships
 kennys-fast-ships
-# kennys-harbor-storage
+kennys-harbor-storage
 public-service-buildings-island-radius
 villa-radius
