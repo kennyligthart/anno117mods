@@ -1,0 +1,21 @@
+{
+  "Anno": 8,
+  "ModID": "remove-items-cheats",
+  "Version": "1.0.0",
+  "Difficulty": "unchanged",
+  "GameSetup": {
+	"SafeToRemove": true
+  },
+  "Category": {
+    "English": "Items",
+	"Russian": "Предметы"
+  },
+  "ModName": {
+    "English": "Removes 14 developer-created items from the game",
+	"Russian": "Удаляет из игры 14 предметов от разработчиков"
+  },
+  "Description": {
+    "English": "Removes 14 developer-created items from the game",
+	"Russian": "Удаляет из игры 14 предметов от разработчиков"
+  }
+}
