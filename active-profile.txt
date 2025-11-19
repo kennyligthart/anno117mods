@@ -17,5 +17,6 @@ kennys-fast-craftingtimes-for-ships
 kennys-fast-ships
 kennys-harbor-storage
 public-service-buildings-island-radius
+remove-items-cheats
 trader-specialists-cheats
 villa-radius
