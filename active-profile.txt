@@ -16,7 +16,8 @@ hot-reload-ubi
 kennys-fast-craftingtimes-for-ships
 kennys-fast-ships
 kennys-harbor-storage
+# kennys-region-workforce
 public-service-buildings-island-radius
-remove-items-cheats
+# remove-items-cheats
 trader-specialists-cheats
 villa-radius
