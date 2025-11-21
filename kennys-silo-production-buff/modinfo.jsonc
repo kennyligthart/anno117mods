@@ -1,0 +1,15 @@
+{
+"Anno": 8,
+  "ModID": "kennys-silo-production-buff",
+  "Version": "1.0.0",
+  "Difficulty": "cheat",
+  "Category": {
+    "English": "cheat"
+  },
+  "ModName": {
+    "English": "increased silo production buff."
+  },
+  "Description": {
+    "English": "Increased the production buff given by silo."
+  }
+}

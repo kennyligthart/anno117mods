@@ -13,10 +13,13 @@ hot-reload-ubi
 # infinite-material-ubi
 # infinite-money-ubi
 # kennys-3x-wood-production
+kennys-aqueduct-island-wide
+kennys-aqueduct-production-buff
 kennys-fast-craftingtimes-for-ships
 kennys-fast-ships
 kennys-harbor-storage
-# kennys-region-workforce
+# kennys-region-workforce # not installed
+kennys-silo-production-buff
 public-service-buildings-island-radius
 # remove-items-cheats
 trader-specialists-cheats

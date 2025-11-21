@@ -1,0 +1,14 @@
+<ModOps>
+
+  <!-- BuildingBuff Silo -->
+  <ModOp GUID="77960" Merge="FactoryUpgrade/ProductivityUpgrade">
+    <ProductivityUpgrade>
+      <Value>300</Value>
+      <Percental>1</Percental>
+    </ProductivityUpgrade>
+  </ModOp>
+
+</ModOps>
+
+
+

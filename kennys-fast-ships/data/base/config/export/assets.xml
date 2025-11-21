@@ -47,4 +47,13 @@
         <SpotTurnRotationSpeed>100</SpotTurnRotationSpeed>
     </ModOp>
 
+        <!-- Quinquireme -->
+    <ModOp GUID="77568" Merge="Movement">
+        <BaseSpeed>19.1</BaseSpeed>
+        <Acceleration>3</Acceleration>
+        <Deceleration>6</Deceleration>
+        <RotationSpeed>225</RotationSpeed>
+        <SpotTurnRotationSpeed>100</SpotTurnRotationSpeed>
+    </ModOp>
+
 </ModOps>

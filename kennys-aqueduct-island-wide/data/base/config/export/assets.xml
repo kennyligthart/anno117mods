@@ -1,0 +1,23 @@
+<ModOps>
+
+  <!-- Aqueduct Roman Distribution -->
+  <ModOp GUID="19753" Merge="EffectSource">
+    <EffectSource>
+      <RadiusDistance>36</RadiusDistance>
+      <StreetDistance>5000</StreetDistance>
+    </EffectSource>
+  </ModOp>
+
+  <!-- Aqueduct Roman Celtic Distribution -->
+  <ModOp GUID="29526" Merge="EffectSource">
+    <EffectSource>
+      <RadiusDistance>36</RadiusDistance>
+      <StreetDistance>5000</StreetDistance>
+    </EffectSource>
+  </ModOp>
+
+</ModOps>
+
+
+
+

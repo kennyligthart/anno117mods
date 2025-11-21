@@ -1,0 +1,15 @@
+{
+"Anno": 8,
+  "ModID": "kennys-aqueduct-island-wide",
+  "Version": "1.0.0",
+  "Difficulty": "cheat",
+  "Category": {
+    "English": "cheat"
+  },
+  "ModName": {
+    "English": "kennys aqueduct applies island wide"
+  },
+  "Description": {
+    "English": "Aqueduct cistern applies water need to whole island."
+  }
+}
