@@ -8,7 +8,7 @@
   
   <ModOp Type="merge" GUID="140711" Path="/Values/SessionTransferFeature">
     <DefaultTransferTime>60000</DefaultTransferTime>  <!-- 60 seconds in milliseconds -->
-    <ReferenceUnitSpeed>0.1</ReferenceUnitSpeed>  <!-- Increased from 5.348 to 50.0 (10x faster) -->
+    <ReferenceUnitSpeed>53.48</ReferenceUnitSpeed>  <!-- Increased from 5.348 to 50.0 (10x faster) -->
   </ModOp>
   
 </ModOps>
