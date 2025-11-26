@@ -23,7 +23,7 @@ kennys-aqueduct-production-buff
 kennys-silo-production-buff
 low-transfer-times-anno117
 public-service-buildings-island-radius
-# remove-items-cheats
+remove-items-cheats
 researchtreeexpanded-storage
 sheep-cheese-cheap-orange
 super-pertecenter-mod
@@ -34,7 +34,7 @@ taludas-increaseharbourarea
 the-perfect-fertilities-pack-hier0nimus
 trader-specialists-cheats
 unhide-all-ships-and-buildings-serp
-villa-radius
+# villa-radius
 villaislandrange-dukejeans
 warehouse-fast-unloading
 zoom-out-further-serp
