@@ -1,0 +1,239 @@
+<ModOps>
+  <!-- Asset ModOp workaround: use it once before you use asset modops -->
+  <ModOp Add="/AssetList/Groups[last()]">
+    <Group>
+      <Assets />
+    </Group>
+  </ModOp>
+
+  <!-- increase buildable harbour to maximum researchable from the beginning -->
+  <Group Condition="$start">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1999100079</GUID>
+          <Name>Feature Unlock Last Harbour Size Increase Tech</Name>
+        </Standard>
+        <Locked/>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionTimer</Template>
+            <Values>
+              <Condition/>
+              <ConditionTimer>
+                <TimeLimit>1000</TimeLimit>
+              </ConditionTimer>
+            </Values>
+            <IsBaseAutoCreateAsset>0</IsBaseAutoCreateAsset>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action/>
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>80851</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>80850</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup/>
+      </Values>
+    </Asset>
+
+    <!-- change first harbour area tech -->
+    <Asset>
+      <Template>Effect</Template>
+      <Values>
+        <Standard>
+          <GUID>1999100080</GUID>
+          <Name>TechEffect StorageIncrease instead of HarbourAreaIncrease I Effect</Name>
+          <IconFilename>data/taludas/ui/icon_2d_storage_capacity_increase.png</IconFilename>
+          <InfoDescription>-6904706439226082463</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>ObjectsInMeta</EffectScope>
+          <SourceCategory>Tech</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1999100081</GUID>
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>38552</GUID>
+            </Item>
+          </Targets>
+          <HideInGovernorsBar>1</HideInGovernorsBar>
+        </Effect>
+        <Text>
+          <OasisId>-6915729463187996155</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1999100081</GUID>
+          <Name>TechEffect StorageIncrease instead of HarbourAreaIncrease I Buff</Name>
+          <IconFilename>data/taludas/ui/icon_2d_storage_capacity_increase.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>-6915729463187996155</OasisId>
+        </Text>
+        <HealthUpgrade />
+        <BuildingUpgrade />
+        <DistributionUpgrade />
+        <Buff>
+          <SourceCategory>Tech</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade />
+        <FactoryUpgrade />
+        <ModuleOwnerUpgrade />
+        <MaintenanceUpgrade />
+        <CityInstitutionUpgrade />
+        <IncidentInfectableUpgrade />
+        <RecruitmentUpgrade />
+        <AqueductUpgrade />
+        <WarehouseUpgrade>
+          <StorageCapacityModifier>50</StorageCapacityModifier>
+        </WarehouseUpgrade>
+        <IrrigationUpgrade />
+      </Values>
+    </Asset>
+    <ModOp Replace="@37859/Tech/Rewards">
+      <Rewards>
+        <Effects>
+          <Item>
+            <EffectAsset>1999100080</EffectAsset>
+          </Item>
+        </Effects>
+      </Rewards>
+    </ModOp>
+    <ModOp Merge="@37859/Tech">
+      <VisibleTechName>-6915729463187996155</VisibleTechName>
+      <VisibleTechIcon>1999100080</VisibleTechIcon>
+      <VisibleTechDescription>1999100085</VisibleTechDescription>
+      <ResearchableTechName>-6915729463187996155</ResearchableTechName>
+      <ResearchableTechIcon>1999100080</ResearchableTechIcon>
+      <ResearchableTechDescription>1999100085</ResearchableTechDescription>
+      <TechName>-6915729463187996155</TechName>
+      <TechIcon>1999100080</TechIcon>
+      <TechDescription>1999100085</TechDescription>
+    </ModOp>
+
+    <!-- change second harbour area tech -->
+    <Asset>
+      <Template>Effect</Template>
+      <Values>
+        <Standard>
+          <GUID>1999100082</GUID>
+          <Name>TechEffect Kontor+Pier Speed</Name>
+          <IconFilename>data/taludas/ui/icon_3d_tech_pier_speed.png</IconFilename>
+          <InfoDescription>1999100086</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>ObjectsInMeta</EffectScope>
+          <SourceCategory>Tech</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1999100083</GUID>
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>37202</GUID>
+            </Item>
+            <Item>
+              <GUID>31666</GUID>
+            </Item>
+          </Targets>
+          <HideInGovernorsBar>1</HideInGovernorsBar>
+        </Effect>
+        <Text>
+          <OasisId>1999100082</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1999100083</GUID>
+          <Name>TechEffect Warehouse Speed Buff </Name>
+          <IconFilename>data/taludas/ui/icon_3d_tech_pier_speed.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1999100082</OasisId>
+        </Text>
+        <HealthUpgrade />
+        <BuildingUpgrade />
+        <DistributionUpgrade />
+        <Buff>
+          <SourceCategory>Tech</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade />
+        <FactoryUpgrade />
+        <ModuleOwnerUpgrade />
+        <MaintenanceUpgrade />
+        <CityInstitutionUpgrade />
+        <IncidentInfectableUpgrade />
+        <RecruitmentUpgrade />
+        <AqueductUpgrade />
+        <WarehouseUpgrade>
+          <AdditionalLoadingSpeedInPercent>50</AdditionalLoadingSpeedInPercent>
+        </WarehouseUpgrade>
+        <IrrigationUpgrade />
+      </Values>
+    </Asset>
+    <ModOp Replace="@80779/Tech/Rewards">
+      <Rewards>
+        <Effects>
+          <Item>
+            <EffectAsset>1999100082</EffectAsset>
+          </Item>
+        </Effects>
+      </Rewards>
+    </ModOp>
+    <ModOp Merge="@80779/Tech">
+      <VisibleTechName>1999100082</VisibleTechName>
+      <VisibleTechIcon>1999100082</VisibleTechIcon>
+      <VisibleTechDescription>1999100084</VisibleTechDescription>
+      <ResearchableTechName>1999100082</ResearchableTechName>
+      <ResearchableTechIcon>1999100082</ResearchableTechIcon>
+      <ResearchableTechDescription>1999100084</ResearchableTechDescription>
+      <TechName>1999100082</TechName>
+      <TechIcon>1999100082</TechIcon>
+      <TechDescription>1999100084</TechDescription>
+    </ModOp>
+  </Group>
+
+  <!-- increase buildable harbour are from 28 to user value -->
+  <ModOp Merge="@2001241/BuildingBaseTiles/HarborAreaDistanceStart">
+    <HarborAreaDistanceStart>
+      <ModValue Insert="$minharbourarea"/>
+    </HarborAreaDistanceStart>
+  </ModOp>
+  <ModOp Merge="@2001241/BuildingBaseTiles/HarborAreaDistanceHalf">
+    <HarborAreaDistanceHalf>
+      <ModValue Insert="$medharbourarea"/>
+    </HarborAreaDistanceHalf>
+  </ModOp>
+  <ModOp Merge="@2001241/BuildingBaseTiles/HarbourConstructionAreaRadius">
+    <HarbourConstructionAreaRadius>
+      <ModValue Insert="$maxharbourarea"/>
+    </HarbourConstructionAreaRadius>
+  </ModOp>
+</ModOps>

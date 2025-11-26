@@ -1,0 +1,524 @@
+<ModOps>
+  <ModOp Add="//TextExport/Texts">
+    <Text>
+      <LineId>1742001000</LineId>
+      <Text>Flax Seeds</Text>
+    </Text>
+    <Text>
+      <LineId>1742001001</LineId>
+      <Text>Provide the flax fertility to an island.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001002</LineId>
+      <Text>Flax Fertility</Text>
+    </Text>
+    <Text>
+      <LineId>1742001003</LineId>
+      <Text>Barley Seeds</Text>
+    </Text>
+    <Text>
+      <LineId>1742001004</LineId>
+      <Text>Provide the Barley fertility to an island.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001005</LineId>
+      <Text>Barley Fertility</Text>
+    </Text>
+    <Text>
+      <LineId>1742001006</LineId>
+      <Text>Beaver Traps</Text>
+    </Text>
+    <Text>
+      <LineId>1742001007</LineId>
+      <Text>Provide the Beavers population to an island.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001008</LineId>
+      <Text>Beavers Population</Text>
+    </Text>
+    <Text>
+      <LineId>1742001009</LineId>
+      <Text>Bird Traps</Text>
+    </Text>
+    <Text>
+      <LineId>1742001010</LineId>
+      <Text>Provide the Birds population to an island.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001011</LineId>
+      <Text>Birds Population</Text>
+    </Text>
+    <Text>
+      <LineId>1742001012</LineId>
+      <Text>Copper Geology</Text>
+    </Text>
+    <Text>
+      <LineId>1742001013</LineId>
+      <Text>Provide the Copper deposit to an island.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001014</LineId>
+      <Text>Copper Deposit</Text>
+    </Text>
+    <Text>
+      <LineId>1742001015</LineId>
+      <Text>Cypress Saplings</Text>
+    </Text>
+    <Text>
+      <LineId>1742001016</LineId>
+      <Text>Provide the Cypress fertility to an island.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001017</LineId>
+      <Text>Cypress Fertility</Text>
+    </Text>
+    <Text>
+      <LineId>1742001018</LineId>
+      <Text>Dye Plants Seeds</Text>
+    </Text>
+    <Text>
+      <LineId>1742001019</LineId>
+      <Text>Provide the Dye Plants fertility to an island.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001020</LineId>
+      <Text>Dye Plants Fertility</Text>
+    </Text>
+    <Text>
+      <LineId>1742001021</LineId>
+      <Text>Gold Geology</Text>
+    </Text>
+    <Text>
+      <LineId>1742001022</LineId>
+      <Text>Provide the Gold Ore deposit to an island.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001023</LineId>
+      <Text>Gold Ore Deposit</Text>
+    </Text>
+    <Text>
+      <LineId>1742001024</LineId>
+      <Text>Granite Geology</Text>
+    </Text>
+    <Text>
+      <LineId>1742001025</LineId>
+      <Text>Provide the Granite deposit to an island.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001026</LineId>
+      <Text>Granite Deposit</Text>
+    </Text>
+    <Text>
+      <LineId>1742001027</LineId>
+      <Text>Grapes Saplings</Text>
+    </Text>
+    <Text>
+      <LineId>1742001028</LineId>
+      <Text>Provide the Grapes fertility to an island.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001029</LineId>
+      <Text>Grapes Fertility</Text>
+    </Text>
+    <Text>
+      <LineId>1742001030</LineId>
+      <Text>Herbs Seeds</Text>
+    </Text>
+    <Text>
+      <LineId>1742001031</LineId>
+      <Text>Provide the Herbs fertility to an island.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001032</LineId>
+      <Text>Herbs Fertility</Text>
+    </Text>
+    <Text>
+      <LineId>1742001033</LineId>
+      <Text>Iron Geology</Text>
+    </Text>
+    <Text>
+      <LineId>1742001034</LineId>
+      <Text>Provide the Iron deposit to an island.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001035</LineId>
+      <Text>Iron Deposit</Text>
+    </Text>
+    <Text>
+      <LineId>1742001036</LineId>
+      <Text>Lavender Saplings</Text>
+    </Text>
+    <Text>
+      <LineId>1742001037</LineId>
+      <Text>Provide the Lavender fertility to an island.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001038</LineId>
+      <Text>Lavender Fertility</Text>
+    </Text>
+    <Text>
+      <LineId>1742001039</LineId>
+      <Text>Mackarels Traps</Text>
+    </Text>
+    <Text>
+      <LineId>1742001040</LineId>
+      <Text>Provide the Mackarels population to an island.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001041</LineId>
+      <Text>Mackarels Population</Text>
+    </Text>
+    <Text>
+      <LineId>1742001042</LineId>
+      <Text>Marble Geology</Text>
+    </Text>
+    <Text>
+      <LineId>1742001043</LineId>
+      <Text>Provide the Marble deposit to an island.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001044</LineId>
+      <Text>Marble Deposit</Text>
+    </Text>
+    <Text>
+      <LineId>1742001045</LineId>
+      <Text>Minerals Geology</Text>
+    </Text>
+    <Text>
+      <LineId>1742001046</LineId>
+      <Text>Provide the Minerals deposit to an island.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001047</LineId>
+      <Text>Minerals Deposit</Text>
+    </Text>
+    <Text>
+      <LineId>1742001048</LineId>
+      <Text>Olive Saplings</Text>
+    </Text>
+    <Text>
+      <LineId>1742001049</LineId>
+      <Text>Provide the Olive fertility to an island.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001050</LineId>
+      <Text>Olive Fertility</Text>
+    </Text>
+    <Text>
+      <LineId>1742001051</LineId>
+      <Text>Oyster Banks</Text>
+    </Text>
+    <Text>
+      <LineId>1742001052</LineId>
+      <Text>Provide the Oysters population to an island.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001053</LineId>
+      <Text>Oysters Population</Text>
+    </Text>
+    <Text>
+      <LineId>1742001054</LineId>
+      <Text>Pony Grasslands</Text>
+    </Text>
+    <Text>
+      <LineId>1742001055</LineId>
+      <Text>Provide the Ponies population to an island.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001056</LineId>
+      <Text>Ponies Population</Text>
+    </Text>
+    <Text>
+      <LineId>1742001057</LineId>
+      <Text>Resin Saplings</Text>
+    </Text>
+    <Text>
+      <LineId>1742001058</LineId>
+      <Text>Provide the Resin fertility to an island.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001059</LineId>
+      <Text>Resin Fertility</Text>
+    </Text>
+    <Text>
+      <LineId>1742001060</LineId>
+      <Text>Saltwort Banks</Text>
+    </Text>
+    <Text>
+      <LineId>1742001061</LineId>
+      <Text>Provide the Saltwort fertility to an island.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001062</LineId>
+      <Text>Saltwort Fertility</Text>
+    </Text>
+    <Text>
+      <LineId>1742001063</LineId>
+      <Text>Seashell Banks</Text>
+    </Text>
+    <Text>
+      <LineId>1742001064</LineId>
+      <Text>Provide the Seashell population to an island.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001065</LineId>
+      <Text>Seashell Population</Text>
+    </Text>
+    <Text>
+      <LineId>1742001066</LineId>
+      <Text>Silver Geology</Text>
+    </Text>
+    <Text>
+      <LineId>1742001067</LineId>
+      <Text>Provide the Silver deposit to an island.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001068</LineId>
+      <Text>Silver Deposit</Text>
+    </Text>
+    <Text>
+      <LineId>1742001069</LineId>
+      <Text>Murex Snail Banks</Text>
+    </Text>
+    <Text>
+      <LineId>1742001070</LineId>
+      <Text>Provide the Murex Snail population to an island.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001071</LineId>
+      <Text>Murex Snail Population</Text>
+    </Text>
+    <Text>
+      <LineId>1742001072</LineId>
+      <Text>Sturgeon Traps</Text>
+    </Text>
+    <Text>
+      <LineId>1742001073</LineId>
+      <Text>Provide the Sturgeon population to an island.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001074</LineId>
+      <Text>Sturgeon Population</Text>
+    </Text>
+    <Text>
+      <LineId>1742001075</LineId>
+      <Text>Tin Geology</Text>
+    </Text>
+    <Text>
+      <LineId>1742001076</LineId>
+      <Text>Provide the Tin deposit to an island.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001077</LineId>
+      <Text>Tin Deposit</Text>
+    </Text>
+    <Text>
+      <LineId>1742001078</LineId>
+      <Text>Legendary Flax Seeds</Text>
+    </Text>
+    <Text>
+      <LineId>1742001079</LineId>
+      <Text>Legendary Flax Fertility</Text>
+    </Text>
+    <Text>
+      <LineId>1742001079</LineId>
+      <Text>Legendary Barley Seeds</Text>
+    </Text>
+    <Text>
+      <LineId>1742001081</LineId>
+      <Text>Legendary Barley Fertility</Text>
+    </Text>
+    <Text>
+      <LineId>1742001082</LineId>
+      <Text>Legendary Beaver Traps</Text>
+    </Text>
+    <Text>
+      <LineId>1742001083</LineId>
+      <Text>Legendary Beavers Population</Text>
+    </Text>
+    <Text>
+      <LineId>1742001084</LineId>
+      <Text>Legendary Bird Traps</Text>
+    </Text>
+    <Text>
+      <LineId>1742001085</LineId>
+      <Text>Legendary Birds Population</Text>
+    </Text>
+    <Text>
+      <LineId>1742001086</LineId>
+      <Text>Legendary Copper Geology</Text>
+    </Text>
+    <Text>
+      <LineId>1742001087</LineId>
+      <Text>Legendary Copper Deposit</Text>
+    </Text>
+    <Text>
+      <LineId>1742001088</LineId>
+      <Text>Legendary Cypress Saplings</Text>
+    </Text>
+    <Text>
+      <LineId>1742001089</LineId>
+      <Text>Legendary Cypress Fertility</Text>
+    </Text>
+    <Text>
+      <LineId>1742001090</LineId>
+      <Text>Legendary Dye Plants Seeds</Text>
+    </Text>
+    <Text>
+      <LineId>1742001091</LineId>
+      <Text>Legendary Dye Plants Fertility</Text>
+    </Text>
+    <Text>
+      <LineId>1742001092</LineId>
+      <Text>Legendary Gold Geology</Text>
+    </Text>
+    <Text>
+      <LineId>1742001093</LineId>
+      <Text>Legendary Gold Ore Deposit</Text>
+    </Text>
+    <Text>
+      <LineId>1742001094</LineId>
+      <Text>Legendary Granite Geology</Text>
+    </Text>
+    <Text>
+      <LineId>1742001095</LineId>
+      <Text>Legendary Granite Deposit</Text>
+    </Text>
+    <Text>
+      <LineId>1742001096</LineId>
+      <Text>Legendary Grapes Saplings</Text>
+    </Text>
+    <Text>
+      <LineId>1742001097</LineId>
+      <Text>Legendary Grapes Fertility</Text>
+    </Text>
+    <Text>
+      <LineId>1742001098</LineId>
+      <Text>Legendary Herbs Seeds</Text>
+    </Text>
+    <Text>
+      <LineId>1742001099</LineId>
+      <Text>Legendary Herbs Fertility</Text>
+    </Text>
+    <Text>
+      <LineId>1742001100</LineId>
+      <Text>Legendary Iron Geology</Text>
+    </Text>
+    <Text>
+      <LineId>1742001101</LineId>
+      <Text>Legendary Iron Deposit</Text>
+    </Text>
+    <Text>
+      <LineId>1742001102</LineId>
+      <Text>Legendary Lavender Saplings</Text>
+    </Text>
+    <Text>
+      <LineId>1742001103</LineId>
+      <Text>Legendary Lavender Fertility</Text>
+    </Text>
+    <Text>
+      <LineId>1742001104</LineId>
+      <Text>Legendary Mackarels Traps</Text>
+    </Text>
+    <Text>
+      <LineId>1742001105</LineId>
+      <Text>Legendary Mackarels Population</Text>
+    </Text>
+    <Text>
+      <LineId>1742001106</LineId>
+      <Text>Legendary Marble Geology</Text>
+    </Text>
+    <Text>
+      <LineId>1742001107</LineId>
+      <Text>Legendary Marble Deposit</Text>
+    </Text>
+    <Text>
+      <LineId>1742001108</LineId>
+      <Text>Legendary Minerals Geology</Text>
+    </Text>
+    <Text>
+      <LineId>1742001109</LineId>
+      <Text>Legendary Minerals Deposit</Text>
+    </Text>
+    <Text>
+      <LineId>1742001110</LineId>
+      <Text>Legendary Olive Saplings</Text>
+    </Text>
+    <Text>
+      <LineId>1742001111</LineId>
+      <Text>Legendary Olive Fertility</Text>
+    </Text>
+    <Text>
+      <LineId>1742001112</LineId>
+      <Text>Legendary Oyster Banks</Text>
+    </Text>
+    <Text>
+      <LineId>1742001113</LineId>
+      <Text>Legendary Oysters Population</Text>
+    </Text>
+    <Text>
+      <LineId>1742001114</LineId>
+      <Text>Legendary Pony Grasslands</Text>
+    </Text>
+    <Text>
+      <LineId>1742001115</LineId>
+      <Text>Legendary Ponies Population</Text>
+    </Text>
+    <Text>
+      <LineId>1742001116</LineId>
+      <Text>Legendary Resin Saplings</Text>
+    </Text>
+    <Text>
+      <LineId>1742001117</LineId>
+      <Text>Legendary Resin Fertility</Text>
+    </Text>
+    <Text>
+      <LineId>1742001118</LineId>
+      <Text>Legendary Saltwort Banks</Text>
+    </Text>
+    <Text>
+      <LineId>1742001119</LineId>
+      <Text>Legendary Saltwort Fertility</Text>
+    </Text>
+    <Text>
+      <LineId>1742001120</LineId>
+      <Text>Legendary Seashell Banks</Text>
+    </Text>
+    <Text>
+      <LineId>1742001121</LineId>
+      <Text>Legendary Seashell Population</Text>
+    </Text>
+    <Text>
+      <LineId>1742001122</LineId>
+      <Text>Legendary Silver Geology</Text>
+    </Text>
+    <Text>
+      <LineId>1742001123</LineId>
+      <Text>Legendary Silver Deposit</Text>
+    </Text>
+    <Text>
+      <LineId>1742001124</LineId>
+      <Text>Legendary Murex Snail Banks</Text>
+    </Text>
+    <Text>
+      <LineId>1742001125</LineId>
+      <Text>Legendary Murex Snail Population</Text>
+    </Text>
+    <Text>
+      <LineId>1742001126</LineId>
+      <Text>Legendary Sturgeon Traps</Text>
+    </Text>
+    <Text>
+      <LineId>1742001127</LineId>
+      <Text>Legendary Sturgeon Population</Text>
+    </Text>
+    <Text>
+      <LineId>1742001128</LineId>
+      <Text>Legendary Tin Geology</Text>
+    </Text>
+    <Text>
+      <LineId>1742001129</LineId>
+      <Text>Legendary Tin Deposit</Text>
+    </Text>
+  </ModOp>
+</ModOps>

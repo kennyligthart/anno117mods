@@ -1,0 +1,79 @@
+{
+  "Version": "1.0.0",
+  "Anno": 8,
+  "ModID": "researchtreeexpanded-storage",
+  "Difficulty": "normal",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [],
+    "Optional": [],
+    "LoadAfter": [],
+    "Deprecate": [],
+    "Incompatible": []
+  },
+  "Category": {
+    "Chinese": "Gameplay",
+    "English": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "German": "Research Tree Expanded - Lager",
+    "English": "Research Tree Expanded - Storage",
+    "Spanish": "Árbol de investigación ampliado - Almacenes",
+    "French": "Arbre de recherche étendu - Entrepôts",
+    "Italian": "Albero di ricerca espanso - Magazzini",
+    "Polish": "Rozszerzone drzewko badań - Magazyny",
+    "Portuguese": "Árvore de pesquisa expandida - Armazéns",
+    "Russian": "Расширенное древо исследований - Склад",
+    "Chinese": "擴展研究樹 - 倉庫",
+    "Taiwanese": "擴展研究樹 - 倉庫",
+    "Japanese": "研究ツリー拡張 - 倉庫",
+    "Korean": "연구 트리 확장 - 창고"
+  },
+  "Description": {
+    "German": "Erweitert den Forschungsbaum mit Upgrades für Lagerhäuser, z.B. schnellere Be- und Entladegeschwindigkeit sowie geringere Wartungs- und Arbeitskosten.",
+    "English": "Expands the research tree with upgrades for warehouses, such as faster load/unload speed and reduced maintenance and workforce costs.",
+    "Spanish": "Amplía el árbol de investigación con mejoras para los almacenes, como mayor velocidad de carga y descarga y menores costes de mantenimiento y mano de obra.",
+    "French": "Étend l'arbre de recherche avec des améliorations pour les entrepôts, comme une vitesse de chargement/déchargement plus élevée et des coûts de maintenance et de main-d'œuvre réduits.",
+    "Italian": "Espande l'albero di ricerca con potenziamenti per i magazzini, ad esempio velocità di carico/scarico più elevata e costi di manutenzione e manodopera ridotti.",
+    "Polish": "Rozszerza drzewko badań o ulepszenia magazynów, np. szybsze załadunki i rozładunki oraz niższe koszty utrzymania i pracy.",
+    "Portuguese": "Expande a árvore de pesquisa com upgrades para armazéns, como maior velocidade de carga e descarga e custos reduzidos de manutenção e mão de obra.",
+    "Russian": "Расширяет древо исследований улучшениями для складов, такими как более быстрая погрузка/разгрузка и сниженные расходы на обслуживание и рабочую силу.",
+    "Chinese": "透過研究樹為倉庫添加升級，例如更快的裝卸速度以及更低的維護與人力成本。",
+    "Taiwanese": "透過研究樹為倉庫新增升級，例如更快的裝卸速度以及更低的維護與人力成本。",
+    "Japanese": "研究ツリーに倉庫向けのアップグレードを追加し、積み下ろし速度の強化や維持費と労働力コストの削減などを行えます。",
+    "Korean": "연구 트리에 창고 업그레이드를 추가하여 더 빠른 상하차 속도와 유지비 및 인력 비용 감소를 제공합니다."
+  },
+  "KnownIssues": [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [],
+  "CreatorName": "0skater0",
+  "CreatorContact": "",
+  "Image": null
+}

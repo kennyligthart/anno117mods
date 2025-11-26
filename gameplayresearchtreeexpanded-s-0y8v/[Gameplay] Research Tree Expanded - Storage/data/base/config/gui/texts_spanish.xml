@@ -1,0 +1,103 @@
+<ModOps>
+    <ModOp Path="/TextExport/Texts" Type="add">
+        <Text>
+            <LineId>1742500101</LineId>
+            <Text>Transportistas veloces</Text>
+        </Text>
+        <Text>
+            <LineId>1742500102</LineId>
+            <Text>Una cuadrilla de almacén bien entrenada mueve las cajas tan fluida como una legión en marcha.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500105</LineId>
+            <Text>Investiga &lt;b&gt;Warehouse Organisation&lt;/b&gt;.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500108</LineId>
+            <Text>Brigadas de carros en relevo</Text>
+        </Text>
+        <Text>
+            <LineId>1742500109</LineId>
+            <Text>Da a los carros un camino despejado y superarán incluso tus promesas más audaces al Senado.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500114</LineId>
+            <Text>Trenes de carros de Mercurio</Text>
+        </Text>
+        <Text>
+            <LineId>1742500115</LineId>
+            <Text>A este ritmo, los carros se difuminan en una sola fila, y solo los registros demuestran que no falta
+                nada.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500118</LineId>
+            <Text>Investiga &lt;b&gt;Warehouse Halved Costs&lt;/b&gt;.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500121</LineId>
+            <Text>Supervisores frugales de horrea</Text>
+        </Text>
+        <Text>
+            <LineId>1742500122</LineId>
+            <Text>Nuestros encargados de almacén exprimen cada denario hasta que chilla, y aun así las cajas avanzan en
+                perfecto orden.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500123</LineId>
+            <Text>Recorta turnos, aprieta los libros, y aun así las mercancías fluyen como si Roma misma estuviera
+                mirando.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500126</LineId>
+            <Text>Investiga &lt;b&gt;Portitores&lt;/b&gt;.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500127</LineId>
+            <Text>Reduce los costes de mantenimiento y la mano de obra necesaria de todos los almacenes.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500130</LineId>
+            <Text>Turnos adelgazados</Text>
+        </Text>
+        <Text>
+            <LineId>1742500131</LineId>
+            <Text>Cuando una cuadrilla reducida mueve carga como una cohorte completa, sabes que los entrenamientos
+                merecieron los gritos.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500132</LineId>
+            <Text>Menos manos en el suelo, menos quejas en los barracones y ni una sola caja se queda atrás.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500135</LineId>
+            <Text>Investiga &lt;b&gt;Headhunting&lt;/b&gt;.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500136</LineId>
+            <Text>Reduce en gran medida la mano de obra necesaria de todos los almacenes.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500139</LineId>
+            <Text>Intendentes tacaños</Text>
+        </Text>
+        <Text>
+            <LineId>1742500140</LineId>
+            <Text>Un tejado que pierde monedas es peor que uno que deja pasar la lluvia, y estos horrea por fin lo han
+                aprendido.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500141</LineId>
+            <Text>Los contables asienten ante tus almacenes casi tan orgullosos como los legados ante tus legiones.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500144</LineId>
+            <Text>Reduce aún más los costes de mantenimiento de todos los almacenes.</Text>
+        </Text>
+    </ModOp>
+</ModOps>

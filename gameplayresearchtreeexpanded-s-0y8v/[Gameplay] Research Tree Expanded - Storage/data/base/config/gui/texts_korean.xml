@@ -1,0 +1,92 @@
+<ModOps>
+    <ModOp Path="/TextExport/Texts" Type="add">
+        <Text>
+            <LineId>1742500101</LineId>
+            <Text>날쌘 짐꾼들</Text>
+        </Text>
+        <Text>
+            <LineId>1742500102</LineId>
+            <Text>잘 훈련된 창고 인부들은 행군 중인 군단처럼 매끄럽게 상자를 옮깁니다.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500105</LineId>
+            <Text>&lt;b&gt;Warehouse Organisation&lt;/b&gt;을 연구하십시오.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500108</LineId>
+            <Text>릴레이 수레 대열</Text>
+        </Text>
+        <Text>
+            <LineId>1742500109</LineId>
+            <Text>수레 부대에 길을 터 주면, 원로원에 한 가장 대담한 약속보다도 빨리 그 기대를 뛰어넘을 것입니다.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500114</LineId>
+            <Text>메르쿠리우스의 수레 행렬</Text>
+        </Text>
+        <Text>
+            <LineId>1742500115</LineId>
+            <Text>이 속도에서는 수레들이 하나의 줄로 흐릿해지고, 아무것도 사라지지 않았음을 증명해 주는 것은 장부뿐입니다.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500118</LineId>
+            <Text>&lt;b&gt;Warehouse Halved Costs&lt;/b&gt;를 연구하십시오.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500121</LineId>
+            <Text>검소한 호레아 감독관들</Text>
+        </Text>
+        <Text>
+            <LineId>1742500122</LineId>
+            <Text>창고 감독관들은 데나리우스 한 닢에서 비명이 날 때까지 짜내지만, 상자들은 여전히 완벽한 대열로 움직입니다.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500123</LineId>
+            <Text>교대를 줄이고 장부를 조여도, 물자는 마치 로마가 지켜보는 듯 끊임없이 흘러갑니다.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500126</LineId>
+            <Text>&lt;b&gt;Portitores&lt;/b&gt;를 연구하십시오.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500127</LineId>
+            <Text>모든 창고의 유지비와 필요 인력을 감소시킵니다.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500130</LineId>
+            <Text>슬림해진 교대조</Text>
+        </Text>
+        <Text>
+            <LineId>1742500131</LineId>
+            <Text>작은 인원이 한 개 코호르스처럼 화물을 옮길 때, 모든 고함 섞인 훈련이 가치 있었음을 알게 됩니다.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500132</LineId>
+            <Text>현장의 손은 줄고 막사의 불평도 줄지만, 뒤에 남겨지는 상자는 하나도 없습니다.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500135</LineId>
+            <Text>&lt;b&gt;Headhunting&lt;/b&gt;을 연구하십시오.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500136</LineId>
+            <Text>모든 창고에 필요한 인력을 크게 감소시킵니다.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500139</LineId>
+            <Text>동전 아끼는 병참 장교들</Text>
+        </Text>
+        <Text>
+            <LineId>1742500140</LineId>
+            <Text>동전이 새는 지붕은 빗물이 새는 지붕보다 더 나쁘고, 이 호레아들은 마침내 그 사실을 깨달았습니다.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500141</LineId>
+            <Text>회계관들은 레가투스들이 군단을 바라볼 때만큼이나 자랑스럽게 당신의 창고에 고개를 끄덕입니다.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500144</LineId>
+            <Text>모든 창고의 유지비를 추가로 감소시킵니다.</Text>
+        </Text>
+    </ModOp>
+</ModOps>

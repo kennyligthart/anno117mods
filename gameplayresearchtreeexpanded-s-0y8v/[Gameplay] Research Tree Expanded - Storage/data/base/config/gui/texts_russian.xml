@@ -1,0 +1,95 @@
+<ModOps>
+    <ModOp Path="/TextExport/Texts" Type="add">
+        <Text>
+            <LineId>1742500101</LineId>
+            <Text>Проворные носильщики</Text>
+        </Text>
+        <Text>
+            <LineId>1742500102</LineId>
+            <Text>Хорошо вымуштрованная складская бригада двигает ящики так же плавно, как легион в походе.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500105</LineId>
+            <Text>Исследуйте &lt;b&gt;Warehouse Organisation&lt;/b&gt;.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500108</LineId>
+            <Text>Экипажи телег по эстафете</Text>
+        </Text>
+        <Text>
+            <LineId>1742500109</LineId>
+            <Text>Освободите телегам путь, и они превзойдут даже самые смелые обещания, данные вами Сенату.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500114</LineId>
+            <Text>Повозочные поезда Меркурия</Text>
+        </Text>
+        <Text>
+            <LineId>1742500115</LineId>
+            <Text>При таком темпе телеги сливаются в одну линию, и только ведомости доказывают, что ничего не пропало.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500118</LineId>
+            <Text>Исследуйте &lt;b&gt;Warehouse Halved Costs&lt;/b&gt;.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500121</LineId>
+            <Text>Бережливые смотрители хорреев</Text>
+        </Text>
+        <Text>
+            <LineId>1742500122</LineId>
+            <Text>Наши заведующие складами выжимают из каждого денария все, но ящики всё равно идут строем.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500123</LineId>
+            <Text>Сократите смены, подтяните бухгалтерию — и товары всё равно текут, будто сам Рим наблюдает.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500126</LineId>
+            <Text>Исследуйте &lt;b&gt;Portitores&lt;/b&gt;.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500127</LineId>
+            <Text>Снижает эксплуатационные расходы и требуемую рабочую силу всех складов.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500130</LineId>
+            <Text>Урезанные смены</Text>
+        </Text>
+        <Text>
+            <LineId>1742500131</LineId>
+            <Text>Когда небольшая бригада двигает груз, как целая когорта, тренировки стоили всех окриков.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500132</LineId>
+            <Text>Меньше рук на складе, меньше жалоб в бараках — и ни одного забытого ящика.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500135</LineId>
+            <Text>Исследуйте &lt;b&gt;Headhunting&lt;/b&gt;.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500136</LineId>
+            <Text>Сильно снижает потребность в рабочей силе для всех складов.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500139</LineId>
+            <Text>Щепетильные квартирмейстеры</Text>
+        </Text>
+        <Text>
+            <LineId>1742500140</LineId>
+            <Text>Крыша, через которую утекают деньги, хуже той, что протекает дождём, и эти хорреи наконец поняли
+                это.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500141</LineId>
+            <Text>Бухгалтеры кивают вашим складам почти так же гордо, как легаты — вашим легионам.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500144</LineId>
+            <Text>Дополнительно снижает эксплуатационные расходы всех складов.</Text>
+        </Text>
+    </ModOp>
+</ModOps>

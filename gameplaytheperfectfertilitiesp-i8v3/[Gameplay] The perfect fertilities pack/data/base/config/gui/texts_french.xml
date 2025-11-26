@@ -1,0 +1,524 @@
+<ModOps>
+  <ModOp Add="//TextExport/Texts">
+    <Text>
+      <LineId>1742001000</LineId>
+      <Text>Graines de lin</Text>
+    </Text>
+    <Text>
+      <LineId>1742001001</LineId>
+      <Text>Fournir la fertilité du lin à une île.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001002</LineId>
+      <Text>Fertilité du lin</Text>
+    </Text>
+    <Text>
+      <LineId>1742001003</LineId>
+      <Text>Graines d’orge</Text>
+    </Text>
+    <Text>
+      <LineId>1742001004</LineId>
+      <Text>Fournir la fertilité de l’orge à une île.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001005</LineId>
+      <Text>Fertilité de l’orge</Text>
+    </Text>
+    <Text>
+      <LineId>1742001006</LineId>
+      <Text>Pièges à castors</Text>
+    </Text>
+    <Text>
+      <LineId>1742001007</LineId>
+      <Text>Fournir la population des castors à une île.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001008</LineId>
+      <Text>Population des castors</Text>
+    </Text>
+    <Text>
+      <LineId>1742001009</LineId>
+      <Text>Pièges à oiseaux</Text>
+    </Text>
+    <Text>
+      <LineId>1742001010</LineId>
+      <Text>Fournir la population d’oiseaux à une île.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001011</LineId>
+      <Text>Population d’oiseaux</Text>
+    </Text>
+    <Text>
+      <LineId>1742001012</LineId>
+      <Text>Géologie du cuivre</Text>
+    </Text>
+    <Text>
+      <LineId>1742001013</LineId>
+      <Text>Fournir le gisement de cuivre à une île.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001014</LineId>
+      <Text>Gisement de cuivre</Text>
+    </Text>
+    <Text>
+      <LineId>1742001015</LineId>
+      <Text>Jeunes pousses de cyprès</Text>
+    </Text>
+    <Text>
+      <LineId>1742001016</LineId>
+      <Text>Fournir la fertilité au cyprès à une île.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001017</LineId>
+      <Text>Cypress Fertility</Text>
+    </Text>
+    <Text>
+      <LineId>1742001018</LineId>
+      <Text>Teinture Plants Graines</Text>
+    </Text>
+    <Text>
+      <LineId>1742001019</LineId>
+      <Text>Fournir la fertilité des plantes teintures à une île.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001020</LineId>
+      <Text>Fertilité des plantes teintures</Text>
+    </Text>
+    <Text>
+      <LineId>1742001021</LineId>
+      <Text>Géologie de l’or</Text>
+    </Text>
+    <Text>
+      <LineId>1742001022</LineId>
+      <Text>Fournir le gisement de minerai d’or à une île.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001023</LineId>
+      <Text>Gisement de minerai d’or</Text>
+    </Text>
+    <Text>
+      <LineId>1742001024</LineId>
+      <Text>Géologie du granite</Text>
+    </Text>
+    <Text>
+      <LineId>1742001025</LineId>
+      <Text>Fournir le gisement de granite à une île.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001026</LineId>
+      <Text>Gisement granitique</Text>
+    </Text>
+    <Text>
+      <LineId>1742001027</LineId>
+      <Text>Jeunes pousses de raisins</Text>
+    </Text>
+    <Text>
+      <LineId>1742001028</LineId>
+      <Text>Fournir la fertilité des raisins à une île.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001029</LineId>
+      <Text>Fertilité des raisins</Text>
+    </Text>
+    <Text>
+      <LineId>1742001030</LineId>
+      <Text>Herbes Graines</Text>
+    </Text>
+    <Text>
+      <LineId>1742001031</LineId>
+      <Text>Fournir la fertilité des herbes à une île.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001032</LineId>
+      <Text>Fertilité des herbes</Text>
+    </Text>
+    <Text>
+      <LineId>1742001033</LineId>
+      <Text>Géologie du fer</Text>
+    </Text>
+    <Text>
+      <LineId>1742001034</LineId>
+      <Text>Fournir le gisement de fer à une île.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001035</LineId>
+      <Text>Gisement de fer</Text>
+    </Text>
+    <Text>
+      <LineId>1742001036</LineId>
+      <Text>Jeunes pousses de lavande</Text>
+    </Text>
+    <Text>
+      <LineId>1742001037</LineId>
+      <Text>Fournir la lavande fertile à une île.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001038</LineId>
+      <Text>Fertilité lavande</Text>
+    </Text>
+    <Text>
+      <LineId>1742001039</LineId>
+      <Text>Pièges Mackarels</Text>
+    </Text>
+    <Text>
+      <LineId>1742001040</LineId>
+      <Text>Fournir la population des Mackarels à une île.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001041</LineId>
+      <Text>Mackarels Population</Text>
+    </Text>
+    <Text>
+      <LineId>1742001042</LineId>
+      <Text>Géologie du marbre</Text>
+    </Text>
+    <Text>
+      <LineId>1742001043</LineId>
+      <Text>Fournir le dépôt de Marbre à une île.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001044</LineId>
+      <Text>Dépôt de marbre</Text>
+    </Text>
+    <Text>
+      <LineId>1742001045</LineId>
+      <Text>Géologie des minéraux</Text>
+    </Text>
+    <Text>
+      <LineId>1742001046</LineId>
+      <Text>Fournir le gisement de minéraux à une île.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001047</LineId>
+      <Text>Gisement minéral</Text>
+    </Text>
+    <Text>
+      <LineId>1742001048</LineId>
+      <Text>Pousses d’olivier</Text>
+    </Text>
+    <Text>
+      <LineId>1742001049</LineId>
+      <Text>Fournir la fertilité de l’olive à une île.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001050</LineId>
+      <Text>Fertilité des olives</Text>
+    </Text>
+    <Text>
+      <LineId>1742001051</LineId>
+      <Text>Bancs d’huîtres</Text>
+    </Text>
+    <Text>
+      <LineId>1742001052</LineId>
+      <Text>Fournir la population d’huîtres à une île.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001053</LineId>
+      <Text>Population des huîtres</Text>
+    </Text>
+    <Text>
+      <LineId>1742001054</LineId>
+      <Text>Prairies à Poneys</Text>
+    </Text>
+    <Text>
+      <LineId>1742001055</LineId>
+      <Text>Fournir la population de Poneys à une île.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001056</LineId>
+      <Text>Population des poneys</Text>
+    </Text>
+    <Text>
+      <LineId>1742001057</LineId>
+      <Text>Jeunes pousses en résine</Text>
+    </Text>
+    <Text>
+      <LineId>1742001058</LineId>
+      <Text>Fournir la résine à une île de fertilité.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001059</LineId>
+      <Text>Fertilité en résine</Text>
+    </Text>
+    <Text>
+      <LineId>1742001060</LineId>
+      <Text>Saltwort Banks</Text>
+    </Text>
+    <Text>
+      <LineId>1742001061</LineId>
+      <Text>Fournir la fertilité des Saltwort à une île.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001062</LineId>
+      <Text>Saltwort Fertilité</Text>
+    </Text>
+    <Text>
+      <LineId>1742001063</LineId>
+      <Text>Bancs de coquillages</Text>
+    </Text>
+    <Text>
+      <LineId>1742001064</LineId>
+      <Text>Fournir la population de coquillages à une île.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001065</LineId>
+      <Text>Population de coquillages marins</Text>
+    </Text>
+    <Text>
+      <LineId>1742001066</LineId>
+      <Text>Géologie de l’argent</Text>
+    </Text>
+    <Text>
+      <LineId>1742001067</LineId>
+      <Text>Fournir le dépôt d’argent à une île.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001068</LineId>
+      <Text>Dépôt d’argent</Text>
+    </Text>
+    <Text>
+      <LineId>1742001069</LineId>
+      <Text>Bancs d’escargots Murex</Text>
+    </Text>
+    <Text>
+      <LineId>1742001070</LineId>
+      <Text>Fournir la population d’escargots Murex à une île.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001071</LineId>
+      <Text>Population d’escargots Murex</Text>
+    </Text>
+    <Text>
+      <LineId>1742001072</LineId>
+      <Text>Pièges à esturgeons</Text>
+    </Text>
+    <Text>
+      <LineId>1742001073</LineId>
+      <Text>Fournir la population d’esturgeons à une île.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001074</LineId>
+      <Text>Population d’esturgeons</Text>
+    </Text>
+    <Text>
+      <LineId>1742001075</LineId>
+      <Text>Géologie de l’étain</Text>
+    </Text>
+    <Text>
+      <LineId>1742001076</LineId>
+      <Text>Fournir le gisement d’étain à une île.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001077</LineId>
+      <Text>Dépôt d’étain</Text>
+    </Text>
+    <Text>
+      <LineId>1742001078</LineId>
+      <Text>Graines de lin légendaires</Text>
+    </Text>
+    <Text>
+      <LineId>1742001079</LineId>
+      <Text>Fertilité légendaire du lin</Text>
+    </Text>
+    <Text>
+      <LineId>1742001079</LineId>
+      <Text>Graines d’orge légendaires</Text>
+    </Text>
+    <Text>
+      <LineId>1742001081</LineId>
+      <Text>Fertilité légendaire de l’orge</Text>
+    </Text>
+    <Text>
+      <LineId>1742001082</LineId>
+      <Text>Pièges à castors légendaires</Text>
+    </Text>
+    <Text>
+      <LineId>1742001083</LineId>
+      <Text>Population légendaire des castors</Text>
+    </Text>
+    <Text>
+      <LineId>1742001084</LineId>
+      <Text>Pièges à oiseaux légendaires</Text>
+    </Text>
+    <Text>
+      <LineId>1742001085</LineId>
+      <Text>Population d’oiseaux légendaires</Text>
+    </Text>
+    <Text>
+      <LineId>1742001086</LineId>
+      <Text>Géologie légendaire du cuivre</Text>
+    </Text>
+    <Text>
+      <LineId>1742001087</LineId>
+      <Text>Dépôt légendaire de cuivre</Text>
+    </Text>
+    <Text>
+      <LineId>1742001088</LineId>
+      <Text>Légendaires jeunes cyprès</Text>
+    </Text>
+    <Text>
+      <LineId>1742001089</LineId>
+      <Text>Fertilité légendaire des cyprès</Text>
+    </Text>
+    <Text>
+      <LineId>1742001090</LineId>
+      <Text>Légendaires Teintures Plantes Graines</Text>
+    </Text>
+    <Text>
+      <LineId>1742001091</LineId>
+      <Text>Fertilité légendaire des plantes teinturantes</Text>
+    </Text>
+    <Text>
+      <LineId>1742001092</LineId>
+      <Text>Géologie légendaire de l’or</Text>
+    </Text>
+    <Text>
+      <LineId>1742001093</LineId>
+      <Text>Gisement légendaire de minerai d’or</Text>
+    </Text>
+    <Text>
+      <LineId>1742001094</LineId>
+      <Text>Géologie légendaire du granite</Text>
+    </Text>
+    <Text>
+      <LineId>1742001095</LineId>
+      <Text>Dépôt de granit légendaire</Text>
+    </Text>
+    <Text>
+      <LineId>1742001096</LineId>
+      <Text>Légendaires jeunes pousses de raisins</Text>
+    </Text>
+    <Text>
+      <LineId>1742001097</LineId>
+      <Text>Fertilité légendaire des raisins</Text>
+    </Text>
+    <Text>
+      <LineId>1742001098</LineId>
+      <Text>Graines d’herbes légendaires</Text>
+    </Text>
+    <Text>
+      <LineId>1742001099</LineId>
+      <Text>Fertilité des herbes légendaires</Text>
+    </Text>
+    <Text>
+      <LineId>1742001100</LineId>
+      <Text>Légendaire géologie du fer</Text>
+    </Text>
+    <Text>
+      <LineId>1742001101</LineId>
+      <Text>Dépôt de Fer Légendaire</Text>
+    </Text>
+    <Text>
+      <LineId>1742001102</LineId>
+      <Text>Légendaires jeunes plants de lavande</Text>
+    </Text>
+    <Text>
+      <LineId>1742001103</LineId>
+      <Text>Fertilité légendaire de lavande</Text>
+    </Text>
+    <Text>
+      <LineId>1742001104</LineId>
+      <Text>Pièges légendaires à Mackarels</Text>
+    </Text>
+    <Text>
+      <LineId>1742001105</LineId>
+      <Text>Population légendaire des Mackarels</Text>
+    </Text>
+    <Text>
+      <LineId>1742001106</LineId>
+      <Text>Géologie légendaire du marbre</Text>
+    </Text>
+    <Text>
+      <LineId>1742001107</LineId>
+      <Text>Dépôt légendaire de marbre</Text>
+    </Text>
+    <Text>
+      <LineId>1742001108</LineId>
+      <Text>Géologie des minéraux légendaires</Text>
+    </Text>
+    <Text>
+      <LineId>1742001109</LineId>
+      <Text>Gisement Légendaire des Minéraux</Text>
+    </Text>
+    <Text>
+      <LineId>1742001110</LineId>
+      <Text>Légendaires jeunes oliviers</Text>
+    </Text>
+    <Text>
+      <LineId>1742001111</LineId>
+      <Text>Fertilité Olive Légendaire</Text>
+    </Text>
+    <Text>
+      <LineId>1742001112</LineId>
+      <Text>Légendaires Bancs d’Huîtres</Text>
+    </Text>
+    <Text>
+      <LineId>1742001113</LineId>
+      <Text>Population légendaire des huîtres</Text>
+    </Text>
+    <Text>
+      <LineId>1742001114</LineId>
+      <Text>Légendaires Prairies à Poney</Text>
+    </Text>
+    <Text>
+      <LineId>1742001115</LineId>
+      <Text>Population de poneys légendaires</Text>
+    </Text>
+    <Text>
+      <LineId>1742001116</LineId>
+      <Text>Légendaires jeunes pousses de résine</Text>
+    </Text>
+    <Text>
+      <LineId>1742001117</LineId>
+      <Text>Fertilité légendaire en résine</Text>
+    </Text>
+    <Text>
+      <LineId>1742001118</LineId>
+      <Text>Légendaires Saltwort Banks</Text>
+    </Text>
+    <Text>
+      <LineId>1742001119</LineId>
+      <Text>Fertilité légendaire Saltwort</Text>
+    </Text>
+    <Text>
+      <LineId>1742001120</LineId>
+      <Text>Légendaires Bancs de Coquillages</Text>
+    </Text>
+    <Text>
+      <LineId>1742001121</LineId>
+      <Text>Population légendaire de coquillages</Text>
+    </Text>
+    <Text>
+      <LineId>1742001122</LineId>
+      <Text>Légendaire géologie de l’argent</Text>
+    </Text>
+    <Text>
+      <LineId>1742001123</LineId>
+      <Text>Dépôt d’argent légendaire</Text>
+    </Text>
+    <Text>
+      <LineId>1742001124</LineId>
+      <Text>Légendaires Bancs d’Escargots Murex</Text>
+    </Text>
+    <Text>
+      <LineId>1742001125</LineId>
+      <Text>Population légendaire d’escargots Murex</Text>
+    </Text>
+    <Text>
+      <LineId>1742001126</LineId>
+      <Text>Pièges légendaires à esturgeons</Text>
+    </Text>
+    <Text>
+      <LineId>1742001127</LineId>
+      <Text>Population légendaire d’esturgeons</Text>
+    </Text>
+    <Text>
+      <LineId>1742001128</LineId>
+      <Text>Géologie légendaire de l’étain</Text>
+    </Text>
+    <Text>
+      <LineId>1742001129</LineId>
+      <Text>Dépôt légendaire d’étain</Text>
+    </Text>
+  </ModOp>
+</ModOps>

@@ -1,0 +1,34 @@
+{
+  "ModID": "ixam-ambient-clearview",
+  "Version": "1.0.0",
+  "Anno": 8,
+  "Dependencies": {
+    "Incompatible": [
+      "ixam-ambient-celtic-tweaks",
+      "ixam-ambient-roman-tweaks"
+    ],
+    "LoadAfter": [
+      "ixam-ambient-celtic-tweaks",
+      "ixam-ambient-roman-tweaks"
+    ]
+  },
+  "Difficulty": "unchanged",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "DLCDependencies": null,
+  "CreatorName": "Ixam97",
+  "CreatorContact": "https://github.com/ixam97",
+  "ModName": {
+    "English": "Ambient ClearView"
+  },
+  "Category": {
+    "English": "Misc"
+  },
+  "Description": {
+    "English": "Removes clouds and distantce fade from Latium and Albion to allow for an undisrupted view. Recommended to be used with 'Zoom Out/In Further' by Serp."
+  }
+}

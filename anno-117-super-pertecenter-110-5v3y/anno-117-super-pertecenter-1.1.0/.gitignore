@@ -1,0 +1,36 @@
+# OS junk
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editors / IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+
+# Logs / temp / backups
+*.log
+*.tmp
+*.bak
+~$*
+
+# Node / Python (in case tooling added later)
+node_modules/
+__pycache__/
+*.pyc
+
+# Archive outputs
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+# Ignore generated export caches (adjust if needed)
+export-cache/
+
+# Keep data/ assets under version control
+!data/

@@ -1,0 +1,32 @@
+{
+  "ModID": "doubleproductivity-dukejeans",
+  "Version": "1.0.0",
+  "Anno": 8,
+  "Difficulty": "easier",
+  "GameSetup": {
+    "RequiresNewGame": true,
+    "SafeToRemove": false,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "ModName": {
+    "English": "Lex Annonae: Productivity Decree (2x) (DukeJeans)",
+    "German": "Lex Annonae: Produktivitätsdekret (2x) (DukeJeans)"
+  },
+  "Category": {
+    "English": "Gameplay",
+    "German": "Gameplay"
+  },
+  "Description": {
+    "English": "Enacts the Lex Annonae, doubling the output of all production buildings to secure the Empire's grain supply (and everything else at that point). Requires a New Game.",
+    "German": "Aktiviert die Lex Annonae und verdoppelt die Produktion aller Produktionsgebäude, um die Getreideversorgung des Imperiums (und alles andere zu diesem Zeitpunkt) zu sichern. Erfordert ein neues Spiel."
+  },
+  "CreatorName": "DukeJeans",
+  "CreatorContact": "Discord @dukejeans",
+  "Dependencies": {
+    "Require": [],
+    "Optional": [],
+    "LoadAfter": [],
+    "Deprecate": []
+  }
+}

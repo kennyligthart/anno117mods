@@ -1,0 +1,562 @@
+<ModOps>
+  <!-- Asset ModOp workaround: use it once before you use asset modops -->
+  <ModOp Add="/AssetList/Groups[last()]">
+    <Group>
+      <Assets />
+    </Group>
+  </ModOp>
+
+  <!-- add new public service building Circus Minimus -->
+  <Asset>
+    <Template>Need</Template>
+    <Values>
+      <Standard>
+        <GUID>1999100087</GUID>
+        <Name>Need Roman Wonder Circus Minimus</Name>
+        <IconFilename>data/taludas/ui/icon_3d_wonder_roman_circus_minimus.png</IconFilename>
+      </Standard>
+      <Need>
+        <NeedProduct>1999100088</NeedProduct>
+        <NeedCategoryType>Wonders</NeedCategoryType>
+        <SupplyWeight>4</SupplyWeight>
+        <NeedAttributes>
+          <Population>
+            <Value>3</Value>
+          </Population>
+          <Money>
+            <Value>4</Value>
+          </Money>
+          <Prestige>
+            <Value>6</Value>
+          </Prestige>
+        </NeedAttributes>
+        <NeedDescription>1999100087</NeedDescription>
+      </Need>
+      <Locked />
+      <Text />
+    </Values>
+  </Asset>
+  <Asset>
+    <Template>Product</Template>
+    <Values>
+      <Standard>
+        <GUID>1999100088</GUID>
+        <Name>Service Roman Circus Minimus</Name>
+        <IconFilename>data/taludas/ui/icon_3d_wonder_roman_circus_minimus.png</IconFilename>
+      </Standard>
+      <Text>
+        <OasisId>1999100088</OasisId>
+      </Text>
+      <Locked />
+      <Product>
+        <StorageLevel>Building</StorageLevel>
+        <ProductCategory>-6914369542672157320</ProductCategory>
+        <IsAbstract>1</IsAbstract>
+        <AssociatedRegion>Roman</AssociatedRegion>
+        <ProductionRegions>
+          <Item>
+            <RegionType>Roman</RegionType>
+          </Item>
+        </ProductionRegions>
+      </Product>
+    </Values>
+  </Asset>
+  <Asset>
+    <Template>PublicServiceBuilding</Template>
+    <Values>
+      <Standard>
+        <GUID>1999100089</GUID>
+        <Name>Wonder Roman Circus Minimus</Name>
+        <IconFilename>data/taludas/ui/icon_3d_wonder_roman_circus_minimus.png</IconFilename>
+        <InfoDescription>1999100087</InfoDescription>
+      </Standard>
+      <Building>
+        <BuildingType>Public</BuildingType>
+        <BuildingCategoryName>-6913190920497541985</BuildingCategoryName>
+        <BuildModeRandomRotation>180</BuildModeRandomRotation>
+        <AssociatedRegions>Roman</AssociatedRegions>
+        <DeactivateHideWhenClippingIntoCamera>1</DeactivateHideWhenClippingIntoCamera>
+        <FunctionalEffects>
+          <Item>
+            <FunctionalEffect>1999100090</FunctionalEffect>
+          </Item>
+          <Item>
+            <FunctionalEffect>1999100096</FunctionalEffect>
+          </Item>
+        </FunctionalEffects>
+        <SteepnessMaxHeightDiff>1</SteepnessMaxHeightDiff>
+      </Building>
+      <Blocking>
+        <SuppressesRoundStreetCurves>1</SuppressesRoundStreetCurves>
+      </Blocking>
+      <Cost>
+        <Costs>
+          <Item>
+            <Ingredient>1010017</Ingredient>
+            <Amount>80000</Amount>
+          </Item>
+          <Item>
+            <Ingredient>2174</Ingredient>
+            <Amount>25</Amount>
+          </Item>
+          <Item>
+            <Ingredient>2176</Ingredient>
+            <Amount>15</Amount>
+          </Item>
+          <Item>
+            <Ingredient>2178</Ingredient>
+            <Amount>15</Amount>
+          </Item>
+          <Item>
+            <Ingredient>2179</Ingredient>
+            <Amount>25</Amount>
+          </Item>
+          <Item>
+            <Ingredient>2075</Ingredient>
+            <Amount>15</Amount>
+          </Item>
+        </Costs>
+      </Cost>
+      <Object>
+        <Variations>
+          <Item>
+            <Filename>data/taludas/graphics/circus_minimus/circus_minimus.cfg</Filename>
+          </Item>
+        </Variations>
+      </Object>
+      <Mesh />
+      <Selection>
+        <GUIType>PublicService</GUIType>
+      </Selection>
+      <Text>
+        <OasisId>1999100088</OasisId>
+      </Text>
+      <Constructable />
+      <Locked />
+      <SoundEmitter>
+        <OBJ_Active>
+          <Item>
+            <Sound>36217</Sound>
+          </Item>
+        </OBJ_Active>
+      </SoundEmitter>
+      <FeedbackController>
+        <NightBehavior>HideNone</NightBehavior>
+        <ShouldDisableFeedbackOnThreat>0</ShouldDisableFeedbackOnThreat>
+      </FeedbackController>
+      <Infolayer />
+      <PublicService>
+        <MoodImage>data/ui/fhd/base/features/ompublicservices/image_watermark_publicservice_default_278x156.png</MoodImage>
+        <PublicServiceEffect>1999100092</PublicServiceEffect>
+      </PublicService>
+      <AmbientMoodProvider>
+        <Murmur>Colosseum_Default</Murmur>
+        <DynamicEnvironmentType>BuildingResidence</DynamicEnvironmentType>
+      </AmbientMoodProvider>
+      <Maintenance>
+        <Maintenances>
+          <Item>
+            <Product>1010017</Product>
+            <Amount>250</Amount>
+          </Item>
+          <Item>
+            <Product>2184</Product>
+            <Amount>25</Amount>
+          </Item>
+          <Item>
+            <Product>2181</Product>
+            <Amount>50</Amount>
+          </Item>
+        </Maintenances>
+        <ConsumerPriority>3</ConsumerPriority>
+      </Maintenance>
+      <Health>
+        <BaseHealth>6250</BaseHealth>
+        <SelfHealPerHealTick>5</SelfHealPerHealTick>
+        <PassiveRuinRepairTime>2400000</PassiveRuinRepairTime>
+        <DestructionWarScore>1080</DestructionWarScore>
+      </Health>
+      <Pausable />
+      <IncidentInfectable>
+        <Infectable>
+          <Fire>
+            <HeatValue>2</HeatValue>
+          </Fire>
+          <Riot>
+            <HeatValue>2</HeatValue>
+          </Riot>
+          <Illness>
+            <HeatValue>2</HeatValue>
+          </Illness>
+        </Infectable>
+        <DestructionScore>115</DestructionScore>
+      </IncidentInfectable>
+      <Culture />
+      <AqueductConsumer>
+        <AqueductConsumptionType>Mandatory</AqueductConsumptionType>
+        <AqueductConsumedWaterSupply>15</AqueductConsumedWaterSupply>
+      </AqueductConsumer>
+      <Buffable />
+      <AttributeProvider>
+        <Population>1497</Population>
+      </AttributeProvider>
+      <EffectSource>
+        <RadiusDistance>150</RadiusDistance>
+        <StreetDistance>154</StreetDistance>
+      </EffectSource>
+      <StreetActivation />
+      <LogisticNode />
+      <DynamicVariation />
+      <Romanization />
+      <Threatable />
+    </Values>
+  </Asset>
+  <Asset>
+    <Template>Effect</Template>
+    <Values>
+      <Standard>
+        <GUID>1999100090</GUID>
+        <Name>Effect Circus Minimus Building</Name>
+        <IconFilename>data/taludas/ui/icon_3d_wonder_roman_circus_minimus.png</IconFilename>
+      </Standard>
+      <Effect>
+        <EffectScope>StreetDistance</EffectScope>
+        <SourceCategory>Adjacency</SourceCategory>
+        <Buffs>
+          <Item>
+            <GUID>1999100091</GUID>
+          </Item>
+        </Buffs>
+        <Targets>
+          <Item>
+            <GUID>3087</GUID>
+          </Item>
+          <Item>
+            <GUID>3141</GUID>
+          </Item>
+        </Targets>
+        <ExcludeEffectSourceGUID>1</ExcludeEffectSourceGUID>
+        <HideInStatisticScreen>1</HideInStatisticScreen>
+      </Effect>
+      <Text>
+        <OasisId>1999100090</OasisId>
+      </Text>
+    </Values>
+  </Asset>
+  <Asset>
+    <Template>BuildingBuff</Template>
+    <Values>
+      <Standard>
+        <GUID>1999100091</GUID>
+        <Name>Buff Circus Minimus Building</Name>
+        <IconFilename>data/taludas/ui/icon_3d_wonder_roman_circus_minimus.png</IconFilename>
+      </Standard>
+      <Text>
+        <OasisId>1999100090</OasisId>
+      </Text>
+      <HealthUpgrade />
+      <BuildingUpgrade>
+        <AdditionalAttributes>
+          <Happiness>
+            <AmountOrPercent>
+              <Value>6</Value>
+              <Percental>0</Percental>
+            </AmountOrPercent>
+          </Happiness>
+        </AdditionalAttributes>
+      </BuildingUpgrade>
+      <DistributionUpgrade />
+      <Buff>
+        <SourceCategory>Adjacency</SourceCategory>
+      </Buff>
+      <ResidenceUpgrade />
+      <FactoryUpgrade />
+      <ModuleOwnerUpgrade />
+      <CityInstitutionUpgrade />
+      <IncidentInfectableUpgrade />
+      <RecruitmentUpgrade />
+      <AqueductUpgrade />
+      <WarehouseUpgrade />
+      <IrrigationUpgrade />
+      <MaintenanceUpgrade />
+    </Values>
+  </Asset>
+  <Asset>
+    <Template>Effect</Template>
+    <Values>
+      <Standard>
+        <GUID>1999100096</GUID>
+        <Name>Effect Circus Minimus Building negative</Name>
+        <IconFilename>data/taludas/ui/icon_3d_wonder_roman_circus_minimus.png</IconFilename>
+      </Standard>
+      <Effect>
+        <EffectScope>StreetDistance</EffectScope>
+        <SourceCategory>Adjacency</SourceCategory>
+        <Buffs>
+          <Item>
+            <GUID>1999100097</GUID>
+          </Item>
+        </Buffs>
+        <Targets>
+          <Item>
+            <GUID>3087</GUID>
+          </Item>
+          <Item>
+            <GUID>3141</GUID>
+          </Item>
+        </Targets>
+        <ExcludeEffectSourceGUID>1</ExcludeEffectSourceGUID>
+        <EffectIconCategory>Negative</EffectIconCategory>
+        <HideInStatisticScreen>1</HideInStatisticScreen>
+      </Effect>
+      <Text>
+        <OasisId>1999100090</OasisId>
+      </Text>
+    </Values>
+  </Asset>
+  <Asset>
+    <Template>BuildingBuff</Template>
+    <Values>
+      <Standard>
+        <GUID>1999100097</GUID>
+        <Name>Buff Circus Minimus Building negative</Name>
+        <IconFilename>data/taludas/ui/icon_3d_wonder_roman_circus_minimus.png</IconFilename>
+      </Standard>
+      <Text>
+        <OasisId>1999100090</OasisId>
+      </Text>
+      <HealthUpgrade />
+      <BuildingUpgrade>
+        <AdditionalAttributes>
+          <Money>
+            <AmountOrPercent>
+              <Value>-4</Value>
+              <Percental>0</Percental>
+            </AmountOrPercent>
+          </Money>
+          <Health>
+            <AmountOrPercent>
+              <Value>-2</Value>
+              <Percental>0</Percental>
+            </AmountOrPercent>
+          </Health>
+        </AdditionalAttributes>
+      </BuildingUpgrade>
+      <DistributionUpgrade />
+      <Buff>
+        <SourceCategory>Adjacency</SourceCategory>
+      </Buff>
+      <ResidenceUpgrade />
+      <FactoryUpgrade />
+      <ModuleOwnerUpgrade />
+      <CityInstitutionUpgrade />
+      <IncidentInfectableUpgrade />
+      <RecruitmentUpgrade />
+      <AqueductUpgrade />
+      <WarehouseUpgrade />
+      <IrrigationUpgrade />
+      <MaintenanceUpgrade />
+    </Values>
+  </Asset>
+  <Asset>
+    <Template>Effect</Template>
+    <Values>
+      <Standard>
+        <GUID>1999100092</GUID>
+        <Name>Effect Roman Circus Minimus Service</Name>
+        <IconFilename>data/taludas/ui/icon_3d_wonder_roman_circus_minimus.png</IconFilename>
+      </Standard>
+      <Effect>
+        <EffectScope>StreetDistance</EffectScope>
+        <SourceCategory>Adjacency</SourceCategory>
+        <Buffs>
+          <Item>
+            <GUID>1999100093</GUID>
+          </Item>
+        </Buffs>
+        <Targets>
+          <Item>
+            <GUID>68479</GUID>
+          </Item>
+        </Targets>
+      </Effect>
+      <Text>
+        <OasisId>1999100090</OasisId>
+      </Text>
+    </Values>
+  </Asset>
+  <Asset>
+    <Template>BuildingBuff</Template>
+    <Values>
+      <Standard>
+        <GUID>1999100093</GUID>
+        <Name>Buff Roman Circus Minimus Service</Name>
+        <IconFilename>data/taludas/ui/icon_3d_wonder_roman_circus_minimus.png</IconFilename>
+      </Standard>
+      <Text>
+        <OasisId>1999100090</OasisId>
+      </Text>
+      <HealthUpgrade />
+      <BuildingUpgrade />
+      <DistributionUpgrade />
+      <Buff>
+        <SourceCategory>Adjacency</SourceCategory>
+      </Buff>
+      <ResidenceUpgrade>
+        <ProvidedNeedUpgrade>
+          <Item>
+            <ProvidedNeed>1999100087</ProvidedNeed>
+          </Item>
+        </ProvidedNeedUpgrade>
+      </ResidenceUpgrade>
+      <FactoryUpgrade />
+      <ModuleOwnerUpgrade />
+      <CityInstitutionUpgrade />
+      <IncidentInfectableUpgrade />
+      <RecruitmentUpgrade />
+      <AqueductUpgrade />
+      <WarehouseUpgrade />
+      <IrrigationUpgrade />
+      <MaintenanceUpgrade />
+    </Values>
+  </Asset>
+  <Asset>
+    <Template>TriggerIntermediateLevel</Template>
+    <Values>
+      <Standard>
+        <GUID>1999100095</GUID>
+        <Name>Unhide Circus Minimus with Forum/Bath</Name>
+      </Standard>
+      <Locked/>
+      <Trigger>
+        <TriggerCondition>
+          <Template>ConditionPlayerCounter</Template>
+          <Values>
+            <Condition />
+            <ConditionPlayerCounter>
+              <PlayerCounter>PopulationByLevel</PlayerCounter>
+              <Context>1497</Context>
+              <CounterAmount>500</CounterAmount>
+            </ConditionPlayerCounter>
+            <ConditionLocationProps />
+            <ConditionCounterProps />
+            <ConditionPropsComparable />
+          </Values>
+        </TriggerCondition>
+        <TriggerActions>
+          <Item>
+            <TriggerAction>
+              <Template>ActionUnlockAsset</Template>
+              <Values>
+                <Action />
+                <ActionUnlockAsset>
+                  <UnhideAssets>
+                    <Item>
+                      <Asset>1999100089</Asset>
+                    </Item>
+                    <Item>
+                      <Asset>1999100088</Asset>
+                    </Item>
+                  </UnhideAssets>
+                </ActionUnlockAsset>
+              </Values>
+            </TriggerAction>
+          </Item>
+        </TriggerActions>
+      </Trigger>
+      <TriggerSetup/>
+    </Values>
+  </Asset>
+  <Asset>
+    <Template>TriggerIntermediateLevel</Template>
+    <Values>
+      <Standard>
+        <GUID>1999100094</GUID>
+        <Name>Unlock Circus Minimus with Forum/Bath</Name>
+      </Standard>
+      <Locked/>
+      <Trigger>
+        <TriggerCondition>
+          <Template>ConditionPlayerCounter</Template>
+          <Values>
+            <Condition />
+            <ConditionPlayerCounter>
+              <PlayerCounter>PopulationByLevel</PlayerCounter>
+              <Context>1497</Context>
+              <CounterAmount>800</CounterAmount>
+            </ConditionPlayerCounter>
+            <ConditionLocationProps />
+            <ConditionCounterProps />
+            <ConditionPropsComparable />
+          </Values>
+        </TriggerCondition>
+        <TriggerActions>
+          <Item>
+            <TriggerAction>
+              <Template>ActionUnlockAsset</Template>
+              <Values>
+                <Action />
+                <ActionUnlockAsset>
+                  <UnlockAssets>
+                    <Item>
+                      <Asset>1999100089</Asset>
+                    </Item>
+                    <Item>
+                      <Asset>1999100088</Asset>
+                    </Item>
+                  </UnlockAssets>
+                </ActionUnlockAsset>
+              </Values>
+            </TriggerAction>
+          </Item>
+        </TriggerActions>
+      </Trigger>
+      <TriggerSetup/>
+    </Values>
+  </Asset>
+
+  <!-- add to relevant pools -->
+  <ModOp Add="@50226/AssetPool/AssetList">
+    <Item>
+      <Asset>1999100089</Asset>
+    </Item>
+  </ModOp>
+  <ModOp Add="@31973/AssetPool/AssetList">
+    <Item>
+      <Asset>1999100089</Asset>
+    </Item>
+  </ModOp>
+  <ModOp Add="@113133/Parade/PreferredSpawnBuildings">
+    <Item>
+      <Building>1999100089</Building>
+    </Item>
+  </ModOp>
+  <ModOp Add="@71199/AssetPool/AssetList">
+    <Item>
+      <Asset>1999100089</Asset>
+    </Item>
+  </ModOp>
+  <ModOp Add="@41364/ConstructionCategory/BuildingList">
+    <Item>
+      <Building>1999100089</Building>
+    </Item>
+  </ModOp>
+  <ModOp Add="@3948/Trigger/TriggerActions/Item[2]/TriggerAction/Values/ActionNotification/Notification/Values/MainNotification/IntermediateUnlockIcons">
+    <Item>
+      <Icon>1999100089</Icon>
+    </Item>
+  </ModOp>
+  <ModOp Add="@3142/Residence7/NeedsList">
+    <Item>
+      <Need>1999100087</Need>
+    </Item>
+  </ModOp>
+  <ModOp Merge="@3142/Residence7/UpgradeThreshold/Wonders">
+    <Value>8</Value>
+  </ModOp>
+  <ModOp Add="@27449/NeedsUnlockNotificationScene/NotificationsPerRegion/Roman/Notifications/Item[Needs/Item/Need = '2755']/Needs">
+    <Item>
+      <Need>1999100087</Need>
+    </Item>
+  </ModOp>
+</ModOps>

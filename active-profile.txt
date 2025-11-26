@@ -7,20 +7,34 @@
 EnableNewMods
 
 citywatch-island-radius
+doubleproductivity-dukejeans
 # free-farmfields-ubi
 hot-reload-ubi
 # hotoki-depotstorage-x10
 # infinite-material-ubi
 # infinite-money-ubi
+ixam-ambient-clearview
 # kennys-3x-wood-production
 kennys-aqueduct-island-wide
 kennys-aqueduct-production-buff
-kennys-fast-craftingtimes-for-ships
-kennys-fast-ships
-kennys-harbor-storage
-# kennys-region-workforce # not installed
+# kennys-fast-craftingtimes-for-ships
+# kennys-fast-ships
+# kennys-harbor-storage
 kennys-silo-production-buff
+low-transfer-times-anno117
 public-service-buildings-island-radius
 # remove-items-cheats
+researchtreeexpanded-storage
+sheep-cheese-cheap-orange
+super-pertecenter-mod
+super-specialists-mod
+taludas-circusminimus
+taludas-fasterfastgamespeed
+taludas-increaseharbourarea
+the-perfect-fertilities-pack-hier0nimus
 trader-specialists-cheats
+unhide-all-ships-and-buildings-serp
 villa-radius
+villaislandrange-dukejeans
+warehouse-fast-unloading
+zoom-out-further-serp

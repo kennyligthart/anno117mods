@@ -1,0 +1,524 @@
+<ModOps>
+  <ModOp Add="//TextExport/Texts">
+    <Text>
+      <LineId>1742001000</LineId>
+      <Text>Leinsamen</Text>
+    </Text>
+    <Text>
+      <LineId>1742001001</LineId>
+      <Text>Liefere der Insel die Flachsfruchtbarkeit.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001002</LineId>
+      <Text>Flachsfruchtbarkeit</Text>
+    </Text>
+    <Text>
+      <LineId>1742001003</LineId>
+      <Text>Gerstensamen</Text>
+    </Text>
+    <Text>
+      <LineId>1742001004</LineId>
+      <Text>Die Gerstenfruchtbarkeit auf eine Insel bringen.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001005</LineId>
+      <Text>Gerstenfruchtbarkeit</Text>
+    </Text>
+    <Text>
+      <LineId>1742001006</LineId>
+      <Text>Biberfallen</Text>
+    </Text>
+    <Text>
+      <LineId>1742001007</LineId>
+      <Text>Die Biberpopulation auf einer Insel bereitstellen.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001008</LineId>
+      <Text>Biberpopulation</Text>
+    </Text>
+    <Text>
+      <LineId>1742001009</LineId>
+      <Text>Vogelfallen</Text>
+    </Text>
+    <Text>
+      <LineId>1742001010</LineId>
+      <Text>Stellen Sie die Vogelpopulation auf eine Insel bereit.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001011</LineId>
+      <Text>Vögelpopulation</Text>
+    </Text>
+    <Text>
+      <LineId>1742001012</LineId>
+      <Text>Kupfergeologie</Text>
+    </Text>
+    <Text>
+      <LineId>1742001013</LineId>
+      <Text>Stellen Sie der Insel das Kupfervorkommen zur Verfügung.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001014</LineId>
+      <Text>Kupfervorkommen</Text>
+    </Text>
+    <Text>
+      <LineId>1742001015</LineId>
+      <Text>Zypressensetzlinge</Text>
+    </Text>
+    <Text>
+      <LineId>1742001016</LineId>
+      <Text>Einer Insel die Fruchtbarkeit der Zypren verleihen.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001017</LineId>
+      <Text>Zypressenfruchtbarkeit</Text>
+    </Text>
+    <Text>
+      <LineId>1742001018</LineId>
+      <Text>Pflanzen Samen färben</Text>
+    </Text>
+    <Text>
+      <LineId>1742001019</LineId>
+      <Text>Bereite den Farbstoffpflanzen eine Insel Fruchtbarkeit.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001020</LineId>
+      <Text>Fruchtbarkeit von Färbepflanzen</Text>
+    </Text>
+    <Text>
+      <LineId>1742001021</LineId>
+      <Text>Goldgeologie</Text>
+    </Text>
+    <Text>
+      <LineId>1742001022</LineId>
+      <Text>Stellen Sie einer Insel das Golderzvorkommen zur Verfügung.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001023</LineId>
+      <Text>Golderzvorkommen</Text>
+    </Text>
+    <Text>
+      <LineId>1742001024</LineId>
+      <Text>Granitgeologie</Text>
+    </Text>
+    <Text>
+      <LineId>1742001025</LineId>
+      <Text>Stellen Sie der Insel das Granitvorkommen zur Verfügung.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001026</LineId>
+      <Text>Granitvorkommen</Text>
+    </Text>
+    <Text>
+      <LineId>1742001027</LineId>
+      <Text>Trauben und Setzlinge</Text>
+    </Text>
+    <Text>
+      <LineId>1742001028</LineId>
+      <Text>Den Trauben eine Insel fruchtbar machen.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001029</LineId>
+      <Text>Fruchtbarkeit der Trauben</Text>
+    </Text>
+    <Text>
+      <LineId>1742001030</LineId>
+      <Text>Kräutersamen</Text>
+    </Text>
+    <Text>
+      <LineId>1742001031</LineId>
+      <Text>Bereite der Insel die Kräuter Fruchtbarkeit.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001032</LineId>
+      <Text>Kräuterfruchtbarkeit</Text>
+    </Text>
+    <Text>
+      <LineId>1742001033</LineId>
+      <Text>Eisengeologie</Text>
+    </Text>
+    <Text>
+      <LineId>1742001034</LineId>
+      <Text>Stell der Insel das Eisenvorkommen zur Verfügung.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001035</LineId>
+      <Text>Eisenvorkommen</Text>
+    </Text>
+    <Text>
+      <LineId>1742001036</LineId>
+      <Text>Lavendelsetzlinge</Text>
+    </Text>
+    <Text>
+      <LineId>1742001037</LineId>
+      <Text>Liefere einer Insel die Lavendelfruchtbarkeit.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001038</LineId>
+      <Text>Lavendelfruchtbarkeit</Text>
+    </Text>
+    <Text>
+      <LineId>1742001039</LineId>
+      <Text>Mackarels Fallen</Text>
+    </Text>
+    <Text>
+      <LineId>1742001040</LineId>
+      <Text>Stellen Sie die Population der Mackarels auf eine Insel zur Verfügung.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001041</LineId>
+      <Text>Bevölkerung der Mackarels</Text>
+    </Text>
+    <Text>
+      <LineId>1742001042</LineId>
+      <Text>Marmorgeologie</Text>
+    </Text>
+    <Text>
+      <LineId>1742001043</LineId>
+      <Text>Stellen Sie der Insel das Marmorvorkommen zur Verfügung.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001044</LineId>
+      <Text>Marmorvorkommen</Text>
+    </Text>
+    <Text>
+      <LineId>1742001045</LineId>
+      <Text>Mineralgeologie</Text>
+    </Text>
+    <Text>
+      <LineId>1742001046</LineId>
+      <Text>Stellen Sie der Insel die Mineralvorkommen zur Verfügung.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001047</LineId>
+      <Text>Mineralvorkommen</Text>
+    </Text>
+    <Text>
+      <LineId>1742001048</LineId>
+      <Text>Olivensetzlinge</Text>
+    </Text>
+    <Text>
+      <LineId>1742001049</LineId>
+      <Text>Bringen Sie der Olive Fruchtbarkeit auf eine Insel.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001050</LineId>
+      <Text>Olivenfruchtbarkeit</Text>
+    </Text>
+    <Text>
+      <LineId>1742001051</LineId>
+      <Text>Austernbänke</Text>
+    </Text>
+    <Text>
+      <LineId>1742001052</LineId>
+      <Text>Stellen Sie die Austernpopulation auf eine Insel bereit.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001053</LineId>
+      <Text>Austernpopulation</Text>
+    </Text>
+    <Text>
+      <LineId>1742001054</LineId>
+      <Text>Pony-Grasländer</Text>
+    </Text>
+    <Text>
+      <LineId>1742001055</LineId>
+      <Text>Stellen Sie die Pony-Population auf eine Insel bereit.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001056</LineId>
+      <Text>Pony-Population</Text>
+    </Text>
+    <Text>
+      <LineId>1742001057</LineId>
+      <Text>Harzsetzlinge</Text>
+    </Text>
+    <Text>
+      <LineId>1742001058</LineId>
+      <Text>Biete einer Insel die Harzfruchtbarkeit zu.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001059</LineId>
+      <Text>Harzfruchtbarkeit</Text>
+    </Text>
+    <Text>
+      <LineId>1742001060</LineId>
+      <Text>Salzwürzbänke</Text>
+    </Text>
+    <Text>
+      <LineId>1742001061</LineId>
+      <Text>Bereite der Salzkraut-Fruchtbarkeit auf einer Insel.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001062</LineId>
+      <Text>Salzkrautfruchtbarkeit</Text>
+    </Text>
+    <Text>
+      <LineId>1742001063</LineId>
+      <Text>Muschelbänke</Text>
+    </Text>
+    <Text>
+      <LineId>1742001064</LineId>
+      <Text>Stellen Sie der Muschelpopulation auf eine Insel zur Verfügung.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001065</LineId>
+      <Text>Muschelpopulation</Text>
+    </Text>
+    <Text>
+      <LineId>1742001066</LineId>
+      <Text>Silbergeologie</Text>
+    </Text>
+    <Text>
+      <LineId>1742001067</LineId>
+      <Text>Stellen Sie der Insel das Silbervorkommen zur Verfügung.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001068</LineId>
+      <Text>Silberlagerstätte</Text>
+    </Text>
+    <Text>
+      <LineId>1742001069</LineId>
+      <Text>Murex-Schneckenbänke</Text>
+    </Text>
+    <Text>
+      <LineId>1742001070</LineId>
+      <Text>Stellen Sie die Murex-Schneckenpopulation auf einer Insel bereit.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001071</LineId>
+      <Text>Murex-Schneckenpopulation</Text>
+    </Text>
+    <Text>
+      <LineId>1742001072</LineId>
+      <Text>Störfallen</Text>
+    </Text>
+    <Text>
+      <LineId>1742001073</LineId>
+      <Text>Stellen Sie die Störpopulation auf einer Insel bereit.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001074</LineId>
+      <Text>Störpopulation</Text>
+    </Text>
+    <Text>
+      <LineId>1742001075</LineId>
+      <Text>Zinngeologie</Text>
+    </Text>
+    <Text>
+      <LineId>1742001076</LineId>
+      <Text>Stellen Sie das Zinnvorkommen einer Insel zur Verfügung.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001077</LineId>
+      <Text>Zinnvorkommen</Text>
+    </Text>
+    <Text>
+      <LineId>1742001078</LineId>
+      <Text>Legendäre Leinsamen</Text>
+    </Text>
+    <Text>
+      <LineId>1742001079</LineId>
+      <Text>Legendäre Flachsfruchtbarkeit</Text>
+    </Text>
+    <Text>
+      <LineId>1742001079</LineId>
+      <Text>Legendäre Gerstensamen</Text>
+    </Text>
+    <Text>
+      <LineId>1742001081</LineId>
+      <Text>Legendäre Gerstenfruchtbarkeit</Text>
+    </Text>
+    <Text>
+      <LineId>1742001082</LineId>
+      <Text>Legendäre Biberfallen</Text>
+    </Text>
+    <Text>
+      <LineId>1742001083</LineId>
+      <Text>Legendäre Biberpopulation</Text>
+    </Text>
+    <Text>
+      <LineId>1742001084</LineId>
+      <Text>Legendäre Vogelfallen</Text>
+    </Text>
+    <Text>
+      <LineId>1742001085</LineId>
+      <Text>Population legendärer Vögel</Text>
+    </Text>
+    <Text>
+      <LineId>1742001086</LineId>
+      <Text>Legendäre Kupfergeologie</Text>
+    </Text>
+    <Text>
+      <LineId>1742001087</LineId>
+      <Text>Legendäres Kupfervorkommen</Text>
+    </Text>
+    <Text>
+      <LineId>1742001088</LineId>
+      <Text>Legendäre Zypressensetzlinge</Text>
+    </Text>
+    <Text>
+      <LineId>1742001089</LineId>
+      <Text>Legendäre Zypressenfruchtbarkeit</Text>
+    </Text>
+    <Text>
+      <LineId>1742001090</LineId>
+      <Text>Legendäre Farbstoffpflanzensamen</Text>
+    </Text>
+    <Text>
+      <LineId>1742001091</LineId>
+      <Text>Fruchtbarkeit legendärer Farbstoffe</Text>
+    </Text>
+    <Text>
+      <LineId>1742001092</LineId>
+      <Text>Legendäre Goldgeologie</Text>
+    </Text>
+    <Text>
+      <LineId>1742001093</LineId>
+      <Text>Legendäres Golderzvorkommen</Text>
+    </Text>
+    <Text>
+      <LineId>1742001094</LineId>
+      <Text>Legendäre Granitgeologie</Text>
+    </Text>
+    <Text>
+      <LineId>1742001095</LineId>
+      <Text>Legendäre Granitlagerstätte</Text>
+    </Text>
+    <Text>
+      <LineId>1742001096</LineId>
+      <Text>Legendäre Traubensetzlinge</Text>
+    </Text>
+    <Text>
+      <LineId>1742001097</LineId>
+      <Text>Legendäre Fruchtbarkeit der Trauben</Text>
+    </Text>
+    <Text>
+      <LineId>1742001098</LineId>
+      <Text>Legendäre Kräutersamen</Text>
+    </Text>
+    <Text>
+      <LineId>1742001099</LineId>
+      <Text>Fruchtbarkeit legendärer Kräuter</Text>
+    </Text>
+    <Text>
+      <LineId>1742001100</LineId>
+      <Text>Legendäre Eisengeologie</Text>
+    </Text>
+    <Text>
+      <LineId>1742001101</LineId>
+      <Text>Legendäres Eisenvorkommen</Text>
+    </Text>
+    <Text>
+      <LineId>1742001102</LineId>
+      <Text>Legendäre Lavendelsetzlinge</Text>
+    </Text>
+    <Text>
+      <LineId>1742001103</LineId>
+      <Text>Legendäre Lavendelfruchtbarkeit</Text>
+    </Text>
+    <Text>
+      <LineId>1742001104</LineId>
+      <Text>Legendäre Mackarel-Fallen</Text>
+    </Text>
+    <Text>
+      <LineId>1742001105</LineId>
+      <Text>Legendäre Mackarel-Bevölkerung</Text>
+    </Text>
+    <Text>
+      <LineId>1742001106</LineId>
+      <Text>Legendäre Marmorgeologie</Text>
+    </Text>
+    <Text>
+      <LineId>1742001107</LineId>
+      <Text>Legendäres Marmorvorkommen</Text>
+    </Text>
+    <Text>
+      <LineId>1742001108</LineId>
+      <Text>Legendäre Mineraliengeologie</Text>
+    </Text>
+    <Text>
+      <LineId>1742001109</LineId>
+      <Text>Legendäre Mineralienvorkommen</Text>
+    </Text>
+    <Text>
+      <LineId>1742001110</LineId>
+      <Text>Legendäre Olivensetzlinge</Text>
+    </Text>
+    <Text>
+      <LineId>1742001111</LineId>
+      <Text>Legendäre Olivenfruchtbarkeit</Text>
+    </Text>
+    <Text>
+      <LineId>1742001112</LineId>
+      <Text>Legendäre Austernbänke</Text>
+    </Text>
+    <Text>
+      <LineId>1742001113</LineId>
+      <Text>Legendäre Austernpopulation</Text>
+    </Text>
+    <Text>
+      <LineId>1742001114</LineId>
+      <Text>Legendäre Pony-Grasländer</Text>
+    </Text>
+    <Text>
+      <LineId>1742001115</LineId>
+      <Text>Legendäre Pony-Population</Text>
+    </Text>
+    <Text>
+      <LineId>1742001116</LineId>
+      <Text>Legendäre Harzsetzlinge</Text>
+    </Text>
+    <Text>
+      <LineId>1742001117</LineId>
+      <Text>Legendäre Harzfruchtbarkeit</Text>
+    </Text>
+    <Text>
+      <LineId>1742001118</LineId>
+      <Text>Legendäre Salzwürzbänke</Text>
+    </Text>
+    <Text>
+      <LineId>1742001119</LineId>
+      <Text>Legendäre Salzkrautfruchtbarkeit</Text>
+    </Text>
+    <Text>
+      <LineId>1742001120</LineId>
+      <Text>Legendäre Muschelbänke</Text>
+    </Text>
+    <Text>
+      <LineId>1742001121</LineId>
+      <Text>Legendäre Muschelpopulation</Text>
+    </Text>
+    <Text>
+      <LineId>1742001122</LineId>
+      <Text>Legendäre Silbergeologie</Text>
+    </Text>
+    <Text>
+      <LineId>1742001123</LineId>
+      <Text>Legendäres Silbervorkommen</Text>
+    </Text>
+    <Text>
+      <LineId>1742001124</LineId>
+      <Text>Legendäre Murex-Schneckenbänke</Text>
+    </Text>
+    <Text>
+      <LineId>1742001125</LineId>
+      <Text>Legendäre Murex-Schneckenpopulation</Text>
+    </Text>
+    <Text>
+      <LineId>1742001126</LineId>
+      <Text>Legendäre Störfallen</Text>
+    </Text>
+    <Text>
+      <LineId>1742001127</LineId>
+      <Text>Legendäre Störpopulation</Text>
+    </Text>
+    <Text>
+      <LineId>1742001128</LineId>
+      <Text>Legendäre Zinngeologie</Text>
+    </Text>
+    <Text>
+      <LineId>1742001129</LineId>
+      <Text>Legendäre Zinnvorkommen</Text>
+    </Text>
+  </ModOp>
+</ModOps>

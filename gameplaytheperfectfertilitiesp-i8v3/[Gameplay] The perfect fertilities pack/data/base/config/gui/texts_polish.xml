@@ -1,0 +1,524 @@
+<ModOps>
+  <ModOp Add="//TextExport/Texts">
+    <Text>
+      <LineId>1742001000</LineId>
+      <Text>Siemie lnu</Text>
+    </Text>
+    <Text>
+      <LineId>1742001001</LineId>
+      <Text>Zapewnij lenną płodność wyspie.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001002</LineId>
+      <Text>Płodność lnu</Text>
+    </Text>
+    <Text>
+      <LineId>1742001003</LineId>
+      <Text>Nasiona jęczmienia</Text>
+    </Text>
+    <Text>
+      <LineId>1742001004</LineId>
+      <Text>Zapewnij jęczmieniu płodność wyspie.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001005</LineId>
+      <Text>Żyzność jęczmienia</Text>
+    </Text>
+    <Text>
+      <LineId>1742001006</LineId>
+      <Text>Pułapki na bobry</Text>
+    </Text>
+    <Text>
+      <LineId>1742001007</LineId>
+      <Text>Zapewnij populację Bobrów na wyspie.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001008</LineId>
+      <Text>Populacja bobrów</Text>
+    </Text>
+    <Text>
+      <LineId>1742001009</LineId>
+      <Text>Pułapki na ptaki</Text>
+    </Text>
+    <Text>
+      <LineId>1742001010</LineId>
+      <Text>Zapewnij populację ptaków na wyspie.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001011</LineId>
+      <Text>Populacja ptaków</Text>
+    </Text>
+    <Text>
+      <LineId>1742001012</LineId>
+      <Text>Geologia miedzi</Text>
+    </Text>
+    <Text>
+      <LineId>1742001013</LineId>
+      <Text>Dostarcz złoże miedzi na wyspę.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001014</LineId>
+      <Text>Złoże miedzi</Text>
+    </Text>
+    <Text>
+      <LineId>1742001015</LineId>
+      <Text>Sadzonki cyprysu</Text>
+    </Text>
+    <Text>
+      <LineId>1742001016</LineId>
+      <Text>Zapewnij cyprysowi płodność na wyspie.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001017</LineId>
+      <Text>Żyzność cyprysu</Text>
+    </Text>
+    <Text>
+      <LineId>1742001018</LineId>
+      <Text>Nasiona barwników roślin</Text>
+    </Text>
+    <Text>
+      <LineId>1742001019</LineId>
+      <Text>Zapewnij roślinom barwiącym płodność wyspie.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001020</LineId>
+      <Text>Żyzność roślin barwnikowych</Text>
+    </Text>
+    <Text>
+      <LineId>1742001021</LineId>
+      <Text>Geologia złota</Text>
+    </Text>
+    <Text>
+      <LineId>1742001022</LineId>
+      <Text>Dostarcz złoże rudy złota na wyspę.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001023</LineId>
+      <Text>Złoże rudy złota</Text>
+    </Text>
+    <Text>
+      <LineId>1742001024</LineId>
+      <Text>Geologia granitu</Text>
+    </Text>
+    <Text>
+      <LineId>1742001025</LineId>
+      <Text>Dostarcz złoże granitu na wyspę.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001026</LineId>
+      <Text>Złoże granitu</Text>
+    </Text>
+    <Text>
+      <LineId>1742001027</LineId>
+      <Text>Sadzonki winogrona</Text>
+    </Text>
+    <Text>
+      <LineId>1742001028</LineId>
+      <Text>Zapewnij Winogronom płodność na wyspie.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001029</LineId>
+      <Text>Płodność winogron</Text>
+    </Text>
+    <Text>
+      <LineId>1742001030</LineId>
+      <Text>Nasiona ziół</Text>
+    </Text>
+    <Text>
+      <LineId>1742001031</LineId>
+      <Text>Zapewnij rośliny roślin płodność wyspie.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001032</LineId>
+      <Text>Żyzność ziół</Text>
+    </Text>
+    <Text>
+      <LineId>1742001033</LineId>
+      <Text>Geologia żelaza</Text>
+    </Text>
+    <Text>
+      <LineId>1742001034</LineId>
+      <Text>Dostarcz złoże żelaza na wyspę.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001035</LineId>
+      <Text>Złoże żelaza</Text>
+    </Text>
+    <Text>
+      <LineId>1742001036</LineId>
+      <Text>Sadzonki lawendy</Text>
+    </Text>
+    <Text>
+      <LineId>1742001037</LineId>
+      <Text>Zapewnij Lawendową płodność wyspie.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001038</LineId>
+      <Text>Lawendowa płodność</Text>
+    </Text>
+    <Text>
+      <LineId>1742001039</LineId>
+      <Text>Pułapki Mackarels</Text>
+    </Text>
+    <Text>
+      <LineId>1742001040</LineId>
+      <Text>Zapewnij populację Mackarels na wyspie.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001041</LineId>
+      <Text>Ludność Mackarels</Text>
+    </Text>
+    <Text>
+      <LineId>1742001042</LineId>
+      <Text>Geologia marmuru</Text>
+    </Text>
+    <Text>
+      <LineId>1742001043</LineId>
+      <Text>Dostarcz Marmurowy depozyt na wyspie.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001044</LineId>
+      <Text>Złoże marmuru</Text>
+    </Text>
+    <Text>
+      <LineId>1742001045</LineId>
+      <Text>Geologia minerałów</Text>
+    </Text>
+    <Text>
+      <LineId>1742001046</LineId>
+      <Text>Dostarcz złoża minerałów na wyspę.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001047</LineId>
+      <Text>Złoże mineralne</Text>
+    </Text>
+    <Text>
+      <LineId>1742001048</LineId>
+      <Text>Sadzonki oliwek</Text>
+    </Text>
+    <Text>
+      <LineId>1742001049</LineId>
+      <Text>Zapewnij roślinność oliwek wyspie.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001050</LineId>
+      <Text>Płodność oliwek</Text>
+    </Text>
+    <Text>
+      <LineId>1742001051</LineId>
+      <Text>Oyster Banks</Text>
+    </Text>
+    <Text>
+      <LineId>1742001052</LineId>
+      <Text>Dostarcz populację ostryg na wyspę.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001053</LineId>
+      <Text>Populacja ostryg</Text>
+    </Text>
+    <Text>
+      <LineId>1742001054</LineId>
+      <Text>Łąki na kucykach</Text>
+    </Text>
+    <Text>
+      <LineId>1742001055</LineId>
+      <Text>Zapewnij populację kucyków na wyspie.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001056</LineId>
+      <Text>Populacja kucyków</Text>
+    </Text>
+    <Text>
+      <LineId>1742001057</LineId>
+      <Text>Sadzonki żywicy</Text>
+    </Text>
+    <Text>
+      <LineId>1742001058</LineId>
+      <Text>Zapewnij żywicznej płodności wyspie.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001059</LineId>
+      <Text>Żywicowa płodność</Text>
+    </Text>
+    <Text>
+      <LineId>1742001060</LineId>
+      <Text>Saltwort Banks</Text>
+    </Text>
+    <Text>
+      <LineId>1742001061</LineId>
+      <Text>Zapewnij Saltwortom płodność na wyspie.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001062</LineId>
+      <Text>Płodność słonych</Text>
+    </Text>
+    <Text>
+      <LineId>1742001063</LineId>
+      <Text>Banki muszli</Text>
+    </Text>
+    <Text>
+      <LineId>1742001064</LineId>
+      <Text>Dostarcz populację muszli na wyspę.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001065</LineId>
+      <Text>Populacja muszli</Text>
+    </Text>
+    <Text>
+      <LineId>1742001066</LineId>
+      <Text>Geologia srebra</Text>
+    </Text>
+    <Text>
+      <LineId>1742001067</LineId>
+      <Text>Dostarcz złoże srebra na wyspę.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001068</LineId>
+      <Text>Złoże srebra</Text>
+    </Text>
+    <Text>
+      <LineId>1742001069</LineId>
+      <Text>Brzegi ślimaków Murex</Text>
+    </Text>
+    <Text>
+      <LineId>1742001070</LineId>
+      <Text>Dostarcz populację ślimaka mureksa na wyspę.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001071</LineId>
+      <Text>Populacja ślimaka mureksa</Text>
+    </Text>
+    <Text>
+      <LineId>1742001072</LineId>
+      <Text>Pułapki na jesiotry</Text>
+    </Text>
+    <Text>
+      <LineId>1742001073</LineId>
+      <Text>Dostarcz populację jesiotrów na wyspę.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001074</LineId>
+      <Text>Populacja jesiotrów</Text>
+    </Text>
+    <Text>
+      <LineId>1742001075</LineId>
+      <Text>Geologia cyny</Text>
+    </Text>
+    <Text>
+      <LineId>1742001076</LineId>
+      <Text>Dostarcz złoże cyny na wyspę.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001077</LineId>
+      <Text>Złoże cyny</Text>
+    </Text>
+    <Text>
+      <LineId>1742001078</LineId>
+      <Text>Legendarne nasiona lnu</Text>
+    </Text>
+    <Text>
+      <LineId>1742001079</LineId>
+      <Text>Legendarna płodność lnu</Text>
+    </Text>
+    <Text>
+      <LineId>1742001079</LineId>
+      <Text>Legendarne nasiona jęczmienia</Text>
+    </Text>
+    <Text>
+      <LineId>1742001081</LineId>
+      <Text>Legendarna płodność jęczmienia</Text>
+    </Text>
+    <Text>
+      <LineId>1742001082</LineId>
+      <Text>Legendarne pułapki na bobry</Text>
+    </Text>
+    <Text>
+      <LineId>1742001083</LineId>
+      <Text>Populacja Legendarnych Bobrów</Text>
+    </Text>
+    <Text>
+      <LineId>1742001084</LineId>
+      <Text>Legendarne pułapki na ptaki</Text>
+    </Text>
+    <Text>
+      <LineId>1742001085</LineId>
+      <Text>Legendarna populacja ptaków</Text>
+    </Text>
+    <Text>
+      <LineId>1742001086</LineId>
+      <Text>Legendarna geologia miedzi</Text>
+    </Text>
+    <Text>
+      <LineId>1742001087</LineId>
+      <Text>Legendarne złoże miedzi</Text>
+    </Text>
+    <Text>
+      <LineId>1742001088</LineId>
+      <Text>Legendarne sadzonki cyprysu</Text>
+    </Text>
+    <Text>
+      <LineId>1742001089</LineId>
+      <Text>Legendarna żyzność cyprysu</Text>
+    </Text>
+    <Text>
+      <LineId>1742001090</LineId>
+      <Text>Legendarne nasiona roślin barwnikowych</Text>
+    </Text>
+    <Text>
+      <LineId>1742001091</LineId>
+      <Text>Żyzność Legendarnych Roślin Barwnikowych</Text>
+    </Text>
+    <Text>
+      <LineId>1742001092</LineId>
+      <Text>Legendarna Geologia Złota</Text>
+    </Text>
+    <Text>
+      <LineId>1742001093</LineId>
+      <Text>Legendarne złoże rudy złota</Text>
+    </Text>
+    <Text>
+      <LineId>1742001094</LineId>
+      <Text>Legendarna geologia granitu</Text>
+    </Text>
+    <Text>
+      <LineId>1742001095</LineId>
+      <Text>Legendarne złoże granitu</Text>
+    </Text>
+    <Text>
+      <LineId>1742001096</LineId>
+      <Text>Legendarne sadzonki winogron</Text>
+    </Text>
+    <Text>
+      <LineId>1742001097</LineId>
+      <Text>Legendarna płodność winogron</Text>
+    </Text>
+    <Text>
+      <LineId>1742001098</LineId>
+      <Text>Nasiona Legendarnych Ziół</Text>
+    </Text>
+    <Text>
+      <LineId>1742001099</LineId>
+      <Text>Legendarne Zioła Płodność</Text>
+    </Text>
+    <Text>
+      <LineId>1742001100</LineId>
+      <Text>Legendarna Geologia Żelaza</Text>
+    </Text>
+    <Text>
+      <LineId>1742001101</LineId>
+      <Text>Legendarne złoże żelaza</Text>
+    </Text>
+    <Text>
+      <LineId>1742001102</LineId>
+      <Text>Legendarne sadzonki lawendy</Text>
+    </Text>
+    <Text>
+      <LineId>1742001103</LineId>
+      <Text>Legendarna lawendowa płodność</Text>
+    </Text>
+    <Text>
+      <LineId>1742001104</LineId>
+      <Text>Legendarne pułapki Mackarels</Text>
+    </Text>
+    <Text>
+      <LineId>1742001105</LineId>
+      <Text>Legendarna populacja Mackarels</Text>
+    </Text>
+    <Text>
+      <LineId>1742001106</LineId>
+      <Text>Legendarna geologia marmuru</Text>
+    </Text>
+    <Text>
+      <LineId>1742001107</LineId>
+      <Text>Legendarny Marmurowy Depozyt</Text>
+    </Text>
+    <Text>
+      <LineId>1742001108</LineId>
+      <Text>Geologia Legendarnych Minerałów</Text>
+    </Text>
+    <Text>
+      <LineId>1742001109</LineId>
+      <Text>Legendarne Złoże Minerałów</Text>
+    </Text>
+    <Text>
+      <LineId>1742001110</LineId>
+      <Text>Legendarne sadzonki oliwek</Text>
+    </Text>
+    <Text>
+      <LineId>1742001111</LineId>
+      <Text>Legendarna Płodność Oliwek</Text>
+    </Text>
+    <Text>
+      <LineId>1742001112</LineId>
+      <Text>Legendarne Oyster Banks</Text>
+    </Text>
+    <Text>
+      <LineId>1742001113</LineId>
+      <Text>Legendarna populacja ostryg</Text>
+    </Text>
+    <Text>
+      <LineId>1742001114</LineId>
+      <Text>Legendarne Trawiaste Łuki Kucyków</Text>
+    </Text>
+    <Text>
+      <LineId>1742001115</LineId>
+      <Text>Populacja legendarnych kucyków</Text>
+    </Text>
+    <Text>
+      <LineId>1742001116</LineId>
+      <Text>Legendarne sadzonki żywicy</Text>
+    </Text>
+    <Text>
+      <LineId>1742001117</LineId>
+      <Text>Legendarna żywicowa płodność</Text>
+    </Text>
+    <Text>
+      <LineId>1742001118</LineId>
+      <Text>Legendarni Saltwort Banks</Text>
+    </Text>
+    <Text>
+      <LineId>1742001119</LineId>
+      <Text>Legendarna płodność Saltworta</Text>
+    </Text>
+    <Text>
+      <LineId>1742001120</LineId>
+      <Text>Legendarne banki muszli</Text>
+    </Text>
+    <Text>
+      <LineId>1742001121</LineId>
+      <Text>Legendarna populacja muszli</Text>
+    </Text>
+    <Text>
+      <LineId>1742001122</LineId>
+      <Text>Legendarna Geologia Srebra</Text>
+    </Text>
+    <Text>
+      <LineId>1742001123</LineId>
+      <Text>Legendarne złoże srebra</Text>
+    </Text>
+    <Text>
+      <LineId>1742001124</LineId>
+      <Text>Legendarne banki ślimaków Murex</Text>
+    </Text>
+    <Text>
+      <LineId>1742001125</LineId>
+      <Text>Legendarna populacja ślimaków Murex</Text>
+    </Text>
+    <Text>
+      <LineId>1742001126</LineId>
+      <Text>Legendarne pułapki na jesiotry</Text>
+    </Text>
+    <Text>
+      <LineId>1742001127</LineId>
+      <Text>Legendarna populacja jesiotrów</Text>
+    </Text>
+    <Text>
+      <LineId>1742001128</LineId>
+      <Text>Legendarna geologia cyny</Text>
+    </Text>
+    <Text>
+      <LineId>1742001129</LineId>
+      <Text>Legendarne złoże cyny</Text>
+    </Text>
+  </ModOp>
+</ModOps>

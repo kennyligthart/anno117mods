@@ -1,0 +1,20 @@
+<ModOps>
+    <ModOp Add="//TextExport/Texts">
+        <Text>
+            <LineId>1999100082</LineId>
+            <Text>Primitive Harbor Cranes</Text>
+        </Text>
+        <Text>
+            <LineId>1999100084</LineId>
+            <Text>Using wooden cranes from the construction site might be a good idea to speed up unloading at the harbour...</Text>
+        </Text>
+        <Text>
+            <LineId>1999100085</LineId>
+            <Text>Never played Tetris, then? All those gaps can be filled with more crates!</Text>
+        </Text>
+        <Text>
+            <LineId>1999100086</LineId>
+            <Text>Increases the loading/unloading speed of all Trading Posts and Trading Piers</Text>
+        </Text>
+    </ModOp>
+</ModOps>

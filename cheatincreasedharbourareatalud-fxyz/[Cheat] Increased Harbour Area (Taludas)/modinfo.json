@@ -1,0 +1,106 @@
+{
+  "Version": "1.0.0",
+  "Anno": 8,
+  "ModID": "taludas-increaseharbourarea",
+  "Difficulty": "cheat",
+  "GameSetup": {
+    "RequiresNewGame": true,
+    "SafeToRemove": true,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [],
+    "Optional": [],
+    "LoadAfter": [],
+    "Deprecate": [],
+    "Incompatible": []
+  },
+  "Options": {
+    "minharbourarea": {
+      "label": "Harbour area size [vanilla = 14].",
+      "type": "enum",
+      "default": "28",
+      "values": [ "21", "28", "35", "42" ],
+      "labels": [ "Start harbour area size 21", "Start harbour area size 28", "Start harbour area size 35",  "Start harbour area size 42"]
+    },
+    "medharbourarea": {
+      "label": "Harbour area size [vanilla = 21].",
+      "type": "enum",
+      "default": "42",
+      "values": [ "35", "42", "49", "56" ],
+      "labels": [ "Second harbour area size 35", "Second harbour area size 42", "Second harbour area size 49",  "Second harbour area size 56"]
+    },
+    "maxharbourarea": {
+      "label": "Harbour area size [vanilla = 28].",
+      "type": "enum",
+      "default": "63",
+      "values": [ "56", "63", "70", "77", "84", "91", "98", "105", "112", "119", "126" ],
+      "labels": [ "Max harbour area size 56", "Max harbour area size 63", "Max harbour area size 70",  "Max harbour area size 77",  "Max harbour area size 84",  "Max harbour area size 91",  "Max harbour area size 98",  "Max harbour area size 105",  "Max harbour area size 112",  "Max harbour area size 119",  "Max harbour area size 126"]
+    },
+    "start": {
+      "default": "true",
+      "label": "Increase the harbour size from the start?",
+      "type": "toggle",
+      "labels": [ "Yes, increase from start", "No, increase with research"]
+    }
+  },
+  "Category": {
+    "Chinese": "Cheat",
+    "English": "Cheat",
+    "French": "Cheat",
+    "German": "Cheat",
+    "Italian": "Cheat",
+    "Japanese": "Cheat",
+    "Korean": "Cheat",
+    "Polish": "Cheat",
+    "Russian": "Cheat",
+    "Spanish": "Cheat",
+    "Taiwanese": "Cheat"
+  },
+  "ModName": {
+    "Chinese": "Increased Harbour Area (Taludas)",
+    "English": "Increased Harbour Area (Taludas)",
+    "French": "Increased Harbour Area (Taludas)",
+    "German": "Increased Harbour Area (Taludas)",
+    "Italian": "Increased Harbour Area (Taludas)",
+    "Japanese": "Increased Harbour Area (Taludas)",
+    "Korean": "Increased Harbour Area (Taludas)",
+    "Polish": "Increased Harbour Area (Taludas)",
+    "Russian": "Increased Harbour Area (Taludas)",
+    "Spanish": "Increased Harbour Area (Taludas)",
+    "Taiwanese": "Increased Harbour Area (Taludas)"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "# Increased Harbour Area \n\n Expands the buildable harbour area from 28 to a value specified by the user inside the modinfo.json file.",
+    "French": null,
+    "German": "# Increased Harbour Area \n\n Vergrößert den bebaubaren Hafenbereich von 28 auf ein vom Nutzer festlegbaren Wert in der modinfo.json Datei.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [],
+  "CreatorName": "Taludas",
+  "CreatorContact": "",
+  "Image": null
+}

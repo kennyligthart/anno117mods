@@ -1,0 +1,16 @@
+<ModOps>
+    <ModOp Add="//TextExport/Texts">
+        <Text>
+            <LineId>1999100087</LineId>
+            <Text>Seit dem der Circus Minimus errichtet wurde, kennt die Stadt nur noch ein Thema: Pferderennen! Unmengen an Plebejern strömen in die Arena, um das neueste Spektakel zu sehen!</Text>
+        </Text>
+        <Text>
+            <LineId>1999100088</LineId>
+            <Text>Circus Minimus</Text>
+        </Text>
+        <Text>
+            <LineId>1999100090</LineId>
+            <Text>Circus Minimus in der Nähe</Text>
+        </Text>
+    </ModOp>
+</ModOps>

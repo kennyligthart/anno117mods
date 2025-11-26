@@ -1,0 +1,247 @@
+<ModOps>
+
+<!--AssetPool: TechPool Economy Mid-R-->
+  <ModOp GUID="38724" Add="AssetPool/AssetList">
+    <Item>
+      <Asset>1700100021</Asset>
+    </Item>
+  </ModOp>
+
+<!--TechCategory: CategoryConfig Economy-->
+  <ModOp GUID="24318" Add="TechCategory/Techs">
+    <Item>
+      <Tech>1700100021</Tech>
+    </Item>
+  </ModOp>
+
+<!--Sheep Cheese-->
+<ModOp Type="AddNextSibling" GUID="37864">
+
+  <!--tech-->
+    <Asset>
+      <Template>Tech</Template>
+      <Values>
+        <Standard>
+          <GUID>1700100021</GUID>
+          <Name>Tech Economy -3 10 Sheep Cheese</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/production_goods/icon_3d_cheese_goods.png</IconFilename>
+        </Standard>
+        <Tech>
+          <VisibleTechName>1700100018</VisibleTechName>
+          <VisibleTechIcon>1700100021</VisibleTechIcon>
+          <VisibleTechDescription>1700100019</VisibleTechDescription>
+          <ResearchableTechName>1700100018</ResearchableTechName>
+          <ResearchableTechIcon>1700100021</ResearchableTechIcon>
+          <ResearchableTechDescription>1700100019</ResearchableTechDescription>
+          <!-- can add an unlock requirement
+          <TechResearchableTrigger>1700100024</TechResearchableTrigger>
+          -->
+          <TechName>1700100018</TechName>
+          <TechIcon>1700100021</TechIcon>
+          <TechDescription>1700100020</TechDescription>
+          <KnowledgeNeeded>64000</KnowledgeNeeded>
+          <Rewards>
+            <Effects>
+              <Item>
+                <EffectAsset>1700100022</EffectAsset>
+              </Item>
+            </Effects>
+          </Rewards>
+          <GridPosition>
+              <X>-1</X>
+              <Y>5</Y>
+          </GridPosition>
+          <Color>Green</Color>
+        </Tech>
+      </Values>
+    </Asset>
+
+  <!--featureunlock if unlock requirement enabled in tech - use InfoDescription to provide details of the
+    <Asset>
+        <Template>FeatureUnlock</Template>
+        <Values>
+            <Standard>
+                <GUID>1700100024</GUID>
+                <Name>Tech Economy -3 10 Sheep Cheese Condition</Name>
+                <InfoDescription>1700100025</InfoDescription>
+            </Standard>
+            <Locked/>
+            <Trigger>
+                <TriggerCondition>
+                    <Template>ConditionAlwaysTrue</Template>
+                    <Values>
+                        <Condition/>
+                        <ConditionAlwaysTrue/>
+                    </Values>
+                </TriggerCondition>
+                <TriggerActions>
+                    <Item>
+                        <TriggerAction>
+                            <Template>ActionUnlockAsset</Template>
+                            <Values>
+                                <Action/>
+                                <ActionUnlockAsset>
+                                    <UnlockAssets>
+                                        <Item>
+                                            <Asset>1700100021</Asset>
+                                        </Item>
+                                    </UnlockAssets>
+                                </ActionUnlockAsset>
+                            </Values>
+                        </TriggerAction>
+                    </Item>
+                </TriggerActions>
+                <SubTriggers>
+                    <Item>
+                        <SubTrigger>
+                            <Template>AutoCreateTrigger</Template>
+                            <Values>
+                                <Trigger>
+                                    <TriggerCondition>
+                                        <Template>ConditionTechResearched</Template>
+                                        <Values>
+                                            <Condition/>
+                                            <ConditionTechResearched>
+                                                <TechState>NeighborResearched</TechState>
+                                                <TechGuid>TECH GUID</TechGuid>
+                                            </ConditionTechResearched>
+                                        </Values>
+                                    </TriggerCondition>
+                                </Trigger>
+                            </Values>
+                        </SubTrigger>
+                    </Item>
+                </SubTriggers>
+            </Trigger>
+            <TriggerSetup/>
+        </Values>
+    </Asset>
+    -->
+
+  <!--Effect--> 
+    <Asset>
+      <Template>Effect</Template>
+      <Values>
+        <Standard>
+          <GUID>1700100022</GUID>
+          <Name>TechEffect Sheep Cheese Effect</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/production_goods/icon_3d_cheese_goods.png</IconFilename>
+          <InfoDescription>1700100011</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>ObjectsInMeta</EffectScope>
+          <SourceCategory>Tech</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1700100023</GUID>
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>50293</GUID>
+            </Item>
+          </Targets>
+          <HideInGovernorsBar>1</HideInGovernorsBar>
+        </Effect>
+        <Text>
+            <OasisId>1700100018</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+
+  <!--Buff--> 
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1700100023</GUID>
+          <Name>TechEffect Sheep Cheese Buff</Name>
+          <IconFilename>data/ui/fhd/base/icon_content/production_goods/icon_3d_cheese_goods.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1700100018</OasisId>
+        </Text>
+        <Buff>
+          <SourceCategory>Tech</SourceCategory>
+        </Buff>
+        <FactoryUpgrade>
+          <AdditionalOutput>
+            <Item>
+              <Product>2153</Product>
+              <AdditionalOutputCycle>4</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+
+<!--trigger for existing game saves-->
+ <ModOp Type="addNextSibling" GUID="55125">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1700100042</GUID>
+          <Name>Sheep Cheese unlock</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionAlwaysTrue</Template>
+            <Values>
+              <Condition />
+              <ConditionAlwaysTrue />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>1700100021</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionUnlocked</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionUnlocked>
+                          <UnlockNeeded>37890</UnlockNeeded>
+                        </ConditionUnlocked>
+                        <ConditionPropsNegatable />
+                      </Values>
+                    </TriggerCondition>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>1</AutoRegisterTrigger>
+          <UsedByFirstParties>1</UsedByFirstParties>
+          <UsedBySecondParties>0</UsedBySecondParties>
+          <UsedByThirdParties>0</UsedByThirdParties>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+  </ModOp>
+
+
+</ModOps>

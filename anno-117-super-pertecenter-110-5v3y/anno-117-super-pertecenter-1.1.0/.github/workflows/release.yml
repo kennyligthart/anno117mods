@@ -1,0 +1,48 @@
+﻿name: 🏷️ Release Automation
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  create-release:
+    name: Create GitHub Release
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📥 Checkout code
+      uses: actions/checkout@v4
+      
+    - name: 📦 Create release package
+      run: |
+        # Create a clean directory structure for the release
+        mkdir -p release/super-pertecenter
+        
+        # Copy mod files (exclude dev files)
+        cp -r data release/super-pertecenter/
+        cp modinfo.json release/super-pertecenter/
+        cp README.md release/super-pertecenter/
+        cp LICENSE release/super-pertecenter/
+        
+        # Create zip archive
+        cd release
+        zip -r super-pertecenter-${GITHUB_REF#refs/tags/}.zip super-pertecenter/
+        cd ..
+        
+    - name: 📝 Extract changelog
+      id: changelog
+      run: |
+        # Extract the latest version's changelog
+        VERSION=${GITHUB_REF#refs/tags/v}
+        awk '/## \['$VERSION'\]/,/## \[/' CHANGELOG.md | sed '1d;$d' > release-notes.md
+        
+    - name: 🚀 Create GitHub Release
+      uses: softprops/action-gh-release@v1
+      with:
+        files: release/super-pertecenter-*.zip
+        body_path: release-notes.md
+        draft: false
+        prerelease: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

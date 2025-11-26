@@ -1,0 +1,524 @@
+<ModOps>
+  <ModOp Add="//TextExport/Texts">
+    <Text>
+      <LineId>1742001000</LineId>
+      <Text>Семена льна</Text>
+    </Text>
+    <Text>
+      <LineId>1742001001</LineId>
+      <Text>Обеспечьте льняную плодородность острову.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001002</LineId>
+      <Text>Льняная фертильность</Text>
+    </Text>
+    <Text>
+      <LineId>1742001003</LineId>
+      <Text>Ячменные семена</Text>
+    </Text>
+    <Text>
+      <LineId>1742001004</LineId>
+      <Text>Обеспечьте остров плодородием ячменя.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001005</LineId>
+      <Text>Плодородие ячменя</Text>
+    </Text>
+    <Text>
+      <LineId>1742001006</LineId>
+      <Text>Бобровые ловушки</Text>
+    </Text>
+    <Text>
+      <LineId>1742001007</LineId>
+      <Text>Обеспечить популяцию бобров на острове.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001008</LineId>
+      <Text>Популяция бобров</Text>
+    </Text>
+    <Text>
+      <LineId>1742001009</LineId>
+      <Text>Ловушки для птиц</Text>
+    </Text>
+    <Text>
+      <LineId>1742001010</LineId>
+      <Text>Обеспечить популяцию птиц на острове.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001011</LineId>
+      <Text>Популяция птиц</Text>
+    </Text>
+    <Text>
+      <LineId>1742001012</LineId>
+      <Text>Геология меди</Text>
+    </Text>
+    <Text>
+      <LineId>1742001013</LineId>
+      <Text>Поставьте медное месторождение острову.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001014</LineId>
+      <Text>Медные месторождения</Text>
+    </Text>
+    <Text>
+      <LineId>1742001015</LineId>
+      <Text>Саженцы кипарисов</Text>
+    </Text>
+    <Text>
+      <LineId>1742001016</LineId>
+      <Text>Обеспечьте плодородие кипариса острову.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001017</LineId>
+      <Text>Плодородие кипариса</Text>
+    </Text>
+    <Text>
+      <LineId>1742001018</LineId>
+      <Text>Семена красительных растений</Text>
+    </Text>
+    <Text>
+      <LineId>1742001019</LineId>
+      <Text>Обеспечьте красительным растениям плодородие остров.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001020</LineId>
+      <Text>Плодородие красительных растений</Text>
+    </Text>
+    <Text>
+      <LineId>1742001021</LineId>
+      <Text>Геология золота</Text>
+    </Text>
+    <Text>
+      <LineId>1742001022</LineId>
+      <Text>Предоставить месторождение золотой руды острову.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001023</LineId>
+      <Text>Месторождение золотой руды</Text>
+    </Text>
+    <Text>
+      <LineId>1742001024</LineId>
+      <Text>Геология гранита</Text>
+    </Text>
+    <Text>
+      <LineId>1742001025</LineId>
+      <Text>Предоставить гранитное месторождение острову.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001026</LineId>
+      <Text>Гранитное месторождение</Text>
+    </Text>
+    <Text>
+      <LineId>1742001027</LineId>
+      <Text>Виноградные саженцы</Text>
+    </Text>
+    <Text>
+      <LineId>1742001028</LineId>
+      <Text>Обеспечить виноград плодородием острова.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001029</LineId>
+      <Text>Плодородие винограда</Text>
+    </Text>
+    <Text>
+      <LineId>1742001030</LineId>
+      <Text>Семена трав</Text>
+    </Text>
+    <Text>
+      <LineId>1742001031</LineId>
+      <Text>Дайте травам плодородие остров.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001032</LineId>
+      <Text>Плодородие трав</Text>
+    </Text>
+    <Text>
+      <LineId>1742001033</LineId>
+      <Text>Геология железа</Text>
+    </Text>
+    <Text>
+      <LineId>1742001034</LineId>
+      <Text>Предоставить месторождение железа острову.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001035</LineId>
+      <Text>Железное месторождение</Text>
+    </Text>
+    <Text>
+      <LineId>1742001036</LineId>
+      <Text>Саженцы лаванды</Text>
+    </Text>
+    <Text>
+      <LineId>1742001037</LineId>
+      <Text>Обеспечить лавандовое плодородие острову.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001038</LineId>
+      <Text>Плодородие лаванды</Text>
+    </Text>
+    <Text>
+      <LineId>1742001039</LineId>
+      <Text>Ловушки Маккарелов</Text>
+    </Text>
+    <Text>
+      <LineId>1742001040</LineId>
+      <Text>Обеспечить население Маккарелов на острове.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001041</LineId>
+      <Text>Население Маккарелс</Text>
+    </Text>
+    <Text>
+      <LineId>1742001042</LineId>
+      <Text>Мраморная геология</Text>
+    </Text>
+    <Text>
+      <LineId>1742001043</LineId>
+      <Text>Предоставить месторождение Marble острову.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001044</LineId>
+      <Text>Мраморное месторождение</Text>
+    </Text>
+    <Text>
+      <LineId>1742001045</LineId>
+      <Text>Геология полезных ископаемых</Text>
+    </Text>
+    <Text>
+      <LineId>1742001046</LineId>
+      <Text>Предоставить месторождение минералов острову.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001047</LineId>
+      <Text>Месторождение полезных ископаемых</Text>
+    </Text>
+    <Text>
+      <LineId>1742001048</LineId>
+      <Text>Оливковые саженцы</Text>
+    </Text>
+    <Text>
+      <LineId>1742001049</LineId>
+      <Text>Обеспечьте оливковое плодородие острову.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001050</LineId>
+      <Text>Оливковая плодородие</Text>
+    </Text>
+    <Text>
+      <LineId>1742001051</LineId>
+      <Text>Устрические банки</Text>
+    </Text>
+    <Text>
+      <LineId>1742001052</LineId>
+      <Text>Обеспечить популяцию устриц на острове.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001053</LineId>
+      <Text>Популяция устриц</Text>
+    </Text>
+    <Text>
+      <LineId>1742001054</LineId>
+      <Text>Пони-степи</Text>
+    </Text>
+    <Text>
+      <LineId>1742001055</LineId>
+      <Text>Обеспечить популяцию пони на острове.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001056</LineId>
+      <Text>Популяция пони</Text>
+    </Text>
+    <Text>
+      <LineId>1742001057</LineId>
+      <Text>Саженцы смолы</Text>
+    </Text>
+    <Text>
+      <LineId>1742001058</LineId>
+      <Text>Обеспечьте остров плодородием из смолы.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001059</LineId>
+      <Text>Плодородие смолы</Text>
+    </Text>
+    <Text>
+      <LineId>1742001060</LineId>
+      <Text>Солтворт Бэнкс</Text>
+    </Text>
+    <Text>
+      <LineId>1742001061</LineId>
+      <Text>Обеспечить остров плодородием Saltwort.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001062</LineId>
+      <Text>Saltwort Fertility</Text>
+    </Text>
+    <Text>
+      <LineId>1742001063</LineId>
+      <Text>Морские ракушки</Text>
+    </Text>
+    <Text>
+      <LineId>1742001064</LineId>
+      <Text>Обеспечить популяцию ракушек на острове.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001065</LineId>
+      <Text>Популяция ракушек</Text>
+    </Text>
+    <Text>
+      <LineId>1742001066</LineId>
+      <Text>Геология серебра</Text>
+    </Text>
+    <Text>
+      <LineId>1742001067</LineId>
+      <Text>Предоставить серебряное месторождение острову.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001068</LineId>
+      <Text>Месторождение серебра</Text>
+    </Text>
+    <Text>
+      <LineId>1742001069</LineId>
+      <Text>Банки улитки Мурекс</Text>
+    </Text>
+    <Text>
+      <LineId>1742001070</LineId>
+      <Text>Обеспечить популяцию улиток Мурекс на острове.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001071</LineId>
+      <Text>Популяция улиток Мурекс</Text>
+    </Text>
+    <Text>
+      <LineId>1742001072</LineId>
+      <Text>Ловушки для осетра</Text>
+    </Text>
+    <Text>
+      <LineId>1742001073</LineId>
+      <Text>Обеспечить популяцию осетра на острове.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001074</LineId>
+      <Text>Популяция осетра</Text>
+    </Text>
+    <Text>
+      <LineId>1742001075</LineId>
+      <Text>Геология олова</Text>
+    </Text>
+    <Text>
+      <LineId>1742001076</LineId>
+      <Text>Поставьте оловянное месторождение острову.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001077</LineId>
+      <Text>Оловянное месторождение</Text>
+    </Text>
+    <Text>
+      <LineId>1742001078</LineId>
+      <Text>Легендарные льняные семена</Text>
+    </Text>
+    <Text>
+      <LineId>1742001079</LineId>
+      <Text>Легендарное льняное плодородие</Text>
+    </Text>
+    <Text>
+      <LineId>1742001079</LineId>
+      <Text>Легендарные ячменные семена</Text>
+    </Text>
+    <Text>
+      <LineId>1742001081</LineId>
+      <Text>Легендарная плодородие ячменя</Text>
+    </Text>
+    <Text>
+      <LineId>1742001082</LineId>
+      <Text>Легендарные бобровые ловушки</Text>
+    </Text>
+    <Text>
+      <LineId>1742001083</LineId>
+      <Text>Легендарное население бобров</Text>
+    </Text>
+    <Text>
+      <LineId>1742001084</LineId>
+      <Text>Легендарные ловушки для птиц</Text>
+    </Text>
+    <Text>
+      <LineId>1742001085</LineId>
+      <Text>Легендарная популяция птиц</Text>
+    </Text>
+    <Text>
+      <LineId>1742001086</LineId>
+      <Text>Легендарная геология меди</Text>
+    </Text>
+    <Text>
+      <LineId>1742001087</LineId>
+      <Text>Легендарное медное месторождение</Text>
+    </Text>
+    <Text>
+      <LineId>1742001088</LineId>
+      <Text>Легендарные саженцы кипариса</Text>
+    </Text>
+    <Text>
+      <LineId>1742001089</LineId>
+      <Text>Легендарная плодородие кипариса</Text>
+    </Text>
+    <Text>
+      <LineId>1742001090</LineId>
+      <Text>Легендарные семена красительных растений</Text>
+    </Text>
+    <Text>
+      <LineId>1742001091</LineId>
+      <Text>Плодородие легендарных красительных растений</Text>
+    </Text>
+    <Text>
+      <LineId>1742001092</LineId>
+      <Text>Легендарная геология золота</Text>
+    </Text>
+    <Text>
+      <LineId>1742001093</LineId>
+      <Text>Легендарное месторождение золотой руды</Text>
+    </Text>
+    <Text>
+      <LineId>1742001094</LineId>
+      <Text>Легендарная гранитная геология</Text>
+    </Text>
+    <Text>
+      <LineId>1742001095</LineId>
+      <Text>Легендарное месторождение гранита</Text>
+    </Text>
+    <Text>
+      <LineId>1742001096</LineId>
+      <Text>Легендарные виноградные саженцы</Text>
+    </Text>
+    <Text>
+      <LineId>1742001097</LineId>
+      <Text>Легендарная плодородие винограда</Text>
+    </Text>
+    <Text>
+      <LineId>1742001098</LineId>
+      <Text>Легендарные семена трав</Text>
+    </Text>
+    <Text>
+      <LineId>1742001099</LineId>
+      <Text>Плодородие легендарных трав</Text>
+    </Text>
+    <Text>
+      <LineId>1742001100</LineId>
+      <Text>Легендарная железная геология</Text>
+    </Text>
+    <Text>
+      <LineId>1742001101</LineId>
+      <Text>Легендарное железное месторождение</Text>
+    </Text>
+    <Text>
+      <LineId>1742001102</LineId>
+      <Text>Легендарные саженцы лаванды</Text>
+    </Text>
+    <Text>
+      <LineId>1742001103</LineId>
+      <Text>Легендарная лавандовая плодородие</Text>
+    </Text>
+    <Text>
+      <LineId>1742001104</LineId>
+      <Text>Легендарные ловушки Маккарелс</Text>
+    </Text>
+    <Text>
+      <LineId>1742001105</LineId>
+      <Text>Легендарное население Маккарелс</Text>
+    </Text>
+    <Text>
+      <LineId>1742001106</LineId>
+      <Text>Легендарная мраморная геология</Text>
+    </Text>
+    <Text>
+      <LineId>1742001107</LineId>
+      <Text>Легендарное месторождение мрамора</Text>
+    </Text>
+    <Text>
+      <LineId>1742001108</LineId>
+      <Text>Легендарная геология минералов</Text>
+    </Text>
+    <Text>
+      <LineId>1742001109</LineId>
+      <Text>Легендарное месторождение полезных ископаемых</Text>
+    </Text>
+    <Text>
+      <LineId>1742001110</LineId>
+      <Text>Легендарные оливковые саженцы</Text>
+    </Text>
+    <Text>
+      <LineId>1742001111</LineId>
+      <Text>Легендарная оливковая плодородие</Text>
+    </Text>
+    <Text>
+      <LineId>1742001112</LineId>
+      <Text>Легендарные устричные банки</Text>
+    </Text>
+    <Text>
+      <LineId>1742001113</LineId>
+      <Text>Легендарная популяция устриц</Text>
+    </Text>
+    <Text>
+      <LineId>1742001114</LineId>
+      <Text>Легендарные Пони Лугс</Text>
+    </Text>
+    <Text>
+      <LineId>1742001115</LineId>
+      <Text>Легендарное население пони</Text>
+    </Text>
+    <Text>
+      <LineId>1742001116</LineId>
+      <Text>Легендарные смоляные саженцы</Text>
+    </Text>
+    <Text>
+      <LineId>1742001117</LineId>
+      <Text>Легендарная смоляная плодородие</Text>
+    </Text>
+    <Text>
+      <LineId>1742001118</LineId>
+      <Text>Легендарный Солтуорт Бэнкс</Text>
+    </Text>
+    <Text>
+      <LineId>1742001119</LineId>
+      <Text>Легендарная Saltwort Fertility</Text>
+    </Text>
+    <Text>
+      <LineId>1742001120</LineId>
+      <Text>Легендарные банки ракушек</Text>
+    </Text>
+    <Text>
+      <LineId>1742001121</LineId>
+      <Text>Легендарная популяция ракушек</Text>
+    </Text>
+    <Text>
+      <LineId>1742001122</LineId>
+      <Text>Легендарная серебряная геология</Text>
+    </Text>
+    <Text>
+      <LineId>1742001123</LineId>
+      <Text>Легендарное месторождение серебра</Text>
+    </Text>
+    <Text>
+      <LineId>1742001124</LineId>
+      <Text>Легендарные банки улитки Мурекс</Text>
+    </Text>
+    <Text>
+      <LineId>1742001125</LineId>
+      <Text>Легендарная популяция улиток Мурекс</Text>
+    </Text>
+    <Text>
+      <LineId>1742001126</LineId>
+      <Text>Легендарные ловушки с осетрами</Text>
+    </Text>
+    <Text>
+      <LineId>1742001127</LineId>
+      <Text>Легендарное население осетра</Text>
+    </Text>
+    <Text>
+      <LineId>1742001128</LineId>
+      <Text>Легендарная оловянная геология</Text>
+    </Text>
+    <Text>
+      <LineId>1742001129</LineId>
+      <Text>Легендарное месторождение олова</Text>
+    </Text>
+  </ModOp>
+</ModOps>

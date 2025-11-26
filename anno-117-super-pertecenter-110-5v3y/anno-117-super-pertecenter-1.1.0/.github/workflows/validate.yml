@@ -1,0 +1,40 @@
+﻿name: 🧪 XML Validation
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate-xml:
+    name: Validate XML Files
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 📥 Checkout code
+      uses: actions/checkout@v4
+      
+    - name: 🔍 Find XML files
+      id: find-xml
+      run: |
+        echo "Found XML files:"
+        find data -name "*.xml" -type f
+        
+    - name: ✅ Validate XML syntax
+      run: |
+        for file in $(find data -name "*.xml" -type f); do
+          echo "Validating $file..."
+          xmllint --noout "$file" || exit 1
+        done
+        echo "✅ All XML files are valid!"
+        
+    - name: 📋 Check for common issues
+      run: |
+        echo "Checking for unclosed tags..."
+        for file in $(find data -name "*.xml" -type f); do
+          # Check for basic XML structure
+          if ! grep -q "</ModOps>" "$file"; then
+            echo "⚠️ Warning: $file might be missing closing </ModOps> tag"
+          fi
+        done

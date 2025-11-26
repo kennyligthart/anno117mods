@@ -1,0 +1,79 @@
+{
+  "Version": "1.0.0",
+  "Anno": 8,
+  "ModID": "taludas-fasterfastgamespeed",
+  "Difficulty": "unchanged",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [],
+    "Optional": [],
+    "LoadAfter": [],
+    "Deprecate": [],
+    "Incompatible": []
+  },
+  "Category": {
+    "Chinese": "Misc",
+    "English": "Misc",
+    "French": "Misc",
+    "German": "Misc",
+    "Italian": "Misc",
+    "Japanese": "Misc",
+    "Korean": "Misc",
+    "Polish": "Misc",
+    "Russian": "Misc",
+    "Spanish": "Misc",
+    "Taiwanese": "Misc"
+  },
+  "ModName": {
+    "Chinese": "Faster Fast Gamespeed (Taludas)",
+    "English": "Faster Fast Gamespeed (Taludas)",
+    "French": "Faster Fast Gamespeed (Taludas)",
+    "German": "Faster Fast Gamespeed (Taludas)",
+    "Italian": "Faster Fast Gamespeed (Taludas)",
+    "Japanese": "Faster Fast Gamespeed (Taludas)",
+    "Korean": "Faster Fast Gamespeed (Taludas)",
+    "Polish": "Faster Fast Gamespeed (Taludas)",
+    "Russian": "Faster Fast Gamespeed (Taludas)",
+    "Spanish": "Faster Fast Gamespeed (Taludas)",
+    "Taiwanese": "Faster Fast Gamespeed (Taludas)"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "#  Faster Fast Gamespeed \n\n This mod doubles the speed increase of the faster game speed options.",
+    "French": null,
+    "German": "#  Faster Fast Gamespeed \n\n Diese Mod verdoppelt die Geschwindigkeitssteigerung der Optionen für die beiden schnelleren Spielgeschwindigkeiten.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues":
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": "",
+  "Image": null
+}

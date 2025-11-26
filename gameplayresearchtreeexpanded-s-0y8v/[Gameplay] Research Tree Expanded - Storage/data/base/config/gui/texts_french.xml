@@ -1,0 +1,108 @@
+<ModOps>
+    <ModOp Path="/TextExport/Texts" Type="add">
+        <Text>
+            <LineId>1742500101</LineId>
+            <Text>Porteurs aux pieds légers</Text>
+        </Text>
+        <Text>
+            <LineId>1742500102</LineId>
+            <Text>Une équipe d'entrepôt bien entraînée déplace les caisses aussi souplement qu'une légion en marche.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500105</LineId>
+            <Text>Recherchez &lt;b&gt;Warehouse Organisation&lt;/b&gt;.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500108</LineId>
+            <Text>Équipes de chariots en relais</Text>
+        </Text>
+        <Text>
+            <LineId>1742500109</LineId>
+            <Text>Donnez aux chariots une voie dégagée et ils dépasseront même vos promesses les plus audacieuses au
+                Sénat.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500114</LineId>
+            <Text>Trains de chariots de Mercure</Text>
+        </Text>
+        <Text>
+            <LineId>1742500115</LineId>
+            <Text>À ce rythme, les chariots se fondent en une seule file, et seuls les registres prouvent que rien ne
+                manque.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500118</LineId>
+            <Text>Recherchez &lt;b&gt;Warehouse Halved Costs&lt;/b&gt;.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500121</LineId>
+            <Text>Surveillants frugaux des horrea</Text>
+        </Text>
+        <Text>
+            <LineId>1742500122</LineId>
+            <Text>Nos intendants d'entrepôt pressent chaque denier jusqu'à ce qu'il couine, et pourtant les caisses
+                avancent au pas régulier.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500123</LineId>
+            <Text>Réduisez les équipes, resserrez les comptes, et malgré tout les marchandises circulent comme si Rome
+                observait.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500126</LineId>
+            <Text>Recherchez &lt;b&gt;Portitores&lt;/b&gt;.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500127</LineId>
+            <Text>Réduit les coûts de fonctionnement et la main-d'œuvre nécessaires pour tous les entrepôts.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500130</LineId>
+            <Text>Équipes allégées</Text>
+        </Text>
+        <Text>
+            <LineId>1742500131</LineId>
+            <Text>Quand une équipe réduite déplace la cargaison comme une cohorte entière, vos exercices ont valu toutes
+                les remontrances.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500132</LineId>
+            <Text>Moins de mains au sol, moins de plaintes dans les baraquements, et pas une seule caisse oubliée.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500135</LineId>
+            <Text>Recherchez &lt;b&gt;Headhunting&lt;/b&gt;.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500136</LineId>
+            <Text>Réduit fortement la main-d'œuvre nécessaire pour tous les entrepôts.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500139</LineId>
+            <Text>Quartiers-maîtres pingres</Text>
+        </Text>
+        <Text>
+            <LineId>1742500140</LineId>
+            <Text>Un toit qui fuit la monnaie est pire qu'un toit qui fuit la pluie, et ces horrea l'ont enfin
+                compris.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500141</LineId>
+            <Text>Les comptables hochent la tête devant vos entrepôts presque aussi fièrement que les légats devant vos
+                légions.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500144</LineId>
+            <Text>Réduit encore les coûts de fonctionnement de tous les entrepôts.</Text>
+        </Text>
+    </ModOp>
+</ModOps>

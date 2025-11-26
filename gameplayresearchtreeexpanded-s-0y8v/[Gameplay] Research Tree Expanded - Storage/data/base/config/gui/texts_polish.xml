@@ -1,0 +1,97 @@
+<ModOps>
+    <ModOp Path="/TextExport/Texts" Type="add">
+        <Text>
+            <LineId>1742500101</LineId>
+            <Text>Żwawi tragarze</Text>
+        </Text>
+        <Text>
+            <LineId>1742500102</LineId>
+            <Text>Dobrze wyszkolona załoga magazynu przenosi skrzynie tak płynnie jak legion w marszu.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500105</LineId>
+            <Text>Zbadaj &lt;b&gt;Warehouse Organisation&lt;/b&gt;.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500108</LineId>
+            <Text>Brygady wozów w sztafecie</Text>
+        </Text>
+        <Text>
+            <LineId>1742500109</LineId>
+            <Text>Zapewnij wozom wolny przejazd, a prześcigną nawet twoje najśmielsze obietnice złożone senatowi.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500114</LineId>
+            <Text>Tabor wozów Merkurego</Text>
+        </Text>
+        <Text>
+            <LineId>1742500115</LineId>
+            <Text>W tym tempie wozy zlewają się w jedną linię, a tylko raporty dowodzą, że nic nie zginęło.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500118</LineId>
+            <Text>Zbadaj &lt;b&gt;Warehouse Halved Costs&lt;/b&gt;.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500121</LineId>
+            <Text>Oszczędni nadzorcy horreów</Text>
+        </Text>
+        <Text>
+            <LineId>1742500122</LineId>
+            <Text>Nasi zarządcy magazynów wyciskają z każdego denara wszystko, a skrzynie i tak idą równym krokiem.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500123</LineId>
+            <Text>Ogranicz zmiany, dociśnij księgi, a towary wciąż płyną, jakby sam Rzym patrzył.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500126</LineId>
+            <Text>Zbadaj &lt;b&gt;Portitores&lt;/b&gt;.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500127</LineId>
+            <Text>Zmniejsza koszty utrzymania i zapotrzebowanie na siłę roboczą we wszystkich magazynach.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500130</LineId>
+            <Text>Odchudzone zmiany</Text>
+        </Text>
+        <Text>
+            <LineId>1742500131</LineId>
+            <Text>Gdy mała ekipa przenosi ładunek jak cała kohorta, trening był wart wszystkich wrzasków.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500132</LineId>
+            <Text>Mniej rąk na podłodze, mniej skarg w barakach i ani jednej skrzyni w tyle.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500135</LineId>
+            <Text>Zbadaj &lt;b&gt;Headhunting&lt;/b&gt;.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500136</LineId>
+            <Text>Znacząco zmniejsza zapotrzebowanie na siłę roboczą we wszystkich magazynach.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500139</LineId>
+            <Text>Skąpi kwatermistrzowie</Text>
+        </Text>
+        <Text>
+            <LineId>1742500140</LineId>
+            <Text>Dach, przez który uciekają monety, jest gorszy niż taki, przez który cieknie deszcz, i te horrea
+                wreszcie to pojęły.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500141</LineId>
+            <Text>Księgowi kiwają głowami na widok twoich magazynów niemal tak dumnie jak legaci na widok twoich
+                legionów.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500144</LineId>
+            <Text>Dodatkowo obniża koszty utrzymania wszystkich magazynów.</Text>
+        </Text>
+    </ModOp>
+</ModOps>

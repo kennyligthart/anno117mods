@@ -1,0 +1,96 @@
+<ModOps>
+    <ModOp Path="/TextExport/Texts" Type="add">
+        <Text>
+            <LineId>1742500101</LineId>
+            <Text>Fleet-Footed Porters</Text>
+        </Text>
+        <Text>
+            <LineId>1742500102</LineId>
+            <Text>A well-drilled warehouse crew moves crates as smoothly as a legion on the march.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500105</LineId>
+            <Text>Research &lt;b&gt;Warehouse Organisation&lt;/b&gt;.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500108</LineId>
+            <Text>Relay Cart Crews</Text>
+        </Text>
+        <Text>
+            <LineId>1742500109</LineId>
+            <Text>Give the cart crews a clear path and they will outpace even your boldest promises to the senate.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500114</LineId>
+            <Text>Mercury's Wagon Trains</Text>
+        </Text>
+        <Text>
+            <LineId>1742500115</LineId>
+            <Text>At this pace the wagons blur into one long line, and only the tally boards prove nothing has gone missing.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500118</LineId>
+            <Text>Research &lt;b&gt;Warehouse Halved Costs&lt;/b&gt;.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500121</LineId>
+            <Text>Frugal Horrea Overseers</Text>
+        </Text>
+        <Text>
+            <LineId>1742500122</LineId>
+            <Text>Our warehouse overseers squeeze every denarius until it squeals, yet the crates still march in perfect order.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500123</LineId>
+            <Text>Trim the shifts, tighten the ledgers, and somehow the goods still flow as if Rome itself were
+                watching.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500126</LineId>
+            <Text>Research &lt;b&gt;Portitores&lt;/b&gt;.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500127</LineId>
+            <Text>Reduces the running costs and Workforce needed for all Warehouses.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500130</LineId>
+            <Text>Slimmed-Down Shifts</Text>
+        </Text>
+        <Text>
+            <LineId>1742500131</LineId>
+            <Text>When a lean crew moves cargo like a full cohort, you know your drills were worth all the shouting.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500132</LineId>
+            <Text>Fewer hands on the floor, fewer complaints in the barracks, and not a single crate left behind.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500135</LineId>
+            <Text>Research &lt;b&gt;Frugal Horrea Overseers&lt;/b&gt;.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500136</LineId>
+            <Text>Greatly reduces the Workforce needed for all Warehouses.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500139</LineId>
+            <Text>Penny-Pinching Quartermasters</Text>
+        </Text>
+        <Text>
+            <LineId>1742500140</LineId>
+            <Text>A roof that leaks coin is worse than one that leaks rain, and these horrea have finally learned the lesson.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500141</LineId>
+            <Text>The accountants nod at your warehouses almost as proudly as the legates nod at your legions.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500144</LineId>
+            <Text>Further reduces the running costs of all Warehouses.</Text>
+        </Text>
+    </ModOp>
+</ModOps>

@@ -1,0 +1,84 @@
+<ModOps>
+  
+  <!-- Serp GUIDs 1500000001 and 1500000006, reserved up to 1500000009 -->
+  <!-- 1500000002,1500000003,1500000004 is in shared mod "copy-pools-ap-constructioncategory-buildings-serp" -->
+  
+  
+  <ModOp Type="AddNextSibling" GUID='55268'>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1500000001</GUID>
+          <Name>Unhide all ships und units and buildings</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionAlwaysTrue</Template>
+            <Values>
+              <Condition />
+              <ConditionAlwaysTrue />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnhideAssets>
+                      <!-- All Ships -->
+                      <Item>
+                        <Asset>30827</Asset>
+                      </Item>
+                      <!-- Military Land Units -->
+                      <Item>
+                        <Asset>109990</Asset>
+                      </Item>
+                      <!-- all direct construction menu entries -->
+                      <Item>
+                        <Asset>1500000002</Asset>
+                      </Item>
+                      <!-- all buildings -->
+                      <Item>
+                        <Asset>1500000005</Asset>
+                      </Item>
+                    </UnhideAssets>
+                    <!-- ProductionChain and ConstructionCategory must be unlocked to expand and see their content -->
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>1500000003</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>1500000004</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>1</AutoRegisterTrigger>
+          <UsedBySecondParties>0</UsedBySecondParties>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+    
+    <Asset>
+      <BaseAssetGUID>1500000002</BaseAssetGUID>
+      <Values>
+        <Standard>
+          <GUID>1500000006</GUID>
+          <Name>savegametrigger1 (new trigger to make the new code execute also in savegames where 1500000002 was already executed)</Name>
+        </Standard>
+      </Values>
+    </Asset>
+  
+  </ModOp>
+  
+  
+  
+</ModOps>

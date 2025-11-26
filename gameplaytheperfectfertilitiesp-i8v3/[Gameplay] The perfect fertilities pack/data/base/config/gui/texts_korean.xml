@@ -1,0 +1,524 @@
+<ModOps>
+  <ModOp Add="//TextExport/Texts">
+    <Text>
+      <LineId>1742001000</LineId>
+      <Text>아마씨</Text>
+    </Text>
+    <Text>
+      <LineId>1742001001</LineId>
+      <Text>섬에 아마 비옥함을 제공하세요.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001002</LineId>
+      <Text>아마 비옥도</Text>
+    </Text>
+    <Text>
+      <LineId>1742001003</LineId>
+      <Text>보리 씨앗</Text>
+    </Text>
+    <Text>
+      <LineId>1742001004</LineId>
+      <Text>섬에 보리의 비옥함을 제공하세요.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001005</LineId>
+      <Text>보리 비옥성</Text>
+    </Text>
+    <Text>
+      <LineId>1742001006</LineId>
+      <Text>비버 트랩스</Text>
+    </Text>
+    <Text>
+      <LineId>1742001007</LineId>
+      <Text>비버 개체군을 섬에 제공하세요.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001008</LineId>
+      <Text>비버 개체군</Text>
+    </Text>
+    <Text>
+      <LineId>1742001009</LineId>
+      <Text>새 덫</Text>
+    </Text>
+    <Text>
+      <LineId>1742001010</LineId>
+      <Text>새 개체군을 섬에 공급하세요.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001011</LineId>
+      <Text>조류 개체군</Text>
+    </Text>
+    <Text>
+      <LineId>1742001012</LineId>
+      <Text>구리 지질학</Text>
+    </Text>
+    <Text>
+      <LineId>1742001013</LineId>
+      <Text>구리 광상을 섬에 제공하세요.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001014</LineId>
+      <Text>구리 광상</Text>
+    </Text>
+    <Text>
+      <LineId>1742001015</LineId>
+      <Text>사이프러스 묘목</Text>
+    </Text>
+    <Text>
+      <LineId>1742001016</LineId>
+      <Text>사이프러스 나무를 섬에 비옥하게 해줘.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001017</LineId>
+      <Text>사이프러스 다산력</Text>
+    </Text>
+    <Text>
+      <LineId>1742001018</LineId>
+      <Text>염료 식물 씨앗</Text>
+    </Text>
+    <Text>
+      <LineId>1742001019</LineId>
+      <Text>염료 식물에 섬의 비옥함을 제공하세요.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001020</LineId>
+      <Text>염색 식물 비옥도</Text>
+    </Text>
+    <Text>
+      <LineId>1742001021</LineId>
+      <Text>금 지질학</Text>
+    </Text>
+    <Text>
+      <LineId>1742001022</LineId>
+      <Text>금광석 매장지를 섬에 제공하세요.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001023</LineId>
+      <Text>금광석 매장지</Text>
+    </Text>
+    <Text>
+      <LineId>1742001024</LineId>
+      <Text>화강암 지질학</Text>
+    </Text>
+    <Text>
+      <LineId>1742001025</LineId>
+      <Text>화강암 매장지를 섬에 제공하세요.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001026</LineId>
+      <Text>화강암 퇴적물</Text>
+    </Text>
+    <Text>
+      <LineId>1742001027</LineId>
+      <Text>포도 묘목</Text>
+    </Text>
+    <Text>
+      <LineId>1742001028</LineId>
+      <Text>포도나무에 섬의 비옥함을 제공하세요.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001029</LineId>
+      <Text>포도 비옥도</Text>
+    </Text>
+    <Text>
+      <LineId>1742001030</LineId>
+      <Text>허브 씨앗</Text>
+    </Text>
+    <Text>
+      <LineId>1742001031</LineId>
+      <Text>허브를 섬에 비옥하게 해주세요.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001032</LineId>
+      <Text>허브 다산력</Text>
+    </Text>
+    <Text>
+      <LineId>1742001033</LineId>
+      <Text>철 지질학</Text>
+    </Text>
+    <Text>
+      <LineId>1742001034</LineId>
+      <Text>철광을 섬에 제공하세요.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001035</LineId>
+      <Text>철광상</Text>
+    </Text>
+    <Text>
+      <LineId>1742001036</LineId>
+      <Text>라벤더 묘목</Text>
+    </Text>
+    <Text>
+      <LineId>1742001037</LineId>
+      <Text>라벤더 비옥함을 섬에 제공하세요.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001038</LineId>
+      <Text>라벤더 다산력</Text>
+    </Text>
+    <Text>
+      <LineId>1742001039</LineId>
+      <Text>맥카렐스 트랩스</Text>
+    </Text>
+    <Text>
+      <LineId>1742001040</LineId>
+      <Text>매카렐 인구를 섬에 제공하세요.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001041</LineId>
+      <Text>매카렐스 인구</Text>
+    </Text>
+    <Text>
+      <LineId>1742001042</LineId>
+      <Text>대리석 지질학</Text>
+    </Text>
+    <Text>
+      <LineId>1742001043</LineId>
+      <Text>섬에 대리석 매장지를 제공하세요.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001044</LineId>
+      <Text>대리석 광상</Text>
+    </Text>
+    <Text>
+      <LineId>1742001045</LineId>
+      <Text>광물 지질학</Text>
+    </Text>
+    <Text>
+      <LineId>1742001046</LineId>
+      <Text>광물 매장지를 섬에 제공하세요.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001047</LineId>
+      <Text>광물 매장지</Text>
+    </Text>
+    <Text>
+      <LineId>1742001048</LineId>
+      <Text>올리브 새나무</Text>
+    </Text>
+    <Text>
+      <LineId>1742001049</LineId>
+      <Text>섬에 올리브의 비옥함을 제공하세요.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001050</LineId>
+      <Text>올리브 다산력</Text>
+    </Text>
+    <Text>
+      <LineId>1742001051</LineId>
+      <Text>오이스터 뱅크스</Text>
+    </Text>
+    <Text>
+      <LineId>1742001052</LineId>
+      <Text>오이스터 개체군을 섬에 공급하세요.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001053</LineId>
+      <Text>굴 개체수</Text>
+    </Text>
+    <Text>
+      <LineId>1742001054</LineId>
+      <Text>포니 초원</Text>
+    </Text>
+    <Text>
+      <LineId>1742001055</LineId>
+      <Text>포니 개체군을 섬에 공급하세요.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001056</LineId>
+      <Text>조랑말 개체수</Text>
+    </Text>
+    <Text>
+      <LineId>1742001057</LineId>
+      <Text>레진 묘목</Text>
+    </Text>
+    <Text>
+      <LineId>1742001058</LineId>
+      <Text>섬에 수지 비옥도를 제공합니다.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001059</LineId>
+      <Text>수지 다산력</Text>
+    </Text>
+    <Text>
+      <LineId>1742001060</LineId>
+      <Text>솔트워트 뱅크스</Text>
+    </Text>
+    <Text>
+      <LineId>1742001061</LineId>
+      <Text>섬에 살트워트의 비옥함을 제공하세요.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001062</LineId>
+      <Text>솔트워트 다산력</Text>
+    </Text>
+    <Text>
+      <LineId>1742001063</LineId>
+      <Text>조개껍데기 은행</Text>
+    </Text>
+    <Text>
+      <LineId>1742001064</LineId>
+      <Text>조개껍데기 개체수를 섬에 공급하세요.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001065</LineId>
+      <Text>조개껍데기 개체군</Text>
+    </Text>
+    <Text>
+      <LineId>1742001066</LineId>
+      <Text>실버 지질학</Text>
+    </Text>
+    <Text>
+      <LineId>1742001067</LineId>
+      <Text>은광을 섬에 제공하세요.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001068</LineId>
+      <Text>은 광상</Text>
+    </Text>
+    <Text>
+      <LineId>1742001069</LineId>
+      <Text>뮤렉스 달팽이 뱅크스</Text>
+    </Text>
+    <Text>
+      <LineId>1742001070</LineId>
+      <Text>무렉스 달팽이 개체군을 섬에 공급하세요.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001071</LineId>
+      <Text>무렉스 달이 개체군</Text>
+    </Text>
+    <Text>
+      <LineId>1742001072</LineId>
+      <Text>철갑상어 덫</Text>
+    </Text>
+    <Text>
+      <LineId>1742001073</LineId>
+      <Text>철갑상어 개체군을 섬에 공급하세요.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001074</LineId>
+      <Text>철갑상어 개체군</Text>
+    </Text>
+    <Text>
+      <LineId>1742001075</LineId>
+      <Text>주석 지질학</Text>
+    </Text>
+    <Text>
+      <LineId>1742001076</LineId>
+      <Text>주석 광맥을 섬에 제공하세요.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001077</LineId>
+      <Text>주석 광전</Text>
+    </Text>
+    <Text>
+      <LineId>1742001078</LineId>
+      <Text>전설의 아마씨</Text>
+    </Text>
+    <Text>
+      <LineId>1742001079</LineId>
+      <Text>전설적인 아마 비옥함</Text>
+    </Text>
+    <Text>
+      <LineId>1742001079</LineId>
+      <Text>전설적인 보리 씨앗</Text>
+    </Text>
+    <Text>
+      <LineId>1742001081</LineId>
+      <Text>전설적인 보리 비옥함</Text>
+    </Text>
+    <Text>
+      <LineId>1742001082</LineId>
+      <Text>전설의 비버 트랩</Text>
+    </Text>
+    <Text>
+      <LineId>1742001083</LineId>
+      <Text>전설적인 비버 개체군</Text>
+    </Text>
+    <Text>
+      <LineId>1742001084</LineId>
+      <Text>전설의 새 덫</Text>
+    </Text>
+    <Text>
+      <LineId>1742001085</LineId>
+      <Text>전설적인 새 개체군</Text>
+    </Text>
+    <Text>
+      <LineId>1742001086</LineId>
+      <Text>전설적인 구리 지질학</Text>
+    </Text>
+    <Text>
+      <LineId>1742001087</LineId>
+      <Text>전설적인 구리 광상</Text>
+    </Text>
+    <Text>
+      <LineId>1742001088</LineId>
+      <Text>전설적인 사이프러스 묘목</Text>
+    </Text>
+    <Text>
+      <LineId>1742001089</LineId>
+      <Text>전설적인 사이프러스 다산력</Text>
+    </Text>
+    <Text>
+      <LineId>1742001090</LineId>
+      <Text>전설의 염료 식물 씨앗</Text>
+    </Text>
+    <Text>
+      <LineId>1742001091</LineId>
+      <Text>전설의 염료 식물 다산력</Text>
+    </Text>
+    <Text>
+      <LineId>1742001092</LineId>
+      <Text>전설적인 금 지질학</Text>
+    </Text>
+    <Text>
+      <LineId>1742001093</LineId>
+      <Text>전설적인 금광석 매장지</Text>
+    </Text>
+    <Text>
+      <LineId>1742001094</LineId>
+      <Text>전설적인 화강암 지질학</Text>
+    </Text>
+    <Text>
+      <LineId>1742001095</LineId>
+      <Text>전설적인 화강암 퇴적물</Text>
+    </Text>
+    <Text>
+      <LineId>1742001096</LineId>
+      <Text>전설적인 포도 묘목</Text>
+    </Text>
+    <Text>
+      <LineId>1742001097</LineId>
+      <Text>전설적인 포도 비옥함</Text>
+    </Text>
+    <Text>
+      <LineId>1742001098</LineId>
+      <Text>전설의 허브 씨앗</Text>
+    </Text>
+    <Text>
+      <LineId>1742001099</LineId>
+      <Text>전설의 약초 다산력</Text>
+    </Text>
+    <Text>
+      <LineId>1742001100</LineId>
+      <Text>전설적인 철 지질학</Text>
+    </Text>
+    <Text>
+      <LineId>1742001101</LineId>
+      <Text>전설적인 철광상</Text>
+    </Text>
+    <Text>
+      <LineId>1742001102</LineId>
+      <Text>전설적인 라벤더 묘목</Text>
+    </Text>
+    <Text>
+      <LineId>1742001103</LineId>
+      <Text>전설적인 라벤더 다산력</Text>
+    </Text>
+    <Text>
+      <LineId>1742001104</LineId>
+      <Text>전설적인 맥카렐스 트랩스</Text>
+    </Text>
+    <Text>
+      <LineId>1742001105</LineId>
+      <Text>전설적인 맥카렐스 개체군</Text>
+    </Text>
+    <Text>
+      <LineId>1742001106</LineId>
+      <Text>전설적인 대리석 지질학</Text>
+    </Text>
+    <Text>
+      <LineId>1742001107</LineId>
+      <Text>전설적인 대리석 매장지</Text>
+    </Text>
+    <Text>
+      <LineId>1742001108</LineId>
+      <Text>전설적인 광물 지질학</Text>
+    </Text>
+    <Text>
+      <LineId>1742001109</LineId>
+      <Text>전설의 광물 매장지</Text>
+    </Text>
+    <Text>
+      <LineId>1742001110</LineId>
+      <Text>전설적인 올리브 묘목</Text>
+    </Text>
+    <Text>
+      <LineId>1742001111</LineId>
+      <Text>전설적인 올리브 다산력</Text>
+    </Text>
+    <Text>
+      <LineId>1742001112</LineId>
+      <Text>전설적인 오이스터 뱅크스</Text>
+    </Text>
+    <Text>
+      <LineId>1742001113</LineId>
+      <Text>전설적인 굴 개체군</Text>
+    </Text>
+    <Text>
+      <LineId>1742001114</LineId>
+      <Text>전설의 조랑말 초원</Text>
+    </Text>
+    <Text>
+      <LineId>1742001115</LineId>
+      <Text>전설적인 조랑말 개체군</Text>
+    </Text>
+    <Text>
+      <LineId>1742001116</LineId>
+      <Text>전설의 레진 묘목</Text>
+    </Text>
+    <Text>
+      <LineId>1742001117</LineId>
+      <Text>전설적인 수지 다산력</Text>
+    </Text>
+    <Text>
+      <LineId>1742001118</LineId>
+      <Text>전설적인 솔트워트 뱅크스</Text>
+    </Text>
+    <Text>
+      <LineId>1742001119</LineId>
+      <Text>전설적인 솔트워트 다산력</Text>
+    </Text>
+    <Text>
+      <LineId>1742001120</LineId>
+      <Text>전설적인 조개껍데기 은행</Text>
+    </Text>
+    <Text>
+      <LineId>1742001121</LineId>
+      <Text>전설적인 조개껍데기 개체군</Text>
+    </Text>
+    <Text>
+      <LineId>1742001122</LineId>
+      <Text>전설적인 은지질학</Text>
+    </Text>
+    <Text>
+      <LineId>1742001123</LineId>
+      <Text>전설적인 은광</Text>
+    </Text>
+    <Text>
+      <LineId>1742001124</LineId>
+      <Text>전설적인 뮬렉스 달팽이 은행</Text>
+    </Text>
+    <Text>
+      <LineId>1742001125</LineId>
+      <Text>전설적인 뮬렉스 달팽이 개체군</Text>
+    </Text>
+    <Text>
+      <LineId>1742001126</LineId>
+      <Text>전설적인 철갑상어 덫</Text>
+    </Text>
+    <Text>
+      <LineId>1742001127</LineId>
+      <Text>전설적인 철갑상어 개체군</Text>
+    </Text>
+    <Text>
+      <LineId>1742001128</LineId>
+      <Text>전설적인 주석 지질학</Text>
+    </Text>
+    <Text>
+      <LineId>1742001129</LineId>
+      <Text>전설의 주석 광산</Text>
+    </Text>
+  </ModOp>
+</ModOps>

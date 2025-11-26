@@ -1,0 +1,33 @@
+<ModOps>
+
+<!--Sheep Cheese-->
+
+  <ModOp Add="/TextExport/Texts[1]">
+  <!--after research description-->
+    <Text>
+      <Text>Definitely better than feta...</Text>
+      <LineId>1700100020</LineId>
+    </Text>
+  <!--before research description-->
+    <Text>
+      <Text>A staple in the diet of Roman legionaries...</Text>
+      <LineId>1700100019</LineId>
+    </Text>
+  <!--title-->
+    <Text>
+      <Text>Pecorino Romano</Text>
+      <LineId>1700100018</LineId>
+    </Text>
+  <!--effect description-->
+    <Text>
+      <Text>Your Sheep Farms produce a small amount of Cheese.</Text>
+      <LineId>1700100011</LineId>
+    </Text>
+  <!--FeatureUnlock InfoDescription - unused-->
+    <Text>
+      <Text>FeatureUnlock InfoDescription</Text>
+      <LineId>1700100025</LineId>
+    </Text>
+  </ModOp>
+
+</ModOps>

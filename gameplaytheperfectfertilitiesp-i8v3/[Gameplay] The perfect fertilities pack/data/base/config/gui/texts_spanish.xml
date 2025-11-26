@@ -1,0 +1,524 @@
+<ModOps>
+  <ModOp Add="//TextExport/Texts">
+    <Text>
+      <LineId>1742001000</LineId>
+      <Text>Semillas de lino</Text>
+    </Text>
+    <Text>
+      <LineId>1742001001</LineId>
+      <Text>Proporciona la fertilidad del lino a una isla.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001002</LineId>
+      <Text>Fertilidad del lino</Text>
+    </Text>
+    <Text>
+      <LineId>1742001003</LineId>
+      <Text>Semillas de cebada</Text>
+    </Text>
+    <Text>
+      <LineId>1742001004</LineId>
+      <Text>Proporciona la cebada fertil a una isla.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001005</LineId>
+      <Text>Fertilidad de la cebada</Text>
+    </Text>
+    <Text>
+      <LineId>1742001006</LineId>
+      <Text>Trampas para castores</Text>
+    </Text>
+    <Text>
+      <LineId>1742001007</LineId>
+      <Text>Proporcionar a la población de Castores a una isla.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001008</LineId>
+      <Text>Población de castores</Text>
+    </Text>
+    <Text>
+      <LineId>1742001009</LineId>
+      <Text>Trampas para aves</Text>
+    </Text>
+    <Text>
+      <LineId>1742001010</LineId>
+      <Text>Proporciona la población de aves a una isla.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001011</LineId>
+      <Text>Población de aves</Text>
+    </Text>
+    <Text>
+      <LineId>1742001012</LineId>
+      <Text>Geología del cobre</Text>
+    </Text>
+    <Text>
+      <LineId>1742001013</LineId>
+      <Text>Proporciona el yacimiento de cobre a una isla.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001014</LineId>
+      <Text>Depósito de cobre</Text>
+    </Text>
+    <Text>
+      <LineId>1742001015</LineId>
+      <Text>Arbolitos de ciprés</Text>
+    </Text>
+    <Text>
+      <LineId>1742001016</LineId>
+      <Text>Proporcionar fertilidad al ciprés a una isla.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001017</LineId>
+      <Text>Fertilidad de cipreses</Text>
+    </Text>
+    <Text>
+      <LineId>1742001018</LineId>
+      <Text>Semillas de plantas teñidas</Text>
+    </Text>
+    <Text>
+      <LineId>1742001019</LineId>
+      <Text>Proporciona fertilidad a las plantas tintes a una isla.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001020</LineId>
+      <Text>Fertilidad de las plantas teñidas</Text>
+    </Text>
+    <Text>
+      <LineId>1742001021</LineId>
+      <Text>Geología del Oro</Text>
+    </Text>
+    <Text>
+      <LineId>1742001022</LineId>
+      <Text>Proporcionar el yacimiento de mineral de oro a una isla.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001023</LineId>
+      <Text>Depósito de mineral de oro</Text>
+    </Text>
+    <Text>
+      <LineId>1742001024</LineId>
+      <Text>Geología del granito</Text>
+    </Text>
+    <Text>
+      <LineId>1742001025</LineId>
+      <Text>Proporciona el depósito de granito a una isla.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001026</LineId>
+      <Text>Depósito granítico</Text>
+    </Text>
+    <Text>
+      <LineId>1742001027</LineId>
+      <Text>Plantas de uva</Text>
+    </Text>
+    <Text>
+      <LineId>1742001028</LineId>
+      <Text>Proporciona fertilidad a las uvas a una isla.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001029</LineId>
+      <Text>Fertilidad de las uvas</Text>
+    </Text>
+    <Text>
+      <LineId>1742001030</LineId>
+      <Text>Hierbas Semillas</Text>
+    </Text>
+    <Text>
+      <LineId>1742001031</LineId>
+      <Text>Proporciona fertilidad a las hierbas a una isla.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001032</LineId>
+      <Text>Fertilidad de hierbas</Text>
+    </Text>
+    <Text>
+      <LineId>1742001033</LineId>
+      <Text>Geología del hierro</Text>
+    </Text>
+    <Text>
+      <LineId>1742001034</LineId>
+      <Text>Proporciona el depósito de hierro a una isla.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001035</LineId>
+      <Text>Depósito de hierro</Text>
+    </Text>
+    <Text>
+      <LineId>1742001036</LineId>
+      <Text>Plantones de lavanda</Text>
+    </Text>
+    <Text>
+      <LineId>1742001037</LineId>
+      <Text>Proporciona la lavanda fertilidad a una isla.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001038</LineId>
+      <Text>Fertilidad de lavanda</Text>
+    </Text>
+    <Text>
+      <LineId>1742001039</LineId>
+      <Text>Trampas Mackarels</Text>
+    </Text>
+    <Text>
+      <LineId>1742001040</LineId>
+      <Text>Proporcionar población de Mackarels a una isla.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001041</LineId>
+      <Text>Población de Mackarels</Text>
+    </Text>
+    <Text>
+      <LineId>1742001042</LineId>
+      <Text>Geología del mármol</Text>
+    </Text>
+    <Text>
+      <LineId>1742001043</LineId>
+      <Text>Proporciona el depósito de Mármoles a una isla.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001044</LineId>
+      <Text>Depósito de mármol</Text>
+    </Text>
+    <Text>
+      <LineId>1742001045</LineId>
+      <Text>Geología de los minerales</Text>
+    </Text>
+    <Text>
+      <LineId>1742001046</LineId>
+      <Text>Proporciona el depósito de minerales a una isla.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001047</LineId>
+      <Text>Depósito de minerales</Text>
+    </Text>
+    <Text>
+      <LineId>1742001048</LineId>
+      <Text>Plantones de olivo</Text>
+    </Text>
+    <Text>
+      <LineId>1742001049</LineId>
+      <Text>Proporciona fertilidad a la oliva a una isla.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001050</LineId>
+      <Text>Fertilidad de la Oliva</Text>
+    </Text>
+    <Text>
+      <LineId>1742001051</LineId>
+      <Text>Bancos de Ostras</Text>
+    </Text>
+    <Text>
+      <LineId>1742001052</LineId>
+      <Text>Proporciona la población de ostras a una isla.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001053</LineId>
+      <Text>Población de ostras</Text>
+    </Text>
+    <Text>
+      <LineId>1742001054</LineId>
+      <Text>Praderas Pony</Text>
+    </Text>
+    <Text>
+      <LineId>1742001055</LineId>
+      <Text>Proporcionar la población de ponis a una isla.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001056</LineId>
+      <Text>Población de ponis</Text>
+    </Text>
+    <Text>
+      <LineId>1742001057</LineId>
+      <Text>Plantones de resina</Text>
+    </Text>
+    <Text>
+      <LineId>1742001058</LineId>
+      <Text>Proporciona fertilidad a la resina a una isla.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001059</LineId>
+      <Text>Fertilidad con resina</Text>
+    </Text>
+    <Text>
+      <LineId>1742001060</LineId>
+      <Text>Bancos Saltwort</Text>
+    </Text>
+    <Text>
+      <LineId>1742001061</LineId>
+      <Text>Proporcionar fertilidad a los Saltwort a una isla.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001062</LineId>
+      <Text>Saltwort Fertilidad</Text>
+    </Text>
+    <Text>
+      <LineId>1742001063</LineId>
+      <Text>Bancos de conchas marinas</Text>
+    </Text>
+    <Text>
+      <LineId>1742001064</LineId>
+      <Text>Proporcionar la población de conchas marinas a una isla.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001065</LineId>
+      <Text>Población de conchas marinas</Text>
+    </Text>
+    <Text>
+      <LineId>1742001066</LineId>
+      <Text>Geología de la plata</Text>
+    </Text>
+    <Text>
+      <LineId>1742001067</LineId>
+      <Text>Proporciona el depósito de plata a una isla.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001068</LineId>
+      <Text>Depósito de plata</Text>
+    </Text>
+    <Text>
+      <LineId>1742001069</LineId>
+      <Text>Bancos de caracoles Murex</Text>
+    </Text>
+    <Text>
+      <LineId>1742001070</LineId>
+      <Text>Proporcionar la población de caracoles Murex a una isla.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001071</LineId>
+      <Text>Población de caracoles Murex</Text>
+    </Text>
+    <Text>
+      <LineId>1742001072</LineId>
+      <Text>Trampas para esturiones</Text>
+    </Text>
+    <Text>
+      <LineId>1742001073</LineId>
+      <Text>Proporciona la población de esturiones a una isla.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001074</LineId>
+      <Text>Población de esturiones</Text>
+    </Text>
+    <Text>
+      <LineId>1742001075</LineId>
+      <Text>Geología de estaño</Text>
+    </Text>
+    <Text>
+      <LineId>1742001076</LineId>
+      <Text>Proporciona el depósito de estaño a una isla.</Text>
+    </Text>
+    <Text>
+      <LineId>1742001077</LineId>
+      <Text>Depósito de Estaño</Text>
+    </Text>
+    <Text>
+      <LineId>1742001078</LineId>
+      <Text>Semillas de lino legendarias</Text>
+    </Text>
+    <Text>
+      <LineId>1742001079</LineId>
+      <Text>Fertilidad legendaria del lino</Text>
+    </Text>
+    <Text>
+      <LineId>1742001079</LineId>
+      <Text>Semillas de cebada legendarias</Text>
+    </Text>
+    <Text>
+      <LineId>1742001081</LineId>
+      <Text>Fertilidad legendaria de cebada</Text>
+    </Text>
+    <Text>
+      <LineId>1742001082</LineId>
+      <Text>Trampas legendarias para castores</Text>
+    </Text>
+    <Text>
+      <LineId>1742001083</LineId>
+      <Text>Población legendaria de castores</Text>
+    </Text>
+    <Text>
+      <LineId>1742001084</LineId>
+      <Text>Trampas legendarias para pájaros</Text>
+    </Text>
+    <Text>
+      <LineId>1742001085</LineId>
+      <Text>Población de aves legendarias</Text>
+    </Text>
+    <Text>
+      <LineId>1742001086</LineId>
+      <Text>Geología legendaria del cobre</Text>
+    </Text>
+    <Text>
+      <LineId>1742001087</LineId>
+      <Text>Legendario Depósito de Cobre</Text>
+    </Text>
+    <Text>
+      <LineId>1742001088</LineId>
+      <Text>Legendarios retoños de ciprés</Text>
+    </Text>
+    <Text>
+      <LineId>1742001089</LineId>
+      <Text>Fertilidad legendaria de ciprés</Text>
+    </Text>
+    <Text>
+      <LineId>1742001090</LineId>
+      <Text>Semillas legendarias de plantas tintes</Text>
+    </Text>
+    <Text>
+      <LineId>1742001091</LineId>
+      <Text>Fertilidad legendaria de las plantas teñidas</Text>
+    </Text>
+    <Text>
+      <LineId>1742001092</LineId>
+      <Text>Geología del Oro Legendaria</Text>
+    </Text>
+    <Text>
+      <LineId>1742001093</LineId>
+      <Text>Legendario Depósito de Oro</Text>
+    </Text>
+    <Text>
+      <LineId>1742001094</LineId>
+      <Text>Geología legendaria del granito</Text>
+    </Text>
+    <Text>
+      <LineId>1742001095</LineId>
+      <Text>Legendario Depósito de Granito</Text>
+    </Text>
+    <Text>
+      <LineId>1742001096</LineId>
+      <Text>Legendarios Brotes de Uva</Text>
+    </Text>
+    <Text>
+      <LineId>1742001097</LineId>
+      <Text>Fertilidad legendaria de las uvas</Text>
+    </Text>
+    <Text>
+      <LineId>1742001098</LineId>
+      <Text>Semillas de Hierbas Legendarias</Text>
+    </Text>
+    <Text>
+      <LineId>1742001099</LineId>
+      <Text>Fertilidad de hierbas legendarias</Text>
+    </Text>
+    <Text>
+      <LineId>1742001100</LineId>
+      <Text>Geología legendaria del hierro</Text>
+    </Text>
+    <Text>
+      <LineId>1742001101</LineId>
+      <Text>Legendario Depósito de Hierro</Text>
+    </Text>
+    <Text>
+      <LineId>1742001102</LineId>
+      <Text>Legendarios retoños de lavanda</Text>
+    </Text>
+    <Text>
+      <LineId>1742001103</LineId>
+      <Text>Fertilidad Legendaria de la Lavanda</Text>
+    </Text>
+    <Text>
+      <LineId>1742001104</LineId>
+      <Text>Trampas legendarias para Mackarels</Text>
+    </Text>
+    <Text>
+      <LineId>1742001105</LineId>
+      <Text>Población legendaria de Mackarels</Text>
+    </Text>
+    <Text>
+      <LineId>1742001106</LineId>
+      <Text>Geología legendaria del mármol</Text>
+    </Text>
+    <Text>
+      <LineId>1742001107</LineId>
+      <Text>Depósito legendario de mármol</Text>
+    </Text>
+    <Text>
+      <LineId>1742001108</LineId>
+      <Text>Geología Legendaria de los Minerales</Text>
+    </Text>
+    <Text>
+      <LineId>1742001109</LineId>
+      <Text>Depósito Legendario de Minerales</Text>
+    </Text>
+    <Text>
+      <LineId>1742001110</LineId>
+      <Text>Legendarios retoños de olivo</Text>
+    </Text>
+    <Text>
+      <LineId>1742001111</LineId>
+      <Text>Fertilidad legendaria de olivas</Text>
+    </Text>
+    <Text>
+      <LineId>1742001112</LineId>
+      <Text>Legendarios bancos de ostras</Text>
+    </Text>
+    <Text>
+      <LineId>1742001113</LineId>
+      <Text>Población legendaria de ostras</Text>
+    </Text>
+    <Text>
+      <LineId>1742001114</LineId>
+      <Text>Legendarias Praderas de Pony</Text>
+    </Text>
+    <Text>
+      <LineId>1742001115</LineId>
+      <Text>Población de ponis legendarios</Text>
+    </Text>
+    <Text>
+      <LineId>1742001116</LineId>
+      <Text>Legendarios Arbolitos de Resina</Text>
+    </Text>
+    <Text>
+      <LineId>1742001117</LineId>
+      <Text>Fertilidad legendaria en resina</Text>
+    </Text>
+    <Text>
+      <LineId>1742001118</LineId>
+      <Text>Legendarios Saltwort Banks</Text>
+    </Text>
+    <Text>
+      <LineId>1742001119</LineId>
+      <Text>Fertilidad legendaria Saltwort</Text>
+    </Text>
+    <Text>
+      <LineId>1742001120</LineId>
+      <Text>Legendarios Bancos de Conchas</Text>
+    </Text>
+    <Text>
+      <LineId>1742001121</LineId>
+      <Text>Población legendaria de conchas marinas</Text>
+    </Text>
+    <Text>
+      <LineId>1742001122</LineId>
+      <Text>Geología de la Plata Legendaria</Text>
+    </Text>
+    <Text>
+      <LineId>1742001123</LineId>
+      <Text>Legendario Depósito de Plata</Text>
+    </Text>
+    <Text>
+      <LineId>1742001124</LineId>
+      <Text>Legendarios bancos de caracoles Murex</Text>
+    </Text>
+    <Text>
+      <LineId>1742001125</LineId>
+      <Text>Población legendaria de caracoles Murex</Text>
+    </Text>
+    <Text>
+      <LineId>1742001126</LineId>
+      <Text>Trampas legendarias para esturiones</Text>
+    </Text>
+    <Text>
+      <LineId>1742001127</LineId>
+      <Text>Población legendaria de esturión</Text>
+    </Text>
+    <Text>
+      <LineId>1742001128</LineId>
+      <Text>Geología legendaria del estaño</Text>
+    </Text>
+    <Text>
+      <LineId>1742001129</LineId>
+      <Text>Depósito Legendario de Estaño</Text>
+    </Text>
+  </ModOp>
+</ModOps>

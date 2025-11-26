@@ -1,0 +1,32 @@
+{
+  "ModID": "villaislandrange-dukejeans",
+  "Version": "1.0.0",
+  "Anno": 8,
+  "Difficulty": "easier",
+  "GameSetup": {
+    "RequiresNewGame": true,
+    "SafeToRemove": false,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "ModName": {
+    "English": "Lex Provinciae: Island Wide Villas & Officia (DukeJeans)",
+    "German": "Lex Provinciae: Inselweite Villen & Büros (DukeJeans)"
+  },
+  "Category": {
+    "English": "Gameplay",
+    "German": "Gameplay"
+  },
+  "Description": {
+    "English": "Enacts the Lex Provinciae, extends the ranges of Villas and their respective Officia buildings to the entirety of an island. Restriction concerning placement nearby one another is also removed, so you can place freely.",
+    "German": "Das Gesetz Lex Provinciae wird in Kraft gesetzt und erweitert die Reichweite von Villen und den dazugehörigen Amtsgebäuden auf die gesamte Insel. Die Beschränkung der Platzierung nahe beieinander wird ebenfalls aufgehoben, sodass Sie frei platzieren können."
+  },
+  "CreatorName": "DukeJeans",
+  "CreatorContact": "Discord @dukejeans",
+  "Dependencies": {
+    "Require": [],
+    "Optional": [],
+    "LoadAfter": [],
+    "Deprecate": []
+  }
+}

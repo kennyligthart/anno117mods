@@ -1,0 +1,27 @@
+{
+  "Anno": 8,
+  "Version": "1.0.0",
+  "ModID": "low-transfer-times-anno117",
+  "Category": {
+    "English": "Gameplay"
+  },
+  "ModName": {
+    "English": "[Gameplay] Low Transfer Times"
+  },
+  "Description": {
+    "English": "Significantly reduces ship travel time between Latium and Albion provinces. MULTIPLAYER: All players must install this mod."
+  },
+  "InternalName": "LowTransferTimesAnno117",
+  "KnownIssues": {
+    "English": "All multiplayer participants must have identical mod installed."
+  },
+  "CreatorName": "Monky",
+  "ModTags": ["Gameplay", "Ships", "QualityOfLife", "Multiplayer"],
+  "Difficulty": "unchanged",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": false,
+    "Multiplayer": true,
+    "Campaign": true
+  }
+}

@@ -1,0 +1,8 @@
+<ModOps>
+  <ModOp Type="merge" Path="//Asset[Template='Warehouse']//QueueConfiguration">
+    <LoadingSpeed>1</LoadingSpeed>
+  </ModOp>
+  <ModOp Type="merge" Path="//Asset[Template='Warehouse_Marsh']//QueueConfiguration">
+    <LoadingSpeed>1</LoadingSpeed>
+  </ModOp>
+</ModOps>

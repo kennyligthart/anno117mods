@@ -1,0 +1,105 @@
+<ModOps>
+    <ModOp Path="/TextExport/Texts" Type="add">
+        <Text>
+            <LineId>1742500101</LineId>
+            <Text>Flinkfüßige Träger</Text>
+        </Text>
+        <Text>
+            <LineId>1742500102</LineId>
+            <Text>Eine gut gedrillte Lagercrew bewegt Kisten so geschmeidig wie eine Legion auf dem Marsch.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500105</LineId>
+            <Text>&lt;b&gt;Lagerhausverwaltung&lt;/b&gt; erforschen.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500108</LineId>
+            <Text>Staffelwagen-Kolonnen</Text>
+        </Text>
+        <Text>
+            <LineId>1742500109</LineId>
+            <Text>Geben Sie den Wagenkolonnen freie Bahn, und sie übertreffen selbst Ihre kühnsten Versprechen an den
+                Senat.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500114</LineId>
+            <Text>Merkurs Wagenzüge</Text>
+        </Text>
+        <Text>
+            <LineId>1742500115</LineId>
+            <Text>Bei diesem Tempo verschwimmen die Wagen zu einer einzigen Linie – nur die Tafeln beweisen, dass nichts
+                fehlt.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500118</LineId>
+            <Text>&lt;b&gt;Gut sortierte Lagerhäuser&lt;/b&gt; erforschen.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500121</LineId>
+            <Text>Frugale Horrea-Verwalter</Text>
+        </Text>
+        <Text>
+            <LineId>1742500122</LineId>
+            <Text>Unsere Lagerverwalter pressen jeden Denar, bis er quietscht, und dennoch marschieren die Kisten in
+                perfekter Ordnung.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500123</LineId>
+            <Text>Kürzen Sie Schichten, straffen Sie die Bücher – und trotzdem fließen die Waren, als würde Rom
+                persönlich zusehen.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500126</LineId>
+            <Text>&lt;b&gt;Portitores&lt;/b&gt; erforschen.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500127</LineId>
+            <Text>Verringert die Betriebskosten und die benötigten Arbeitskrafte aller Lagerhäuser.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500130</LineId>
+            <Text>Verschlankte Schichten</Text>
+        </Text>
+        <Text>
+            <LineId>1742500131</LineId>
+            <Text>Wenn eine schlanke Mannschaft Fracht wie eine volle Kohorte bewegt, waren die Übungen jede Standpauke
+                wert.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500132</LineId>
+            <Text>Weniger Hände am Boden, weniger Beschwerden in den Baracken und keine einzige Kiste bleibt zurück.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500135</LineId>
+            <Text>&lt;b&gt;Frugale Horrea-Verwalter&lt;/b&gt; erforschen.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500136</LineId>
+            <Text>Reduziert die benötigten Arbeitskrafte aller Lagerhäuser deutlich.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500139</LineId>
+            <Text>Pfennigfuchsende Quartiermeister</Text>
+        </Text>
+        <Text>
+            <LineId>1742500140</LineId>
+            <Text>Ein Dach, das Münzen verliert, ist schlimmer als eines, das Regen durchlässt – diese Horrea haben das
+                endlich gelernt.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500141</LineId>
+            <Text>Die Buchhalter nicken Ihren Lagern fast so stolz zu wie die Legaten Ihren Legionen.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500144</LineId>
+            <Text>Verringert die Betriebskosten aller Lagerhäuser weiter.</Text>
+        </Text>
+    </ModOp>
+</ModOps>

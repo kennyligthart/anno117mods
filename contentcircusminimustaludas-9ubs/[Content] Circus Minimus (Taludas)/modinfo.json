@@ -1,0 +1,77 @@
+{
+  "Version": "1.0.1",
+  "Anno": 8,
+  "ModID": "taludas-circusminimus",
+  "Difficulty": "unchanged",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [],
+    "Optional": [],
+    "LoadAfter": [],
+    "Deprecate": [],
+    "Incompatible": []
+  },
+  "Category": {
+    "Chinese": "Content",
+    "English": "Content",
+    "French": "Content",
+    "German": "Content",
+    "Italian": "Content",
+    "Japanese": "Content",
+    "Korean": "Content",
+    "Polish": "Content",
+    "Russian": "Content",
+    "Spanish": "Content",
+    "Taiwanese": "Content"
+  },
+  "ModName": {
+    "Chinese": "Circus Minimus (Taludas)",
+    "English": "Circus Minimus (Taludas)",
+    "French": "Circus Minimus (Taludas)",
+    "German": "Circus Minimus (Taludas)",
+    "Italian": "Circus Minimus (Taludas)",
+    "Japanese": "Circus Minimus (Taludas)",
+    "Korean": "Circus Minimus (Taludas)",
+    "Polish": "Circus Minimus (Taludas)",
+    "Russian": "Circus Minimus (Taludas)",
+    "Spanish": "Circus Minimus (Taludas)",
+    "Taiwanese": "Circus Minimus (Taludas)"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "# Circus Minimus \n\n Adds a new Public Building to the game: The Circus Minimus. It is requested by your Equites and Patricians and can be used to fill their need for Wonders.",
+    "French": null,
+    "German": "# Circus Minimus \n\n Fügt dem Spiel ein neues öffentliches Gebäude hinzu: den Circus Minimus. Er wird von Equites und Patriziern nachgefragt und kann dazu verwendet werden, ihren Bedarf an Wundern zu decken.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [],
+  "CreatorName": "Taludas",
+  "CreatorContact": "",
+  "Image": null
+}

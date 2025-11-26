@@ -1,0 +1,4562 @@
+<!--
+
+FERTILITIES
+
+-->
+
+<ModOps>
+
+  <!-- START ADD Flax Seeds - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001000</GUID>
+          <Name>Flax Seeds</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_flax.png</IconFilename>
+          <InfoDescription>1742001001</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001002</GUID>              <!-- Flax Fertility -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>2669</GUID>              <!-- Flax Farm Roman -->
+            </Item>
+            <Item>
+              <GUID>5971</GUID>              <!-- Flax Farm Celtic -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Rare</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>18500</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001000</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Flax Seeds - Item -->
+
+  <!-- START ADD Flax Fertility - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001002</GUID>
+          <Name>Flax Fertility</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_flax.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001002</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>2202</AddedFertility>          <!-- Flax -->
+          <FertilityPercent>50</FertilityPercent>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>15</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Barley Fertility - Effect -->
+
+  <!-- START ADD Barley Seeds - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001003</GUID>
+          <Name>Barley Seeds</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_barley.png</IconFilename>
+          <InfoDescription>1742001004</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001005</GUID>              <!-- Barley Fertility -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>2799</GUID>              <!-- Barley Farm -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Rare</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>18500</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001003</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Barley Seeds - Item -->
+
+  <!-- START ADD Barley Fertility - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001005</GUID>
+          <Name>Barley Fertility</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_barley.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001005</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>2212</AddedFertility>          <!-- Barley -->
+          <FertilityPercent>50</FertilityPercent>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>15</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Barley Fertility - Effect -->
+
+  <!-- START ADD Beaver Traps - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001006</GUID>
+          <Name>Beaver Traps</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_beavers.png</IconFilename>
+          <InfoDescription>1742001007</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001008</GUID>              <!-- Beaver Population -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>31759</GUID>              <!-- Marsh Celtic Beaver -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Rare</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>18500</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001006</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Beaver Traps - Item -->
+
+  <!-- START ADD Beaver Population - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001008</GUID>
+          <Name>Beaver Population</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_beavers.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001008</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>4082</AddedFertility>          <!-- Beavers -->
+          <FertilityPercent>50</FertilityPercent>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>15</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Beaver Population - Effect -->
+
+  <!-- START ADD Bird Traps - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001009</GUID>
+          <Name>Bird Traps</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_birds.png</IconFilename>
+          <InfoDescription>1742001010</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001011</GUID>              <!-- Bird Population -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>5851</GUID>              <!-- Marsh Roman Celtic Birds -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Rare</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>18500</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001009</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Bird Traps - Item -->
+
+  <!-- START ADD Bird Population - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001011</GUID>
+          <Name>Bird Population</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_birds.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001011</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>2219</AddedFertility>          <!-- Birds -->
+          <FertilityPercent>50</FertilityPercent>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>15</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Bird Population - Effect -->
+
+  <!-- START ADD Copper Geology - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001012</GUID>
+          <Name>Copper Geology</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_copper.png</IconFilename>
+          <InfoDescription>1742001013</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001014</GUID>              <!-- Copper Deposit -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>5290</GUID>              <!-- Mountain Celtic Copper Ore -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Rare</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>18500</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001012</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Copper Geology - Item -->
+
+  <!-- START ADD Copper Deposit - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001014</GUID>
+          <Name>Copper Deposit</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_copper.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001014</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>4063</AddedFertility>          <!-- Copper -->
+          <FertilityPercent>50</FertilityPercent>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>15</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Copper Deposit - Effect -->
+
+  <!-- START ADD Cypress/Sandarac Saplings - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001015</GUID>
+          <Name>Cypress/Sandarac Saplings</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_cypress_wood.png</IconFilename>
+          <InfoDescription>1742001016</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001017</GUID>              <!-- Sandarac Fertility -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>8579</GUID>              <!-- Field Roman Sandarac Wood -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Rare</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>18500</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001015</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Cypress/Sandarac Saplings - Item -->
+
+  <!-- START ADD Sandarac Fertility - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001017</GUID>
+          <Name>Sandarac Fertility</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_cypress_wood.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001017</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>4052</AddedFertility>          <!-- Sandarac -->
+          <FertilityPercent>50</FertilityPercent>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>15</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Sandarac Fertility - Effect -->
+
+  <!-- START ADD Dye Plants Seeds - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001018</GUID>
+          <Name>Dye Plants Seeds</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_dye_plants.png</IconFilename>
+          <InfoDescription>1742001019</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001020</GUID>              <!-- Dye Plants Fertility -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>2800</GUID>              <!-- Field Celtic Dye Plants -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Rare</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>18500</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001018</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Dye Plants Seeds - Item -->
+
+  <!-- START ADD Dye Plants Fertility - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001020</GUID>
+          <Name>Dye Plants Fertility</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_dye_plants.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001020</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>2217</AddedFertility>          <!-- Cypress/Sandarac -->
+          <FertilityPercent>50</FertilityPercent>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>15</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Dye Plants Fertility - Effect -->
+
+  <!-- START ADD Gold Geology - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001021</GUID>
+          <Name>Gold Geology</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_gold_ore.png</IconFilename>
+          <InfoDescription>1742001022</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001023</GUID>              <!-- Gold Ore Deposit -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>50280</GUID>              <!-- Mountain Roman Gold Ore  -->
+            </Item>
+            <Item>
+              <GUID>31753</GUID>              <!-- River Roman Gold Ore  -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Rare</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>18500</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001021</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Gold Geology - Item -->
+
+  <!-- START ADD Gold Ore Deposit - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001023</GUID>
+          <Name>Gold Ore Deposit</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_gold_ore.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001023</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>32027</AddedFertility>          <!-- Gold Ore -->
+          <FertilityPercent>50</FertilityPercent>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>15</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Gold Ore Deposit - Effect -->
+
+  <!-- START ADD Granite Geology - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001024</GUID>
+          <Name>Granite Geology</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_granite.png</IconFilename>
+          <InfoDescription>1742001025</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001026</GUID>              <!-- Granite Deposit -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>5295</GUID>              <!-- Mountain Celtic Granite Blocks  -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Rare</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>18500</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001024</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Granite Geology - Item -->
+
+  <!-- START ADD Granite Deposit - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001026</GUID>
+          <Name>Granite Deposit</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_granite.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001026</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>4066</AddedFertility>          <!-- Granite -->
+          <FertilityPercent>50</FertilityPercent>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>15</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Granite Deposit - Effect -->
+
+  <!-- START ADD Grapes Saplings - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001027</GUID>
+          <Name>Grapes Saplings</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_grapes.png</IconFilename>
+          <InfoDescription>1742001028</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001029</GUID>              <!-- Grapes Fertility -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>2694</GUID>              <!-- Field Roman Grapes  -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Rare</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>18500</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001027</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Grapes Saplings - Item -->
+
+  <!-- START ADD Grapes Fertility - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001029</GUID>
+          <Name>Grapes Fertility</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_grapes.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001029</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>2205</AddedFertility>          <!-- Grapes -->
+          <FertilityPercent>50</FertilityPercent>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>15</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Grapes Fertility - Effect -->
+
+  <!-- START ADD Herbs Seeds - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001030</GUID>
+          <Name>Herbs Seeds</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_herbs.png</IconFilename>
+          <InfoDescription>1742001031</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001032</GUID>              <!-- Grapes Fertility -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>31764</GUID>              <!-- Field Roman Celtic Herbs  -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Rare</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>18500</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001030</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Herbs Seeds - Item -->
+
+  <!-- START ADD Herbs Fertility - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001032</GUID>
+          <Name>Herbs Fertility</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_herbs.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001032</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>2214</AddedFertility>          <!-- Herbs -->
+          <FertilityPercent>50</FertilityPercent>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>15</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Herbs Fertility - Effect -->
+
+  <!-- START ADD Iron Geology - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001033</GUID>
+          <Name>Iron Geology</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_iron_ore.png</IconFilename>
+          <InfoDescription>1742001034</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001035</GUID>              <!-- Iron Deposit -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>2918</GUID>              <!-- Mountain Roman Iron Ore  -->
+            </Item>
+            <Item>
+              <GUID>5982</GUID>              <!-- Mountain Roman Celtic Iron Ore  -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Rare</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>18500</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001033</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Iron Geology - Item -->
+
+  <!-- START ADD Iron Deposit - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001035</GUID>
+          <Name>Iron Deposit</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_iron_ore.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001035</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>4049</AddedFertility>          <!-- Iron Ore -->
+          <FertilityPercent>50</FertilityPercent>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>15</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Iron Deposit - Effect -->
+
+  <!-- START ADD Lavender Saplings - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001036</GUID>
+          <Name>Lavender Saplings</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_lavender.png</IconFilename>
+          <InfoDescription>1742001037</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001038</GUID>              <!-- Lavender Fertility -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>2698</GUID>              <!-- Field Roman Lavender  -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Rare</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>18500</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001036</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Lavender Saplings - Item -->
+
+  <!-- START ADD Lavender Fertility - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001038</GUID>
+          <Name>Lavender Fertility</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_lavender.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001038</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>2209</AddedFertility>          <!-- Lavender -->
+          <FertilityPercent>50</FertilityPercent>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>15</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Lavender Fertility - Effect -->
+
+  <!-- START ADD Mackarels Traps - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001039</GUID>
+          <Name>Mackarels Traps</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_mackarels.png</IconFilename>
+          <InfoDescription>1742001040</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001041</GUID>              <!-- Mackarels Population -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>2956</GUID>              <!-- Coast Roman Mackerels -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Rare</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>18500</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001039</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Mackarels Traps - Item -->
+
+  <!-- START ADD Mackarels Population - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001041</GUID>
+          <Name>Mackarels Population</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_mackarels.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001041</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>2206</AddedFertility>          <!-- Mackarels -->
+          <FertilityPercent>50</FertilityPercent>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>15</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Mackarels Population - Effect -->
+
+  <!-- START ADD Marble Geology - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001042</GUID>
+          <Name>Marble Geology</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_marble.png</IconFilename>
+          <InfoDescription>1742001043</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001044</GUID>              <!-- Marble Deposit -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>2954</GUID>              <!-- Mountain Roman Marble Blocks  -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Rare</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>18500</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001042</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Marble Geology - Item -->
+
+  <!-- START ADD Marble Deposit - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001044</GUID>
+          <Name>Marble Deposit</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_marble.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001044</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>4062</AddedFertility>          <!-- Marble Ore -->
+          <FertilityPercent>50</FertilityPercent>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>15</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Marble Deposit - Effect -->
+
+  <!-- START ADD Minerals Geology - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001045</GUID>
+          <Name>Minerals Geology</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_minerals.png</IconFilename>
+          <InfoDescription>1742001046</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001047</GUID>              <!-- Minerals Deposit -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>2920</GUID>              <!-- Mountain Roman Minerals  -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Rare</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>18500</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001045</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Minerals Geology - Item -->
+
+  <!-- START ADD Minerals Deposit - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001047</GUID>
+          <Name>Minerals Deposit</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_minerals.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001047</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>4053</AddedFertility>          <!-- Minerals -->
+          <FertilityPercent>50</FertilityPercent>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>15</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Minerals Deposit - Effect -->
+
+  <!-- START ADD Olive Saplings - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001048</GUID>
+          <Name>Olive Saplings</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_olives.png</IconFilename>
+          <InfoDescription>1742001049</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001050</GUID>              <!-- Olive Fertility -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>2699</GUID>              <!-- Field Roman Olives  -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Rare</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>18500</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001048</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Olive Saplings - Item -->
+
+  <!-- START ADD Olive Fertility - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001050</GUID>
+          <Name>Olive Fertility</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_olives.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001050</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>2210</AddedFertility>          <!-- Olive -->
+          <FertilityPercent>50</FertilityPercent>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>15</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Olive Fertility - Effect -->
+
+  <!-- START ADD Oyster Banks - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001051</GUID>
+          <Name>Oyster Banks</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_oysters.png</IconFilename>
+          <InfoDescription>1742001052</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001053</GUID>              <!-- Oyster Population -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>8586</GUID>              <!-- Coast Roman Oysters -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Rare</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>18500</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001051</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Oyster Banks - Item -->
+
+  <!-- START ADD Oyster Population - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001053</GUID>
+          <Name>Oyster Population</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_oysters.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001053</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>2208</AddedFertility>          <!-- Oysters -->
+          <FertilityPercent>50</FertilityPercent>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>15</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Oyster Population - Effect -->
+
+  <!-- START ADD Pony Grasslands - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001054</GUID>
+          <Name>Pony Grasslands</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_ponies.png</IconFilename>
+          <InfoDescription>1742001055</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001056</GUID>              <!-- Ponies Population -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>5975</GUID>              <!-- Meadow Celtic Dartmoor Ponies -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Rare</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>18500</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001054</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Pony Grasslands - Item -->
+
+  <!-- START ADD Ponies Population - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001056</GUID>
+          <Name>Ponies Population</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_ponies.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001056</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>2211</AddedFertility>          <!-- Ponies -->
+          <FertilityPercent>50</FertilityPercent>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>15</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Ponies Population - Effect -->
+
+  <!-- START ADD Resin Saplings - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001057</GUID>
+          <Name>Resin Saplings</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_resin.png</IconFilename>
+          <InfoDescription>1742001058</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001059</GUID>              <!-- Resin Fertility -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>31752</GUID>              <!-- Forest Roman Resin  -->
+            </Item>
+            <Item>
+              <GUID>31761</GUID>              <!-- Forest Roman Celtic Resin  -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Rare</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>18500</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001057</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Resin Saplings - Item -->
+
+  <!-- START ADD Resin Fertility - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001059</GUID>
+          <Name>Resin Fertility</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_resin.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001059</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>51212</AddedFertility>          <!-- Resin -->
+          <FertilityPercent>50</FertilityPercent>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>15</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Resin Fertility - Effect -->
+
+  <!-- START ADD Saltwort Banks - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001060</GUID>
+          <Name>Saltwort Banks</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_saltwort.png</IconFilename>
+          <InfoDescription>1742001061</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001062</GUID>              <!-- Saltwort Fertility -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>2796</GUID>              <!-- Coast Celtic Samphire -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Rare</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>18500</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001060</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Saltwort Banks - Item -->
+
+  <!-- START ADD Saltwort Fertility - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001062</GUID>
+          <Name>Saltwort Fertility</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_saltwort.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001062</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>2218</AddedFertility>          <!-- Saltwort -->
+          <FertilityPercent>50</FertilityPercent>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>15</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Saltwort Fertility - Effect -->
+
+  <!-- START ADD Seashell Banks - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001063</GUID>
+          <Name>Seashell Banks</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_seashells.png</IconFilename>
+          <InfoDescription>1742001064</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001065</GUID>              <!-- Seashell Population -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>8431</GUID>              <!-- Coast Roman Celtic Sea Shells -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Rare</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>18500</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001063</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Seashell Banks - Item -->
+
+  <!-- START ADD Seashell Population - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001065</GUID>
+          <Name>Seashell Population</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_seashells.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001065</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>8432</AddedFertility>          <!-- Seashell -->
+          <FertilityPercent>50</FertilityPercent>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>15</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Seashell Population - Effect -->
+
+  <!-- START ADD Silver Geology - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001066</GUID>
+          <Name>Silver Geology</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_silver.png</IconFilename>
+          <InfoDescription>1742001067</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001068</GUID>              <!-- Silver Deposit -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>5980</GUID>              <!-- Mountain Roman Celtic Silver Ore -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Rare</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>18500</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001066</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Silver Geology - Item -->
+
+  <!-- START ADD Silver Deposit - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001068</GUID>
+          <Name>Silver Deposit</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_silver.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001068</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>8487</AddedFertility>          <!-- Silver -->
+          <FertilityPercent>50</FertilityPercent>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>15</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Silver Deposit - Effect -->
+
+  <!-- START ADD Snail Banks - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001069</GUID>
+          <Name>Snail Banks</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_snails.png</IconFilename>
+          <InfoDescription>1742001070</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001071</GUID>              <!-- Snail Population -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>8580</GUID>              <!-- Coast Roman Sea Snails -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Rare</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>18500</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001069</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Seashell Banks - Item -->
+
+  <!-- START ADD Snail Population - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001071</GUID>
+          <Name>Snail Population</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_snails.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001071</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>4051</AddedFertility>          <!-- Snail -->
+          <FertilityPercent>50</FertilityPercent>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>15</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Snail Population - Effect -->
+
+  <!-- START ADD Sturgeon Traps - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001072</GUID>
+          <Name>Sturgeon Traps</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_sturgeon.png</IconFilename>
+          <InfoDescription>1742001073</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001074</GUID>              <!-- Sturgeon Population -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>2971</GUID>              <!-- River Roman Sturgeon -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Rare</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>18500</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001072</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Sturgeon Traps - Item -->
+
+  <!-- START ADD Sturgeon Population - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001074</GUID>
+          <Name>Sturgeon Population</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_sturgeon.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001074</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>8577</AddedFertility>          <!-- Sturgeon -->
+          <FertilityPercent>50</FertilityPercent>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>15</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Sturgeon Population - Effect -->
+
+  <!-- START ADD Tin Geology - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001075</GUID>
+          <Name>Tin Geology</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_tin.png</IconFilename>
+          <InfoDescription>1742001076</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001077</GUID>              <!-- Tin Deposit -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>5291</GUID>              <!-- Mountain Celtic Tin Ore -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Rare</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>18500</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001075</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Copper Tin - Item -->
+
+  <!-- START ADD Tin Deposit - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001077</GUID>
+          <Name>Tin Deposit</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_tin.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001077</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>4064</AddedFertility>          <!-- Tin -->
+          <FertilityPercent>50</FertilityPercent>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>15</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Tin Deposit - Effect -->
+
+  <!-- ************************** *************** ******************************** -->
+  <!-- ************************** *************** ******************************** -->
+  <!-- ************************** LEGENDARY SEEDS ******************************** -->
+  <!-- ************************** *************** ******************************** -->
+  <!-- ************************** *************** ******************************** -->
+  <!-- START ADD Legendary Flax Seeds - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001078</GUID>
+          <Name>Legendary Flax Seeds</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_flax.png</IconFilename>
+          <InfoDescription>1742001001</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001079</GUID>              <!-- Flax Fertility -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>2669</GUID>              <!-- Flax Farm Roman -->
+            </Item>
+            <Item>
+              <GUID>5971</GUID>              <!-- Flax Farm Celtic -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Legendary</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>525000</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001078</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Flax Seeds - Item -->
+
+  <!-- START ADD Legendary Flax Fertility - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001079</GUID>
+          <Name>Legendary Flax Fertility</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_flax.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001079</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>2202</AddedFertility>          <!-- Flax -->
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Barley Fertility - Effect -->
+
+  <!-- START ADD Legendary Barley Seeds - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001080</GUID>
+          <Name>Legendary Barley Seeds</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_barley.png</IconFilename>
+          <InfoDescription>1742001004</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001081</GUID>              <!-- Barley Fertility -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>2799</GUID>              <!-- Barley Farm -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Legendary</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>525000</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001081</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Barley Seeds - Item -->
+
+  <!-- START ADD Legendary Barley Fertility - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001081</GUID>
+          <Name>Legendary Barley Fertility</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_barley.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001081</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>2212</AddedFertility>          <!-- Barley -->
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Barley Fertility - Effect -->
+
+  <!-- START ADD Legendary Beaver Traps - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001082</GUID>
+          <Name>Legendary Beaver Traps</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_beavers.png</IconFilename>
+          <InfoDescription>1742001007</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001083</GUID>              <!-- Beaver Population -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>31759</GUID>              <!-- Marsh Celtic Beaver -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Legendary</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>525000</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001082</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Beaver Traps - Item -->
+
+  <!-- START ADD Legendary Beaver Population - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001083</GUID>
+          <Name>Legendary Beaver Population</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_beavers.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001083</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>4082</AddedFertility>          <!-- Beavers -->
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Beaver Population - Effect -->
+
+  <!-- START ADD Legendary Bird Traps - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001084</GUID>
+          <Name>Legendary Bird Traps</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_birds.png</IconFilename>
+          <InfoDescription>1742001010</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001085</GUID>              <!-- Bird Population -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>5851</GUID>              <!-- Marsh Roman Celtic Birds -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Legendary</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>525000</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001084</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Bird Traps - Item -->
+
+  <!-- START ADD Legendary Bird Population - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001085</GUID>
+          <Name>Legendary Bird Population</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_birds.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001085</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>2219</AddedFertility>          <!-- Birds -->
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Bird Population - Effect -->
+
+  <!-- START ADD Legendary Copper Geology - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001086</GUID>
+          <Name>Legendary Copper Geology</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_copper.png</IconFilename>
+          <InfoDescription>1742001013</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001087</GUID>              <!-- Copper Deposit -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>5290</GUID>              <!-- Mountain Celtic Copper Ore -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Legendary</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>525000</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001086</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Copper Geology - Item -->
+
+  <!-- START ADD Legendary Copper Deposit - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001087</GUID>
+          <Name>Legendary Copper Deposit</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_copper.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001087</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>4063</AddedFertility>          <!-- Copper -->
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Copper Deposit - Effect -->
+
+  <!-- START ADD Legendary Cypress/Sandarac Saplings - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001088</GUID>
+          <Name>Legendary Cypress/Sandarac Saplings</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_cypress_wood.png</IconFilename>
+          <InfoDescription>1742001016</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001089</GUID>              <!-- Sandarac Fertility -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>8579</GUID>              <!-- Field Roman Sandarac Wood -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Legendary</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>525000</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001088</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Cypress/Sandarac Saplings - Item -->
+
+  <!-- START ADD Legendary Sandarac Fertility - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001089</GUID>
+          <Name>Legendary Sandarac Fertility</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_cypress_wood.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001089</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>4052</AddedFertility>          <!-- Sandarac -->
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Sandarac Fertility - Effect -->
+
+  <!-- START ADD Legendary Dye Plants Seeds - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001090</GUID>
+          <Name>Legendary Dye Plants Seeds</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_dye_plants.png</IconFilename>
+          <InfoDescription>1742001019</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001091</GUID>              <!-- Dye Plants Fertility -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>2800</GUID>              <!-- Field Celtic Dye Plants -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Legendary</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>525000</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001090</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Dye Plants Seeds - Item -->
+
+  <!-- START ADD Legendary Dye Plants Fertility - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001091</GUID>
+          <Name>Legendary Dye Plants Fertility</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_dye_plants.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001091</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>2217</AddedFertility>          <!-- Cypress/Sandarac -->
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Dye Plants Fertility - Effect -->
+
+  <!-- START ADD Legendary Gold Geology - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001092</GUID>
+          <Name>Legendary Gold Geology</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_gold_ore.png</IconFilename>
+          <InfoDescription>1742001022</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001093</GUID>              <!-- Gold Ore Deposit -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>50280</GUID>              <!-- Mountain Roman Gold Ore  -->
+            </Item>
+            <Item>
+              <GUID>31753</GUID>              <!-- River Roman Gold Ore  -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Legendary</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>525000</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001092</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Gold Geology - Item -->
+
+  <!-- START ADD Legendary Gold Ore Deposit - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001093</GUID>
+          <Name>Legendary Gold Ore Deposit</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_gold_ore.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001093</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>32027</AddedFertility>          <!-- Gold Ore -->
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Gold Ore Deposit - Effect -->
+
+  <!-- START ADD Legendary Granite Geology - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001094</GUID>
+          <Name>Legendary Granite Geology</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_granite.png</IconFilename>
+          <InfoDescription>1742001025</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001095</GUID>              <!-- Granite Deposit -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>5295</GUID>              <!-- Mountain Celtic Granite Blocks  -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Legendary</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>525000</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001094</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Granite Geology - Item -->
+
+  <!-- START ADD Legendary Granite Deposit - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001095</GUID>
+          <Name>Legendary Granite Deposit</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_granite.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001095</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>4066</AddedFertility>          <!-- Granite -->
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Granite Deposit - Effect -->
+
+  <!-- START ADD Legendary Grapes Saplings - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001096</GUID>
+          <Name>Legendary Grapes Saplings</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_grapes.png</IconFilename>
+          <InfoDescription>1742001028</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001097</GUID>              <!-- Grapes Fertility -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>2694</GUID>              <!-- Field Roman Grapes  -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Legendary</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>525000</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001096</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Grapes Saplings - Item -->
+
+  <!-- START ADD Legendary Grapes Fertility - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001097</GUID>
+          <Name>Legendary Grapes Fertility</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_grapes.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001097</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>2205</AddedFertility>          <!-- Grapes -->
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Grapes Fertility - Effect -->
+
+  <!-- START ADD Legendary Herbs Seeds - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001098</GUID>
+          <Name>Legendary Herbs Seeds</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_herbs.png</IconFilename>
+          <InfoDescription>1742001031</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001099</GUID>              <!-- Grapes Fertility -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>31764</GUID>              <!-- Field Roman Celtic Herbs  -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Legendary</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>525000</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001098</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Herbs Seeds - Item -->
+
+  <!-- START ADD Legendary Herbs Fertility - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001099</GUID>
+          <Name>Legendary Herbs Fertility</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_herbs.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001099</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>2214</AddedFertility>          <!-- Herbs -->
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Herbs Fertility - Effect -->
+
+  <!-- START ADD Legendary Iron Geology - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001100</GUID>
+          <Name>Legendary Iron Geology</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_iron_ore.png</IconFilename>
+          <InfoDescription>1742001034</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>174200101</GUID>              <!-- Iron Deposit -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>2918</GUID>              <!-- Mountain Roman Iron Ore  -->
+            </Item>
+            <Item>
+              <GUID>5982</GUID>              <!-- Mountain Roman Celtic Iron Ore  -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Legendary</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>525000</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001100</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Iron Geology - Item -->
+
+  <!-- START ADD Legendary Iron Deposit - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001101</GUID>
+          <Name>Legendary Iron Deposit</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_iron_ore.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001101</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>4049</AddedFertility>          <!-- Iron Ore -->
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Iron Deposit - Effect -->
+
+  <!-- START ADD Legendary Lavender Saplings - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001102</GUID>
+          <Name>Legendary Lavender Saplings</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_lavender.png</IconFilename>
+          <InfoDescription>1742001037</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001103</GUID>              <!-- Lavender Fertility -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>2698</GUID>              <!-- Field Roman Lavender  -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Legendary</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>525000</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001102</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Lavender Saplings - Item -->
+
+  <!-- START ADD Legendary Lavender Fertility - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001103</GUID>
+          <Name>Legendary Lavender Fertility</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_lavender.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001103</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>2209</AddedFertility>          <!-- Lavender -->
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Lavender Fertility - Effect -->
+
+  <!-- START ADD Legendary Mackarels Traps - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001104</GUID>
+          <Name>Legendary Mackarels Traps</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_mackarels.png</IconFilename>
+          <InfoDescription>1742001040</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001105</GUID>              <!-- Mackarels Population -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>2956</GUID>              <!-- Coast Roman Mackerels -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Legendary</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>525000</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001104</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Mackarels Traps - Item -->
+
+  <!-- START ADD Legendary Mackarels Population - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001105</GUID>
+          <Name>Legendary Mackarels Population</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_mackarels.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001105</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>2206</AddedFertility>          <!-- Mackarels -->
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Mackarels Population - Effect -->
+
+  <!-- START ADD Legendary Marble Geology - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001106</GUID>
+          <Name>Legendary Marble Geology</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_marble.png</IconFilename>
+          <InfoDescription>1742001043</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001107</GUID>              <!-- Marble Deposit -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>2954</GUID>              <!-- Mountain Roman Marble Blocks  -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Legendary</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>525000</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001106</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Marble Geology - Item -->
+
+  <!-- START ADD Legendary Marble Deposit - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001107</GUID>
+          <Name>Legendary Marble Deposit</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_marble.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001107</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>4062</AddedFertility>          <!-- Marble Ore -->
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Marble Deposit - Effect -->
+
+  <!-- START ADD Legendary Minerals Geology - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001108</GUID>
+          <Name>Legendary Minerals Geology</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_minerals.png</IconFilename>
+          <InfoDescription>1742001046</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001109</GUID>              <!-- Minerals Deposit -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>2920</GUID>              <!-- Mountain Roman Minerals  -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Legendary</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>525000</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001108</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Minerals Geology - Item -->
+
+  <!-- START ADD Legendary Minerals Deposit - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001109</GUID>
+          <Name>Legendary Minerals Deposit</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_minerals.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001109</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>4053</AddedFertility>          <!-- Minerals -->
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Minerals Deposit - Effect -->
+
+  <!-- START ADD Legendary Olive Saplings - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001110</GUID>
+          <Name>Legendary Olive Saplings</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_olives.png</IconFilename>
+          <InfoDescription>1742001049</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001111</GUID>              <!-- Olive Fertility -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>2699</GUID>              <!-- Field Roman Olives  -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Legendary</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>525000</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001110</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Olive Saplings - Item -->
+
+  <!-- START ADD Legendary Olive Fertility - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001111</GUID>
+          <Name>Legendary Olive Fertility</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_olives.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001111</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>2210</AddedFertility>          <!-- Olive -->
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Olive Fertility - Effect -->
+
+  <!-- START ADD Legendary Oyster Banks - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001112</GUID>
+          <Name>Legendary Oyster Banks</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_oysters.png</IconFilename>
+          <InfoDescription>1742001052</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001113</GUID>              <!-- Oyster Population -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>8586</GUID>              <!-- Coast Roman Oysters -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Legendary</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>525000</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001112</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Oyster Banks - Item -->
+
+  <!-- START ADD Legendary Oyster Population - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001113</GUID>
+          <Name>Legendary Oyster Population</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_oysters.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001113</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>2208</AddedFertility>          <!-- Oysters -->
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Oyster Population - Effect -->
+
+  <!-- START ADD Legendary Pony Grasslands - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001114</GUID>
+          <Name>Legendary Pony Grasslands</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_ponies.png</IconFilename>
+          <InfoDescription>1742001055</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001115</GUID>              <!-- Ponies Population -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>5975</GUID>              <!-- Meadow Celtic Dartmoor Ponies -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Legendary</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>525000</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001114</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Pony Grasslands - Item -->
+
+  <!-- START ADD Legendary Ponies Population - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001115</GUID>
+          <Name>Legendary Ponies Population</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_ponies.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001115</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>2211</AddedFertility>          <!-- Ponies -->
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Ponies Population - Effect -->
+
+  <!-- START ADD Legendary Resin Saplings - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001116</GUID>
+          <Name>Legendary Resin Saplings</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_resin.png</IconFilename>
+          <InfoDescription>1742001058</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001117</GUID>              <!-- Resin Fertility -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>31752</GUID>              <!-- Forest Roman Resin  -->
+            </Item>
+            <Item>
+              <GUID>31761</GUID>              <!-- Forest Roman Celtic Resin  -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Legendary</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>525000</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001116</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Resin Saplings - Item -->
+
+  <!-- START ADD Legendary Resin Fertility - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001117</GUID>
+          <Name>Legendary Resin Fertility</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_resin.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001117</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>51212</AddedFertility>          <!-- Resin -->
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Resin Fertility - Effect -->
+
+  <!-- START ADD Legendary Saltwort Banks - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001118</GUID>
+          <Name>Legendary Saltwort Banks</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_saltwort.png</IconFilename>
+          <InfoDescription>1742001061</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001119</GUID>              <!-- Saltwort Fertility -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>2796</GUID>              <!-- Coast Celtic Samphire -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Legendary</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>525000</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001118</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Saltwort Banks - Item -->
+
+  <!-- START ADD Legendary Saltwort Fertility - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001119</GUID>
+          <Name>Legendary Saltwort Fertility</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_saltwort.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001119</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>2218</AddedFertility>          <!-- Saltwort -->
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Saltwort Fertility - Effect -->
+
+  <!-- START ADD Legendary Seashell Banks - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001120</GUID>
+          <Name>Legendary Seashell Banks</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_seashells.png</IconFilename>
+          <InfoDescription>1742001064</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001121</GUID>              <!-- Seashell Population -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>8431</GUID>              <!-- Coast Roman Celtic Sea Shells -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Legendary</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>525000</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001120</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Seashell Banks - Item -->
+
+  <!-- START ADD Legendary Seashell Population - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001121</GUID>
+          <Name>Legendary Seashell Population</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_seashells.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001121</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>8432</AddedFertility>          <!-- Seashell -->
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Seashell Population - Effect -->
+
+  <!-- START ADD Legendary Silver Geology - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001122</GUID>
+          <Name>Legendary Silver Geology</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_silver.png</IconFilename>
+          <InfoDescription>1742001067</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001123</GUID>              <!-- Silver Deposit -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>5980</GUID>              <!-- Mountain Roman Celtic Silver Ore -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Legendary</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>525000</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001122</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Silver Geology - Item -->
+
+  <!-- START ADD Legendary Silver Deposit - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001123</GUID>
+          <Name>Legendary Silver Deposit</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_silver.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001123</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>8487</AddedFertility>          <!-- Silver -->
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Silver Deposit - Effect -->
+
+  <!-- START ADD Legendary Snail Banks - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001124</GUID>
+          <Name>Legendary Snail Banks</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_snails.png</IconFilename>
+          <InfoDescription>1742001070</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001125</GUID>              <!-- Snail Population -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>8580</GUID>              <!-- Coast Roman Sea Snails -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Legendary</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>525000</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001124</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Seashell Banks - Item -->
+
+  <!-- START ADD Legendary Snail Population - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001125</GUID>
+          <Name>Legendary Snail Population</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_snails.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001125</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>4051</AddedFertility>          <!-- Snail -->
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Snail Population - Effect -->
+
+  <!-- START ADD Legendary Sturgeon Traps - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001126</GUID>
+          <Name>Legendary Sturgeon Traps</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_sturgeon.png</IconFilename>
+          <InfoDescription>1742001073</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001127</GUID>              <!-- Sturgeon Population -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>2971</GUID>              <!-- River Roman Sturgeon -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Legendary</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>525000</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001126</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Sturgeon Traps - Item -->
+
+  <!-- START ADD Legendary Sturgeon Population - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001127</GUID>
+          <Name>Legendary Sturgeon Population</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_sturgeon.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001127</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>8577</AddedFertility>          <!-- Sturgeon -->
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Sturgeon Population - Effect -->
+
+  <!-- START ADD Legendary Tin Geology - Item -->
+  <ModOp Type="addNextSibling" GUID='44083'>
+    <Asset>
+      <Template>Item</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001128</GUID>
+          <Name>Legendary Tin Geology</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_tin.png</IconFilename>
+          <InfoDescription>1742001076</InfoDescription>
+        </Standard>
+        <Effect>
+          <EffectScope>Radius</EffectScope>
+          <SourceCategory>Item</SourceCategory>
+          <Buffs>
+            <Item>
+              <GUID>1742001129</GUID>              <!-- Tin Deposit -->
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>5291</GUID>              <!-- Mountain Celtic Tin Ore -->
+            </Item>
+          </Targets>
+        </Effect>
+        <Item>
+          <Rarity>Legendary</Rarity>
+          <Niche>Agriculture</Niche>
+          <TradePrice>525000</TradePrice>
+          <BarkPool>83294</BarkPool>          <!--Bark m Steady work-->
+        </Item>
+        <Locked>
+          <DefaultLockedState>0</DefaultLockedState>
+        </Locked>
+        <Text>
+          <OasisId>1742001128</OasisId>
+        </Text>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Copper Tin - Item -->
+
+  <!-- START ADD Legendary Tin Deposit - Effect -->
+  <ModOp Type="addNextSibling" GUID='44098'>
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1742001129</GUID>
+          <Name>Legendary Tin Deposit</Name>
+          <IconFilename>data\base\graphics\hier0nimus\icons\icon_specialist_fertility_tin.png</IconFilename>
+        </Standard>
+        <Text>
+          <OasisId>1742001129</OasisId>
+        </Text>
+        <HealthUpgrade/>
+        <BuildingUpgrade/>
+        <DistributionUpgrade/>
+        <Buff>
+          <SourceCategory>Item</SourceCategory>
+        </Buff>
+        <ResidenceUpgrade/>
+        <FactoryUpgrade>
+          <AddedFertility>4064</AddedFertility>          <!-- Tin -->
+          <AdditionalOutput>
+            <Item>
+              <ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+              <AdditionalOutputCycle>2</AdditionalOutputCycle>
+              <Amount>1</Amount>
+            </Item>
+          </AdditionalOutput>
+        </FactoryUpgrade>
+        <ModuleOwnerUpgrade/>
+        <MaintenanceUpgrade>
+          <WorkforceMaintenanceFactorUpgrade>
+            <Value>25</Value>
+            <Percental>1</Percental>
+          </WorkforceMaintenanceFactorUpgrade>
+        </MaintenanceUpgrade>
+        <CityInstitutionUpgrade/>
+        <IncidentInfectableUpgrade/>
+        <RecruitmentUpgrade/>
+        <AqueductUpgrade/>
+        <WarehouseUpgrade/>
+        <IrrigationUpgrade/>
+      </Values>
+    </Asset>
+  </ModOp>
+  <!-- END ADD Legendary Tin Deposit - Effect -->
+
+</ModOps>

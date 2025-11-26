@@ -1,0 +1,87 @@
+<ModOps>
+  <ModOp Type="addNextSibling" GUID="28215">
+    <Asset>
+      <Template>BuildingBuff</Template>
+      <Values>
+        <Standard>
+          <GUID>1500500000</GUID>
+          <Name>Lex Annonae (Buff Stats)</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/museum/icon_scroll_odyssey_0.dds</IconFilename>
+        </Standard>
+        <FactoryUpgrade>
+          <ProductivityUpgrade>
+            <Value>100</Value>
+            <Percental>1</Percental>
+          </ProductivityUpgrade>
+        </FactoryUpgrade>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="1500500000">
+    <Asset>
+      <Template>Effect</Template>
+      <Values>
+        <Standard>
+          <GUID>1500500001</GUID>
+          <Name>Lex Annonae Effect</Name>
+        </Standard>
+        <Effect>
+          <EffectScope>ObjectsInMeta</EffectScope>
+          <Buffs>
+            <Item>
+              <GUID>1500500000</GUID>
+            </Item>
+          </Buffs>
+          <Targets>
+            <Item>
+              <GUID>38370</GUID> 
+            </Item>
+          </Targets>
+        </Effect>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="55268">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1500500002</GUID>
+          <Name>Lex Annonae Trigger</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionAlwaysTrue</Template>
+            <Values>
+              <Condition />
+              <ConditionAlwaysTrue />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionEffect</Template>
+                <Values>
+                  <Action/>
+                  <ActionEffect>
+                    <EffectAsset>1500500001</EffectAsset>
+                    <StartEffect>1</StartEffect>
+                    <AffectProcessingParticipant>1</AffectProcessingParticipant>
+                  </ActionEffect>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>1</AutoRegisterTrigger>
+          <UsedByFirstParties>1</UsedByFirstParties>
+          <UsedBySecondParties>0</UsedBySecondParties>
+          <UsedByThirdParties>0</UsedByThirdParties>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+  </ModOp>
+</ModOps>

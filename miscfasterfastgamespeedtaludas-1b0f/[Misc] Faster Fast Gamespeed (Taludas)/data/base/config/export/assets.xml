@@ -1,0 +1,11 @@
+<ModOps>
+
+	<!-- double all faster gamespeeds -->
+	<ModOp Merge="@140416/GameSpeedFeature/FastGameSpeedFactor">
+		<FastGameSpeedFactor>4</FastGameSpeedFactor>
+	</ModOp>
+	<ModOp Merge="@140416/GameSpeedFeature/FastestGameSpeedFactor">
+		<FastestGameSpeedFactor>10</FastestGameSpeedFactor>
+	</ModOp>
+
+</ModOps>

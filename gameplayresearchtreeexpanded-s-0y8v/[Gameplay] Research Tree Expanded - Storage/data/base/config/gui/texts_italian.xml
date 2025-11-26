@@ -1,0 +1,104 @@
+<ModOps>
+    <ModOp Path="/TextExport/Texts" Type="add">
+        <Text>
+            <LineId>1742500101</LineId>
+            <Text>Portatori dal passo leggero</Text>
+        </Text>
+        <Text>
+            <LineId>1742500102</LineId>
+            <Text>Una squadra di magazzino ben addestrata muove le casse con la stessa scioltezza di una legione in
+                marcia.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500105</LineId>
+            <Text>Ricerca &lt;b&gt;Warehouse Organisation&lt;/b&gt;.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500108</LineId>
+            <Text>Squadre di carri in staffetta</Text>
+        </Text>
+        <Text>
+            <LineId>1742500109</LineId>
+            <Text>Date ai carri una via libera e supereranno persino le vostre promesse più audaci al senato.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500114</LineId>
+            <Text>Convogli di carri di Mercurio</Text>
+        </Text>
+        <Text>
+            <LineId>1742500115</LineId>
+            <Text>A questo ritmo i carri si confondono in una sola linea, e solo i registri provano che nulla è
+                scomparso.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500118</LineId>
+            <Text>Ricerca &lt;b&gt;Warehouse Halved Costs&lt;/b&gt;.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500121</LineId>
+            <Text>Sovrintendenti frugali degli horrea</Text>
+        </Text>
+        <Text>
+            <LineId>1742500122</LineId>
+            <Text>I nostri intendenti di magazzino spremono ogni denario finché stride, e le casse continuano a marciare
+                in perfetto ordine.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500123</LineId>
+            <Text>Riduci i turni, stringi i conti, e le merci continuano a fluire come se Roma stessa osservasse.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500126</LineId>
+            <Text>Ricerca &lt;b&gt;Portitores&lt;/b&gt;.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500127</LineId>
+            <Text>Riduce i costi di esercizio e la forza lavoro necessaria di tutti i magazzini.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500130</LineId>
+            <Text>Turni snelliti</Text>
+        </Text>
+        <Text>
+            <LineId>1742500131</LineId>
+            <Text>Quando una piccola squadra muove il carico come un'intera coorte, sai che gli addestramenti sono valsi
+                ogni rimprovero.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500132</LineId>
+            <Text>Meno mani sul pavimento, meno lamentele nelle baracche e nessuna cassa lasciata indietro.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500135</LineId>
+            <Text>Ricerca &lt;b&gt;Headhunting&lt;/b&gt;.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500136</LineId>
+            <Text>Riduce notevolmente la forza lavoro necessaria di tutti i magazzini.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500139</LineId>
+            <Text>Quartiermastri tirchi</Text>
+        </Text>
+        <Text>
+            <LineId>1742500140</LineId>
+            <Text>Un tetto che perde monete è peggiore di uno che perde pioggia, e questi horrea l'hanno finalmente
+                capito.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500141</LineId>
+            <Text>I contabili annuiscono ai tuoi magazzini quasi con lo stesso orgoglio con cui i legati annuiscono alle
+                tue legioni.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500144</LineId>
+            <Text>Riduce ulteriormente i costi di esercizio di tutti i magazzini.</Text>
+        </Text>
+    </ModOp>
+</ModOps>

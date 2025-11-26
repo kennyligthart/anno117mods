@@ -1,0 +1,103 @@
+<ModOps>
+    <ModOp Path="/TextExport/Texts" Type="add">
+        <Text>
+            <LineId>1742500101</LineId>
+            <Text>Carregadores ligeiros</Text>
+        </Text>
+        <Text>
+            <LineId>1742500102</LineId>
+            <Text>Uma equipe de armazém bem treinada move caixotes com a mesma fluidez que uma legião em marcha.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500105</LineId>
+            <Text>Pesquise &lt;b&gt;Warehouse Organisation&lt;/b&gt;.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500108</LineId>
+            <Text>Equipes de carroças em revezamento</Text>
+        </Text>
+        <Text>
+            <LineId>1742500109</LineId>
+            <Text>Dê às carroças um caminho livre e elas superarão até as promessas mais ousadas que você fez ao
+                Senado.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500114</LineId>
+            <Text>Comboios de Mercúrio</Text>
+        </Text>
+        <Text>
+            <LineId>1742500115</LineId>
+            <Text>Nesse ritmo, as carroças viram uma única linha, e só os registros provam que nada sumiu.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500118</LineId>
+            <Text>Pesquise &lt;b&gt;Warehouse Halved Costs&lt;/b&gt;.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500121</LineId>
+            <Text>Administradores frugais de horrea</Text>
+        </Text>
+        <Text>
+            <LineId>1742500122</LineId>
+            <Text>Nossos supervisores de armazém apertam cada denário até ele chiar, e mesmo assim as caixas seguem em
+                perfeita ordem.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500123</LineId>
+            <Text>Enxugue os turnos, aperte os livros, e ainda assim as mercadorias fluem como se Roma inteira estivesse
+                olhando.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500126</LineId>
+            <Text>Pesquise &lt;b&gt;Portitores&lt;/b&gt;.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500127</LineId>
+            <Text>Reduz os custos de manutenção e a mão de obra necessária de todos os armazéns.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500130</LineId>
+            <Text>Turnos enxutos</Text>
+        </Text>
+        <Text>
+            <LineId>1742500131</LineId>
+            <Text>Quando uma equipe reduzida move carga como uma coorte inteira, você sabe que os treinos valeram cada
+                bronca.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500132</LineId>
+            <Text>Menos mãos no chão, menos reclamações nos alojamentos e nenhuma caixa deixada para trás.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500135</LineId>
+            <Text>Pesquise &lt;b&gt;Headhunting&lt;/b&gt;.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500136</LineId>
+            <Text>Reduz significativamente a mão de obra necessária de todos os armazéns.</Text>
+        </Text>
+        <Text>
+            <LineId>1742500139</LineId>
+            <Text>Quartel-mestres mão-de-vaca</Text>
+        </Text>
+        <Text>
+            <LineId>1742500140</LineId>
+            <Text>Um telhado que vaza moedas é pior do que um que vaza chuva, e estes horrea finalmente aprenderam a
+                lição.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500141</LineId>
+            <Text>Os contadores acenam para seus armazéns quase tão orgulhosos quanto os legados para suas legiões.
+            </Text>
+        </Text>
+        <Text>
+            <LineId>1742500144</LineId>
+            <Text>Reduz ainda mais os custos de manutenção de todos os armazéns.</Text>
+        </Text>
+    </ModOp>
+</ModOps>

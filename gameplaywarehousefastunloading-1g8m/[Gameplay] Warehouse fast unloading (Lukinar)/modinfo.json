@@ -1,0 +1,14 @@
+{
+  "ModID": "warehouse-fast-unloading",
+  "Version": "1.1.0",
+  "Anno": 8,
+  "Difficulty": "easier",
+  "ModName": {
+    "English": "Warehouse fast unloading"
+  },
+  "Category": {
+    "English": "Gameplay"
+  },
+  "CreatorName": "Lukinar",
+  "CreatorContact": "discord: lukinar"
+}

@@ -1,0 +1,16 @@
+<ModOps>
+    <ModOp Add="//TextExport/Texts">
+        <Text>
+            <LineId>1999100087</LineId>
+            <Text>The Circus Minimus drives the people crazy about horse racing! The plebs is flooding the arena to watch the latest spectaculum!</Text>
+        </Text>
+        <Text>
+            <LineId>1999100088</LineId>
+            <Text>Circus Minimus</Text>
+        </Text>
+        <Text>
+            <LineId>1999100090</LineId>
+            <Text>Nearby Circus Minimus</Text>
+        </Text>
+    </ModOp>
+</ModOps>

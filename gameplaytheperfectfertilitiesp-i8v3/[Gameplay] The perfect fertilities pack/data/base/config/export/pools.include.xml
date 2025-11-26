@@ -1,0 +1,1082 @@
+<!--
+
+POOLS
+
+-->
+
+<ModOps>
+
+  <!-- START ADD Items to assetpools -->
+  <!-- 113059 - AssetPool All Items -->
+  <ModOp Type="add" GUID="113059" Path="/Values/AssetPool/AssetList/">
+    <Item>
+      <Asset>1742001000</Asset>      <!-- Flax Seeds -->
+    </Item>
+    <Item>
+      <Asset>1742001003</Asset>      <!-- Barley Seeds -->
+    </Item>
+    <Item>
+      <Asset>1742001006</Asset>      <!-- Beaver Traps -->
+    </Item>
+    <Item>
+      <Asset>1742001009</Asset>      <!-- Birds Traps -->
+    </Item>
+    <Item>
+      <Asset>1742001012</Asset>      <!-- Copper Geology -->
+    </Item>
+    <Item>
+      <Asset>1742001015</Asset>      <!-- Cypress Saplings -->
+    </Item>
+    <Item>
+      <Asset>1742001018</Asset>      <!-- Dye Plants Seeds -->
+    </Item>
+    <Item>
+      <Asset>1742001021</Asset>      <!-- Gold Geology -->
+    </Item>
+    <Item>
+      <Asset>1742001024</Asset>      <!-- Granite Geology -->
+    </Item>
+    <Item>
+      <Asset>1742001027</Asset>      <!-- Grapes Saplings -->
+    </Item>
+    <Item>
+      <Asset>1742001030</Asset>      <!-- Herbs Seeds -->
+    </Item>
+    <Item>
+      <Asset>1742001033</Asset>      <!-- Iron Geology -->
+    </Item>
+    <Item>
+      <Asset>1742001036</Asset>      <!-- Lavender Saplings -->
+    </Item>
+    <Item>
+      <Asset>1742001039</Asset>      <!-- Mackarels Traps -->
+    </Item>
+    <Item>
+      <Asset>1742001042</Asset>      <!-- Marble Geology -->
+    </Item>
+    <Item>
+      <Asset>1742001045</Asset>      <!-- Minerals Geology -->
+    </Item>
+    <Item>
+      <Asset>1742001048</Asset>      <!-- Olive Saplings -->
+    </Item>
+    <Item>
+      <Asset>1742001051</Asset>      <!-- Oyster Banks -->
+    </Item>
+    <Item>
+      <Asset>1742001054</Asset>      <!-- Pony Grasslands -->
+    </Item>
+    <Item>
+      <Asset>1742001057</Asset>      <!-- Resin Saplings -->
+    </Item>
+    <Item>
+      <Asset>1742001060</Asset>      <!-- Saltwort Banks -->
+    </Item>
+    <Item>
+      <Asset>1742001063</Asset>      <!-- Seashell Banks -->
+    </Item>
+    <Item>
+      <Asset>1742001066</Asset>      <!-- Silver Geology -->
+    </Item>
+    <Item>
+      <Asset>1742001069</Asset>      <!-- Snail Banks -->
+    </Item>
+    <Item>
+      <Asset>1742001072</Asset>      <!-- Sturgeon Traps -->
+    </Item>
+    <Item>
+      <Asset>1742001075</Asset>      <!-- Tin Geology -->
+    </Item>
+    <Item>
+      <Asset>1742001078</Asset>      <!--  Legendary Flax Seeds -->
+    </Item>
+    <Item>
+      <Asset>1742001080</Asset>      <!--  Legendary Barley Seeds -->
+    </Item>
+    <Item>
+      <Asset>1742001082</Asset>      <!--  Legendary Beaver Traps -->
+    </Item>
+    <Item>
+      <Asset>1742001084</Asset>      <!--  Legendary Birds Traps -->
+    </Item>
+    <Item>
+      <Asset>1742001086</Asset>      <!--  Legendary Copper Geology -->
+    </Item>
+    <Item>
+      <Asset>1742001088</Asset>      <!--  Legendary Cypress Saplings -->
+    </Item>
+    <Item>
+      <Asset>1742001090</Asset>      <!--  Legendary Dye Plants Seeds -->
+    </Item>
+    <Item>
+      <Asset>1742001092</Asset>      <!--  Legendary Gold Geology -->
+    </Item>
+    <Item>
+      <Asset>1742001094</Asset>      <!--  Legendary Granite Geology -->
+    </Item>
+    <Item>
+      <Asset>1742001096</Asset>      <!--  Legendary Grapes Saplings -->
+    </Item>
+    <Item>
+      <Asset>1742001098</Asset>      <!--  Legendary Herbs Seeds -->
+    </Item>
+    <Item>
+      <Asset>1742001100</Asset>      <!--  Legendary Iron Geology -->
+    </Item>
+    <Item>
+      <Asset>1742001102</Asset>      <!--  Legendary Lavender Saplings -->
+    </Item>
+    <Item>
+      <Asset>1742001104</Asset>      <!--  Legendary Mackarels Traps -->
+    </Item>
+    <Item>
+      <Asset>1742001106</Asset>      <!--  Legendary Marble Geology -->
+    </Item>
+    <Item>
+      <Asset>1742001108</Asset>      <!--  Legendary Minerals Geology -->
+    </Item>
+    <Item>
+      <Asset>1742001110</Asset>      <!--  Legendary Olive Saplings -->
+    </Item>
+    <Item>
+      <Asset>1742001112</Asset>      <!--  Legendary Oyster Banks -->
+    </Item>
+    <Item>
+      <Asset>1742001114</Asset>      <!--  Legendary Pony Grasslands -->
+    </Item>
+    <Item>
+      <Asset>1742001116</Asset>      <!--  Legendary Resin Saplings -->
+    </Item>
+    <Item>
+      <Asset>1742001118</Asset>      <!--  Legendary Saltwort Banks -->
+    </Item>
+    <Item>
+      <Asset>1742001120</Asset>      <!--  Legendary Seashell Banks -->
+    </Item>
+    <Item>
+      <Asset>1742001122</Asset>      <!--  Legendary Silver Geology -->
+    </Item>
+    <Item>
+      <Asset>1742001124</Asset>      <!--  Legendary Snail Banks -->
+    </Item>
+    <Item>
+      <Asset>1742001126</Asset>      <!--  Legendary Sturgeon Traps -->
+    </Item>
+    <Item>
+      <Asset>1742001128</Asset>      <!--  Legendary Tin Geology -->
+    </Item>
+  </ModOp>
+  <!-- 64712 - UnlockPool Items Roman 1.0 -->
+  <!-- 64733 - UnlockPool Items Celtic 1.0 -->
+  <!-- 64726 - UnlockPool Items Roman Celtic 2.0 -->
+  <ModOp Type="add" GUID="64712,64733,64726" Path="/Values/AssetPool/AssetList/">
+    <Item>
+      <Asset>1742001000</Asset>      <!-- Flax Seeds -->
+    </Item>
+    <Item>
+      <Asset>1742001003</Asset>      <!-- Barley Seeds -->
+    </Item>
+    <Item>
+      <Asset>1742001006</Asset>      <!-- Beaver Traps -->
+    </Item>
+    <Item>
+      <Asset>1742001009</Asset>      <!-- Birds Traps -->
+    </Item>
+    <Item>
+      <Asset>1742001012</Asset>      <!-- Copper Geology -->
+    </Item>
+    <Item>
+      <Asset>1742001015</Asset>      <!-- Cypress Saplings -->
+    </Item>
+    <Item>
+      <Asset>1742001018</Asset>      <!-- Dye Plants Seeds -->
+    </Item>
+    <Item>
+      <Asset>1742001021</Asset>      <!-- Gold Geology -->
+    </Item>
+    <Item>
+      <Asset>1742001024</Asset>      <!-- Granite Geology -->
+    </Item>
+    <Item>
+      <Asset>1742001027</Asset>      <!-- Grapes Saplings -->
+    </Item>
+    <Item>
+      <Asset>1742001030</Asset>      <!-- Herbs Seeds -->
+    </Item>
+    <Item>
+      <Asset>1742001033</Asset>      <!-- Iron Geology -->
+    </Item>
+    <Item>
+      <Asset>1742001036</Asset>      <!-- Lavender Saplings -->
+    </Item>
+    <Item>
+      <Asset>1742001039</Asset>      <!-- Mackarels Traps -->
+    </Item>
+    <Item>
+      <Asset>1742001042</Asset>      <!-- Marble Geology -->
+    </Item>
+    <Item>
+      <Asset>1742001045</Asset>      <!-- Minerals Geology -->
+    </Item>
+    <Item>
+      <Asset>1742001048</Asset>      <!-- Olive Saplings -->
+    </Item>
+    <Item>
+      <Asset>1742001051</Asset>      <!-- Oyster Banks -->
+    </Item>
+    <Item>
+      <Asset>1742001054</Asset>      <!-- Pony Grasslands -->
+    </Item>
+    <Item>
+      <Asset>1742001057</Asset>      <!-- Resin Saplings -->
+    </Item>
+    <Item>
+      <Asset>1742001060</Asset>      <!-- Saltwort Banks -->
+    </Item>
+    <Item>
+      <Asset>1742001063</Asset>      <!-- Seashell Banks -->
+    </Item>
+    <Item>
+      <Asset>1742001066</Asset>      <!-- Silver Geology -->
+    </Item>
+    <Item>
+      <Asset>1742001069</Asset>      <!-- Snail Banks -->
+    </Item>
+    <Item>
+      <Asset>1742001072</Asset>      <!-- Sturgeon Traps -->
+    </Item>
+    <Item>
+      <Asset>1742001075</Asset>      <!-- Tin Geology -->
+    </Item>
+  </ModOp>
+  <!-- 64715 - UnlockPool Items Roman 2.0 -->
+  <!-- 64735 - UnlockPool Items Celtic 2.0 -->
+  <!-- 64726 - UnlockPool Items Roman Celtic 2.0 -->
+  <ModOp Type="add" GUID="64715,64735,64726" Path="/Values/AssetPool/AssetList/">
+    <Item>
+      <Asset>1742001078</Asset>      <!--  Legendary Flax Seeds -->
+    </Item>
+    <Item>
+      <Asset>1742001080</Asset>      <!--  Legendary Barley Seeds -->
+    </Item>
+    <Item>
+      <Asset>1742001082</Asset>      <!--  Legendary Beaver Traps -->
+    </Item>
+    <Item>
+      <Asset>1742001084</Asset>      <!--  Legendary Birds Traps -->
+    </Item>
+    <Item>
+      <Asset>1742001086</Asset>      <!--  Legendary Copper Geology -->
+    </Item>
+    <Item>
+      <Asset>1742001088</Asset>      <!--  Legendary Cypress Saplings -->
+    </Item>
+    <Item>
+      <Asset>1742001090</Asset>      <!--  Legendary Dye Plants Seeds -->
+    </Item>
+    <Item>
+      <Asset>1742001092</Asset>      <!--  Legendary Gold Geology -->
+    </Item>
+    <Item>
+      <Asset>1742001094</Asset>      <!--  Legendary Granite Geology -->
+    </Item>
+    <Item>
+      <Asset>1742001096</Asset>      <!--  Legendary Grapes Saplings -->
+    </Item>
+    <Item>
+      <Asset>1742001098</Asset>      <!--  Legendary Herbs Seeds -->
+    </Item>
+    <Item>
+      <Asset>1742001100</Asset>      <!--  Legendary Iron Geology -->
+    </Item>
+    <Item>
+      <Asset>1742001102</Asset>      <!--  Legendary Lavender Saplings -->
+    </Item>
+    <Item>
+      <Asset>1742001104</Asset>      <!--  Legendary Mackarels Traps -->
+    </Item>
+    <Item>
+      <Asset>1742001106</Asset>      <!--  Legendary Marble Geology -->
+    </Item>
+    <Item>
+      <Asset>1742001108</Asset>      <!--  Legendary Minerals Geology -->
+    </Item>
+    <Item>
+      <Asset>1742001110</Asset>      <!--  Legendary Olive Saplings -->
+    </Item>
+    <Item>
+      <Asset>1742001112</Asset>      <!--  Legendary Oyster Banks -->
+    </Item>
+    <Item>
+      <Asset>1742001114</Asset>      <!--  Legendary Pony Grasslands -->
+    </Item>
+    <Item>
+      <Asset>1742001116</Asset>      <!--  Legendary Resin Saplings -->
+    </Item>
+    <Item>
+      <Asset>1742001118</Asset>      <!--  Legendary Saltwort Banks -->
+    </Item>
+    <Item>
+      <Asset>1742001120</Asset>      <!--  Legendary Seashell Banks -->
+    </Item>
+    <Item>
+      <Asset>1742001122</Asset>      <!--  Legendary Silver Geology -->
+    </Item>
+    <Item>
+      <Asset>1742001124</Asset>      <!--  Legendary Snail Banks -->
+    </Item>
+    <Item>
+      <Asset>1742001126</Asset>      <!--  Legendary Sturgeon Traps -->
+    </Item>
+    <Item>
+      <Asset>1742001128</Asset>      <!--  Legendary Tin Geology -->
+    </Item>
+  </ModOp>
+
+  <!-- END ADD Items to assetpools -->
+
+  <!-- START ADD Items to rewardpools -->
+
+  <!-- GLOBAL POOLS -->
+  <!-- 43037 - RewardList All Items -->
+  <!-- 82598 - RewardList Specialist Items -->
+  <!-- 83451 - RewardList Any Legendary -->
+  <!-- 83449 - RewardList Any Rare -->
+
+  <!-- Legendary -->
+  <ModOp Type="add" GUID="43037,82598,83451" Path="/Values/RewardPool/ItemsPool/">
+    <Item>
+      <ItemLink>1742001078</ItemLink>      <!--  Legendary Flax Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001080</ItemLink>      <!--  Legendary Barley Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001082</ItemLink>      <!--  Legendary Beaver Traps -->
+    </Item>
+    <Item>
+      <ItemLink>1742001084</ItemLink>      <!--  Legendary Birds Traps -->
+    </Item>
+    <Item>
+      <ItemLink>1742001086</ItemLink>      <!--  Legendary Copper Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001088</ItemLink>      <!--  Legendary Cypress Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001090</ItemLink>      <!--  Legendary Dye Plants Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001092</ItemLink>      <!--  Legendary Gold Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001094</ItemLink>      <!--  Legendary Granite Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001096</ItemLink>      <!--  Legendary Grapes Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001098</ItemLink>      <!--  Legendary Herbs Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001100</ItemLink>      <!--  Legendary Iron Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001102</ItemLink>      <!--  Legendary Lavender Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001104</ItemLink>      <!--  Legendary Mackarels Traps -->
+    </Item>
+    <Item>
+      <ItemLink>1742001106</ItemLink>      <!--  Legendary Marble Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001108</ItemLink>      <!--  Legendary Minerals Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001110</ItemLink>      <!--  Legendary Olive Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001112</ItemLink>      <!--  Legendary Oyster Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001114</ItemLink>      <!--  Legendary Pony Grasslands -->
+    </Item>
+    <Item>
+      <ItemLink>1742001116</ItemLink>      <!--  Legendary Resin Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001118</ItemLink>      <!--  Legendary Saltwort Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001120</ItemLink>      <!--  Legendary Seashell Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001122</ItemLink>      <!--  Legendary Silver Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001124</ItemLink>      <!--  Legendary Snail Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001126</ItemLink>      <!--  Legendary Sturgeon Traps -->
+    </Item>
+    <Item>
+      <ItemLink>1742001128</ItemLink>      <!--  Legendary Tin Geology -->
+    </Item>
+  </ModOp>
+
+  <!-- Rare -->
+  <ModOp Type="add" GUID="43037,82598,83449" Path="/Values/RewardPool/ItemsPool/">
+    <Item>
+      <ItemLink>1742001000</ItemLink>      <!-- Flax Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001003</ItemLink>      <!-- Barley Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001006</ItemLink>      <!-- Beaver Traps -->
+    </Item>
+    <Item>
+      <ItemLink>1742001009</ItemLink>      <!-- Birds Traps -->
+    </Item>
+    <Item>
+      <ItemLink>1742001012</ItemLink>      <!-- Copper Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001015</ItemLink>      <!-- Cypress Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001018</ItemLink>      <!-- Dye Plants Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001021</ItemLink>      <!-- Gold Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001024</ItemLink>      <!-- Granite Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001027</ItemLink>      <!-- Grapes Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001030</ItemLink>      <!-- Herbs Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001033</ItemLink>      <!-- Iron Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001036</ItemLink>      <!-- Lavender Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001039</ItemLink>      <!-- Mackarels Traps -->
+    </Item>
+    <Item>
+      <ItemLink>1742001042</ItemLink>      <!-- Marble Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001045</ItemLink>      <!-- Minerals Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001048</ItemLink>      <!-- Olive Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001051</ItemLink>      <!-- Oyster Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001054</ItemLink>      <!-- Pony Grasslands -->
+    </Item>
+    <Item>
+      <ItemLink>1742001057</ItemLink>      <!-- Resin Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001060</ItemLink>      <!-- Saltwort Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001063</ItemLink>      <!-- Seashell Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001066</ItemLink>      <!-- Silver Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001069</ItemLink>      <!-- Snail Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001072</ItemLink>      <!-- Sturgeon Traps -->
+    </Item>
+    <Item>
+      <ItemLink>1742001075</ItemLink>      <!-- Tin Geology -->
+    </Item>
+  </ModOp>
+
+  <!-- REGION POOLS LEGENDARY -->
+  <!-- 83455 - RewardList Latium Legendary -->
+  <ModOp Type="add" GUID="83455" Path="/Values/RewardPool/ItemsPool/">
+    <Item>
+      <ItemLink>1742001078</ItemLink>      <!--  Legendary Flax Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001088</ItemLink>      <!--  Legendary Cypress Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001092</ItemLink>      <!--  Legendary Gold Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001096</ItemLink>      <!--  Legendary Grapes Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001100</ItemLink>      <!--  Legendary Iron Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001102</ItemLink>      <!--  Legendary Lavender Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001104</ItemLink>      <!--  Legendary Mackarels Traps -->
+    </Item>
+    <Item>
+      <ItemLink>1742001106</ItemLink>      <!--  Legendary Marble Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001108</ItemLink>      <!--  Legendary Minerals Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001110</ItemLink>      <!--  Legendary Olive Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001112</ItemLink>      <!--  Legendary Oyster Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001116</ItemLink>      <!--  Legendary Resin Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001124</ItemLink>      <!--  Legendary Snail Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001126</ItemLink>      <!--  Legendary Sturgeon Traps -->
+    </Item>
+  </ModOp>
+
+  <!-- 83459 - RewardList Albion Legendary -->
+  <ModOp Type="add" GUID="83459" Path="/Values/RewardPool/ItemsPool/">
+    <Item>
+      <ItemLink>1742001078</ItemLink>      <!--  Legendary Flax Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001080</ItemLink>      <!--  Legendary Barley Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001082</ItemLink>      <!--  Legendary Beaver Traps -->
+    </Item>
+    <Item>
+      <ItemLink>1742001084</ItemLink>      <!--  Legendary Birds Traps -->
+    </Item>
+    <Item>
+      <ItemLink>1742001086</ItemLink>      <!--  Legendary Copper Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001090</ItemLink>      <!--  Legendary Dye Plants Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001094</ItemLink>      <!--  Legendary Granite Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001098</ItemLink>      <!--  Legendary Herbs Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001100</ItemLink>      <!--  Legendary Iron Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001114</ItemLink>      <!--  Legendary Pony Grasslands -->
+    </Item>
+    <Item>
+      <ItemLink>1742001116</ItemLink>      <!--  Legendary Resin Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001118</ItemLink>      <!--  Legendary Saltwort Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001120</ItemLink>      <!--  Legendary Seashell Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001122</ItemLink>      <!--  Legendary Silver Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001128</ItemLink>      <!--  Legendary Tin Geology -->
+    </Item>
+  </ModOp>
+
+  <!-- REGION POOLS RARE -->
+
+  <!-- 83453 - RewardList Latium Rare -->
+  <ModOp Type="add" GUID="83453" Path="/Values/RewardPool/ItemsPool/">
+    <Item>
+      <ItemLink>1742001000</ItemLink>      <!-- Flax Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001015</ItemLink>      <!-- Cypress Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001021</ItemLink>      <!-- Gold Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001027</ItemLink>      <!-- Grapes Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001033</ItemLink>      <!-- Iron Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001036</ItemLink>      <!-- Lavender Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001039</ItemLink>      <!-- Mackarels Traps -->
+    </Item>
+    <Item>
+      <ItemLink>1742001042</ItemLink>      <!-- Marble Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001045</ItemLink>      <!-- Minerals Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001048</ItemLink>      <!-- Olive Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001051</ItemLink>      <!-- Oyster Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001057</ItemLink>      <!-- Resin Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001069</ItemLink>      <!-- Snail Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001072</ItemLink>      <!-- Sturgeon Traps -->
+    </Item>
+  </ModOp>
+
+  <!-- 83457 - RewardList Albion Rare -->
+  <ModOp Type="add" GUID="83457" Path="/Values/RewardPool/ItemsPool/">
+    <Item>
+      <ItemLink>1742001000</ItemLink>      <!-- Flax Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001003</ItemLink>      <!-- Barley Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001006</ItemLink>      <!-- Beaver Traps -->
+    </Item>
+    <Item>
+      <ItemLink>1742001009</ItemLink>      <!-- Birds Traps -->
+    </Item>
+    <Item>
+      <ItemLink>1742001012</ItemLink>      <!-- Copper Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001018</ItemLink>      <!-- Dye Plants Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001024</ItemLink>      <!-- Granite Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001030</ItemLink>      <!-- Herbs Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001033</ItemLink>      <!-- Iron Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001054</ItemLink>      <!-- Pony Grasslands -->
+    </Item>
+    <Item>
+      <ItemLink>1742001057</ItemLink>      <!-- Resin Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001060</ItemLink>      <!-- Saltwort Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001063</ItemLink>      <!-- Seashell Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001066</ItemLink>      <!-- Silver Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001075</ItemLink>      <!-- Tin Geology -->
+    </Item>
+  </ModOp>
+
+  <!-- CATEGORY POOLS -->
+  <!-- 121855 - RewardList Economy Legendary -->
+  <!-- 121853 - RewardList Economy Rare -->
+
+  <!-- Legendary -->
+  <ModOp Type="add" GUID="121855" Path="/Values/RewardPool/ItemsPool/">
+    <Item>
+      <ItemLink>1742001078</ItemLink>      <!--  Legendary Flax Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001080</ItemLink>      <!--  Legendary Barley Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001082</ItemLink>      <!--  Legendary Beaver Traps -->
+    </Item>
+    <Item>
+      <ItemLink>1742001084</ItemLink>      <!--  Legendary Birds Traps -->
+    </Item>
+    <Item>
+      <ItemLink>1742001086</ItemLink>      <!--  Legendary Copper Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001088</ItemLink>      <!--  Legendary Cypress Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001090</ItemLink>      <!--  Legendary Dye Plants Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001092</ItemLink>      <!--  Legendary Gold Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001094</ItemLink>      <!--  Legendary Granite Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001096</ItemLink>      <!--  Legendary Grapes Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001098</ItemLink>      <!--  Legendary Herbs Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001100</ItemLink>      <!--  Legendary Iron Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001102</ItemLink>      <!--  Legendary Lavender Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001104</ItemLink>      <!--  Legendary Mackarels Traps -->
+    </Item>
+    <Item>
+      <ItemLink>1742001106</ItemLink>      <!--  Legendary Marble Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001108</ItemLink>      <!--  Legendary Minerals Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001110</ItemLink>      <!--  Legendary Olive Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001112</ItemLink>      <!--  Legendary Oyster Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001114</ItemLink>      <!--  Legendary Pony Grasslands -->
+    </Item>
+    <Item>
+      <ItemLink>1742001116</ItemLink>      <!--  Legendary Resin Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001118</ItemLink>      <!--  Legendary Saltwort Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001120</ItemLink>      <!--  Legendary Seashell Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001122</ItemLink>      <!--  Legendary Silver Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001124</ItemLink>      <!--  Legendary Snail Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001126</ItemLink>      <!--  Legendary Sturgeon Traps -->
+    </Item>
+    <Item>
+      <ItemLink>1742001128</ItemLink>      <!--  Legendary Tin Geology -->
+    </Item>
+  </ModOp>
+
+  <!-- Rare -->
+  <ModOp Type="add" GUID="121853" Path="/Values/RewardPool/ItemsPool/">
+    <Item>
+      <ItemLink>1742001000</ItemLink>      <!-- Flax Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001003</ItemLink>      <!-- Barley Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001006</ItemLink>      <!-- Beaver Traps -->
+    </Item>
+    <Item>
+      <ItemLink>1742001009</ItemLink>      <!-- Birds Traps -->
+    </Item>
+    <Item>
+      <ItemLink>1742001012</ItemLink>      <!-- Copper Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001015</ItemLink>      <!-- Cypress Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001018</ItemLink>      <!-- Dye Plants Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001021</ItemLink>      <!-- Gold Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001024</ItemLink>      <!-- Granite Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001027</ItemLink>      <!-- Grapes Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001030</ItemLink>      <!-- Herbs Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001033</ItemLink>      <!-- Iron Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001036</ItemLink>      <!-- Lavender Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001039</ItemLink>      <!-- Mackarels Traps -->
+    </Item>
+    <Item>
+      <ItemLink>1742001042</ItemLink>      <!-- Marble Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001045</ItemLink>      <!-- Minerals Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001048</ItemLink>      <!-- Olive Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001051</ItemLink>      <!-- Oyster Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001054</ItemLink>      <!-- Pony Grasslands -->
+    </Item>
+    <Item>
+      <ItemLink>1742001057</ItemLink>      <!-- Resin Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001060</ItemLink>      <!-- Saltwort Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001063</ItemLink>      <!-- Seashell Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001066</ItemLink>      <!-- Silver Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001069</ItemLink>      <!-- Snail Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001072</ItemLink>      <!-- Sturgeon Traps -->
+    </Item>
+    <Item>
+      <ItemLink>1742001075</ItemLink>      <!-- Tin Geology -->
+    </Item>
+  </ModOp>
+
+  <!-- DROP POOLS -->
+  <!-- 95375 - RewardPool Caeso Drops -->
+  <!-- 95446 - RewardPool Diana Drops -->
+  <!-- 95449 - RewardPool Manx Drops -->
+  <!-- 95448 - RewardPool Procurator Drops -->
+  <!-- 95447 - RewardPool Valeria Drops -->
+  <!-- 95450 - RewardPool Voada Drops -->
+
+  <!-- TRADER/RAIDER POOLS LEGENDARY -->
+  <!-- 83471 - RewardList Caeso Legendary -->
+  <!-- 83463 - RewardList Diana Legendary -->
+  <!-- 83467 - RewardList Valeria Legendary -->
+  <ModOp Type="add" GUID="83471,83463,83467" Path="/Values/RewardPool/ItemsPool/">
+    <Item>
+      <ItemLink>1742001078</ItemLink>      <!--  Legendary Flax Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001088</ItemLink>      <!--  Legendary Cypress Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001092</ItemLink>      <!--  Legendary Gold Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001096</ItemLink>      <!--  Legendary Grapes Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001100</ItemLink>      <!--  Legendary Iron Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001102</ItemLink>      <!--  Legendary Lavender Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001104</ItemLink>      <!--  Legendary Mackarels Traps -->
+    </Item>
+    <Item>
+      <ItemLink>1742001106</ItemLink>      <!--  Legendary Marble Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001108</ItemLink>      <!--  Legendary Minerals Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001110</ItemLink>      <!--  Legendary Olive Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001112</ItemLink>      <!--  Legendary Oyster Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001116</ItemLink>      <!--  Legendary Resin Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001124</ItemLink>      <!--  Legendary Snail Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001126</ItemLink>      <!--  Legendary Sturgeon Traps -->
+    </Item>
+  </ModOp>
+
+  <!-- 83475 - RewardList Procurator Legendary -->
+  <!-- 83479 - RewardList Manx Legendary -->
+  <!-- 83483 - RewardList Voada Legendary -->
+  <ModOp Type="add" GUID="83479,83475,83483" Path="/Values/RewardPool/ItemsPool/">
+    <Item>
+      <ItemLink>1742001078</ItemLink>      <!--  Legendary Flax Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001080</ItemLink>      <!--  Legendary Barley Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001082</ItemLink>      <!--  Legendary Beaver Traps -->
+    </Item>
+    <Item>
+      <ItemLink>1742001084</ItemLink>      <!--  Legendary Birds Traps -->
+    </Item>
+    <Item>
+      <ItemLink>1742001086</ItemLink>      <!--  Legendary Copper Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001090</ItemLink>      <!--  Legendary Dye Plants Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001094</ItemLink>      <!--  Legendary Granite Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001098</ItemLink>      <!--  Legendary Herbs Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001100</ItemLink>      <!--  Legendary Iron Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001114</ItemLink>      <!--  Legendary Pony Grasslands -->
+    </Item>
+    <Item>
+      <ItemLink>1742001116</ItemLink>      <!--  Legendary Resin Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001118</ItemLink>      <!--  Legendary Saltwort Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001120</ItemLink>      <!--  Legendary Seashell Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001122</ItemLink>      <!--  Legendary Silver Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001128</ItemLink>      <!--  Legendary Tin Geology -->
+    </Item>
+  </ModOp>
+
+  <!-- TRADER/RAIDER POOLS RARE -->
+  <!-- 83469 - RewardList Caeso Rare -->
+  <!-- 83461 - RewardList Diana Rare -->
+  <!-- 83465 - RewardList Valeria Rare -->
+  <ModOp Type="add" GUID="83469,83461,83465" Path="/Values/RewardPool/ItemsPool/">
+    <Item>
+      <ItemLink>1742001000</ItemLink>      <!-- Flax Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001015</ItemLink>      <!-- Cypress Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001021</ItemLink>      <!-- Gold Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001027</ItemLink>      <!-- Grapes Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001033</ItemLink>      <!-- Iron Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001036</ItemLink>      <!-- Lavender Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001039</ItemLink>      <!-- Mackarels Traps -->
+    </Item>
+    <Item>
+      <ItemLink>1742001042</ItemLink>      <!-- Marble Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001045</ItemLink>      <!-- Minerals Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001048</ItemLink>      <!-- Olive Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001051</ItemLink>      <!-- Oyster Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001057</ItemLink>      <!-- Resin Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001069</ItemLink>      <!-- Snail Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001072</ItemLink>      <!-- Sturgeon Traps -->
+    </Item>
+  </ModOp>
+
+  <!-- TRADER/RAIDER POOLS RARE -->
+  <!-- 83477 - RewardList Manx Rare -->
+  <!-- 83473 - RewardList Procurator Rare -->
+  <!-- 83481 - RewardList Voada Rare -->
+  <ModOp Type="add" GUID="83477,83473,83481" Path="/Values/RewardPool/ItemsPool/">
+    <Item>
+      <ItemLink>1742001000</ItemLink>      <!-- Flax Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001003</ItemLink>      <!-- Barley Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001006</ItemLink>      <!-- Beaver Traps -->
+    </Item>
+    <Item>
+      <ItemLink>1742001009</ItemLink>      <!-- Birds Traps -->
+    </Item>
+    <Item>
+      <ItemLink>1742001012</ItemLink>      <!-- Copper Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001018</ItemLink>      <!-- Dye Plants Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001024</ItemLink>      <!-- Granite Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001030</ItemLink>      <!-- Herbs Seeds -->
+    </Item>
+    <Item>
+      <ItemLink>1742001033</ItemLink>      <!-- Iron Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001054</ItemLink>      <!-- Pony Grasslands -->
+    </Item>
+    <Item>
+      <ItemLink>1742001057</ItemLink>      <!-- Resin Saplings -->
+    </Item>
+    <Item>
+      <ItemLink>1742001060</ItemLink>      <!-- Saltwort Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001063</ItemLink>      <!-- Seashell Banks -->
+    </Item>
+    <Item>
+      <ItemLink>1742001066</ItemLink>      <!-- Silver Geology -->
+    </Item>
+    <Item>
+      <ItemLink>1742001075</ItemLink>      <!-- Tin Geology -->
+    </Item>
+  </ModOp>
+
+  <!-- END ADD Items to rewardpools -->
+
+</ModOps>

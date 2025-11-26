@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+  <!-- 
+    Anno 117: Low Transfer Times Mod
+    Reduces travel time by increasing ReferenceUnitSpeed (makes transfers calculate faster)
+    AND reduces DefaultTransferTime as backup
+  -->
+  
+  <ModOp Type="merge" GUID="140711" Path="/Values/SessionTransferFeature">
+    <DefaultTransferTime>60000</DefaultTransferTime>  <!-- 60 seconds in milliseconds -->
+    <ReferenceUnitSpeed>0.1</ReferenceUnitSpeed>  <!-- Increased from 5.348 to 50.0 (10x faster) -->
+  </ModOp>
+  
+</ModOps>

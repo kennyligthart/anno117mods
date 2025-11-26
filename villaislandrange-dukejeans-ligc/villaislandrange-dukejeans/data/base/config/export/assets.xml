@@ -1,0 +1,13 @@
+<ModOps>
+  <ModOp Type="merge" Path="//Asset[Template='VillaUrban' or Template='GuestHouse']">
+    <Values>
+      <EffectSource>
+        <RadiusDistance>350</RadiusDistance>
+        <StreetDistance>350</StreetDistance>
+      </EffectSource>
+      <BuildingRestriction>
+        <RestrictionRadius>0</RestrictionRadius>
+      </BuildingRestriction>
+    </Values>
+  </ModOp>
+</ModOps>

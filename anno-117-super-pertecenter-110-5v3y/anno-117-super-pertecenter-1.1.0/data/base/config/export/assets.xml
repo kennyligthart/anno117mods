@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModOps>
+  
+  <!-- ================================================================
+       PENTECONTER (Small Trade Ship) - GUID: 37222
+       Base (approx): 2 module slots, ~4 cargo slots, speed ~3.0
+       Buff Focus: Trade throughput + survival if attacked
+       ================================================================ -->
+
+  <!-- Cargo: Increased from ~4 to 9 slots for high trade capacity -->
+  <ModOp Type="merge" GUID='37222' Path="/Values/ItemContainer">
+    <SlotCount>9</SlotCount>
+  </ModOp>
+
+  <!-- Speed: Extreme boost (base ~3.0 -> 24.0). High value retained as provided. -->
+  <ModOp Type="merge" GUID='37222' Path="/Values/Movement">
+    <BaseSpeed>30.0</BaseSpeed>
+    <Acceleration>3</Acceleration>
+    <Deceleration>3</Deceleration>
+    <RotationSpeed>50</RotationSpeed>
+  </ModOp>
+
+  <!-- Modules: Keeping 2 (unchanged vs default) for limited customization -->
+  <ModOp Type="merge" GUID='37222' Path="/Values/ShipModuleOwner">
+    <MaximumModificationCount>2</MaximumModificationCount>
+  </ModOp>
+
+  <!-- Health: Increased for survivability (target 4000) -->
+  <ModOp Type="merge" GUID='37222' Path="/Values/Health">
+    <BaseHealth>4000</BaseHealth>
+  </ModOp>
+
+  <!-- Build Time: Reduced to 10 seconds to rapidly field traders -->
+  <ModOp Type="merge" GUID='37222' Path="/Values/Craftable">
+    <CraftingTime>10000</CraftingTime>
+  </ModOp>
+
+</ModOps>

@@ -1,0 +1,21 @@
+{
+  "Anno": 8,
+  "ModID": "super-pertecenter-mod",
+  "Version": "1.1.0",
+  "Difficulty": "unchanged",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true
+  },
+  "ModName": {
+    "English": "Pentecenter Trade Booster"
+  },
+  "Description": {
+    "English": "Buffs only the civilian Pentecenter (GUID 37222) for trade throughput and survivability: cargo slots 9, base speed 24, module slots 2, health 4000, build time 10s. Other ships remain vanilla."
+  },
+  "Category": {
+    "English": "Gameplay"
+  },
+  "IncompatibleIds": [],
+  "ModDependencies": []
+}

@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <LineId>1500500003</LineId>
+      <Text>Lex Annonae</Text>
+    </Text>
+    <Text>
+      <LineId>1500500004</LineId>
+      <Text>By decree of the Senate, all provinces must double their output to support the growing glory of the Empire. The grain supply is the lifeblood of Rome.</Text>
+    </Text>
+  </ModOp>
+</ModOps>
