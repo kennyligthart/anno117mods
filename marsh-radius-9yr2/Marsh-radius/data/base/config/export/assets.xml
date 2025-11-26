@@ -1,0 +1,11 @@
+<ModOps>
+    <!-- Marsh -->
+    <ModOp Type="merge" GUID="8789" Path="/Values/IrrigationConfig/IrrigationTiles/IrrigationTileDefinitions">
+        <Source_Marsh_Canal>
+            <SourceSpreadMin>999</SourceSpreadMin>
+            <SourceSpreadMax>999</SourceSpreadMax>
+            <TileItselfIsIrrigated>1</TileItselfIsIrrigated>
+        </Source_Marsh_Canal>
+    </ModOp>
+
+</ModOps>

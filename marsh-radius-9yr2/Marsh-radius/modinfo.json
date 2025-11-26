@@ -1,0 +1,18 @@
+{
+  "Anno": 8,
+  "ModID": "marsh-radius",
+  "Version": "1.0.0",
+  "Difficulty": "easier",
+  "GameSetup": {
+	"SafeToRemove": true
+  },
+  "Category": {
+    "English": "Gameplay"
+  },
+  "ModName": {
+    "English": "Marsh radius"
+  },
+  "Description": {
+    "English": "This mod ensures that a single drainage canal is enough to dry out the entire marsh."
+  }
+}
