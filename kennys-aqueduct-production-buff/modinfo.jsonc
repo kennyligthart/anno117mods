@@ -2,14 +2,14 @@
 "Anno": 8,
   "ModID": "kennys-aqueduct-production-buff",
   "Version": "1.0.0",
-  "Difficulty": "cheat",
+  "Difficulty": "Easier",
   "Category": {
-    "English": "cheat"
+    "English": "Gameplay"
   },
   "ModName": {
-    "English": "increased aqueduct production buff"
+    "English": "Increased aqueduct production buff."
   },
   "Description": {
-    "English": "Increased the production buff given by aqueduct."
+    "English": "Increases aqueduct production buff to 300%. Default is 50%."
   }
 }
