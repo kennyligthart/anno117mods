@@ -7,7 +7,6 @@
 EnableNewMods
 
 citywatch-island-radius
-doubleproductivity-dukejeans
 # free-farmfields-ubi
 hot-reload-ubi
 # hotoki-depotstorage-x10

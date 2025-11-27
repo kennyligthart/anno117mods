@@ -1,3 +1,0 @@
-# Doubleproductivity
-
-Add your description.

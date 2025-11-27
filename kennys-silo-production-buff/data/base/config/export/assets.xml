@@ -1,7 +1,7 @@
 <ModOps>
 
   <!-- BuildingBuff Silo -->
-  <ModOp GUID="77960" Merge="FactoryUpgrade/ProductivityUpgrade">
+  <ModOp Merge="@77960/FactoryUpgrade">
     <ProductivityUpgrade>
       <Value>300</Value><!-- Percentage of the buff, default = 50 -->
       <Percental>1</Percental>
