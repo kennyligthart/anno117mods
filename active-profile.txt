@@ -35,6 +35,6 @@ the-perfect-fertilities-pack-hier0nimus
 trader-specialists-cheats
 unhide-all-ships-and-buildings-serp
 # villa-radius
-villaislandrange-dukejeans
+# villaislandrange-dukejeans # lijkt me niet leuk meer met alle items, overlap enablen is wel leuk
 warehouse-fast-unloading
 zoom-out-further-serp
