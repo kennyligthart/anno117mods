@@ -1,0 +1,14 @@
+<ModOps>
+
+  <ModOp Merge="@8789/IrrigationConfig/IrrigationTiles/IrrigationTileDefinitions">
+    <Source_Marsh_Canal>
+      <SourceSpreadMin>12</SourceSpreadMin>
+      <SourceSpreadMax>12</SourceSpreadMax>
+    </Source_Marsh_Canal>
+  </ModOp>
+
+</ModOps>
+
+
+
+

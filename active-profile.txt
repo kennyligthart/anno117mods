@@ -19,9 +19,11 @@ kennys-aqueduct-production-buff
 # kennys-fast-craftingtimes-for-ships
 # kennys-fast-ships
 # kennys-harbor-storage
+kennys-marsh-irrigation-radius-buff
 kennys-silo-production-buff
 low-transfer-times-anno117
-marsh-radius
+# marsh-radius
+nostalgic-items-etended
 public-service-buildings-island-radius
 remove-items-cheats
 researchtreeexpanded-storage
@@ -30,11 +32,12 @@ super-pertecenter-mod
 super-specialists-mod
 taludas-circusminimus
 taludas-fasterfastgamespeed
-taludas-increaseharbourarea
+taludas-increaseharbourarea # not installed
+taludas-specialisteffects-stackable
 the-perfect-fertilities-pack-hier0nimus
 trader-specialists-cheats
 unhide-all-ships-and-buildings-serp
 # villa-radius
-# villaislandrange-dukejeans # lijkt me niet leuk meer met alle items, overlap enablen is wel leuk
+# villaislandrange-dukejeans
 warehouse-fast-unloading
 zoom-out-further-serp

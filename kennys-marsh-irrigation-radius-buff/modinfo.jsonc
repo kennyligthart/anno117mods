@@ -1,0 +1,15 @@
+{
+"Anno": 8,
+  "ModID": "kennys-marsh-irrigation-radius-buff",
+  "Version": "1.0.0",
+  "Difficulty": "Easier",
+  "Category": {
+    "English": "Gameplay"
+  },
+  "ModName": {
+    "English": "Increased irrigation radius for mash drainage channel."
+  },
+  "Description": {
+    "English": "Increases the irrigation radius from 8 tiles to 12 tiles. This makes marsh drainage channels more viable for large farms on marsh fertility. It also helps for production buildings that require a set number of available tiles, since the marsh channel and the road already take up some of the available tiles."
+  }
+}

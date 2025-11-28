@@ -1,0 +1,19 @@
+{
+  "Anno": 8,
+  "ModID": "nostalgic-items-etended",
+  "Version": "1.0.0",
+  "Difficulty": "unchanged",
+  "GameSetup": {
+	"SafeToRemove": true,
+	"RequiresNewGame": true
+  },
+  "Category": {
+    "English": "Gameplay"
+  },
+  "ModName": {
+    "English": "nostalgic-items-etended"
+  },
+  "Description": {
+    "English": "nostalgic-items-etended"
+  }
+}

@@ -1,0 +1,59 @@
+<ModOps>
+	
+    <!--新增文本-->
+    <ModOp Type="add" Path="/TextExport/Texts">
+    	
+        <Text>
+            <LineId>2023040000</LineId>
+            <Text>Perfumier Prunella</Text>
+        </Text>
+        <Text>
+            <LineId>2023040001</LineId>
+            <Text>Prunella first made her soaps in the garden shed. How far she has come since!</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023040003</LineId>
+            <Text>Master Craftsman Franke</Text>
+        </Text>
+        <Text>
+            <LineId>2023040004</LineId>
+            <Text>Franke is an alchemist of textiles, with dedication, skilled artistry and years of experience in turning fur to cotton and back again!</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023040006</LineId>
+            <Text>Feras Alsarami, the Persuader</Text>
+        </Text>
+        <Text>
+            <LineId>2023040007</LineId>
+            <Text>Feras' voice puts people in a comforting trance, letting them lead happier, more focused and productive lives.</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023040009</LineId>
+            <Text>Bekonin, Spirit of Liberty</Text>
+        </Text>
+        <Text>
+            <LineId>2023040010</LineId>
+            <Text>A man with an infectious, impetuous and impassioned urge for action.</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023040012</LineId>
+            <Text>Actor</Text>
+        </Text>
+        <Text>
+            <LineId>2023040013</LineId>
+            <Text>Walks the boards to full houses up and down the country.</Text>
+        </Text>
+        <Text>
+            <LineId>2023040016</LineId>
+            <Text>Theatre,my home</Text>
+        </Text>
+
+
+    </ModOp>
+     
+        
+</ModOps>

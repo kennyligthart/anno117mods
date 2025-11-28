@@ -1,0 +1,79 @@
+{
+  "Version": "1.0.0",
+  "Anno": 8,
+  "ModID": "taludas-specialisteffects-stackable",
+  "Difficulty": "cheat",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [],
+    "Optional": [],
+    "LoadAfter": [],
+    "Deprecate": [],
+    "Incompatible": []
+  },
+  "Category": {
+    "Chinese": "Cheat",
+    "English": "Cheat",
+    "French": "Cheat",
+    "German": "Cheat",
+    "Italian": "Cheat",
+    "Japanese": "Cheat",
+    "Korean": "Cheat",
+    "Polish": "Cheat",
+    "Russian": "Cheat",
+    "Spanish": "Cheat",
+    "Taiwanese": "Cheat"
+  },
+  "ModName": {
+    "Chinese": "Specialist Effects Stackable (Taludas)",
+    "English": "Specialist Effects Stackable (Taludas)",
+    "French": "Specialist Effects Stackable (Taludas)",
+    "German": "Specialist Effects Stackable (Taludas)",
+    "Italian": "Specialist Effects Stackable (Taludas)",
+    "Japanese": "Specialist Effects Stackable (Taludas)",
+    "Korean": "Specialist Effects Stackable (Taludas)",
+    "Polish": "Specialist Effects Stackable (Taludas)",
+    "Russian": "Specialist Effects Stackable (Taludas)",
+    "Spanish": "Specialist Effects Stackable (Taludas)",
+    "Taiwanese": "Specialist Effects Stackable (Taludas)"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "#  Specialist Effects Stackable \n\n Specialist effects can now be stacked.",
+    "French": null,
+    "German": "#  Specialist Effects Stackable \n\n Spezialisteneffekte können jetzt stacken.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues":
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": "",
+  "Image": null
+}

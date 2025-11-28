@@ -1,0 +1,62 @@
+<ModOps>
+	
+    <!--新增文本-->
+    <ModOp Type="add" Path="/TextExport/Texts">
+    	
+        <Text>
+            <LineId>2023040000</LineId>
+            <Text>香氛師普涅拉</Text>
+        </Text>
+        <Text>
+            <LineId>2023040001</LineId>
+            <Text>普涅拉第一次做肥皂是在花園的小屋，從那之後她獲得了多大的成功啊！</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023040003</LineId>
+            <Text>“工藝名人”法蘭克</Text>
+        </Text>
+        <Text>
+            <LineId>2023040004</LineId>
+            <Text>法蘭克是紡織品的煉金術士，在他的努力、精湛的技藝與多年經驗之下，他將毛皮變成棉又變回來！</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023040006</LineId>
+            <Text>說服者法瑞斯·亞瑟雷密</Text>
+        </Text>
+        <Text>
+            <LineId>2023040007</LineId>
+            <Text>法瑞斯的聲音有令人感到寬慰的催眠效果，帶領人們過上更快樂、專注且多產的生活。</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023040009</LineId>
+            <Text>貝柯甯，自由之心</Text>
+        </Text>
+        <Text>
+            <LineId>2023040010</LineId>
+            <Text>這個男性對行動的渴望充滿感染力、衝勁，且激昂萬分。</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023040012</LineId>
+            <Text>演員</Text>
+        </Text>
+        <Text>
+            <LineId>2023040013</LineId>
+            <Text>走上舞臺，讓全國上下的戲院高朋滿座。</Text>
+        </Text>
+        <Text>
+            <LineId>2023040016</LineId>
+            <Text>劇場是我的家</Text>
+        </Text>
+
+
+    </ModOp>
+    
+
+    
+
+        
+</ModOps>

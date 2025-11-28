@@ -1,0 +1,6 @@
+<ModOps>
+	<!-- change all item effects to be stackable -->
+	<ModOp Merge="//Buff[../../Template = 'BuildingBuff' and SourceCategory/text() = 'Item']">
+		<IsStackable>1</IsStackable>
+	</ModOp>
+</ModOps>

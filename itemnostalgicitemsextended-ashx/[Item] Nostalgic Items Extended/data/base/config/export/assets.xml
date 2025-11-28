@@ -1,0 +1,508 @@
+<ModOps>
+	
+	<!-- 新增香氛师 -->
+  <ModOp Type="addNextSibling" GUID="51344">
+  	
+  	<Asset>
+			<Template>Item</Template>
+			<Values>
+				<Standard>
+					<GUID>2023040000</GUID>
+					<Name>Specialist Prunella</Name>
+					<IconFilename>data/base/ui/icons/Prunella.png</IconFilename>
+					<InfoDescription>2023040001</InfoDescription>
+				</Standard>
+				<Effect>
+					<EffectScope>Radius</EffectScope>
+					<SourceCategory>Item</SourceCategory>
+					<Buffs>
+						<Item>
+							<GUID>2023040002</GUID>
+						</Item>
+					</Buffs>
+					<Targets>
+						<Item>
+							<GUID>3189</GUID><!-- 影响肥皂工坊 -->
+						</Item>
+					</Targets>
+				</Effect>
+				<Item>
+					<Rarity>Epic</Rarity><!-- 稀有度：紫卡 -->
+					<Niche>Economy</Niche><!-- 类别：经济 -->
+					<TradePrice>120000</TradePrice>
+					<BarkPool>0</BarkPool>
+				</Item>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<Text>
+					<OasisId>2023040000</OasisId>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>BuildingBuff</Template>
+			<Values>
+				<Standard>
+					<GUID>2023040002</GUID>
+					<Name>Specialist Prunella Buff</Name>
+					<IconFilename>data/base/ui/icons/Prunella.png</IconFilename>
+				</Standard>
+				<Text>
+					<OasisId>2023040000</OasisId>
+				</Text>
+				<HealthUpgrade />
+				<BuildingUpgrade />
+				<DistributionUpgrade />
+				<Buff>
+					<SourceCategory>Item</SourceCategory>
+				</Buff>
+				<ResidenceUpgrade />
+				<FactoryUpgrade>
+					<ReplaceInputs>
+			      <Item>
+			        <OldInput>2132</OldInput><!-- 原材料：猪油 -->
+			        <NewInput>2077</NewInput><!-- 新材料：原木 -->
+			      </Item>
+				  </ReplaceInputs>
+				</FactoryUpgrade>
+				<ModuleOwnerUpgrade />
+				<MaintenanceUpgrade />
+				<CityInstitutionUpgrade />
+				<IncidentInfectableUpgrade />
+				<RecruitmentUpgrade />
+				<AqueductUpgrade />
+				<WarehouseUpgrade />
+				<IrrigationUpgrade />
+			</Values>
+		</Asset>
+	
+	</ModOp>
+	
+	<!-- 新增法兰克 -->
+  <ModOp Type="addNextSibling" GUID="51344">
+  	
+  	<Asset>
+			<Template>Item</Template>
+			<Values>
+				<Standard>
+					<GUID>2023040003</GUID>
+					<Name>Specialist Franke</Name>
+					<IconFilename>data/base/ui/icons/Franke.png</IconFilename>
+					<InfoDescription>2023040004</InfoDescription>
+				</Standard>
+				<Effect>
+					<EffectScope>Radius</EffectScope>
+					<SourceCategory>Item</SourceCategory>
+					<Buffs>
+						<Item>
+							<GUID>2023040005</GUID>
+						</Item>
+					</Buffs>
+					<Targets>
+						<Item>
+							<GUID>3191</GUID><!-- 影响织布工坊 -->
+						</Item>
+					</Targets>
+				</Effect>
+				<Item>
+					<Rarity>Epic</Rarity><!-- 稀有度：紫卡 -->
+					<Niche>Economy</Niche><!-- 类别：经济 -->
+					<TradePrice>120000</TradePrice>
+					<BarkPool>0</BarkPool>
+				</Item>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<Text>
+					<OasisId>2023040003</OasisId>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>BuildingBuff</Template>
+			<Values>
+				<Standard>
+					<GUID>2023040005</GUID>
+					<Name>Specialist Franke Buff</Name>
+					<IconFilename>data/base/ui/icons/Franke.png</IconFilename>
+				</Standard>
+				<Text>
+					<OasisId>2023040003</OasisId>
+				</Text>
+				<HealthUpgrade />
+				<BuildingUpgrade />
+				<DistributionUpgrade />
+				<Buff>
+					<SourceCategory>Item</SourceCategory>
+				</Buff>
+				<ResidenceUpgrade />
+				<FactoryUpgrade>
+					<ProductivityUpgrade>
+						<Value>40</Value><!--生产力+40% -->
+						<Percental>1</Percental><!--百分数开启 -->
+					</ProductivityUpgrade>
+					<ReplaceInputs>
+			      <Item>
+			        <OldInput>2121</OldInput><!-- 原材料：布料 -->
+			        <NewInput>2080</NewInput><!-- 新材料：铁矿石 -->
+			      </Item>
+			      <Item>
+			        <OldInput>2180</OldInput><!-- 原材料：蒂尔紫 -->
+			        <NewInput>2073</NewInput><!-- 新材料：绵羊 -->
+			      </Item>
+				  </ReplaceInputs>
+				  <AdditionalOutput>
+						<Item>
+							<Product>2141</Product><!-- 额外产出：丘尼卡 -->
+							<AdditionalOutputCycle>12</AdditionalOutputCycle><!-- 12轮一个 -->
+							<Amount>1</Amount>
+						</Item>
+						<Item>
+							<Product>2161</Product><!-- 额外产出：斗篷 -->
+							<AdditionalOutputCycle>12</AdditionalOutputCycle><!-- 12轮一个 -->
+							<Amount>1</Amount>
+						</Item>
+						<Item>
+							<Product>31707</Product><!-- 额外产出：皮毛帽 -->
+							<AdditionalOutputCycle>12</AdditionalOutputCycle><!-- 12轮一个 -->
+							<Amount>1</Amount>
+						</Item>
+					</AdditionalOutput>
+				</FactoryUpgrade>
+				<ModuleOwnerUpgrade />
+				<MaintenanceUpgrade />
+				<CityInstitutionUpgrade />
+				<IncidentInfectableUpgrade />
+				<RecruitmentUpgrade />
+				<AqueductUpgrade />
+				<WarehouseUpgrade />
+				<IrrigationUpgrade />
+			</Values>
+		</Asset>
+	
+	</ModOp>
+	
+	<!-- 新增大忽悠 -->
+  <ModOp Type="addNextSibling" GUID="51344">
+  	
+  	<Asset>
+			<Template>Item</Template>
+			<Values>
+				<Standard>
+					<GUID>2023040006</GUID>
+					<Name>Specialist Feras</Name>
+					<IconFilename>data/base/ui/icons/Feras.png</IconFilename>
+					<InfoDescription>2023040007</InfoDescription>
+				</Standard>
+				<Effect>
+					<EffectScope>Radius</EffectScope>
+					<SourceCategory>Item</SourceCategory>
+					<Buffs>
+						<Item>
+							<GUID>2023040008</GUID>
+						</Item>
+					</Buffs>
+					<Targets>
+						<Item>
+							<GUID>38370</GUID><!-- 影响所有生产建筑 -->
+						</Item>
+					</Targets>
+				</Effect>
+				<Item>
+					<Rarity>Epic</Rarity><!-- 稀有度：紫卡 -->
+					<Niche>Economy</Niche><!-- 类别：经济 -->
+					<TradePrice>120000</TradePrice>
+					<BarkPool>0</BarkPool>
+				</Item>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<Text>
+					<OasisId>2023040006</OasisId>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>BuildingBuff</Template>
+			<Values>
+				<Standard>
+					<GUID>2023040008</GUID>
+					<Name>Specialist Feras Buff</Name>
+					<IconFilename>data/base/ui/icons/Feras.png</IconFilename>
+				</Standard>
+				<Text>
+					<OasisId>2023040006</OasisId>
+				</Text>
+				<HealthUpgrade />
+				<BuildingUpgrade>
+					<AdditionalAttributes>
+						<Happiness>
+							<AmountOrPercent>
+								<Value>10</Value>
+								<Percental>1</Percental>
+							</AmountOrPercent>
+						</Happiness>
+					</AdditionalAttributes>
+				</BuildingUpgrade>
+				<DistributionUpgrade />
+				<Buff>
+					<SourceCategory>Item</SourceCategory>
+				</Buff>
+				<ResidenceUpgrade />
+				<FactoryUpgrade>
+					<ProductivityUpgrade>
+						<Value>50</Value><!--生产力+50% -->
+						<Percental>1</Percental><!--百分数开启 -->
+					</ProductivityUpgrade>
+				</FactoryUpgrade>
+				<ModuleOwnerUpgrade />
+				<MaintenanceUpgrade>
+					<MaintenanceFactorUpgrade>
+						<Value>-10</Value><!--维护费-10% -->
+						<Percental>1</Percental>
+					</MaintenanceFactorUpgrade>
+					<WorkforceMaintenanceFactorUpgrade>
+						<Value>-10</Value><!--劳动力需求-10% -->
+						<Percental>1</Percental><!--百分数开启 -->
+					</WorkforceMaintenanceFactorUpgrade>
+				</MaintenanceUpgrade>
+				<CityInstitutionUpgrade />
+				<IncidentInfectableUpgrade />
+				<RecruitmentUpgrade />
+				<AqueductUpgrade />
+				<WarehouseUpgrade />
+				<IrrigationUpgrade />
+			</Values>
+		</Asset>
+	
+	</ModOp>
+	
+	<!-- 新增小忽悠 -->
+  <ModOp Type="addNextSibling" GUID="51344">
+  	
+  	<Asset>
+			<Template>Item</Template>
+			<Values>
+				<Standard>
+					<GUID>2023040009</GUID>
+					<Name>Specialist Bekonin</Name>
+					<IconFilename>data/base/ui/icons/Bekonin.png</IconFilename>
+					<InfoDescription>2023040010</InfoDescription>
+				</Standard>
+				<Effect>
+					<EffectScope>Radius</EffectScope>
+					<SourceCategory>Item</SourceCategory>
+					<Buffs>
+						<Item>
+							<GUID>2023040011</GUID>
+						</Item>
+					</Buffs>
+					<Targets>
+						<Item>
+							<GUID>38370</GUID><!-- 影响所有生产建筑 -->
+						</Item>
+					</Targets>
+				</Effect>
+				<Item>
+					<Rarity>Epic</Rarity><!-- 稀有度：紫卡 -->
+					<Niche>Economy</Niche><!-- 类别：经济 -->
+					<TradePrice>120000</TradePrice>
+					<BarkPool>0</BarkPool>
+				</Item>
+				<Locked>
+					<DefaultLockedState>0</DefaultLockedState>
+				</Locked>
+				<Text>
+					<OasisId>2023040009</OasisId>
+				</Text>
+			</Values>
+		</Asset>
+		<Asset>
+			<Template>BuildingBuff</Template>
+			<Values>
+				<Standard>
+					<GUID>2023040011</GUID>
+					<Name>Specialist Bekonin Buff</Name>
+					<IconFilename>data/base/ui/icons/Bekonin.png</IconFilename>
+				</Standard>
+				<Text>
+					<OasisId>2023040009</OasisId>
+				</Text>
+				<HealthUpgrade />
+				<BuildingUpgrade />
+				<DistributionUpgrade />
+				<Buff>
+					<SourceCategory>Item</SourceCategory>
+				</Buff>
+				<ResidenceUpgrade />
+				<FactoryUpgrade>
+					<ProductivityUpgrade>
+						<Value>25</Value><!--生产力+25% -->
+						<Percental>1</Percental><!--百分数开启 -->
+					</ProductivityUpgrade>
+				</FactoryUpgrade>
+				<ModuleOwnerUpgrade />
+				<MaintenanceUpgrade>
+					<MaintenanceFactorUpgrade>
+						<Value>-20</Value><!--维护费-20% -->
+						<Percental>1</Percental>
+					</MaintenanceFactorUpgrade>
+					<WorkforceMaintenanceFactorUpgrade>
+						<Value>-25</Value><!--劳动力需求-25% -->
+						<Percental>1</Percental><!--百分数开启 -->
+					</WorkforceMaintenanceFactorUpgrade>
+				</MaintenanceUpgrade>
+				<CityInstitutionUpgrade />
+				<IncidentInfectableUpgrade />
+				<RecruitmentUpgrade />
+				<AqueductUpgrade />
+				<WarehouseUpgrade />
+				<IrrigationUpgrade />
+			</Values>
+		</Asset>
+	
+	</ModOp>
+	
+	
+	<!--所有卡片卡池添加 -->
+	<ModOp Type="add" GUID='113059' Path="/Values/AssetPool/AssetList">
+		
+		<Item>
+			<Asset>2023040000</Asset><!-- 香氛师ID-->
+		</Item>
+		<Item>
+			<Asset>2023040003</Asset><!-- 法兰克ID-->
+		</Item>
+		<Item>
+			<Asset>2023040006</Asset><!-- 大忽悠ID-->
+		</Item>
+		<Item>
+			<Asset>2023040009</Asset><!-- 小忽悠ID-->
+		</Item>
+		
+
+	</ModOp>
+	
+	<!--所有奖励卡片卡池添加 -->
+	<ModOp Type="add" GUID='43037' Path="/Values/RewardPool/ItemsPool">
+		
+		<Item>
+			<ItemLink>2023040000</ItemLink><!-- 香氛师ID-->
+		</Item>
+		<Item>
+			<ItemLink>2023040003</ItemLink><!-- 法兰克ID-->
+		</Item>
+		<Item>
+			<ItemLink>2023040006</ItemLink><!-- 大忽悠ID-->
+		</Item>
+		<Item>
+			<ItemLink>2023040009</ItemLink><!-- 小忽悠ID-->
+		</Item>
+
+
+
+	</ModOp>
+	
+	<!--所有专家卡池添加 -->
+	<ModOp Type="add" GUID='82598' Path="/Values/RewardPool/ItemsPool">
+		
+		<Item>
+			<ItemLink>2023040000</ItemLink><!-- 香氛师ID-->
+		</Item>
+		<Item>
+			<ItemLink>2023040003</ItemLink><!-- 法兰克ID-->
+		</Item>
+		<Item>
+			<ItemLink>2023040006</ItemLink><!-- 大忽悠ID-->
+		</Item>
+		<Item>
+			<ItemLink>2023040009</ItemLink><!-- 小忽悠ID-->
+		</Item>
+
+
+	</ModOp>
+	
+	<!--科技树最后阶段随机生成一名深耕经济、财务或自然领域的传奇专家 -->
+	<ModOp Type="add" GUID='79669' Path="/Values/RewardPool/ItemsPool">
+		
+		<Item>
+			<ItemLink>2023040000</ItemLink><!-- 香氛师ID-->
+		</Item>
+		<Item>
+			<ItemLink>2023040003</ItemLink><!-- 法兰克ID-->
+		</Item>
+		<Item>
+			<ItemLink>2023040006</ItemLink><!-- 大忽悠ID-->
+		</Item>
+		<Item>
+			<ItemLink>2023040009</ItemLink><!-- 小忽悠ID-->
+		</Item>
+
+	</ModOp>
+	
+	
+	<!--所有【史诗经济】类卡池添加 -->
+	<ModOp Type="add" GUID='121854' Path="/Values/RewardPool/ItemsPool">
+		
+		<Item>
+			<ItemLink>2023040000</ItemLink><!-- 香氛师ID-->
+		</Item>
+		<Item>
+			<ItemLink>2023040003</ItemLink><!-- 法兰克ID-->
+		</Item>
+		<Item>
+			<ItemLink>2023040006</ItemLink><!-- 大忽悠ID-->
+		</Item>
+		<Item>
+			<ItemLink>2023040009</ItemLink><!-- 小忽悠ID-->
+		</Item>
+
+	</ModOp>
+
+	
+	<!--加入所有港口NPC售卖池 -->
+	<ModOp Type="add" GUID='43019,43021,43020,43017,43022,42999,43011,43012,43013,43014,43015,43016,43018' Path="/Values/RewardPool/ItemsPool">
+	               
+    <Item>
+			<ItemLink>2023040000</ItemLink><!-- 香氛师ID-->
+		</Item>
+		<Item>
+			<ItemLink>2023040003</ItemLink><!-- 法兰克ID-->
+		</Item>
+		<Item>
+			<ItemLink>2023040006</ItemLink><!-- 大忽悠ID-->
+		</Item>
+		<Item>
+			<ItemLink>2023040009</ItemLink><!-- 小忽悠ID-->
+		</Item>
+
+
+	</ModOp>
+	
+	<!--mod兼容：名人堂全卡片刷卡mod【史诗卡包】 -->
+	<ModOp Type="add" GUID='2023010013' Path="/Values/RewardPool/ItemsPool" Condition="#hof-all-items-extended">
+		
+		<Item>
+			<ItemLink>2023040000</ItemLink><!-- 香氛师ID-->
+		</Item>
+		<Item>
+			<ItemLink>2023040003</ItemLink><!-- 法兰克ID-->
+		</Item>
+		<Item>
+			<ItemLink>2023040006</ItemLink><!-- 大忽悠ID-->
+		</Item>
+		<Item>
+			<ItemLink>2023040009</ItemLink><!-- 小忽悠ID-->
+		</Item>
+		
+	</ModOp>
+
+	
+	
+
+	
+ 
+  
+  
+</ModOps>
