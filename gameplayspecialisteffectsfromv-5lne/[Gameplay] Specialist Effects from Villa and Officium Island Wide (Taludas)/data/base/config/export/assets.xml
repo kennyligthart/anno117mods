@@ -1,0 +1,18 @@
+<ModOps>
+
+	<!-- remove radius of Villa/Officium -->
+	<ModOp Merge="//BuildingRestriction/RestrictionRadius[../../../Template = 'VillaUrban' or ../../../Template = 'GuestHouse']">
+        <RestrictionRadius>0</RestrictionRadius>
+	</ModOp>
+
+	<ModOp Merge="//EffectSource[../../Template = 'VillaUrban' or ../../Template = 'GuestHouse']">
+		<RadiusDistance>0</RadiusDistance>
+		<StreetDistance>999</StreetDistance>
+	</ModOp>
+
+
+	<!-- change all items to not use radius any more -->
+	<ModOp Merge="//EffectScope[../../../Template = 'Item' or ../../../Template = 'ItemWithBoost']">
+		<EffectScope>ObjectsInArea</EffectScope>
+	</ModOp>
+</ModOps>

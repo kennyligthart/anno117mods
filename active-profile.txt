@@ -12,6 +12,7 @@ hot-reload-ubi
 # hotoki-depotstorage-x10
 # infinite-material-ubi
 # infinite-money-ubi
+influential-items-extended
 ixam-ambient-clearview
 # kennys-3x-wood-production
 kennys-aqueduct-island-wide
@@ -28,17 +29,19 @@ public-service-buildings-island-radius
 remove-items-cheats
 researchtreeexpanded-storage
 sheep-cheese-cheap-orange
-specialistes-custom
+specialistes-custom # not installed
 super-pertecenter-mod
 super-specialists-mod
+taludas-alltechsunlocked
 taludas-circusminimus
 taludas-fasterfastgamespeed
 taludas-increaseharbourarea # not installed
+taludas-landflourmilllatium
 taludas-specialisteffects-stackable
 the-perfect-fertilities-pack-hier0nimus
 trader-specialists-cheats
 unhide-all-ships-and-buildings-serp
 # villa-radius
-# villaislandrange-dukejeans
+# villaislandrange-dukejeans # not installed
 warehouse-fast-unloading
 zoom-out-further-serp

@@ -1,0 +1,81 @@
+{
+  "Version": "1.0.1",
+  "Anno": 8,
+  "ModID": "taludas-specialisteffects-wholeisland",
+  "Difficulty": "easier",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [],
+    "Optional": [],
+    "LoadAfter": [
+      "*"
+    ],
+    "Deprecate": [],
+    "Incompatible": []
+  },
+  "Category": {
+    "Chinese": "Gameplay",
+    "English": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "Specialist Effects Whole Island (Taludas)",
+    "English": "Specialist Effects Whole Island (Taludas)",
+    "French": "Specialist Effects Whole Island (Taludas)",
+    "German": "Specialist Effects Whole Island (Taludas)",
+    "Italian": "Specialist Effects Whole Island (Taludas)",
+    "Japanese": "Specialist Effects Whole Island (Taludas)",
+    "Korean": "Specialist Effects Whole Island (Taludas)",
+    "Polish": "Specialist Effects Whole Island (Taludas)",
+    "Russian": "Specialist Effects Whole Island (Taludas)",
+    "Spanish": "Specialist Effects Whole Island (Taludas)",
+    "Taiwanese": "Specialist Effects Whole Island (Taludas)"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "#  Specialist Effects Whole Island \n\n Specialist effects in the Villa and Officium now affect buildings on the whole island. Villa and Officium don't have a radius anymore and can be build close together.",
+    "French": null,
+    "German": "#  Specialist Effects Whole Island \n\n Spezialisteneffekte aus der Villa und dem Officium wirken sich nun auf Gebäude auf der gesamten Insel aus. Villa und Officium haben daher auch keinen Radius mehr und können dicht beieinander gebaut werden.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues":
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": "",
+  "Image": null
+}
