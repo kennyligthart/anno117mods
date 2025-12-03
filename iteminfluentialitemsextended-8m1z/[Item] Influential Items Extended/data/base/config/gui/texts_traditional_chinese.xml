@@ -1,0 +1,117 @@
+<ModOps>
+	
+    <!--新增文本-->
+    <ModOp Type="add" Path="/TextExport/Texts">
+    	
+    	  <Text>
+            <LineId>2023020001</LineId>
+            <Text>美貌絕倫的女人，古埃及托勒密王朝最後一位女法老。</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020003</LineId>
+            <Text>“豔後”克利奧派特拉</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020005</LineId>
+            <Text>喜歡凱撒的陪伴</Text>
+        </Text>
+    	
+        <Text>
+            <LineId>2023020007</LineId>
+            <Text>羅馬帝國的奠基者，我來，我看，我征服。</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020009</LineId>
+            <Text>蓋烏斯·尤利烏斯·凱撒</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020011</LineId>
+            <Text>無與倫比的聲望</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020013</LineId>
+            <Text>開創羅馬帝國的奧古斯都，給羅馬帶來了長久的繁榮。</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020015</LineId>
+            <Text>蓋烏斯·屋大維·圖裡努斯</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020017</LineId>
+            <Text>奧古斯都的恩惠</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020019</LineId>
+            <Text>戰功赫赫的迦太基軍事家，與羅馬為敵。</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020021</LineId>
+            <Text>“獨眼戰神”漢尼拔·巴卡</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020023</LineId>
+            <Text>疾馳如風</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020025</LineId>
+            <Text>戰死的斯巴達克斯被古老的斯巴達勇士靈魂附體，重燃戰火。</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020027</LineId>
+            <Text>“斯巴達英靈”斯巴達克斯之怒</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020029</LineId>
+            <Text>堅如磐石</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020033</LineId>
+            <Text>五賢帝之一，是一位博學多才的皇帝，愛好基建，在不列顛島北部建造了橫貫東西的“哈德良長城”。</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020035</LineId>
+            <Text>普布利烏斯·埃利烏斯·哈德良</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020037</LineId>
+            <Text>基建狂魔</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020043</LineId>
+            <Text>古代羅馬共和國著名的軍事家和政治家。三頭同盟之一， 勇敢善戰，功績卓著。</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020045</LineId>
+            <Text>格涅烏斯·龐培</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020047</LineId>
+            <Text>天生統帥</Text>
+        </Text>
+
+
+        
+ 
+    </ModOp>
+    
+        
+</ModOps>

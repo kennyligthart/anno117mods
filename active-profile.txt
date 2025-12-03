@@ -28,6 +28,7 @@ public-service-buildings-island-radius
 remove-items-cheats
 researchtreeexpanded-storage
 sheep-cheese-cheap-orange
+specialistes-custom
 super-pertecenter-mod
 super-specialists-mod
 taludas-circusminimus

@@ -1,0 +1,10 @@
+<ModOps>
+
+	<!-- unlock all Techs in one ModOp -->
+	<ModOp Merge="//Locked[../../Name = 'Tech']">
+		<Locked>
+			<DefaultLockedState>0</DefaultLockedState>
+		</Locked>
+	</ModOp>
+
+</ModOps>

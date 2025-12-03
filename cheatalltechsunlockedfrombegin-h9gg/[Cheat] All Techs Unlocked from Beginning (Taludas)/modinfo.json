@@ -1,0 +1,79 @@
+{
+  "Version": "1.0.0",
+  "Anno": 8,
+  "ModID": "taludas-alltechsunlocked",
+  "Difficulty": "cheat",
+  "GameSetup": {
+    "RequiresNewGame": true,
+    "SafeToRemove": true,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [],
+    "Optional": [],
+    "LoadAfter": [],
+    "Deprecate": [],
+    "Incompatible": []
+  },
+  "Category": {
+    "Chinese": "Cheat",
+    "English": "Cheat",
+    "French": "Cheat",
+    "German": "Cheat",
+    "Italian": "Cheat",
+    "Japanese": "Cheat",
+    "Korean": "Cheat",
+    "Polish": "Cheat",
+    "Russian": "Cheat",
+    "Spanish": "Cheat",
+    "Taiwanese": "Cheat"
+  },
+  "ModName": {
+    "Chinese": "All Techs Unlocked from Beginning (Taludas)",
+    "English": "All Techs Unlocked from Beginning (Taludas)",
+    "French": "All Techs Unlocked from Beginning (Taludas)",
+    "German": "All Techs Unlocked from Beginning (Taludas)",
+    "Italian": "All Techs Unlocked from Beginning (Taludas)",
+    "Japanese": "All Techs Unlocked from Beginning (Taludas)",
+    "Korean": "All Techs Unlocked from Beginning (Taludas)",
+    "Polish": "All Techs Unlocked from Beginning (Taludas)",
+    "Russian": "All Techs Unlocked from Beginning (Taludas)",
+    "Spanish": "All Techs Unlocked from Beginning (Taludas)",
+    "Taiwanese": "All Techs Unlocked from Beginning (Taludas)"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "#  All Techs Unlocked from Beginning \n\n Unlocks all Techs for immediate research.",
+    "French": null,
+    "German": "#  All Techs Unlocked from Beginning \n\n Schaltet alle Techs für sofortige Erforschung frei.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues":
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": "",
+  "Image": null
+}

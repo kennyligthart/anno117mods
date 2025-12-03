@@ -1,0 +1,79 @@
+{
+  "Version": "1.0.0",
+  "Anno": 8,
+  "ModID": "taludas-landflourmilllatium",
+  "Difficulty": "easier",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "Dependencies": {
+    "Require": [],
+    "Optional": [],
+    "LoadAfter": [],
+    "Deprecate": [],
+    "Incompatible": []
+  },
+  "Category": {
+    "Chinese": "Gameplay",
+    "English": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "Land Flour Mill Latium (Taludas)",
+    "English": "Land Flour Mill Latium (Taludas)",
+    "French": "Land Flour Mill Latium (Taludas)",
+    "German": "Land Flour Mill Latium (Taludas)",
+    "Italian": "Land Flour Mill Latium (Taludas)",
+    "Japanese": "Land Flour Mill Latium (Taludas)",
+    "Korean": "Land Flour Mill Latium (Taludas)",
+    "Polish": "Land Flour Mill Latium (Taludas)",
+    "Russian": "Land Flour Mill Latium (Taludas)",
+    "Spanish": "Land Flour Mill Latium (Taludas)",
+    "Taiwanese": "Land Flour Mill Latium (Taludas)"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "# Land Flour Mill Latium  \n\n This mod enables the 'land' flour mill from Albion to be available in Latium as well.",
+    "French": null,
+    "German": "# Land Flour Mill Latium  \n\n Diese Mod ermöglicht es, dass die Mühle 'an Land' aus Albion auch in Latium verfügbar ist.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues":
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": "",
+  "Image": null
+}

@@ -1,0 +1,115 @@
+<ModOps>
+	
+    <!--新增文本-->
+    <ModOp Type="add" Path="/TextExport/Texts">
+    	
+    	  <Text>
+            <LineId>2023020001</LineId>
+            <Text>A woman of unparalleled beauty, the last female pharaoh of the Ptolemaic Dynasty in ancient Egypt.</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020003</LineId>
+            <Text>Cleopatra, the "Queen of the Nile"</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020005</LineId>
+            <Text>Likes Caesar's company</Text>
+        </Text>
+    	
+        <Text>
+            <LineId>2023020007</LineId>
+            <Text>The founder of the Roman Empire, I come, I see, I conquer.</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020009</LineId>
+            <Text>Gaius Julius Caesar</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020011</LineId>
+            <Text>Unparalleled prestige</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020013</LineId>
+            <Text>Augustus, who founded the Roman Empire, brought long-lasting prosperity to Rome.</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020015</LineId>
+            <Text>Gaius Octavian Tullius</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020017</LineId>
+            <Text>The favor of Augustus</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020019</LineId>
+            <Text>The renowned Carthaginian military strategist, who had made outstanding achievements in war, was an enemy of Rome.</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020021</LineId>
+            <Text>Hannibal Barca, the one-eyed god of war</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020023</LineId>
+            <Text>Swift as the wind</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020025</LineId>
+            <Text>The deceased Spartacus was possessed by the soul of the ancient Spartan warriors, reigniting the flames of war.</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020027</LineId>
+            <Text>"Spartan Soul" - Rage of Spartacus</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020029</LineId>
+            <Text>as solid as a rock</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020033</LineId>
+            <Text>A talented emperor with a passion for infrastructure. He built the Hadrian's Wall, which spans east and west, in the northern part of the British Isles.</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020035</LineId>
+            <Text>Publius Aelius Traianus Hadrianus</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020037</LineId>
+            <Text>infrastructure mania</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020043</LineId>
+            <Text>One of the Three Headed Alliance, brave and skilled in battle, with outstanding achievements</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020045</LineId>
+            <Text>Gnaeus Pompeius Magnus</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020047</LineId>
+            <Text>Born Commander</Text>
+        </Text>
+
+
+    </ModOp>
+    
+        
+</ModOps>

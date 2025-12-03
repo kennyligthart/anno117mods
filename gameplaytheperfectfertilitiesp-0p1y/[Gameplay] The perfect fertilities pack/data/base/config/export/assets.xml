@@ -1,0 +1,145 @@
+<!--
+
+ANNO 117 MODS - Hier0nimus
+The perfect fertilities pack - v1.2
+
+GUID 1742001000 - 1742001???
+
+1742001000 - Flax Seeds - Item
+1742001001 - Flax Seeds - Item - Description
+1742001002 - Flax Fertility - Item - Buff
+1742001003 - Barley Seeds - Item
+1742001004 - Barley Seeds - Item - Description
+1742001005 - Barley Fertility - Item - Buff
+1742001006 - Beaver Traps - Item
+1742001007 - Beaver Traps - Item - Description
+1742001008 - Beaver Population - Item - Buff
+1742001009 - Bird Traps - Item
+1742001010 - Bird Traps - Item - Description
+1742001011 - Bird Traps - Item - Buff
+1742001012 - Copper Geology - Item
+1742001013 - Copper Geology - Item - Description
+1742001014 - Copper Deposit - Item - Buff
+1742001015 - Cypress Saplings - Item
+1742001016 - Cypress Saplings - Item - Description
+1742001017 - Sandarac Fertility - Item - Buff
+1742001018 - Dye Plants Seeds - Item
+1742001019 - Dye Plants Seeds - Item - Description
+1742001020 - Dye Plants Fertility - Item - Buff
+1742001021 - Gold Geology - Item
+1742001022 - Gold Geology - Item - Description
+1742001023 - Gold Ore Deposit - Item - Buff
+1742001024 - Granite Geology - Item
+1742001025 - Granite Geology - Item - Description
+1742001026 - Granite Deposit - Item - Buff
+1742001027 - Grapes Saplings - Item
+1742001028 - Grapes Saplings - Item - Description
+1742001029 - Grapes Fertility - Item - Buff
+1742001030 - Herbs Seeds - Item
+1742001031 - Herbs Seeds - Item - Description
+1742001032 - Herbs Fertility - Item - Buff
+1742001033 - Iron Geology - Item
+1742001034 - Iron Geology - Item - Description
+1742001035 - Iron Deposit - Item - Buff
+1742001036 - Lavender Saplings - Item
+1742001037 - Lavender Saplings - Item - Description
+1742001038 - Lavender Fertility - Item - Buff
+1742001039 - Mackarels Traps - Item
+1742001040 - Mackarels Traps - Item - Description
+1742001041 - Mackarels Population - Item - Buff
+1742001042 - Marble Geology - Item
+1742001043 - Marble Geology - Item - Description
+1742001044 - Marble Deposit - Item - Buff
+1742001045 - Minerals Geology - Item
+1742001046 - Minerals Geology - Item - Description
+1742001047 - Minerals Deposit - Item - Buff
+1742001048 - Olive Saplings - Item
+1742001049 - Olive Saplings - Item - Description
+1742001050 - Olive Fertility - Item - Buff
+1742001051 - Oyster Banks - Item
+1742001052 - Oyster Banks - Item - Description
+1742001053 - Oyster Population - Item - Buff
+1742001054 - Pony Grasslands - Item
+1742001055 - Pony Grasslands - Item - Description
+1742001056 - Pony Population - Item - Buff
+1742001057 - Resin Saplings - Item
+1742001058 - Resin Saplings - Item - Description
+1742001059 - Resin Fertility - Item - Buff
+1742001060 - Saltwort Banks - Item
+1742001061 - Saltwort Banks - Item - Description
+1742001062 - Saltwort Fertility - Item - Buff
+1742001063 - Seashell Banks - Item
+1742001064 - Seashell Banks - Item - Description
+1742001065 - Seashell Population - Item - Buff
+1742001066 - Silver Geology - Item
+1742001067 - Silver Geology - Item - Description
+1742001068 - Silver Deposit - Item - Buff
+1742001069 - Snail Banks - Item
+1742001070 - Snail Banks - Item - Description
+1742001071 - Snail Population - Item - Buff
+1742001072 - Sturgeon Traps - Item
+1742001073 - Sturgeon Traps - Item - Description
+1742001074 - Sturgeon Population - Item - Buff
+1742001075 - Tin Geology - Item
+1742001076 - Tin Geology - Item - Description
+1742001077 - Tin Deposit - Item - Buff
+
+1742001078 - Legendary Flax Seeds - Item
+1742001079 - Legendary Flax Fertility - Item - Buff
+1742001080 - Legendary Barley Seeds - Item
+1742001081 - Legendary Barley Fertility - Item - Buff
+1742001082 - Legendary Beaver Traps - Item
+1742001083 - Legendary Beaver Population - Item - Buff
+1742001084 - Legendary Bird Traps - Item
+1742001085 - Legendary Bird Traps - Item - Buff
+1742001086 - Legendary Copper Geology - Item
+1742001087 - Legendary Copper Deposit - Item - Buff
+1742001088 - Legendary Cypress Saplings - Item
+1742001089 - Legendary Sandarac Fertility - Item - Buff
+1742001090 - Legendary Dye Plants Seeds - Item
+1742001091 - Legendary Dye Plants Fertility - Item - Buff
+1742001092 - Legendary Gold Geology - Item
+1742001093 - Legendary Gold Ore Deposit - Item - Buff
+1742001094 - Legendary Granite Geology - Item
+1742001095 - Legendary Granite Deposit - Item - Buff
+1742001096 - Legendary Grapes Saplings - Item
+1742001097 - Legendary Grapes Fertility - Item - Buff
+1742001098 - Legendary Herbs Seeds - Item
+1742001099 - Legendary Herbs Fertility - Item - Buff
+1742001100 - Legendary Iron Geology - Item
+1742001101 - Legendary Iron Deposit - Item - Buff
+1742001102 - Legendary Lavender Saplings - Item
+1742001103 - Legendary Lavender Fertility - Item - Buff
+1742001104 - Legendary Mackarels Traps - Item
+1742001105 - Legendary Mackarels Population - Item - Buff
+1742001106 - Legendary Marble Geology - Item
+1742001107 - Legendary Marble Deposit - Item - Buff
+1742001108 - Legendary Minerals Geology - Item
+1742001109 - Legendary Minerals Deposit - Item - Buff
+1742001110 - Legendary Olive Saplings - Item
+1742001111 - Legendary Olive Fertility - Item - Buff
+1742001112 - Legendary Oyster Banks - Item
+1742001113 - Legendary Oyster Population - Item - Buff
+1742001114 - Legendary Pony Grasslands - Item
+1742001115 - Legendary Pony Population - Item - Buff
+1742001116 - Legendary Resin Saplings - Item
+1742001117 - Legendary Resin Fertility - Item - Buff
+1742001118 - Legendary Saltwort Banks - Item
+1742001119 - Legendary Saltwort Fertility - Item - Buff
+1742001120 - Legendary Seashell Banks - Item
+1742001121 - Legendary Seashell Population - Item - Buff
+1742001122 - Legendary Silver Geology - Item
+1742001123 - Legendary Silver Deposit - Item - Buff
+1742001124 - Legendary Snail Banks - Item
+1742001125 - Legendary Snail Population - Item - Buff
+1742001126 - Legendary Sturgeon Traps - Item
+1742001127 - Legendary Sturgeon Population - Item - Buff
+1742001128 - Legendary Tin Geology - Item
+1742001129 - Legendary Tin Deposit - Item - Buff
+
+-->
+
+<ModOps>
+  <Include File="fertilities.include.xml" />
+  <Include File="pools.include.xml" />
+</ModOps>

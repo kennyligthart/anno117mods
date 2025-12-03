@@ -1,0 +1,115 @@
+<ModOps>
+	
+    <!--新增文本-->
+    <ModOp Type="add" Path="/TextExport/Texts">
+    	
+    	  <Text>
+            <LineId>2023020001</LineId>
+            <Text>美貌绝伦的女人，古埃及托勒密王朝最后一位女法老。</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020003</LineId>
+            <Text>“艳后”克利奥帕特拉</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020005</LineId>
+            <Text>喜欢凯撒的陪伴</Text>
+        </Text>
+    	
+        <Text>
+            <LineId>2023020007</LineId>
+            <Text>罗马帝国的奠基者，我来，我看，我征服。</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020009</LineId>
+            <Text>盖乌斯·尤利乌斯·凯撒</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020011</LineId>
+            <Text>无与伦比的声望</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020013</LineId>
+            <Text>开创罗马帝国的奥古斯都，给罗马带来了长久的繁荣。</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020015</LineId>
+            <Text>盖乌斯·屋大维·图里努斯</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020017</LineId>
+            <Text>奥古斯都的恩惠</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020019</LineId>
+            <Text>战功赫赫的迦太基军事家，与罗马为敌。</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020021</LineId>
+            <Text>“独眼战神”汉尼拔·巴卡</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020023</LineId>
+            <Text>疾驰如风</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020025</LineId>
+            <Text>战死的斯巴达克斯被古老的斯巴达勇士灵魂附体，重燃战火。</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020027</LineId>
+            <Text>“斯巴达英灵”斯巴达克斯之怒</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020029</LineId>
+            <Text>坚如磐石</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020033</LineId>
+            <Text>五贤帝之一，是一位博学多才的皇帝，爱好基建，在不列颠岛北部建造了横贯东西的“哈德良长城”。</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020035</LineId>
+            <Text>普布利乌斯·埃利乌斯·哈德良</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020037</LineId>
+            <Text>基建狂魔</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020043</LineId>
+            <Text>古代罗马共和国著名的军事家和政治家。三头同盟之一， 勇敢善战，功绩卓著。</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020045</LineId>
+            <Text>格涅乌斯·庞培</Text>
+        </Text>
+        
+        <Text>
+            <LineId>2023020047</LineId>
+            <Text>天生统帅</Text>
+        </Text>
+        
+ 
+    </ModOp>
+    
+        
+</ModOps>

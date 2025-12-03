@@ -1,0 +1,1615 @@
+<ModOps>
+	
+	<!-- 新增埃及艳后卡片 -->
+  <ModOp Type="addNextSibling" GUID="41351">
+  	
+  	<Asset>
+				<Template>ItemWithBoost</Template>
+				<Values>
+					<Standard>
+						<GUID>2023020000</GUID><!-- 艳后ID-->
+						<Name>Cleopatra</Name>
+						<IconFilename>data/base/ui/icons/Cleopatra.png</IconFilename>
+						<InfoDescription>2023020001</InfoDescription>
+					</Standard>
+					<Effect>
+						<EffectScope>Radius</EffectScope>
+						<SourceCategory>Item</SourceCategory>
+						<Buffs>
+							<Item>
+								<GUID>2023020002</GUID><!-- 卡片buff-->
+							</Item>
+						</Buffs>
+						<Targets>
+							<Item>
+								<GUID>31046</GUID><!-- 影响所有住所-->
+							</Item>
+						</Targets>
+						<HideInGovernorsBar>1</HideInGovernorsBar>
+					</Effect>
+					<Item>
+						<Rarity>Unique</Rarity><!-- 稀有度：独特，全局唯一-->
+						<Niche>Culture</Niche><!-- 类别：文化-->
+						<Flotsam>139573</Flotsam><!-- 落海后可用船只捡起-->
+						<BarkPool>0</BarkPool>
+					</Item>
+					<Locked>
+						<DefaultLockedState>0</DefaultLockedState>
+					</Locked>
+					<Text>
+						<OasisId>2023020003</OasisId><!-- 人物名称-->
+					</Text>
+					<ItemWithBoost>
+						<BoostCondition>
+							<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+							<Values>
+								<PreConditionList>
+								<Condition>
+									<Template>ConditionItemUsed</Template>
+									<Values>
+										<Condition />
+										<ConditionItemUsed>
+											<TargetItem>2023020006</TargetItem><!-- 岛屿内有凯撒时触发-->
+											<ItemAmount>1</ItemAmount>
+											<ItemCountCalculation>InSameArea</ItemCountCalculation>
+										</ConditionItemUsed>
+										<ObjectFilter>
+											<UseContextObjects>1</UseContextObjects>
+										</ObjectFilter>
+									</Values>
+								</Condition>
+							</PreConditionList>
+							</Values>
+						</BoostCondition>
+						<BoostBuffs>
+							<Item>
+								<GUID>2023020004</GUID><!-- 特质:喜欢有凯撒陪伴 -->
+							</Item>
+						</BoostBuffs>
+						<BoostHint>2023020005</BoostHint><!-- 特质描述 -->
+					</ItemWithBoost>
+				</Values>
+		</Asset>	
+
+  </ModOp>
+  
+  
+  <!-- 新增埃及艳后buff -->
+  <ModOp Type="addNextSibling" GUID="80193">
+  	
+  	<Asset>
+			<Template>BuildingBuff</Template>
+			<Values>
+				<Standard>
+					<GUID>2023020002</GUID>
+					<Name>Cleopatra Buff</Name>
+					<IconFilename>data/base/ui/icons/Cleopatra.png</IconFilename>
+				</Standard>
+				<Text>
+					<OasisId>2023020003</OasisId><!-- buff名称 -->
+				</Text>
+				<HealthUpgrade />
+				<BuildingUpgrade>
+					<AdditionalAttributes>
+						<Happiness>
+							<AmountOrPercent>
+								<Value>25</Value><!--幸福度+25% -->
+								<Percental>1</Percental><!--百分数开启 -->
+							</AmountOrPercent>
+						</Happiness>
+					</AdditionalAttributes>
+				</BuildingUpgrade>
+				<DistributionUpgrade />
+				<Buff>
+					<SourceCategory>Item</SourceCategory>
+				</Buff>
+				<ResidenceUpgrade />
+				<FactoryUpgrade />
+				<ModuleOwnerUpgrade />
+				<MaintenanceUpgrade />
+				<CityInstitutionUpgrade />
+				<IncidentInfectableUpgrade />
+				<RecruitmentUpgrade />
+				<AqueductUpgrade />
+				<WarehouseUpgrade />
+				<IrrigationUpgrade />
+			</Values>
+		</Asset>
+	
+  </ModOp>
+  
+
+  <!-- 新增埃及艳后特质buff -->
+  <ModOp Type="addNextSibling" GUID="113063">
+     <Asset>
+				<Template>BuildingBuff</Template>
+				<Values>
+					<Standard>
+						<GUID>2023020004</GUID>
+						<Name>Cleopatra Buff Boosted</Name>
+						<IconFilename>data/base/ui/icons/Cleopatra.png</IconFilename>
+					</Standard>
+					<Text>
+						<OasisId>2023020003</OasisId><!-- buff名称 -->
+					</Text>
+					<HealthUpgrade />
+					<BuildingUpgrade>
+						<AdditionalAttributes>
+							<Happiness>
+								<AmountOrPercent>
+									<Value>35</Value><!--幸福度+35% -->
+									<Percental>1</Percental><!--百分数开启 -->
+								</AmountOrPercent>
+							</Happiness>
+						</AdditionalAttributes>
+					</BuildingUpgrade>
+					<DistributionUpgrade />
+					<Buff>
+						<SourceCategory>Item</SourceCategory>
+					</Buff>
+					<ResidenceUpgrade>
+						<NeedProvidedNeedAttributes>
+							<ChangeNeedAttributesOf>
+								<Item>
+									<ProvidedProduct>2685</ProvidedProduct><!--供应浴场时触发-->
+								</Item>
+							</ChangeNeedAttributesOf>
+							<AdditionalNeedAttributes>
+								<Happiness>
+									<AmountOrPercent>
+										<Value>1</Value><!--幸福度+1 -->
+										<Percental>0</Percental>
+									</AmountOrPercent>
+								</Happiness>
+								<Health>
+									<AmountOrPercent>
+										<Value>1</Value><!--健康度+1 -->
+										<Percental>0</Percental>
+									</AmountOrPercent>
+								</Health>
+								<FireSafety>
+									<AmountOrPercent>
+										<Value>1</Value><!--消防安全+1 -->
+										<Percental>0</Percental>
+									</AmountOrPercent>
+								</FireSafety>
+							</AdditionalNeedAttributes>
+						</NeedProvidedNeedAttributes>
+					</ResidenceUpgrade>
+					<FactoryUpgrade />
+					<ModuleOwnerUpgrade />
+					<MaintenanceUpgrade />
+					<CityInstitutionUpgrade />
+					<IncidentInfectableUpgrade />
+					<RecruitmentUpgrade />
+					<AqueductUpgrade />
+					<WarehouseUpgrade />
+					<IrrigationUpgrade />
+				</Values>
+			</Asset>
+ 
+  </ModOp>
+  
+ 
+  <!-- 新增凯撒卡片 -->
+  <ModOp Type="addNextSibling" GUID="41351">
+  	
+  	<Asset>
+				<Template>ItemWithBoost</Template>
+				<Values>
+					<Standard>
+						<GUID>2023020006</GUID><!-- 凯撒ID-->
+						<Name>Caesar</Name>
+						<IconFilename>data/base/ui/icons/Caesar.png</IconFilename>
+						<InfoDescription>2023020007</InfoDescription>
+					</Standard>
+					<Effect>
+						<EffectScope>Radius</EffectScope>
+						<SourceCategory>Item</SourceCategory>
+						<Buffs>
+							<Item>
+								<GUID>2023020008</GUID><!-- 卡片buff-->
+							</Item>
+						</Buffs>
+						<Targets>
+							<Item>
+								<GUID>31046</GUID><!-- 影响所有住所-->
+							</Item>
+						</Targets>
+						<HideInGovernorsBar>1</HideInGovernorsBar>
+					</Effect>
+					<Item>
+						<Rarity>Unique</Rarity><!-- 稀有度：独特，全局唯一-->
+						<Niche>Diplomacy</Niche><!-- 类别：公民-->
+						<Flotsam>139573</Flotsam><!-- 落海后可用船只捡起-->
+						<BarkPool>0</BarkPool>
+					</Item>
+					<Locked>
+						<DefaultLockedState>0</DefaultLockedState>
+					</Locked>
+					<Text>
+						<OasisId>2023020009</OasisId><!-- 人物名称-->
+					</Text>
+					<ItemWithBoost>
+						<BoostCondition>
+							<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+							<Values>
+								<PreConditionList>
+									<Condition>
+										<Template>ConditionNeedAttributeCounter</Template>
+										<Values>
+											<Condition />
+											<ConditionNeedAttributeCounter>
+												<NeedAttributeType>Prestige</NeedAttributeType><!-- 声望达到两万触发-->
+												<NeedAttributeAmount>20000</NeedAttributeAmount>
+											</ConditionNeedAttributeCounter>
+											<ConditionLocationFilter>
+												<LocationFilter>
+													<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+													<Values>
+														<LocationFilter>
+															<ObjectLocations>
+																<ObjectFilter>
+																	<Template>ObjectFilter</Template>
+																	<Values>
+																		<ObjectFilter>
+																			<UseContextObjects>1</UseContextObjects>
+																		</ObjectFilter>
+																	</Values>
+																</ObjectFilter>
+															</ObjectLocations>
+														</LocationFilter>
+													</Values>
+												</LocationFilter>
+											</ConditionLocationFilter>
+											<ConditionCounterProps />
+											<ConditionPropsComparable />
+										</Values>
+									</Condition>
+								</PreConditionList>
+							</Values>
+						</BoostCondition>
+						<BoostBuffs>
+							<Item>
+								<GUID>2023020010</GUID><!-- 特质:无与伦比的声望 -->
+							</Item>
+						</BoostBuffs>
+						<BoostHint>2023020011</BoostHint><!-- 特质描述 -->
+					</ItemWithBoost>
+				</Values>
+		</Asset>	
+
+  </ModOp>
+  
+  
+  <!-- 新增凯撒buff -->
+  <ModOp Type="addNextSibling" GUID="80193">
+  	
+  	<Asset>
+			<Template>BuildingBuff</Template>
+			<Values>
+				<Standard>
+					<GUID>2023020008</GUID>
+					<Name>Caesar Buff</Name>
+					<IconFilename>data/base/ui/icons/Caesar.png</IconFilename>
+				</Standard>
+				<Text>
+					<OasisId>2023020009</OasisId><!-- buff名称 -->
+				</Text>
+				<HealthUpgrade />
+				<BuildingUpgrade>
+					<AdditionalAttributes>
+						<Prestige>
+							<AmountOrPercent>
+								<Value>25</Value><!--声望+25% -->
+								<Percental>1</Percental><!--百分数开启 -->
+							</AmountOrPercent>
+						</Prestige>
+					</AdditionalAttributes>
+				</BuildingUpgrade>
+				<DistributionUpgrade />
+				<Buff>
+					<SourceCategory>Item</SourceCategory>
+				</Buff>
+				<ResidenceUpgrade />
+				<FactoryUpgrade />
+				<ModuleOwnerUpgrade />
+				<MaintenanceUpgrade />
+				<CityInstitutionUpgrade />
+				<IncidentInfectableUpgrade />
+				<RecruitmentUpgrade />
+				<AqueductUpgrade />
+				<WarehouseUpgrade />
+				<IrrigationUpgrade />
+			</Values>
+		</Asset>
+	
+  </ModOp>
+  
+
+  <!-- 新增凯撒特质buff -->
+  <ModOp Type="addNextSibling" GUID="113063">
+     <Asset>
+				<Template>BuildingBuff</Template>
+				<Values>
+					<Standard>
+						<GUID>2023020010</GUID>
+						<Name>Caesar Buff Boosted</Name>
+						<IconFilename>data/base/ui/icons/Caesar.png</IconFilename>
+					</Standard>
+					<Text>
+						<OasisId>2023020009</OasisId><!-- buff名称 -->
+					</Text>
+					<HealthUpgrade />
+					<BuildingUpgrade>
+						<AdditionalAttributes>
+							<Prestige>
+								<AmountOrPercent>
+									<Value>35</Value><!--声望+35% -->
+									<Percental>1</Percental><!--百分数开启 -->
+								</AmountOrPercent>
+						  </Prestige>
+						  <Knowledge>
+								<AmountOrPercent>
+									<Value>10</Value><!--知识+10% -->
+									<Percental>1</Percental><!--百分数开启 -->
+								</AmountOrPercent>
+						  </Knowledge>
+						  <Belief>
+								<AmountOrPercent>
+									<Value>10</Value><!--信仰+10% -->
+									<Percental>1</Percental><!--百分数开启 -->
+								</AmountOrPercent>
+						  </Belief>  
+						</AdditionalAttributes>
+					</BuildingUpgrade>
+					<DistributionUpgrade />
+					<Buff>
+						<SourceCategory>Item</SourceCategory>
+					</Buff>
+					<ResidenceUpgrade />
+					<FactoryUpgrade />
+					<ModuleOwnerUpgrade />
+					<MaintenanceUpgrade />
+					<CityInstitutionUpgrade />
+					<IncidentInfectableUpgrade />
+					<RecruitmentUpgrade />
+					<AqueductUpgrade />
+					<WarehouseUpgrade />
+					<IrrigationUpgrade />
+				</Values>
+			</Asset>
+ 
+  </ModOp>
+  
+  
+  <!-- 新增屋大维卡片 -->
+  <ModOp Type="addNextSibling" GUID="41351">
+  	
+  	<Asset>
+				<Template>ItemWithBoost</Template>
+				<Values>
+					<Standard>
+						<GUID>2023020012</GUID><!-- 奥古斯都ID-->
+						<Name>Augustus</Name>
+						<IconFilename>data/base/ui/icons/Augustus.png</IconFilename>
+						<InfoDescription>2023020013</InfoDescription>
+					</Standard>
+					<Effect>
+						<EffectScope>Radius</EffectScope>
+						<SourceCategory>Item</SourceCategory>
+						<Buffs>
+							<Item>
+								<GUID>2023020014</GUID><!-- 卡片buff-->
+							</Item>
+						</Buffs>
+						<Targets>
+							<Item>
+								<GUID>38370</GUID><!-- 影响所有生产建筑-->
+							</Item>
+						</Targets>
+						<HideInGovernorsBar>1</HideInGovernorsBar>
+					</Effect>
+					<Item>
+						<Rarity>Unique</Rarity><!-- 稀有度：独特，全局唯一-->
+						<Niche>Economy</Niche><!-- 类别：经济-->
+						<Flotsam>139573</Flotsam><!-- 落海后可用船只捡起-->
+						<BarkPool>0</BarkPool>
+					</Item>
+					<Locked>
+						<DefaultLockedState>0</DefaultLockedState>
+					</Locked>
+					<Text>
+						<OasisId>2023020015</OasisId><!-- 人物名称-->
+					</Text>
+					<ItemWithBoost>
+						<BoostCondition>
+							<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+							<Values>
+								<PreConditionList>
+									<Condition>
+										<Template>ConditionNeedAttributeCounter</Template>
+										<Values>
+											<Condition />
+											<ConditionNeedAttributeCounter>
+												<NeedAttributeType>Money</NeedAttributeType><!-- 收入超过2w触发-->
+												<NeedAttributeAmount>20000</NeedAttributeAmount>
+											</ConditionNeedAttributeCounter>
+											<ConditionLocationFilter>
+												<LocationFilter>
+													<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+													<Values>
+														<LocationFilter>
+															<ObjectLocations>
+																<ObjectFilter>
+																	<Template>ObjectFilter</Template>
+																	<Values>
+																		<ObjectFilter>
+																			<UseContextObjects>1</UseContextObjects>
+																		</ObjectFilter>
+																	</Values>
+																</ObjectFilter>
+															</ObjectLocations>
+														</LocationFilter>
+													</Values>
+												</LocationFilter>
+											</ConditionLocationFilter>
+											<ConditionCounterProps />
+											<ConditionPropsComparable />
+										</Values>
+									</Condition>
+								</PreConditionList>
+							</Values>
+						</BoostCondition>
+						<BoostBuffs>
+							<Item>
+								<GUID>2023020016</GUID><!-- 特质:奥古斯都的祝福 -->
+							</Item>
+						</BoostBuffs>
+						<BoostHint>2023020017</BoostHint><!-- 特质描述 -->
+					</ItemWithBoost>
+				</Values>
+		</Asset>	
+
+  </ModOp>
+  
+  
+  <!-- 新增屋大维buff -->
+  <ModOp Type="addNextSibling" GUID="80193">
+  	
+  	<Asset>
+			<Template>BuildingBuff</Template>
+			<Values>
+				<Standard>
+					<GUID>2023020014</GUID>
+					<Name>Augustus Buff</Name>
+					<IconFilename>data/base/ui/icons/Augustus.png</IconFilename>
+				</Standard>
+				<Text>
+					<OasisId>2023020015</OasisId><!-- buff名称 -->
+				</Text>
+				<HealthUpgrade />
+				<BuildingUpgrade />		
+				<DistributionUpgrade />
+				<Buff>
+					<SourceCategory>Item</SourceCategory>
+				</Buff>
+				<ResidenceUpgrade />
+				<FactoryUpgrade>
+					<ProductivityUpgrade>
+						<Value>30</Value><!--生产力+30% -->
+						<Percental>1</Percental><!--百分数开启 -->
+					</ProductivityUpgrade>
+				</FactoryUpgrade>
+				<ModuleOwnerUpgrade />
+				<MaintenanceUpgrade>
+					<WorkforceMaintenanceFactorUpgrade>
+						<Value>-10</Value><!--劳动力需求-10% -->
+						<Percental>1</Percental><!--百分数开启 -->
+					</WorkforceMaintenanceFactorUpgrade>
+				</MaintenanceUpgrade>
+				<CityInstitutionUpgrade />
+				<IncidentInfectableUpgrade />
+				<RecruitmentUpgrade />
+				<AqueductUpgrade />
+				<WarehouseUpgrade />
+				<IrrigationUpgrade />
+			</Values>
+		</Asset>
+	
+  </ModOp>
+  
+
+  <!--新增屋大维特质buff -->
+  <ModOp Type="addNextSibling" GUID="113063">
+     <Asset>
+				<Template>BuildingBuff</Template>
+				<Values>
+					<Standard>
+						<GUID>2023020016</GUID>
+						<Name>Augustus Buff Boosted</Name>
+						<IconFilename>data/base/ui/icons/Augustus.png</IconFilename>
+					</Standard>
+					<Text>
+						<OasisId>2023020015</OasisId><!-- buff名称 -->
+					</Text>
+					<HealthUpgrade />
+					<BuildingUpgrade />
+					<DistributionUpgrade />
+					<Buff>
+						<SourceCategory>Item</SourceCategory>
+					</Buff>
+					<ResidenceUpgrade />
+					<FactoryUpgrade>
+						<ProductivityUpgrade>
+							<Value>50</Value><!--生产力+50% -->
+							<Percental>1</Percental><!--百分数开启 -->
+						</ProductivityUpgrade>
+					</FactoryUpgrade>
+					<ModuleOwnerUpgrade />
+					<MaintenanceUpgrade>
+						<WorkforceMaintenanceFactorUpgrade>
+							<Value>-20</Value><!--劳动力需求-20% -->
+							<Percental>1</Percental><!--百分数开启 -->
+						</WorkforceMaintenanceFactorUpgrade>
+					</MaintenanceUpgrade>
+					<CityInstitutionUpgrade />
+					<IncidentInfectableUpgrade />
+					<RecruitmentUpgrade />
+					<AqueductUpgrade />
+					<WarehouseUpgrade />
+					<IrrigationUpgrade />
+				</Values>
+			</Asset>
+ 
+  </ModOp>
+  
+   
+  <!-- 新增汉尼拔卡片 -->
+  <ModOp Type="addNextSibling" GUID="41351">
+  	
+  	<Asset>
+				<Template>ItemWithBoost</Template>
+				<Values>
+					<Standard>
+						<GUID>2023020018</GUID><!-- 汉尼拔ID-->
+						<Name>Hannibal</Name>
+						<IconFilename>data/base/ui/icons/Hannibal.png</IconFilename>
+						<InfoDescription>2023020019</InfoDescription>
+					</Standard>
+					<Effect>
+						<SourceCategory>Item</SourceCategory>
+						<Buffs>
+							<Item>
+								<GUID>2023020020</GUID><!-- 卡片buff-->
+							</Item>
+						</Buffs>
+						<Targets>
+							<Item>
+								<GUID>38995</GUID><!-- 影响所有船只-->
+							</Item>
+						</Targets>
+						<HideInGovernorsBar>1</HideInGovernorsBar>
+					</Effect>
+					<Item>
+						<Allocation>Ship</Allocation>
+						<Rarity>Legendary</Rarity>
+						<Niche>Nautics</Niche><!-- 类型：船只-->
+						<ItemType>Captains</ItemType>
+						<TradePrice>900000</TradePrice>
+						<BarkPool>0</BarkPool>
+					</Item>
+					<Locked>
+						<DefaultLockedState>0</DefaultLockedState>
+					</Locked>
+					<Text>
+						<OasisId>2023020021</OasisId><!-- 人物名称-->
+					</Text>
+					<ItemWithBoost>
+						<BoostCondition>
+							<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+							<Values>
+								<PreConditionList>
+									<Condition>
+										<Template>ConditionPlayerCounter</Template>
+										<Values>
+											<Condition />
+											<ConditionPlayerCounter>
+												<Context>38995</Context><!-- 全局有30搜各类船只时触发-->
+												<CounterAmount>30</CounterAmount>
+												<CounterScope>Region</CounterScope>
+											</ConditionPlayerCounter>
+											<ConditionLocationProps />
+											<ConditionCounterProps />
+											<ConditionPropsComparable />
+										</Values>
+									</Condition>
+								</PreConditionList>
+							</Values>
+						</BoostCondition>
+						<BoostBuffs>
+							<Item>
+								<GUID>2023020022</GUID><!-- 特质:疾驰如风 -->
+							</Item>
+						</BoostBuffs>
+						<BoostHint>2023020023</BoostHint><!-- 特质描述 -->
+					</ItemWithBoost>
+				</Values>
+		</Asset>	
+
+  </ModOp>
+  
+  
+  <!-- 汉尼拔buff -->
+  <ModOp Type="addNextSibling" GUID="80193">
+		
+		<Asset>
+			<Template>ShipBuff</Template>
+			<Values>
+				<Standard>
+					<GUID>2023020020</GUID>
+					<Name>Captain Hannibal Buff</Name>
+					<IconFilename>data/base/ui/icons/Hannibal.png</IconFilename>
+				</Standard>
+				<HealthUpgrade>
+					<SelfHealUpgrade>
+						<Value>50</Value><!-- 自我修复速度 -->
+						<Percental>1</Percental>
+					</SelfHealUpgrade>
+				</HealthUpgrade>
+				<VehicleUpgrade />
+				<TradeShipUpgrade />
+				<Text>
+					<OasisId>2023020021</OasisId><!-- buff名称 -->
+				</Text>
+				<Buff>
+					<SourceCategory>Item</SourceCategory>
+				</Buff>
+				<MovementUpgrade>
+					<BuffBaseSpeedUpgrade>
+						<Value>20</Value><!-- 移动速度+20% -->
+						<Percental>0</Percental>
+					</BuffBaseSpeedUpgrade>
+				</MovementUpgrade>
+				<MaintenanceUpgrade />
+				<UnitUpgrade>
+					<AttackSpeedArcherModulePercentualUpgrade>
+						<Value>30</Value><!-- 弓箭手射速+30%-->
+						<Percental>0</Percental>
+					</AttackSpeedArcherModulePercentualUpgrade>
+					<AttackSpeedBallistaModulePercentualUpgrade>
+						<Value>30</Value><!-- 蝎炮速度+30%-->
+						<Percental>0</Percental>
+					</AttackSpeedBallistaModulePercentualUpgrade>
+					<AttackSpeedCatapultModulePercentualUpgrade>
+						<Value>30</Value><!--投石机射速+30%-->
+						<Percental>0</Percental>
+					</AttackSpeedCatapultModulePercentualUpgrade>
+				</UnitUpgrade>
+				<ItemContainerUpgrade />
+				<SellableUpgrade />
+			</Values>
+		</Asset>
+	
+  </ModOp>
+  
+
+  <!--新增汉尼拔特质buff -->
+  <ModOp Type="addNextSibling" GUID="113063">
+  	
+	  <Asset>
+			<Template>ShipBuff</Template>
+			<Values>
+				<Standard>
+					<GUID>2023020022</GUID>
+					<Name>Captain Hannibal Buff Boosted</Name>
+					<IconFilename>data/base/ui/icons/Hannibal.png</IconFilename>
+				</Standard>
+				<HealthUpgrade>
+					<SelfHealUpgrade>
+						<Value>100</Value><!-- 自我修复速+100% -->
+						<Percental>1</Percental>
+					</SelfHealUpgrade>
+				</HealthUpgrade>
+				<VehicleUpgrade />
+				<TradeShipUpgrade />
+				<Text>
+					<OasisId>2023020021</OasisId><!-- buff名称 -->
+				</Text>
+				<Buff>
+					<SourceCategory>Item</SourceCategory>
+				</Buff>
+				<MovementUpgrade>
+					<BuffBaseSpeedUpgrade>
+						<Value>30</Value><!-- 移动速度+30% -->
+						<Percental>0</Percental>
+					</BuffBaseSpeedUpgrade>
+					<BuffReduceDamageImpactUpgrade>
+						<Value>80</Value><!-- 受损减速+80% -->
+						<Percental>0</Percental>
+					</BuffReduceDamageImpactUpgrade>
+				</MovementUpgrade>
+				<MaintenanceUpgrade />
+				<UnitUpgrade>
+					<DistanceAttackRangeArcherModulePercentualUpgrade>
+						<Value>20</Value><!-- 弓箭手射程+20%-->
+						<Percental>0</Percental>
+					</DistanceAttackRangeArcherModulePercentualUpgrade>
+					<AttackSpeedArcherModulePercentualUpgrade>
+						<Value>30</Value><!-- 弓箭手射速+30%-->
+						<Percental>0</Percental>
+					</AttackSpeedArcherModulePercentualUpgrade>
+					<DistanceAttackRangeBallistaModulePercentualUpgrade>
+						<Value>20</Value><!-- 蝎炮射程+20%-->
+						<Percental>0</Percental>
+					</DistanceAttackRangeBallistaModulePercentualUpgrade>
+					<AttackSpeedBallistaModulePercentualUpgrade>
+						<Value>30</Value><!-- 蝎炮速度+30%-->
+						<Percental>0</Percental>
+					</AttackSpeedBallistaModulePercentualUpgrade>
+					<DistanceAttackRangeCatapultModulePercentualUpgrade>
+						<Value>20</Value><!--投石机射程+20%-->
+						<Percental>0</Percental>
+					</DistanceAttackRangeCatapultModulePercentualUpgrade>
+					<AttackSpeedCatapultModulePercentualUpgrade>
+						<Value>30</Value><!--投石机射速+30%-->
+						<Percental>0</Percental>
+					</AttackSpeedCatapultModulePercentualUpgrade>
+				</UnitUpgrade>
+				<ItemContainerUpgrade />
+				<SellableUpgrade />
+			</Values>
+		</Asset>
+ 
+  </ModOp>
+  
+  
+  <!-- 新增斯巴达卡片 -->
+  <ModOp Type="addNextSibling" GUID="41351">
+  	
+  	<Asset>
+				<Template>ItemWithBoost</Template>
+				<Values>
+					<Standard>
+						<GUID>2023020024</GUID><!-- 斯巴达ID-->
+						<Name>Spartan</Name>
+						<IconFilename>data/base/ui/icons/Spartan.png</IconFilename>
+						<InfoDescription>2023020025</InfoDescription>
+					</Standard>
+					<Effect>
+						<EffectScope>Radius</EffectScope>
+						<SourceCategory>Item</SourceCategory>
+						<Buffs>
+							<Item>
+								<GUID>2023020026</GUID><!-- 卡片buff-->
+							</Item>
+						</Buffs>
+						<Targets>
+							<Item>
+								<GUID>26600</GUID><!-- 所有城墙-->
+							</Item>
+							<Item>
+								<GUID>140478</GUID><!-- 所有城门-->
+							</Item>
+							<Item>
+								<GUID>29318</GUID><!-- 所有塔楼-->
+							</Item>
+
+						</Targets>
+						<HideInGovernorsBar>1</HideInGovernorsBar>
+					</Effect>
+					<Item>
+						<Rarity>Unique</Rarity><!-- 稀有度：独特，全局唯一-->
+						<Niche>Military</Niche><!-- 类别：军事-->
+						<Flotsam>139573</Flotsam><!-- 落海后可用船只捡起-->
+						<BarkPool>0</BarkPool>
+					</Item>
+					<Locked>
+						<DefaultLockedState>0</DefaultLockedState>
+					</Locked>
+					<Text>
+						<OasisId>2023020027</OasisId><!-- 人物名称-->
+					</Text>
+					<ItemWithBoost>
+						<BoostCondition>
+							<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+							<Values>
+								<PreConditionList>
+									<Condition>
+										<Template>ConditionPlayerCounter</Template>
+										<Values>
+											<Condition />
+											<ConditionPlayerCounter>
+												<Context>71162</Context>
+												<CounterAmount>10</CounterAmount><!-- 岛屿步兵数量达到10时触发-->
+												<CounterScope>Region</CounterScope>
+											</ConditionPlayerCounter>
+											<ConditionLocationProps />
+											<ConditionCounterProps />
+											<ConditionPropsComparable />
+										</Values>
+									</Condition>
+								</PreConditionList>
+							</Values>
+						</BoostCondition>
+						<BoostBuffs>
+							<Item>
+								<GUID>2023020028</GUID><!-- 特质:坚如磐石 -->
+							</Item>
+						</BoostBuffs>
+						<BoostHint>2023020029</BoostHint><!-- 特质描述 -->
+					</ItemWithBoost>
+				</Values>
+		</Asset>	
+
+  </ModOp>
+  
+  
+  <!-- 新增斯巴达buff -->
+  <ModOp Type="addNextSibling" GUID="80193"> 	
+		
+		<Asset>
+			<Template>DefenseBuildingBuff</Template>
+			<Values>
+				<Standard>
+					<GUID>2023020026</GUID>
+					<Name>Spartan Buff</Name>
+					<IconFilename>data/base/ui/icons/Spartan.png</IconFilename>
+				</Standard>
+				<Buff>
+					<SourceCategory>Item</SourceCategory>
+				</Buff>
+				<Text>
+					<OasisId>2023020027</OasisId>
+				</Text>
+				<UnitUpgrade>
+					<DistanceAttackRangePercentualUpgrade>
+						<Value>20</Value><!-- 射程+20%-->
+						<Percental>1</Percental>
+					</DistanceAttackRangePercentualUpgrade>
+					<OffenseRangedUpgrade>
+						<Value>2</Value><!-- 攻击力+2-->
+						<Percental>0</Percental>
+					</OffenseRangedUpgrade>
+				</UnitUpgrade>
+				<MetaUnitBuff />
+				<MaintenanceUpgrade />
+				<HealthUpgrade>
+					<BaseHealthUpgrade>
+						<Value>50</Value><!-- 生命值+50% -->
+						<Percental>1</Percental>
+					</BaseHealthUpgrade>
+					<SelfHealUpgrade>
+						<Value>50</Value><!-- 修复速度+50% -->
+						<Percental>1</Percental>
+					</SelfHealUpgrade>
+				</HealthUpgrade>
+				<RepairCraneUpgrade />
+			</Values>
+		</Asset>
+	
+  </ModOp>
+  
+
+  <!--新增斯达巴特质buff -->
+  <ModOp Type="addNextSibling" GUID="113063">
+  			
+	  <Asset>
+			<Template>DefenseBuildingBuff</Template>
+			<Values>
+				<Standard>
+					<GUID>2023020028</GUID>
+					<Name>Spartan Buff</Name>
+					<IconFilename>data/base/ui/icons/Spartan.png</IconFilename>
+				</Standard>
+				<Buff>
+					<SourceCategory>Item</SourceCategory>
+				</Buff>
+				<Text>
+					<OasisId>2023020027</OasisId>
+				</Text>
+				<UnitUpgrade>
+					<DistanceAttackRangePercentualUpgrade>
+						<Value>40</Value><!-- 射程+40%-->
+						<Percental>1</Percental>
+					</DistanceAttackRangePercentualUpgrade>
+					<OffenseRangedUpgrade>
+						<Value>4</Value><!-- 攻击力+4-->
+						<Percental>0</Percental>
+					</OffenseRangedUpgrade>
+				</UnitUpgrade>
+				<MetaUnitBuff />
+				<MaintenanceUpgrade />
+				<HealthUpgrade>
+					<BaseHealthUpgrade>
+						<Value>100</Value><!-- 生命值+100% -->
+						<Percental>1</Percental>
+					</BaseHealthUpgrade>
+					<SelfHealUpgrade>
+						<Value>100</Value><!-- 修复速度+100% -->
+						<Percental>1</Percental>
+					</SelfHealUpgrade>
+				</HealthUpgrade>
+				<RepairCraneUpgrade />
+			</Values>
+		</Asset>
+ 
+  </ModOp>
+  
+  <!-- 新增哈德良卡片 -->
+  <ModOp Type="addNextSibling" GUID="41351">
+  	
+  	<Asset>
+				<Template>ItemWithBoost</Template>
+				<Values>
+					<Standard>
+						<GUID>2023020032</GUID><!-- 哈德良ID-->
+						<Name>Hadrianus</Name>
+						<IconFilename>data/base/ui/icons/Hadrianus.png</IconFilename>
+						<InfoDescription>2023020033</InfoDescription>
+					</Standard>
+					<Effect>
+						<EffectScope>Radius</EffectScope>
+						<SourceCategory>Item</SourceCategory>
+						<Buffs>
+							<Item>
+								<GUID>2023020034</GUID><!-- 卡片buff-->
+							</Item>
+						</Buffs>
+						<Targets>
+							<Item>
+								<GUID>50613</GUID><!-- 影响所有建材工厂-->
+							</Item>
+							<Item>
+								<GUID>50236</GUID><!-- 影响所有炭窑-->
+							</Item>
+						</Targets>
+						<HideInGovernorsBar>1</HideInGovernorsBar>
+					</Effect>
+					<Item>
+						<Rarity>Unique</Rarity><!-- 稀有度：独特，全局唯一-->
+						<Niche>Economy</Niche><!-- 类别：经济-->
+						<Flotsam>139573</Flotsam><!-- 落海后可用船只捡起-->
+						<BarkPool>0</BarkPool>
+					</Item>
+					<Locked>
+						<DefaultLockedState>0</DefaultLockedState>
+					</Locked>
+					<Text>
+						<OasisId>2023020035</OasisId><!-- 人物名称-->
+					</Text>
+					<ItemWithBoost>
+						<BoostCondition>
+							<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+							<Values>
+								<PreConditionList>
+									<Condition>
+										<Template>ConditionObjectCount</Template>
+										<Values>
+											<Condition />
+											<ConditionObjectCount>
+												<Amount>10</Amount>
+											</ConditionObjectCount>
+											<ObjectFilter>
+												<ObjectGUID>50613</ObjectGUID><!-- 岛屿拥有10座建材工厂时-->
+												<ObjectLocations>
+													<Template>LocationFilter</Template>
+													<Values>
+														<LocationFilter>
+															<ObjectLocations>
+																<ObjectFilter>
+																	<Template>ObjectFilter</Template>
+																	<Values>
+																		<ObjectFilter>
+																			<UseContextObjects>1</UseContextObjects>
+																		</ObjectFilter>
+																	</Values>
+																</ObjectFilter>
+															</ObjectLocations>
+														</LocationFilter>
+													</Values>
+												</ObjectLocations>
+											</ObjectFilter>
+										</Values>
+									</Condition>
+								</PreConditionList>
+							</Values>
+						</BoostCondition>
+						<BoostBuffs>
+							<Item>
+								<GUID>2023020036</GUID><!-- 特质:基建狂魔 -->
+							</Item>
+						</BoostBuffs>
+						<BoostHint>2023020037</BoostHint><!-- 特质描述 -->
+					</ItemWithBoost>
+				</Values>
+		</Asset>	
+
+  </ModOp>
+  
+  
+  <!-- 新增哈德良buff -->
+  <ModOp Type="addNextSibling" GUID="80193">
+  	
+  	<Asset>
+			<Template>BuildingBuff</Template>
+			<Values>
+				<Standard>
+					<GUID>2023020034</GUID>
+					<Name>Hadrianus Buff</Name>
+					<IconFilename>data/base/ui/icons/Hadrianus.png</IconFilename>
+				</Standard>
+				<Text>
+					<OasisId>2023020035</OasisId><!-- buff名称 -->
+				</Text>
+				<HealthUpgrade />
+				<BuildingUpgrade />		
+				<DistributionUpgrade />
+				<Buff>
+					<SourceCategory>Item</SourceCategory>
+				</Buff>
+				<ResidenceUpgrade />
+				<FactoryUpgrade>
+					<ProductivityUpgrade>
+						<Value>20</Value><!--生产力+20% -->
+						<Percental>1</Percental><!--百分数开启 -->
+					</ProductivityUpgrade>
+					<AdditionalOutput>
+							<Item>
+								<ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+								<AdditionalOutputCycle>5</AdditionalOutputCycle><!--每3轮额外一个货物 -->
+								<Amount>1</Amount>
+							</Item>
+						</AdditionalOutput>
+				</FactoryUpgrade>
+				<ModuleOwnerUpgrade />
+				<MaintenanceUpgrade />
+				<CityInstitutionUpgrade />
+				<IncidentInfectableUpgrade />
+				<RecruitmentUpgrade />
+				<AqueductUpgrade />
+				<WarehouseUpgrade />
+				<IrrigationUpgrade />
+			</Values>
+		</Asset>
+	
+  </ModOp>
+  
+
+  <!--新增哈德良特质buff -->
+  <ModOp Type="addNextSibling" GUID="80193">
+     <Asset>
+				<Template>BuildingBuff</Template>
+				<Values>
+					<Standard>
+						<GUID>2023020036</GUID>
+						<Name>Hadrianus Buff Boosted</Name>
+						<IconFilename>data/base/ui/icons/Hadrianus.png</IconFilename>
+					</Standard>
+					<Text>
+						<OasisId>2023020035</OasisId><!-- buff名称 -->
+					</Text>
+					<HealthUpgrade />
+					<BuildingUpgrade />
+					<DistributionUpgrade />
+					<Buff>
+						<SourceCategory>Item</SourceCategory>
+					</Buff>
+					<ResidenceUpgrade />
+					<FactoryUpgrade>
+						<ProductivityUpgrade>
+							<Value>30</Value><!--生产力+30% -->
+							<Percental>1</Percental><!--百分数开启 -->
+						</ProductivityUpgrade>
+						<AdditionalOutput>
+							<Item>
+								<ForceProductSameAsFactoryOutput>1</ForceProductSameAsFactoryOutput>
+								<AdditionalOutputCycle>3</AdditionalOutputCycle><!--每3轮额外一个货物 -->
+								<Amount>1</Amount>
+							</Item>
+						</AdditionalOutput>
+					</FactoryUpgrade>
+					<ModuleOwnerUpgrade />
+					<MaintenanceUpgrade />
+					<CityInstitutionUpgrade />
+					<IncidentInfectableUpgrade />
+					<RecruitmentUpgrade />
+					<AqueductUpgrade />
+					<WarehouseUpgrade />
+					<IrrigationUpgrade />
+				</Values>
+			</Asset>
+ 
+  </ModOp>
+  
+  
+  <!-- 新增庞培卡片 -->
+  <ModOp Type="addNextSibling" GUID="41351">
+  	
+  	<Asset>
+				<Template>ItemWithBoost</Template>
+				<Values>
+					<Standard>
+						<GUID>2023020042</GUID><!-- 哈德良ID-->
+						<Name>Pompeius</Name>
+						<IconFilename>data/base/ui/icons/Pompeius.png</IconFilename>
+						<InfoDescription>2023020043</InfoDescription>
+					</Standard>
+					<Effect>
+						<EffectScope>Radius</EffectScope>
+						<SourceCategory>Item</SourceCategory>
+						<Buffs>
+							<Item>
+								<GUID>2023020044</GUID><!-- 卡片buff-->
+							</Item>
+						</Buffs>
+						<Targets>
+							<Item>
+								<GUID>53358</GUID><!-- 影响所有招募建筑-->
+							</Item>
+						</Targets>
+						<HideInGovernorsBar>1</HideInGovernorsBar>
+					</Effect>
+					<Item>
+						<Rarity>Unique</Rarity><!-- 稀有度：独特，全局唯一-->
+						<Niche>Military</Niche><!-- 类别：军事-->
+						<Flotsam>139573</Flotsam><!-- 落海后可用船只捡起-->
+						<BarkPool>0</BarkPool>
+					</Item>
+					<Locked>
+						<DefaultLockedState>0</DefaultLockedState>
+					</Locked>
+					<Text>
+						<OasisId>2023020045</OasisId><!-- 人物名称-->
+					</Text>
+					<ItemWithBoost>
+						<BoostCondition>
+							<IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+							<Values>
+								<PreConditionList>
+									<Condition>
+										<Template>ConditionObjectCount</Template>
+										<Values>
+											<Condition />
+											<ConditionObjectCount>
+												<Amount>5</Amount>
+											</ConditionObjectCount>
+											<ObjectFilter>
+												<ObjectGUID>53358</ObjectGUID><!-- 单岛屿招募建筑超过5个时-->
+												<ObjectLocations>
+													<Template>LocationFilter</Template>
+													<Values>
+														<LocationFilter>
+															<ObjectLocations>
+																<ObjectFilter>
+																	<Template>ObjectFilter</Template>
+																	<Values>
+																		<ObjectFilter>
+																			<UseContextObjects>1</UseContextObjects>
+																		</ObjectFilter>
+																	</Values>
+																</ObjectFilter>
+															</ObjectLocations>
+														</LocationFilter>
+													</Values>
+												</ObjectLocations>
+											</ObjectFilter>
+										</Values>
+									</Condition>
+								</PreConditionList>
+							</Values>
+						</BoostCondition>
+						<BoostBuffs>
+							<Item>
+								<GUID>2023020046</GUID><!-- 特质:基建狂魔 -->
+							</Item>
+						</BoostBuffs>
+						<BoostHint>2023020047</BoostHint><!-- 特质描述 -->
+					</ItemWithBoost>
+				</Values>
+		</Asset>	
+
+  </ModOp>
+  
+  
+  <!-- 新增庞培buff -->
+  <ModOp Type="addNextSibling" GUID="80193">
+  	
+  	<Asset>
+			<Template>BuildingBuff</Template>
+			<Values>
+				<Standard>
+					<GUID>2023020044</GUID>
+					<Name>Pompeius Buff</Name>
+					<IconFilename>data/base/ui/icons/Pompeius.png</IconFilename>
+				</Standard>
+				<Text>
+					<OasisId>2023020045</OasisId><!-- buff名称 -->
+				</Text>
+				<HealthUpgrade />
+				<BuildingUpgrade>
+					<AdditionalAttributes>
+						<Prestige>
+							<AmountOrPercent>
+								<Value>5</Value><!-- +5声望-->
+								<Percental>0</Percental>
+							</AmountOrPercent>
+						</Prestige>
+					</AdditionalAttributes>
+				</BuildingUpgrade>
+				<DistributionUpgrade />
+				<Buff>
+					<SourceCategory>Item</SourceCategory>
+				</Buff>
+				<ResidenceUpgrade />
+				<FactoryUpgrade />
+				<ModuleOwnerUpgrade />
+				<MaintenanceUpgrade>
+					<MaintenanceFactorUpgrade><!--维护成本减50% -->
+						<Value>-50</Value>
+						<Percental>1</Percental>
+					</MaintenanceFactorUpgrade>
+					<WorkforceMaintenanceFactorUpgrade><!--劳动力需求减50% -->
+						<Value>-50</Value>
+						<Percental>1</Percental>
+					</WorkforceMaintenanceFactorUpgrade>
+				</MaintenanceUpgrade>
+				<CityInstitutionUpgrade />
+				<IncidentInfectableUpgrade />
+				<RecruitmentUpgrade>
+					<RecruitmentCostInPercent>-20</RecruitmentCostInPercent><!--招募花费-20% -->
+					<RecruitmentSpeedInPercent>50</RecruitmentSpeedInPercent><!--招募速度+50% -->
+				</RecruitmentUpgrade>
+				<AqueductUpgrade />
+				<WarehouseUpgrade />
+				<IrrigationUpgrade />
+			</Values>
+		</Asset>
+	
+  </ModOp>
+  
+
+  <!--新增庞培特质buff -->
+  <ModOp Type="addNextSibling" GUID="80193">
+     <Asset>
+				<Template>BuildingBuff</Template>
+				<Values>
+					<Standard>
+						<GUID>2023020046</GUID>
+						<Name>Pompeius Buff Boosted</Name>
+						<IconFilename>data/base/ui/icons/Pompeius.png</IconFilename>
+					</Standard>
+					<Text>
+						<OasisId>2023020045</OasisId><!-- buff名称 -->
+					</Text>
+					<HealthUpgrade />
+					<BuildingUpgrade>
+						<AdditionalAttributes>
+							<Prestige>
+								<AmountOrPercent>
+									<Value>10</Value><!-- +10声望-->
+									<Percental>0</Percental>
+								</AmountOrPercent>
+							</Prestige>
+						</AdditionalAttributes>
+				  </BuildingUpgrade>
+					<DistributionUpgrade />
+					<Buff>
+						<SourceCategory>Item</SourceCategory>
+					</Buff>
+					<ResidenceUpgrade />
+					<FactoryUpgrade />
+					<ModuleOwnerUpgrade />
+					<MaintenanceUpgrade>
+						<MaintenanceFactorUpgrade><!--维护成本减80% -->
+							<Value>-80</Value>
+							<Percental>1</Percental>
+						</MaintenanceFactorUpgrade>
+						<WorkforceMaintenanceFactorUpgrade><!--劳动力需求减80% -->
+							<Value>-80</Value>
+							<Percental>1</Percental>
+						</WorkforceMaintenanceFactorUpgrade>
+					</MaintenanceUpgrade>
+					<CityInstitutionUpgrade />
+					<IncidentInfectableUpgrade />
+					<RecruitmentUpgrade>
+						<RecruitmentCostInPercent>-50</RecruitmentCostInPercent><!--招募花费-50% -->
+						<RecruitmentSpeedInPercent>100</RecruitmentSpeedInPercent><!--招募速度+100% -->
+					</RecruitmentUpgrade>
+					<AqueductUpgrade />
+					<WarehouseUpgrade />
+					<IrrigationUpgrade />
+				</Values>
+			</Asset>
+ 
+  </ModOp>
+  
+  
+
+  <!--所有卡片卡池添加 -->
+	<ModOp Type="add" GUID='113059' Path="/Values/AssetPool/AssetList">
+		
+		<Item>
+			<Asset>2023020000</Asset><!-- 艳后ID-->
+		</Item>
+		<Item>
+			<Asset>2023020006</Asset><!-- 凯撒ID-->
+		</Item>
+		<Item>
+			<Asset>2023020012</Asset><!-- 屋大维ID-->
+		</Item>
+		<Item>
+			<Asset>2023020018</Asset><!-- 汉尼拔ID-->
+		</Item>
+		<Item>
+			<Asset>2023020024</Asset><!-- 斯巴达ID-->
+		</Item>
+		<Item>
+			<Asset>2023020032</Asset><!-- 哈德良ID-->
+		</Item>
+		<Item>
+			<Asset>2023020042</Asset><!-- 庞培ID-->
+		</Item>
+		
+
+	</ModOp>
+	
+	<!--所有奖励卡片卡池添加 -->
+	<ModOp Type="add" GUID='43037' Path="/Values/RewardPool/ItemsPool">
+		
+		<Item>
+			<ItemLink>2023020000</ItemLink><!-- 艳后ID-->
+		</Item>
+		<Item>
+			<ItemLink>2023020006</ItemLink><!-- 凯撒ID-->
+		</Item>
+		<Item>
+			<ItemLink>2023020012</ItemLink><!-- 屋大维ID-->
+		</Item>
+		<Item>
+			<ItemLink>2023020018</ItemLink><!-- 汉尼拔ID:-->
+		</Item>
+		<Item>
+			<ItemLink>2023020024</ItemLink><!-- 斯巴达ID:-->
+		</Item>
+		<Item>
+			<ItemLink>2023020032</ItemLink><!-- 哈德良ID-->
+		</Item>
+		<Item>
+			<ItemLink>2023020042</ItemLink><!-- 庞培ID-->
+		</Item>
+
+	</ModOp>
+	
+	<!--所有专家卡池添加 -->
+	<ModOp Type="add" GUID='82598' Path="/Values/RewardPool/ItemsPool">
+		
+		<Item>
+			<ItemLink>2023020000</ItemLink><!-- 艳后ID-->
+		</Item>
+		<Item>
+			<ItemLink>2023020006</ItemLink><!-- 凯撒ID-->
+		</Item>
+		<Item>
+			<ItemLink>2023020012</ItemLink><!-- 屋大维ID-->
+		</Item>
+		<Item>
+			<ItemLink>2023020024</ItemLink><!-- 斯巴达ID:-->
+		</Item>
+		<Item>
+			<ItemLink>2023020032</ItemLink><!-- 哈德良ID-->
+		</Item>
+		<Item>
+			<ItemLink>2023020042</ItemLink><!-- 庞培ID-->
+		</Item>
+
+	</ModOp>
+	
+	<!--所有船长卡池添加 -->
+	<ModOp Type="add" GUID='83484' Path="/Values/RewardPool/ItemsPool">
+		
+		<Item>
+			<ItemLink>2023020018</ItemLink><!-- 汉尼拔ID:-->
+		</Item>
+
+	</ModOp>
+	
+	
+	<!--科技树最后阶段随机生成一名深耕文化、宗教或研究领域的传奇专家 -->
+	<ModOp Type="add" GUID='79670' Path="/Values/RewardPool/ItemsPool">
+		
+		<Item>
+			<ItemLink>2023020000</ItemLink><!-- 艳后ID:-->
+		</Item>
+
+	</ModOp>
+	
+	<!--科技树最后阶段随机生成一名军事、航海或政务领域的传奇专家 -->
+	<ModOp Type="add" GUID='79671' Path="/Values/RewardPool/ItemsPool">
+		
+		<Item>
+			<ItemLink>2023020006</ItemLink><!-- 凯撒ID:-->
+		</Item>
+		<Item>
+			<ItemLink>2023020018</ItemLink><!-- 汉尼拔ID:-->
+		</Item>
+		<Item>
+			<ItemLink>2023020024</ItemLink><!-- 斯巴达ID:-->
+		</Item>
+		<Item>
+			<ItemLink>2023020042</ItemLink><!-- 庞培ID-->
+		</Item>
+
+	</ModOp>
+	
+	<!--科技树最后阶段随机生成一名深耕经济、财务或自然领域的传奇专家 -->
+	<ModOp Type="add" GUID='79669' Path="/Values/RewardPool/ItemsPool">
+		
+		<Item>
+			<ItemLink>2023020012</ItemLink><!-- 屋大维ID:-->
+		</Item>
+		<Item>
+			<ItemLink>2023020032</ItemLink><!-- 哈德良ID-->
+		</Item>
+
+	</ModOp>
+	
+	<!--所有【传奇文化】类卡池添加（各种节日随机获取，概率2%） -->
+	<ModOp Type="add" GUID='121893' Path="/Values/RewardPool/ItemsPool">
+		
+		<Item>
+			<ItemLink>2023020000</ItemLink><!-- 艳后ID:-->
+		</Item>
+
+	</ModOp>
+	
+	<!--所有【传奇公民】类卡池添加（各种节日随机获取，概率2%） -->
+	<ModOp Type="add" GUID='121878' Path="/Values/RewardPool/ItemsPool">
+		
+		<Item>
+			<ItemLink>2023020006</ItemLink><!-- 凯撒ID:-->
+		</Item>
+
+	</ModOp>
+	
+	<!--所有【传奇经济】类卡池添加（各种节日随机获取，概率2%） -->
+	<ModOp Type="add" GUID='121855' Path="/Values/RewardPool/ItemsPool">
+		
+		<Item>
+			<ItemLink>2023020012</ItemLink><!-- 屋大维ID:-->
+		</Item>
+		<Item>
+			<ItemLink>2023020032</ItemLink><!-- 哈德良ID-->
+		</Item>
+
+	</ModOp>
+	
+	<!--所有【传奇船长】类卡池添加（各种节日随机获取，概率2%） -->
+	<ModOp Type="add" GUID='121898' Path="/Values/RewardPool/ItemsPool">
+		
+		<Item>
+			<ItemLink>2023020018</ItemLink><!-- 汉尼拔ID:-->
+		</Item>
+
+	</ModOp>
+	
+	
+	<!--所有【传奇军事】类卡池添加（各种节日随机获取，概率2%） -->
+	<ModOp Type="add" GUID='121883' Path="/Values/RewardPool/ItemsPool">
+		
+		<Item>
+			<ItemLink>2023020024</ItemLink><!-- 斯巴达ID:-->
+		</Item>
+		<Item>
+			<ItemLink>2023020042</ItemLink><!-- 庞培ID-->
+		</Item>
+
+	</ModOp>
+	
+	<!--所有港口NPC售卖池添加 -->
+	<!--
+	<ModOp Type="add" GUID='43019,43021,43020,43017,43022,42999,43011,43012,43013,43014,43015,43016,43018' Path="/Values/RewardPool/ItemsPool">
+		
+		<Item>
+			<ItemLink>2023020000</ItemLink>
+		</Item>
+		<Item>
+			<ItemLink>2023020006</ItemLink>
+		</Item>
+		<Item>
+			<ItemLink>2023020012</ItemLink>
+		</Item>
+		<Item>
+			<ItemLink>2023020018</ItemLink>
+		</Item>
+		<Item>
+			<ItemLink>2023020024</ItemLink>
+		</Item>
+		<Item>
+			<ItemLink>2023020032</ItemLink>
+		</Item>
+		<Item>
+			<ItemLink>2023020042</ItemLink>
+		</Item>
+		
+	</ModOp>
+	 -->
+	
+	<!--mod兼容：名人堂全卡片刷卡mod -->
+	<ModOp Type="add" GUID='2023010000' Path="/Values/RewardPool/ItemsPool" Condition="#hof-all-items-extended">
+		
+		<Item>
+			<ItemLink>2023020000</ItemLink><!-- 艳后ID:-->
+		</Item>
+		<Item>
+			<ItemLink>2023020006</ItemLink><!-- 凯撒ID:-->
+		</Item>
+		<Item>
+			<ItemLink>2023020012</ItemLink><!-- 屋大维ID:-->
+		</Item>
+		<Item>
+			<ItemLink>2023020018</ItemLink><!-- 汉尼拔ID:-->
+		</Item>
+		<Item>
+			<ItemLink>2023020024</ItemLink><!-- 斯巴达ID:-->
+		</Item>
+		<Item>
+			<ItemLink>2023020032</ItemLink><!-- 哈德良ID-->
+		</Item>
+		<Item>
+			<ItemLink>2023020042</ItemLink><!-- 庞培ID-->
+		</Item>
+
+	</ModOp>
+	
+	<!--mod兼容：可重复插卡mod -->
+	<ModOp Type="merge" GUID='2023020000,2023020006,2023020012,2023020024,2023020032,2023020042' Path="/Values/Item" Condition="#item-repeatable-equiped">
+		
+		<OnlyEquippableOnce>0</OnlyEquippableOnce>
+		
+	</ModOp>
+
+	
+	<!--mod兼容：可重复插卡mod -->
+	<ModOp Type="merge" GUID='2023020002,2023020004,2023020008,2023020010,2023020014,2023020016,2023020020,2023020022,2023020026,2023020028,2023020034,2023020036,2023020044,2023020046' Path="/Values/Buff" Condition="#item-repeatable-equiped">
+		
+		<IsStackable>1</IsStackable>
+		
+	</ModOp>
+	
+	<!--mod兼容：可重复插卡mod -->
+	<ModOp Type="merge" GUID='2023020000,2023020006,2023020012,2023020024,2023020032,2023020042' Path="/Values/Item" Condition="#taludas-specialisteffects-stackable">
+		
+		<OnlyEquippableOnce>0</OnlyEquippableOnce>
+		
+	</ModOp>
+	
+	<!--mod兼容：可重复插卡mod -->
+	<ModOp Type="merge" GUID='2023020002,2023020004,2023020008,2023020010,2023020014,2023020016,2023020020,2023020022,2023020026,2023020028,2023020034,2023020036,2023020044,2023020046' Path="/Values/Buff" Condition="#taludas-specialisteffects-stackable">
+		
+		<IsStackable>1</IsStackable>
+		
+	</ModOp>
+	
+	<!--mod兼容：作用全岛有效mod-->
+	<ModOp Type="merge" GUID='2023020000,2023020006,2023020012,2023020024,2023020032,2023020042' Path="/Values/Effect" Condition="#building-superrange-area">
+		
+		<EffectScope>ObjectsInArea</EffectScope>
+		
+	</ModOp>
+	
+	
+	<!--mod兼容：作用全岛有效mod-->
+	<ModOp Type="merge" GUID='2023020000,2023020006,2023020012,2023020024,2023020032,2023020042' Path="/Values/Effect" Condition="#taludas-specialisteffects-wholeisland">
+		
+		<EffectScope>ObjectsInArea</EffectScope>
+		
+	</ModOp>
+	
+	
+	
+	
+	
+	
+
+</ModOps>

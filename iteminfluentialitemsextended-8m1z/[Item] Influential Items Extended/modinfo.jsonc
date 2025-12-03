@@ -1,0 +1,18 @@
+{
+  "Anno": 8,
+  "ModID": "influential-items-extended",
+  "Version": "1.3.0",
+  "Difficulty": "unchanged",
+  "GameSetup": {
+	"SafeToRemove": true
+  },
+  "Category": {
+    "English": "Gameplay"
+  },
+  "ModName": {
+    "English": "influential-items-extended"
+  },
+  "Description": {
+    "English": "Added real historical figures from the Roman period"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "Version": "1.2",
+  "ModID": "the-perfect-fertilities-pack-hier0nimus",
+  "Anno": 8,
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "LoadAfterIds": [""],
+  "Category": {
+    "English": "Gameplay",
+    "Chinese": "游戏玩法",
+    "French": "Gameplay",
+    "German": "Spielverlauf",
+    "Italian": "Gioco",
+    "Japanese": "ゲームプレイ",
+    "Korean": "게임 플레이",
+    "Polish": "Rozgrywka",
+    "Russian": "Геймплей",
+    "Spanish": "Jugabilidad",
+    "Taiwanese": "游戏玩法"
+  },
+  "ModName": {
+    "English": "The perfect fertilities pack",
+    "Chinese": "完美生育力套裝",
+    "French": "Le pack fertilité parfait",
+    "German": "Das perfekte Fruchtbarkeitspaket",
+    "Italian": "Il pacchetto fertilità perfetto",
+    "Japanese": "完璧な繁殖パック",
+    "Korean": "완벽한 생식력 팩",
+    "Polish": "Idealny pakiet płodności",
+    "Russian": "Идеальный набор для плодородия",
+    "Spanish": "El paquete perfecto para la fertilidad",
+    "Taiwanese": "完美生育力套装"
+  },
+  "Description": {
+    "English": "The perfect fertilities pack is a set of items for all fertilities, deposits and animal populations for all regions.",
+    "Chinese": "完美生育力套裝是一組適用於所有區域的生育力、資源儲備及動物族群的物品組合。",
+    "French": "Le pack fertilité parfait est un ensemble d'éléments pour toutes les fertilités, tous les gisements et toutes les populations animales de toutes les régions.",
+    "German": "Das perfekte Fruchtbarkeitspaket ist ein Set von Gegenständen für alle Fruchtbarkeiten, Lagerstätten und Tierpopulationen für alle Regionen.",
+    "Italian": "Il pacchetto fertilità perfetto è un insieme di oggetti per tutte le fertilità, i depositi e le popolazioni animali di tutte le regioni.",
+    "Japanese": "完璧な繁殖パックは、全地域における繁殖、資源の蓄積、動物の個体数管理のためのアイテム一式です。",
+    "Korean": "완벽한 생식력 팩은 모든 지역의 생식력, 매장량 및 동물 개체수를 위한 아이템 세트입니다.",
+    "Polish": "Idealny pakiet płodności to zestaw elementów dotyczących płodności, złóż i populacji zwierząt we wszystkich regionach.",
+    "Russian": "Идеальный набор для плодородия — это набор предметов для всех видов плодородия, месторождений и популяций животных во всех регионах.",
+    "Spanish": "El paquete perfecto para la fertilidad es un conjunto de elementos para toda la fertilidad, los depósitos y las poblaciones animales de todas las regiones. ",
+    "Taiwanese": "完美生育力套装是一套适用于所有区域的生育力、资源储量及动物种群的物品组合。"
+  },
+  "Difficulty": "unchanged",
+  "GameSetup": {
+    "RequiresNewGame": false,
+    "SafeToRemove": true,
+    "Multiplayer": true,
+    "Campaign": true
+  },
+  "DLCDependencies": null,
+  "CreatorName": "Hier0nimus",
+  "CreatorContact": "https://github.com/Hier0nimus/anno-mods-hier0nimus",
+  "Image": "banner.jpg"
+}
